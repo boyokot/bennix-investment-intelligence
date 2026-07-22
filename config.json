@@ -1,0 +1,14 @@
+{
+  "universe": {
+    "BBCA.JK":"Perbankan","BBRI.JK":"Perbankan","BMRI.JK":"Perbankan","BBNI.JK":"Perbankan","BRIS.JK":"Perbankan Syariah",
+    "TLKM.JK":"Telekomunikasi","ISAT.JK":"Telekomunikasi","EXCL.JK":"Telekomunikasi",
+    "ASII.JK":"Otomotif","AUTO.JK":"Otomotif","GOTO.JK":"Teknologi","BUKA.JK":"Teknologi",
+    "ADRO.JK":"Energi","PTBA.JK":"Energi","ITMG.JK":"Energi","MEDC.JK":"Energi","PGAS.JK":"Energi",
+    "ANTM.JK":"Mineral","INCO.JK":"Mineral","MDKA.JK":"Mineral","TINS.JK":"Mineral",
+    "ICBP.JK":"Konsumer","INDF.JK":"Konsumer","MYOR.JK":"Konsumer","UNVR.JK":"Konsumer",
+    "KLBF.JK":"Kesehatan","MIKA.JK":"Kesehatan","SIDO.JK":"Kesehatan",
+    "JSMR.JK":"Infrastruktur","SMGR.JK":"Material","INTP.JK":"Material","IPCC.JK":"Logistik"
+  },
+  "proxies": {"IHSG":"^JKSE","USDIDR":"USDIDR=X","Minyak":"CL=F","Emas":"GC=F","Yield_US":"^TNX"},
+  "weights": {"trend":25,"relative_strength":20,"risk":15,"liquidity":10,"fundamental":20,"news":10}
+}
