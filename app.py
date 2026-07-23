@@ -112,18 +112,23 @@ def build_indicators(proxies, generated_at):
       'USDIDR':('Makro Indonesia','Tekanan rupiah, impor, dan utang dolar','USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan'),
       'Minyak':('Global & Geopolitik','Inflasi energi dan sektor energi','Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan'),
       'Emas':('Global & Pasar','Permintaan safe haven dan ketidakpastian','Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif'),
-      'Yield_US':('Global & Pasar','Biaya modal global dan arus modal','Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan')}
+      'Yield_US':('Global & Pasar','Biaya modal global dan arus modal','Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan'),
+      'DollarIndex':('Global & Pasar','Kekuatan dolar dan tekanan emerging market','DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik'),
+      'BatuBara':('Sektoral','Pendapatan eksportir energi dan devisa Indonesia','Batu bara naik → pendapatan eksportir/devisa naik; pengguna energi menanggung biaya'),
+      'Aluminium':('Sektoral','Siklus logam industri dan manufaktur','Aluminium naik → permintaan industri menguat atau pasokan mengetat'),
+      'BijihBesi':('Sektoral','Aktivitas baja, konstruksi, dan permintaan China','Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat')}
     out=[]
     for name,m in proxies.items():
         group,use,impact=meta[name]; r20=pct(m.get('r20')); r60=pct(m.get('r60'))
-        trend='Naik' if (r20 or 0)>1 else ('Turun' if (r20 or 0)<-1 else 'Datar')
-        out.append({'name':name,'group':group,'value':m.get('price'),'r20_pct':r20,'r60_pct':r60,'trend':trend,
-                    'status':'LIVE','source':'Yahoo Finance chart','freshness':generated_at,'use':use,'causal_impact':impact})
+        source=m.get('_source','unknown'); live=source=='yahoo-chart'
+        trend=('Naik' if (r20 or 0)>1 else ('Turun' if (r20 or 0)<-1 else 'Datar')) if live else 'Sumber gagal'
+        out.append({'name':name,'group':group,'value':m.get('price') if live else None,'r20_pct':r20 if live else None,'r60_pct':r60 if live else None,'trend':trend,
+                    'status':'LIVE' if live else 'SOURCE ERROR','source':'Yahoo Finance chart' if live else source,'freshness':generated_at if live else None,'use':use,'causal_impact':impact})
     pending=[
       ('BI Rate','Makro Indonesia','Suku bunga domestik, kredit, dan valuasi'),('Inflasi CPI','Makro Indonesia','Daya beli dan ruang kebijakan BI'),
       ('Cadangan devisa','Makro Indonesia','Kemampuan BI menstabilkan rupiah'),('Neraca perdagangan','Makro Indonesia','Pasokan devisa ekspor-impor'),
       ('Pertumbuhan kredit','Makro Indonesia','Likuiditas dan aktivitas ekonomi'),('PMI manufaktur','Makro Indonesia','Leading indicator aktivitas produksi'),
-      ('Harga batu bara','Sektoral','Pendapatan eksportir energi'),('Harga nikel','Sektoral','Ekonomi tambang dan hilirisasi'),
+      ('Harga nikel','Sektoral','Ekonomi tambang dan hilirisasi'),
       ('Freight rate','Geopolitik','Gangguan rantai pasok dan biaya logistik'),('Laporan keuangan emiten','Emiten','Laba, margin, utang, arus kas, valuasi, tata kelola')]
     for name,group,use in pending:
         out.append({'name':name,'group':group,'value':None,'r20_pct':None,'r60_pct':None,'trend':'Belum tersedia','status':'PENDING SOURCE','source':'Belum terintegrasi','freshness':None,'use':use,'causal_impact':'Tidak dimasukkan ke skor sampai sumber terstruktur tersedia.'})
@@ -168,7 +173,7 @@ def scan():
     (ROOT/'data/history').mkdir(parents=True,exist_ok=True); (ROOT/'dashboard').mkdir(exist_ok=True)
     proxies={}; sources=set()
     for name,symbol in CFG['proxies'].items():
-        rows,src=chart(symbol); sources.add(src); proxies[name]=metrics(rows)
+        rows,src=chart(symbol); sources.add(src); proxies[name]=metrics(rows); proxies[name]['_source']=src
     bench=proxies['IHSG']; news,nsrc=rss_news('ekonomi Indonesia OR emiten IHSG OR geopolitik investasi'); sources.add(nsrc)
     news=enrich_news(news)
     nscore=sentiment(' '.join(x['title'] for x in news))

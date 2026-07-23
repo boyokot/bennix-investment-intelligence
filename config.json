@@ -9,6 +9,6 @@
     "KLBF.JK":"Kesehatan","MIKA.JK":"Kesehatan","SIDO.JK":"Kesehatan",
     "JSMR.JK":"Infrastruktur","SMGR.JK":"Material","INTP.JK":"Material","IPCC.JK":"Logistik"
   },
-  "proxies": {"IHSG":"^JKSE","USDIDR":"USDIDR=X","Minyak":"CL=F","Emas":"GC=F","Yield_US":"^TNX"},
+  "proxies": {"IHSG":"^JKSE","USDIDR":"USDIDR=X","DollarIndex":"DX-Y.NYB","Minyak":"CL=F","Emas":"GC=F","Yield_US":"^TNX","BatuBara":"MTF=F","Aluminium":"ALI=F","BijihBesi":"TIO=F"},
   "weights": {"trend":25,"relative_strength":20,"risk":15,"liquidity":10,"fundamental":20,"news":10}
 }

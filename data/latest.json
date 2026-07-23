@@ -1,17 +1,17 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-23T18:31:08+07:00",
+  "generated_at": "2026-07-23T18:40:08+07:00",
   "sources": [
     "google-news-rss",
     "yahoo-chart"
   ],
   "regime": {
     "label": "RISK-OFF",
-    "risk_score": 75.7,
+    "risk_score": 75.6,
     "signals": [
       "IHSG 60h -16.5%",
       "USD/IDR 20h -0.4%",
-      "Minyak 20h +29.1%",
+      "Minyak 20h +29.0%",
       "US10Y 20h +3.6%"
     ]
   },
@@ -24,7 +24,8 @@
       "vol": 0.33334198753792793,
       "drawdown": -0.30864605294906433,
       "rel": -0.16457287065104986,
-      "volume_ratio": 0.6361461846102536
+      "volume_ratio": 0.6361461846102536,
+      "_source": "yahoo-chart"
     },
     "USDIDR": {
       "price": 17910.0,
@@ -34,27 +35,41 @@
       "vol": 0.07804249886374943,
       "drawdown": -0.015409353843061524,
       "rel": 0.033217616457711596,
-      "volume_ratio": null
+      "volume_ratio": null,
+      "_source": "yahoo-chart"
+    },
+    "DollarIndex": {
+      "price": 101.24,
+      "r20": -0.003631564744433713,
+      "r60": 0.028036087158857192,
+      "r120": 0.05152678228142027,
+      "vol": 0.04557720708355655,
+      "drawdown": -0.003631564744433713,
+      "rel": 0.028036087158857192,
+      "volume_ratio": null,
+      "_source": "yahoo-chart"
     },
     "Minyak": {
-      "price": 90.84,
-      "r20": 0.2914415846927916,
-      "r60": -0.057383067874692384,
-      "r120": 0.38856617059662524,
-      "vol": 0.5471944279962693,
-      "drawdown": -0.19575034269795666,
-      "rel": -0.057383067874692384,
-      "volume_ratio": 0.9134805869652157
+      "price": 90.72,
+      "r20": 0.2897356545899368,
+      "r60": -0.058628217960482454,
+      "r120": 0.3867319437463337,
+      "vol": 0.546707415244254,
+      "drawdown": -0.19681271649547416,
+      "rel": -0.058628217960482454,
+      "volume_ratio": 0.913857089928265,
+      "_source": "yahoo-chart"
     },
     "Emas": {
-      "price": 4087.7,
-      "r20": 0.024409167519208186,
-      "r60": -0.1257004670075953,
-      "r120": -0.23140417677683878,
-      "vol": 0.24073103221577322,
-      "drawdown": -0.22792006146677501,
-      "rel": -0.1257004670075953,
-      "volume_ratio": 0.9813598961935028
+      "price": 4086.4,
+      "r20": 0.024083365245640476,
+      "r60": -0.12597852853287217,
+      "r120": -0.23164862037867318,
+      "vol": 0.24079834765109406,
+      "drawdown": -0.2281656131538603,
+      "rel": -0.12597852853287217,
+      "volume_ratio": 0.9963869744601829,
+      "_source": "yahoo-chart"
     },
     "Yield_US": {
       "price": 4.66,
@@ -64,7 +79,41 @@
       "vol": 0.14960910335702465,
       "drawdown": -0.0021426510471413973,
       "rel": 0.08051047022671898,
-      "volume_ratio": null
+      "volume_ratio": null,
+      "_source": "yahoo-chart"
+    },
+    "BatuBara": {
+      "price": 96.0,
+      "r20": -0.0015600782475134745,
+      "r60": 0.03336919723577769,
+      "r120": null,
+      "vol": 0.12932294360766083,
+      "drawdown": -0.08440628138211592,
+      "rel": 0.03336919723577769,
+      "volume_ratio": null,
+      "_source": "yahoo-chart"
+    },
+    "Aluminium": {
+      "price": 3441.75,
+      "r20": -0.04015896256013385,
+      "r60": -0.03855017808506178,
+      "r120": 0.09662259040943133,
+      "vol": 0.3698056058086762,
+      "drawdown": -0.17955899880810489,
+      "rel": -0.03855017808506178,
+      "volume_ratio": 2.162162162162162,
+      "_source": "yahoo-chart"
+    },
+    "BijihBesi": {
+      "price": 98.38,
+      "r20": -0.021386666189054826,
+      "r60": -0.08141924691819824,
+      "r120": -0.0705715760830119,
+      "vol": 0.10879595189179671,
+      "drawdown": -0.11703465383076828,
+      "rel": -0.08141924691819824,
+      "volume_ratio": null,
+      "_source": "yahoo-chart"
     }
   },
   "stocks": [
@@ -880,7 +929,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:31:08+07:00",
+      "freshness": "2026-07-23T18:40:08+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
@@ -893,33 +942,46 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:31:08+07:00",
+      "freshness": "2026-07-23T18:40:08+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
     {
+      "name": "DollarIndex",
+      "group": "Global & Pasar",
+      "value": 101.24,
+      "r20_pct": -0.36,
+      "r60_pct": 2.8,
+      "trend": "Datar",
+      "status": "LIVE",
+      "source": "Yahoo Finance chart",
+      "freshness": "2026-07-23T18:40:08+07:00",
+      "use": "Kekuatan dolar dan tekanan emerging market",
+      "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
+    },
+    {
       "name": "Minyak",
       "group": "Global & Geopolitik",
-      "value": 90.84,
-      "r20_pct": 29.14,
-      "r60_pct": -5.74,
+      "value": 90.72,
+      "r20_pct": 28.97,
+      "r60_pct": -5.86,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:31:08+07:00",
+      "freshness": "2026-07-23T18:40:08+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
     {
       "name": "Emas",
       "group": "Global & Pasar",
-      "value": 4087.7,
-      "r20_pct": 2.44,
-      "r60_pct": -12.57,
+      "value": 4086.4,
+      "r20_pct": 2.41,
+      "r60_pct": -12.6,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:31:08+07:00",
+      "freshness": "2026-07-23T18:40:08+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
@@ -932,9 +994,48 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:31:08+07:00",
+      "freshness": "2026-07-23T18:40:08+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
+    },
+    {
+      "name": "BatuBara",
+      "group": "Sektoral",
+      "value": 96.0,
+      "r20_pct": -0.16,
+      "r60_pct": 3.34,
+      "trend": "Datar",
+      "status": "LIVE",
+      "source": "Yahoo Finance chart",
+      "freshness": "2026-07-23T18:40:08+07:00",
+      "use": "Pendapatan eksportir energi dan devisa Indonesia",
+      "causal_impact": "Batu bara naik → pendapatan eksportir/devisa naik; pengguna energi menanggung biaya"
+    },
+    {
+      "name": "Aluminium",
+      "group": "Sektoral",
+      "value": 3441.75,
+      "r20_pct": -4.02,
+      "r60_pct": -3.86,
+      "trend": "Turun",
+      "status": "LIVE",
+      "source": "Yahoo Finance chart",
+      "freshness": "2026-07-23T18:40:08+07:00",
+      "use": "Siklus logam industri dan manufaktur",
+      "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
+    },
+    {
+      "name": "BijihBesi",
+      "group": "Sektoral",
+      "value": 98.38,
+      "r20_pct": -2.14,
+      "r60_pct": -8.14,
+      "trend": "Turun",
+      "status": "LIVE",
+      "source": "Yahoo Finance chart",
+      "freshness": "2026-07-23T18:40:08+07:00",
+      "use": "Aktivitas baja, konstruksi, dan permintaan China",
+      "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },
     {
       "name": "BI Rate",
@@ -1012,19 +1113,6 @@
       "source": "Belum terintegrasi",
       "freshness": null,
       "use": "Leading indicator aktivitas produksi",
-      "causal_impact": "Tidak dimasukkan ke skor sampai sumber terstruktur tersedia."
-    },
-    {
-      "name": "Harga batu bara",
-      "group": "Sektoral",
-      "value": null,
-      "r20_pct": null,
-      "r60_pct": null,
-      "trend": "Belum tersedia",
-      "status": "PENDING SOURCE",
-      "source": "Belum terintegrasi",
-      "freshness": null,
-      "use": "Pendapatan eksportir energi",
       "causal_impact": "Tidak dimasukkan ke skor sampai sumber terstruktur tersedia."
     },
     {
