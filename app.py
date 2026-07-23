@@ -106,15 +106,62 @@ def predictions(regime,proxy,news):
                     'not_prediction_of_price':True})
     return out
 
+def build_indicators(proxies, generated_at):
+    meta={
+      'IHSG':('Global & Pasar','Arah risk appetite saham Indonesia','IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung'),
+      'USDIDR':('Makro Indonesia','Tekanan rupiah, impor, dan utang dolar','USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan'),
+      'Minyak':('Global & Geopolitik','Inflasi energi dan sektor energi','Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan'),
+      'Emas':('Global & Pasar','Permintaan safe haven dan ketidakpastian','Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif'),
+      'Yield_US':('Global & Pasar','Biaya modal global dan arus modal','Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan')}
+    out=[]
+    for name,m in proxies.items():
+        group,use,impact=meta[name]; r20=pct(m.get('r20')); r60=pct(m.get('r60'))
+        trend='Naik' if (r20 or 0)>1 else ('Turun' if (r20 or 0)<-1 else 'Datar')
+        out.append({'name':name,'group':group,'value':m.get('price'),'r20_pct':r20,'r60_pct':r60,'trend':trend,
+                    'status':'LIVE','source':'Yahoo Finance chart','freshness':generated_at,'use':use,'causal_impact':impact})
+    pending=[
+      ('BI Rate','Makro Indonesia','Suku bunga domestik, kredit, dan valuasi'),('Inflasi CPI','Makro Indonesia','Daya beli dan ruang kebijakan BI'),
+      ('Cadangan devisa','Makro Indonesia','Kemampuan BI menstabilkan rupiah'),('Neraca perdagangan','Makro Indonesia','Pasokan devisa ekspor-impor'),
+      ('Pertumbuhan kredit','Makro Indonesia','Likuiditas dan aktivitas ekonomi'),('PMI manufaktur','Makro Indonesia','Leading indicator aktivitas produksi'),
+      ('Harga batu bara','Sektoral','Pendapatan eksportir energi'),('Harga nikel','Sektoral','Ekonomi tambang dan hilirisasi'),
+      ('Freight rate','Geopolitik','Gangguan rantai pasok dan biaya logistik'),('Laporan keuangan emiten','Emiten','Laba, margin, utang, arus kas, valuasi, tata kelola')]
+    for name,group,use in pending:
+        out.append({'name':name,'group':group,'value':None,'r20_pct':None,'r60_pct':None,'trend':'Belum tersedia','status':'PENDING SOURCE','source':'Belum terintegrasi','freshness':None,'use':use,'causal_impact':'Tidak dimasukkan ke skor sampai sumber terstruktur tersedia.'})
+    return out
+
+def enrich_news(news):
+    topics={'Geopolitik':['perang','iran','israel','china','amerika','tarif','trump'],
+            'Makro':['inflasi','rupiah','suku bunga','ekonomi','pdb','defisit','surplus'],
+            'Emiten':['saham','emiten','laba','dividen','ipo','bei'],
+            'Komoditas':['minyak','emas','nikel','batu bara','pangan']}
+    out=[]
+    for n in news:
+        score=sentiment(n.get('title','')); topic='Umum'
+        low=n.get('title','').lower()
+        for k,words in topics.items():
+            if any(w in low for w in words): topic=k; break
+        out.append({**n,'sentiment_score':score,'sentiment':'Positif' if score>0 else ('Negatif' if score<0 else 'Netral'),'topic':topic})
+    return out
+
 def render(data):
     payload=json.dumps(data,ensure_ascii=False).replace('</','<\\/')
     html='''<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bennix Intelligence</title><style>
-:root{--bg:#071018;--card:#0d1b27;--muted:#8ba0b5;--line:#1c3142;--green:#45e0a8;--yellow:#f5c45e;--red:#ff6b72;--blue:#63a9ff}*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#061019,#0a1621);color:#edf6ff;font:14px system-ui}header{padding:22px 5vw;border-bottom:1px solid var(--line);position:sticky;top:0;background:#071018eF;backdrop-filter:blur(12px);z-index:3}h1{font-size:22px;margin:0}small,.muted{color:var(--muted)}main{max-width:1250px;margin:auto;padding:20px 4vw}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 8px 30px #0004}h2{font-size:16px;margin:0 0 12px}.big{font-size:32px;font-weight:800}.pill{display:inline-block;padding:4px 9px;border-radius:20px;background:#173047;margin:3px}.STUDY{color:var(--green)}.WATCH{color:var(--yellow)}.AVOID{color:var(--red)}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px 7px;border-bottom:1px solid var(--line)}th{color:var(--muted)}.bar{height:7px;background:#172b3b;border-radius:9px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--green))}details{margin-top:7px}.warn{border-color:#6e5520;background:#211d12}a{color:var(--blue)}@media(max-width:600px){.hide{display:none}header{padding:16px}main{padding:12px}.card{padding:13px}td,th{padding:8px 4px;font-size:12px}}
-</style></head><body><header><h1>BENNIX // Investment Intelligence</h1><small id="fresh"></small></header><main><div class="grid" id="top"></div><br><div class="card"><h2>Ranking Emiten</h2><table><thead><tr><th>Emiten</th><th>Sektor</th><th>Skor</th><th>Status</th><th class="hide">20H</th><th class="hide">Risiko</th></tr></thead><tbody id="stocks"></tbody></table></div><br><div class="grid" id="pred"></div><br><div class="grid" id="sectors"></div><br><div class="card warn"><b>Batasan penting</b><p>Shortlist riset, bukan rekomendasi jual/beli dan bukan jaminan return. Fundamental bernilai netral bila data publik tidak tersedia. Verifikasi laporan keuangan, valuasi, tata kelola, dan risiko sebelum mengambil keputusan.</p></div></main><script>const D='''+payload+''';
-const q=x=>document.querySelector(x),fmt=x=>x==null?'n/a':x.toFixed(1)+'%';q('#fresh').textContent='Diperbarui '+D.generated_at+' · sumber: '+D.sources.join(', ');q('#top').innerHTML=`<div class="card"><h2>Regime Makro</h2><div class="big">${D.regime.label}</div><p>Risk score ${D.regime.risk_score}/100</p>${D.regime.signals.map(x=>`<span class="pill">${x}</span>`).join('')}</div><div class="card"><h2>Kandidat STUDY</h2><div class="big STUDY">${D.summary.study}</div><p>${D.summary.watch} WATCH · ${D.summary.avoid} AVOID</p></div><div class="card"><h2>Metode</h2><p>Tren → causal chain → sektor → emiten → skenario → invalidasi.</p><small>Data hilang ditandai, tidak dihalusinasikan.</small></div>`;
-q('#stocks').innerHTML=D.stocks.map(s=>`<tr><td><b>${s.ticker}</b><details><summary>alasan</summary>${Object.entries(s.parts).map(([k,v])=>`${k}: ${Math.round(v)}`).join('<br>')}<br><small>${s.note}</small></details></td><td>${s.sector}</td><td><b>${s.score}</b><div class="bar"><i style="width:${s.score}%"></i></div></td><td class="${s.status}">${s.status}</td><td class="hide">${fmt(s.r20_pct)}</td><td class="hide">${fmt(s.vol_pct)}</td></tr>`).join('');
+:root{--bg:#071018;--card:#0d1b27;--muted:#8ba0b5;--line:#1c3142;--green:#45e0a8;--yellow:#f5c45e;--red:#ff6b72;--blue:#63a9ff}*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#061019,#0a1621);color:#edf6ff;font:14px system-ui}header{padding:17px 5vw;border-bottom:1px solid var(--line);position:sticky;top:0;background:#071018ef;backdrop-filter:blur(12px);z-index:3}h1{font-size:21px;margin:0 0 9px}.nav{display:flex;gap:7px;overflow:auto}.nav button,.filter{color:#dcecff;background:#102333;border:1px solid var(--line);padding:8px 12px;border-radius:20px;cursor:pointer;white-space:nowrap}.nav button.active{background:var(--blue);color:#061019}small,.muted{color:var(--muted)}main{max-width:1250px;margin:auto;padding:20px 4vw}.view{display:none}.view.active{display:block}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 8px 30px #0004}h2{font-size:16px;margin:0 0 12px}.big{font-size:32px;font-weight:800}.pill{display:inline-block;padding:4px 9px;border-radius:20px;background:#173047;margin:3px}.LIVE,.Positif,.STUDY{color:var(--green)}.WATCH,.Netral{color:var(--yellow)}.AVOID,.Negatif{color:var(--red)}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px 7px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted)}.bar{height:7px;background:#172b3b;border-radius:9px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--green))}details{margin-top:7px}.warn{border-color:#6e5520;background:#211d12}a{color:var(--blue);text-decoration:none}.news{display:block;margin-bottom:10px}.news h3{font-size:15px;margin:4px 0}.filters{display:flex;gap:6px;overflow:auto;margin-bottom:12px}@media(max-width:600px){.hide{display:none}header{padding:13px}main{padding:11px}.card{padding:12px}td,th{padding:8px 4px;font-size:12px}}
+</style></head><body><header><h1>BENNIX // Investment Intelligence</h1><div class="nav"><button data-v="overview" class="active">Overview</button><button data-v="stocks">Emiten</button><button data-v="news">Berita</button><button data-v="indicators">Indikator</button><button data-v="predictions">Prediksi</button></div><small id="fresh"></small></header><main>
+<section id="overview" class="view active"><div class="grid" id="top"></div><br><div class="grid" id="sectors"></div></section>
+<section id="stocks" class="view"><div class="card"><h2>Ranking Emiten</h2><table><thead><tr><th>Emiten</th><th>Sektor</th><th>Skor</th><th>Status</th><th class="hide">20H</th></tr></thead><tbody id="stockrows"></tbody></table></div></section>
+<section id="news" class="view"><div class="card"><h2>Berita & Pemicu Tren</h2><div class="filters" id="newsfilters"></div><div id="newslist"></div></div></section>
+<section id="indicators" class="view"><div class="card"><h2>Indikator Top-Down Bennix</h2><div class="filters" id="indfilters"></div><table><thead><tr><th>Indikator</th><th>Nilai/Tren</th><th class="hide">Kegunaan & dampak</th><th>Status</th></tr></thead><tbody id="indrows"></tbody></table></div></section>
+<section id="predictions" class="view"><div class="grid" id="pred"></div></section><br><div class="card warn"><b>Batasan</b><p>Shortlist riset, bukan rekomendasi jual/beli. Indikator tanpa sumber terstruktur ditandai PENDING dan tidak dimasukkan ke skor.</p></div></main><script>const D='''+payload+''';
+const q=x=>document.querySelector(x),fmt=x=>x==null?'n/a':Number(x).toFixed(1)+'%';q('#fresh').textContent='Diperbarui '+D.generated_at+' · '+D.sources.join(', ');
+document.querySelectorAll('.nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.nav button,.view').forEach(x=>x.classList.remove('active'));b.classList.add('active');q('#'+b.dataset.v).classList.add('active')});
+q('#top').innerHTML=`<div class="card"><h2>Regime Makro</h2><div class="big">${D.regime.label}</div><p>Risk ${D.regime.risk_score}/100</p>${D.regime.signals.map(x=>`<span class="pill">${x}</span>`).join('')}</div><div class="card"><h2>Kandidat STUDY</h2><div class="big STUDY">${D.summary.study}</div><p>${D.summary.watch} WATCH · ${D.summary.avoid} AVOID</p></div><div class="card"><h2>Cakupan Data</h2><div class="big">${D.indicators.filter(x=>x.status==='LIVE').length}/${D.indicators.length}</div><p>indikator live; sisanya menunggu sumber tepercaya.</p></div>`;
+q('#stockrows').innerHTML=D.stocks.map(s=>`<tr><td><b>${s.ticker}</b><details><summary>alasan</summary>${Object.entries(s.parts).map(([k,v])=>`${k}: ${Math.round(v)}`).join('<br>')}<br><small>${s.note}</small></details></td><td>${s.sector}</td><td><b>${s.score}</b><div class="bar"><i style="width:${s.score}%"></i></div></td><td class="${s.status}">${s.status}</td><td class="hide">${fmt(s.r20_pct)}</td></tr>`).join('');
+q('#sectors').innerHTML=D.sectors.map(s=>`<div class="card"><h2>${s.sector}</h2><div class="big">${s.score}</div><p>${s.count} emiten · ${s.direction}</p></div>`).join('');
 q('#pred').innerHTML=D.predictions.map(p=>`<div class="card"><h2>${p.topic}</h2><p>Bull ${Math.round(p.probabilities.bull*100)}% · Base ${Math.round(p.probabilities.base*100)}% · Bear ${Math.round(p.probabilities.bear*100)}%</p><b>Confidence ${p.confidence}%</b><p>${p.causal_chain}</p><small>Invalidasi: ${p.invalidation}</small></div>`).join('');
-q('#sectors').innerHTML=D.sectors.map(s=>`<div class="card"><h2>${s.sector}</h2><div class="big">${s.score}</div><p>${s.count} emiten · ${s.direction}</p></div>`).join('');</script></body></html>'''
+function drawNews(topic='Semua'){q('#newslist').innerHTML=D.news.filter(n=>topic==='Semua'||n.topic===topic).map(n=>`<a class="card news" href="${n.link}" target="_blank" rel="noopener"><span class="pill">${n.topic}</span><span class="${n.sentiment}">${n.sentiment}</span><h3>${n.title}</h3><small>${n.published||'Waktu tidak tersedia'} · Google News RSS</small></a>`).join('')||'<p class="muted">Belum ada berita.</p>'}const nts=['Semua',...new Set(D.news.map(x=>x.topic))];q('#newsfilters').innerHTML=nts.map(x=>`<button class="filter">${x}</button>`).join('');[...q('#newsfilters').children].forEach((b,i)=>b.onclick=()=>drawNews(nts[i]));drawNews();
+function drawInd(group='Semua'){q('#indrows').innerHTML=D.indicators.filter(x=>group==='Semua'||x.group===group).map(x=>`<tr><td><b>${x.name}</b><br><small>${x.group} · ${x.source}</small></td><td>${x.value==null?'—':x.value}<br><span>${x.trend} · 20H ${fmt(x.r20_pct)}</span></td><td class="hide">${x.use}<br><small>${x.causal_impact}</small></td><td class="${x.status==='LIVE'?'LIVE':'WATCH'}">${x.status}</td></tr>`).join('')}const ig=['Semua',...new Set(D.indicators.map(x=>x.group))];q('#indfilters').innerHTML=ig.map(x=>`<button class="filter">${x}</button>`).join('');[...q('#indfilters').children].forEach((b,i)=>b.onclick=()=>drawInd(ig[i]));drawInd();
+</script></body></html>'''
     return html
 
 def scan():
@@ -123,6 +170,7 @@ def scan():
     for name,symbol in CFG['proxies'].items():
         rows,src=chart(symbol); sources.add(src); proxies[name]=metrics(rows)
     bench=proxies['IHSG']; news,nsrc=rss_news('ekonomi Indonesia OR emiten IHSG OR geopolitik investasi'); sources.add(nsrc)
+    news=enrich_news(news)
     nscore=sentiment(' '.join(x['title'] for x in news))
     stocks=[]
     for ticker,sector in CFG['universe'].items():
@@ -139,8 +187,9 @@ def scan():
     sec.sort(key=lambda x:x['score'],reverse=True)
     regime=macro_regime(proxies); preds=predictions(regime,proxies,news)
     now=datetime.now(timezone.utc).astimezone().isoformat(timespec='seconds')
-    data={'schema_version':1,'generated_at':now,'sources':sorted(sources),'regime':regime,'proxies':proxies,'stocks':stocks,'sectors':sec,
-      'predictions':preds,'news':news,'summary':{'study':sum(x['status']=='STUDY' for x in stocks),'watch':sum(x['status']=='WATCH' for x in stocks),'avoid':sum(x['status']=='AVOID' for x in stocks)},
+    indicators=build_indicators(proxies,now)
+    data={'schema_version':2,'generated_at':now,'sources':sorted(sources),'regime':regime,'proxies':proxies,'stocks':stocks,'sectors':sec,
+      'predictions':preds,'news':news,'indicators':indicators,'summary':{'study':sum(x['status']=='STUDY' for x in stocks),'watch':sum(x['status']=='WATCH' for x in stocks),'avoid':sum(x['status']=='AVOID' for x in stocks)},
       'disclaimer':'Riset otomatis, bukan nasihat investasi atau jaminan hasil.'}
     raw=json.dumps(data,ensure_ascii=False,indent=2)
     (ROOT/'data/latest.json').write_text(raw); stamp=datetime.now().strftime('%Y%m%d_%H%M%S'); (ROOT/f'data/history/{stamp}.json').write_text(raw)
