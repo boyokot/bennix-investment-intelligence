@@ -106,6 +106,25 @@ def predictions(regime,proxy,news):
                     'not_prediction_of_price':True})
     return out
 
+def load_manual_predictions():
+    path=ROOT/'manual_predictions.json'
+    if not path.exists():
+        return [], {'analyst':'Belum dianalisis manual','analyzed_at':None,'method':'Menunggu analisis agent'}
+    try:
+        doc=json.loads(path.read_text())
+        rows=doc.get('predictions',[])
+        required={'topic','probabilities','confidence','thesis','evidence','causal_chain','invalidation'}
+        valid=[]
+        for row in rows:
+            if not required.issubset(row): continue
+            probs=normalize_probs(row['probabilities'])
+            if set(probs)!={'bull','base','bear'}: continue
+            valid.append({**row,'probabilities':probs,'manual_analysis':True})
+        meta={k:doc.get(k) for k in ('analyst','analyzed_at','method')}
+        return valid,meta
+    except Exception as e:
+        return [], {'analyst':'Manual file error','analyzed_at':None,'method':type(e).__name__}
+
 def build_indicators(proxies, generated_at):
     meta={
       'IHSG':('Global & Pasar','Arah risk appetite saham Indonesia','IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung'),
@@ -163,7 +182,7 @@ document.querySelectorAll('.nav button').forEach(b=>b.onclick=()=>{document.quer
 q('#top').innerHTML=`<div class="card"><h2>Regime Makro</h2><div class="big">${D.regime.label}</div><p>Risk ${D.regime.risk_score}/100</p>${D.regime.signals.map(x=>`<span class="pill">${x}</span>`).join('')}</div><div class="card"><h2>Kandidat STUDY</h2><div class="big STUDY">${D.summary.study}</div><p>${D.summary.watch} WATCH · ${D.summary.avoid} AVOID</p></div><div class="card"><h2>Cakupan Data</h2><div class="big">${D.indicators.filter(x=>x.status==='LIVE').length}/${D.indicators.length}</div><p>indikator live; sisanya menunggu sumber tepercaya.</p></div>`;
 q('#stockrows').innerHTML=D.stocks.map(s=>`<tr><td><b>${s.ticker}</b><details><summary>alasan</summary>${Object.entries(s.parts).map(([k,v])=>`${k}: ${Math.round(v)}`).join('<br>')}<br><small>${s.note}</small></details></td><td>${s.sector}</td><td><b>${s.score}</b><div class="bar"><i style="width:${s.score}%"></i></div></td><td class="${s.status}">${s.status}</td><td class="hide">${fmt(s.r20_pct)}</td></tr>`).join('');
 q('#sectors').innerHTML=D.sectors.map(s=>`<div class="card"><h2>${s.sector}</h2><div class="big">${s.score}</div><p>${s.count} emiten · ${s.direction}</p></div>`).join('');
-q('#pred').innerHTML=D.predictions.map(p=>`<div class="card"><h2>${p.topic}</h2><p>Bull ${Math.round(p.probabilities.bull*100)}% · Base ${Math.round(p.probabilities.base*100)}% · Bear ${Math.round(p.probabilities.bear*100)}%</p><b>Confidence ${p.confidence}%</b><p>${p.causal_chain}</p><small>Invalidasi: ${p.invalidation}</small></div>`).join('');
+q('#pred').innerHTML=`<div class="card"><h2>Analisis manual</h2><b>${D.prediction_meta.analyst||'Hermes Agent'}</b><p>${D.prediction_meta.method||''}</p><small>Dianalisis: ${D.prediction_meta.analyzed_at||'menunggu pembaruan'}</small></div>`+D.predictions.map(p=>`<div class="card"><h2>${p.topic}</h2><p>Bull ${Math.round(p.probabilities.bull*100)}% · Base ${Math.round(p.probabilities.base*100)}% · Bear ${Math.round(p.probabilities.bear*100)}%</p><b>Confidence ${p.confidence}%</b><p>${p.thesis}</p><details><summary>Bukti & causal chain</summary><p>${(p.evidence||[]).map(x=>'• '+x).join('<br>')}</p><small>${p.causal_chain}</small></details><p><small>Invalidasi: ${p.invalidation}</small></p></div>`).join('');
 function drawNews(topic='Semua'){q('#newslist').innerHTML=D.news.filter(n=>topic==='Semua'||n.topic===topic).map(n=>`<a class="card news" href="${n.link}" target="_blank" rel="noopener"><span class="pill">${n.topic}</span><span class="${n.sentiment}">${n.sentiment}</span><h3>${n.title}</h3><small>${n.published||'Waktu tidak tersedia'} · Google News RSS</small></a>`).join('')||'<p class="muted">Belum ada berita.</p>'}const nts=['Semua',...new Set(D.news.map(x=>x.topic))];q('#newsfilters').innerHTML=nts.map(x=>`<button class="filter">${x}</button>`).join('');[...q('#newsfilters').children].forEach((b,i)=>b.onclick=()=>drawNews(nts[i]));drawNews();
 function drawInd(group='Semua'){q('#indrows').innerHTML=D.indicators.filter(x=>group==='Semua'||x.group===group).map(x=>`<tr><td><b>${x.name}</b><br><small>${x.group} · ${x.source}</small></td><td>${x.value==null?'—':x.value}<br><span>${x.trend} · 20H ${fmt(x.r20_pct)}</span></td><td class="hide">${x.use}<br><small>${x.causal_impact}</small></td><td class="${x.status==='LIVE'?'LIVE':'WATCH'}">${x.status}</td></tr>`).join('')}const ig=['Semua',...new Set(D.indicators.map(x=>x.group))];q('#indfilters').innerHTML=ig.map(x=>`<button class="filter">${x}</button>`).join('');[...q('#indfilters').children].forEach((b,i)=>b.onclick=()=>drawInd(ig[i]));drawInd();
 </script></body></html>'''
@@ -190,11 +209,11 @@ def scan():
         xs=[x['score'] for x in stocks if x['sector']==s]; avg=round(statistics.mean(xs),1)
         sec.append({'sector':s,'score':avg,'count':len(xs),'direction':'positif' if avg>=60 else ('netral' if avg>=45 else 'lemah')})
     sec.sort(key=lambda x:x['score'],reverse=True)
-    regime=macro_regime(proxies); preds=predictions(regime,proxies,news)
+    regime=macro_regime(proxies); preds,pred_meta=load_manual_predictions()
     now=datetime.now(timezone.utc).astimezone().isoformat(timespec='seconds')
     indicators=build_indicators(proxies,now)
     data={'schema_version':2,'generated_at':now,'sources':sorted(sources),'regime':regime,'proxies':proxies,'stocks':stocks,'sectors':sec,
-      'predictions':preds,'news':news,'indicators':indicators,'summary':{'study':sum(x['status']=='STUDY' for x in stocks),'watch':sum(x['status']=='WATCH' for x in stocks),'avoid':sum(x['status']=='AVOID' for x in stocks)},
+      'predictions':preds,'prediction_meta':pred_meta,'prediction_mode':'MANUAL_AGENT_ANALYSIS','news':news,'indicators':indicators,'summary':{'study':sum(x['status']=='STUDY' for x in stocks),'watch':sum(x['status']=='WATCH' for x in stocks),'avoid':sum(x['status']=='AVOID' for x in stocks)},
       'disclaimer':'Riset otomatis, bukan nasihat investasi atau jaminan hasil.'}
     raw=json.dumps(data,ensure_ascii=False,indent=2)
     (ROOT/'data/latest.json').write_text(raw); stamp=datetime.now().strftime('%Y%m%d_%H%M%S'); (ROOT/f'data/history/{stamp}.json').write_text(raw)

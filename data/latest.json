@@ -1,17 +1,17 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-23T18:40:08+07:00",
+  "generated_at": "2026-07-23T18:53:53+07:00",
   "sources": [
     "google-news-rss",
     "yahoo-chart"
   ],
   "regime": {
     "label": "RISK-OFF",
-    "risk_score": 75.6,
+    "risk_score": 75.8,
     "signals": [
       "IHSG 60h -16.5%",
       "USD/IDR 20h -0.4%",
-      "Minyak 20h +29.0%",
+      "Minyak 20h +29.3%",
       "US10Y 20h +3.6%"
     ]
   },
@@ -39,36 +39,36 @@
       "_source": "yahoo-chart"
     },
     "DollarIndex": {
-      "price": 101.24,
-      "r20": -0.003631564744433713,
-      "r60": 0.028036087158857192,
-      "r120": 0.05152678228142027,
-      "vol": 0.04557720708355655,
-      "drawdown": -0.003631564744433713,
-      "rel": 0.028036087158857192,
+      "price": 101.35,
+      "r20": -0.0025489881310017948,
+      "r60": 0.02915307138511536,
+      "r120": 0.05266928967388229,
+      "vol": 0.04568414835277099,
+      "drawdown": -0.0025489881310017948,
+      "rel": 0.02915307138511536,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "Minyak": {
-      "price": 90.72,
-      "r20": 0.2897356545899368,
-      "r60": -0.058628217960482454,
-      "r120": 0.3867319437463337,
-      "vol": 0.546707415244254,
-      "drawdown": -0.19681271649547416,
-      "rel": -0.058628217960482454,
-      "volume_ratio": 0.913857089928265,
+      "price": 90.94,
+      "r20": 0.29286333773120843,
+      "r60": -0.056345337246224814,
+      "r120": 0.39009484846753195,
+      "vol": 0.5476109866774341,
+      "drawdown": -0.19486494113781805,
+      "rel": -0.056345337246224814,
+      "volume_ratio": 0.9146428099935694,
       "_source": "yahoo-chart"
     },
     "Emas": {
-      "price": 4086.4,
-      "r20": 0.024083365245640476,
-      "r60": -0.12597852853287217,
-      "r120": -0.23164862037867318,
-      "vol": 0.24079834765109406,
-      "drawdown": -0.2281656131538603,
-      "rel": -0.12597852853287217,
-      "volume_ratio": 0.9963869744601829,
+      "price": 4079.6,
+      "r20": 0.022379281691949693,
+      "r60": -0.12743290780085548,
+      "r120": -0.23292716370229638,
+      "vol": 0.24117755387354803,
+      "drawdown": -0.22944995223155062,
+      "rel": -0.12743290780085548,
+      "volume_ratio": 1.0320976526988912,
       "_source": "yahoo-chart"
     },
     "Yield_US": {
@@ -94,14 +94,14 @@
       "_source": "yahoo-chart"
     },
     "Aluminium": {
-      "price": 3441.75,
-      "r20": -0.04015896256013385,
-      "r60": -0.03855017808506178,
-      "r120": 0.09662259040943133,
-      "vol": 0.3698056058086762,
-      "drawdown": -0.17955899880810489,
-      "rel": -0.03855017808506178,
-      "volume_ratio": 2.162162162162162,
+      "price": 3445.75,
+      "r20": -0.03904343582235237,
+      "r60": -0.037432781618828126,
+      "r120": 0.09789708459455149,
+      "vol": 0.36939506527311144,
+      "drawdown": -0.17860548271752086,
+      "rel": -0.037432781618828126,
+      "volume_ratio": 2.189189189189189,
       "_source": "yahoo-chart"
     },
     "BijihBesi": {
@@ -802,57 +802,99 @@
   ],
   "predictions": [
     {
+      "topic": "IHSG 1–3 bulan",
+      "probabilities": {
+        "bull": 0.2,
+        "base": 0.5,
+        "bear": 0.3
+      },
+      "confidence": 58,
+      "thesis": "IHSG memantul dalam 20 hari tetapi tren 60–120 hari masih turun tajam. Yield AS dan minyak yang meningkat mempertahankan tekanan biaya modal dan inflasi, sehingga pemulihan lebih mungkin sideways-volatil daripada bull market baru.",
+      "evidence": [
+        "IHSG +5,3%/20 hari tetapi -16,5%/60 hari",
+        "US 10Y sekitar 4,66 dan masih naik",
+        "Minyak +29%/20 hari",
+        "Likuiditas volume IHSG masih di bawah rata-rata"
+      ],
+      "causal_chain": "yield/minyak tinggi → biaya modal dan inflasi naik → ruang pelonggaran terbatas → valuasi dan konsumsi tertekan → IHSG sideways/rentan koreksi",
+      "beneficiaries": [
+        "emiten defensif",
+        "eksportir berpendapatan dolar",
+        "energi terpilih"
+      ],
+      "losers": [
+        "emiten berutang dolar",
+        "importir bermargin tipis",
+        "saham mahal tanpa pertumbuhan laba"
+      ],
+      "invalidation": "IHSG bertahan di atas tren 60 hari dengan volume kuat, US10Y turun konsisten, dan minyak berbalik turun tanpa pelemahan ekonomi tajam",
+      "not_prediction_of_price": true,
+      "manual_analysis": true
+    },
+    {
       "topic": "Rupiah 1–3 bulan",
       "probabilities": {
-        "bull": 0.3,
-        "base": 0.5,
-        "bear": 0.2
+        "bull": 0.2,
+        "base": 0.45,
+        "bear": 0.35
       },
-      "confidence": 50,
+      "confidence": 56,
+      "thesis": "Penguatan tipis 20 hari belum menghapus pelemahan 60–120 hari. Yield AS tinggi dan DXY positif pada horizon menengah menjaga tekanan arus modal, sementara lonjakan minyak meningkatkan kebutuhan dolar impor Indonesia.",
       "evidence": [
-        "arus modal global",
-        "selisih suku bunga",
-        "neraca perdagangan"
+        "USD/IDR -0,4%/20 hari tetapi +3,3%/60 hari",
+        "DXY +2,8%/60 hari",
+        "US10Y +8,1%/60 hari",
+        "Minyak +29%/20 hari"
       ],
-      "invalidation": "USD/IDR berbalik >5% dari tren 20 hari",
-      "causal_chain": "pemicu global → arus uang/barang → harga/biaya → sektor pemenang/pecundang",
-      "not_prediction_of_price": true
+      "causal_chain": "yield AS tinggi + impor minyak mahal → permintaan dolar meningkat → rupiah sulit menguat berkelanjutan → biaya importir dan utang dolar naik",
+      "beneficiaries": [
+        "eksportir",
+        "emiten berpendapatan dolar"
+      ],
+      "losers": [
+        "importir",
+        "perusahaan dengan utang dolar tanpa lindung nilai"
+      ],
+      "invalidation": "DXY dan US10Y turun konsisten, neraca perdagangan menguat, serta USD/IDR turun menembus tren 60 hari",
+      "not_prediction_of_price": true,
+      "manual_analysis": true
     },
     {
-      "topic": "Energi Indonesia 3–6 bulan",
+      "topic": "Sektor energi Indonesia 3–6 bulan",
       "probabilities": {
-        "bull": 0.3,
-        "base": 0.5,
+        "bull": 0.4,
+        "base": 0.4,
         "bear": 0.2
       },
-      "confidence": 50,
+      "confidence": 60,
+      "thesis": "Minyak yang melonjak memberi dukungan pendapatan produsen energi, tetapi volatilitas tinggi, kebijakan domestik, dan harga batu bara yang datar membuat peluang tidak merata. Fokus harus pada emiten berbiaya rendah, neraca sehat, dan eksposur harga yang jelas.",
       "evidence": [
-        "harga minyak",
-        "geopolitik jalur pasok",
-        "kebijakan domestik"
+        "Minyak +29%/20 hari",
+        "Batu bara relatif datar 20 hari dan +3,3%/60 hari",
+        "ADRO menunjukkan relative strength positif terhadap IHSG",
+        "Regime keseluruhan masih risk-off"
       ],
-      "invalidation": "minyak menembus tren berlawanan selama 20 hari",
-      "causal_chain": "pemicu global → arus uang/barang → harga/biaya → sektor pemenang/pecundang",
-      "not_prediction_of_price": true
-    },
-    {
-      "topic": "Emas 1–6 bulan",
-      "probabilities": {
-        "bull": 0.3,
-        "base": 0.5,
-        "bear": 0.2
-      },
-      "confidence": 50,
-      "evidence": [
-        "risk-off",
-        "yield riil",
-        "dolar AS"
+      "causal_chain": "gangguan/ketatnya pasokan energi → harga jual naik → cash flow produsen membaik → tetapi biaya ekonomi dan risiko regulasi meningkat",
+      "beneficiaries": [
+        "produsen minyak/gas berbiaya rendah",
+        "eksportir energi dengan neraca sehat"
       ],
-      "invalidation": "yield dan dolar menguat bersamaan secara persisten",
-      "causal_chain": "pemicu global → arus uang/barang → harga/biaya → sektor pemenang/pecundang",
-      "not_prediction_of_price": true
+      "losers": [
+        "transportasi",
+        "industri intensif energi",
+        "emiten energi berutang tinggi"
+      ],
+      "invalidation": "Minyak turun di bawah tren 60 hari, permintaan global melemah tajam, atau kebijakan harga domestik membatasi realisasi margin",
+      "not_prediction_of_price": true,
+      "manual_analysis": true
     }
   ],
+  "prediction_meta": {
+    "analyst": "Hermes Agent — metode Bennix",
+    "analyzed_at": "2026-07-23T18:45:00+07:00",
+    "method": "Top-down manual: regime global → arus uang/barang → dampak orde 1/2 → sektor → emiten → skenario dan invalidasi"
+  },
+  "prediction_mode": "MANUAL_AGENT_ANALYSIS",
   "news": [
     {
       "title": "IHSG Berpotensi Sideways, Pasar Tunggu Keputusan BI Rate Hari Ini - Suara Surabaya",
@@ -929,7 +971,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:40:08+07:00",
+      "freshness": "2026-07-23T18:53:53+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
@@ -942,46 +984,46 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:40:08+07:00",
+      "freshness": "2026-07-23T18:53:53+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
     {
       "name": "DollarIndex",
       "group": "Global & Pasar",
-      "value": 101.24,
-      "r20_pct": -0.36,
-      "r60_pct": 2.8,
+      "value": 101.35,
+      "r20_pct": -0.25,
+      "r60_pct": 2.92,
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:40:08+07:00",
+      "freshness": "2026-07-23T18:53:53+07:00",
       "use": "Kekuatan dolar dan tekanan emerging market",
       "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
     },
     {
       "name": "Minyak",
       "group": "Global & Geopolitik",
-      "value": 90.72,
-      "r20_pct": 28.97,
-      "r60_pct": -5.86,
+      "value": 90.94,
+      "r20_pct": 29.29,
+      "r60_pct": -5.63,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:40:08+07:00",
+      "freshness": "2026-07-23T18:53:53+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
     {
       "name": "Emas",
       "group": "Global & Pasar",
-      "value": 4086.4,
-      "r20_pct": 2.41,
-      "r60_pct": -12.6,
+      "value": 4079.6,
+      "r20_pct": 2.24,
+      "r60_pct": -12.74,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:40:08+07:00",
+      "freshness": "2026-07-23T18:53:53+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
@@ -994,7 +1036,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:40:08+07:00",
+      "freshness": "2026-07-23T18:53:53+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
     },
@@ -1007,20 +1049,20 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:40:08+07:00",
+      "freshness": "2026-07-23T18:53:53+07:00",
       "use": "Pendapatan eksportir energi dan devisa Indonesia",
       "causal_impact": "Batu bara naik → pendapatan eksportir/devisa naik; pengguna energi menanggung biaya"
     },
     {
       "name": "Aluminium",
       "group": "Sektoral",
-      "value": 3441.75,
-      "r20_pct": -4.02,
-      "r60_pct": -3.86,
+      "value": 3445.75,
+      "r20_pct": -3.9,
+      "r60_pct": -3.74,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:40:08+07:00",
+      "freshness": "2026-07-23T18:53:53+07:00",
       "use": "Siklus logam industri dan manufaktur",
       "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
     },
@@ -1033,7 +1075,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-07-23T18:40:08+07:00",
+      "freshness": "2026-07-23T18:53:53+07:00",
       "use": "Aktivitas baja, konstruksi, dan permintaan China",
       "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },

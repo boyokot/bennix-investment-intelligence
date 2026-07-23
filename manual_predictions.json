@@ -1,0 +1,43 @@
+{
+  "analyst": "Hermes Agent — metode Bennix",
+  "analyzed_at": "2026-07-23T18:45:00+07:00",
+  "method": "Top-down manual: regime global → arus uang/barang → dampak orde 1/2 → sektor → emiten → skenario dan invalidasi",
+  "predictions": [
+    {
+      "topic": "IHSG 1–3 bulan",
+      "probabilities": {"bull": 0.20, "base": 0.50, "bear": 0.30},
+      "confidence": 58,
+      "thesis": "IHSG memantul dalam 20 hari tetapi tren 60–120 hari masih turun tajam. Yield AS dan minyak yang meningkat mempertahankan tekanan biaya modal dan inflasi, sehingga pemulihan lebih mungkin sideways-volatil daripada bull market baru.",
+      "evidence": ["IHSG +5,3%/20 hari tetapi -16,5%/60 hari", "US 10Y sekitar 4,66 dan masih naik", "Minyak +29%/20 hari", "Likuiditas volume IHSG masih di bawah rata-rata"],
+      "causal_chain": "yield/minyak tinggi → biaya modal dan inflasi naik → ruang pelonggaran terbatas → valuasi dan konsumsi tertekan → IHSG sideways/rentan koreksi",
+      "beneficiaries": ["emiten defensif", "eksportir berpendapatan dolar", "energi terpilih"],
+      "losers": ["emiten berutang dolar", "importir bermargin tipis", "saham mahal tanpa pertumbuhan laba"],
+      "invalidation": "IHSG bertahan di atas tren 60 hari dengan volume kuat, US10Y turun konsisten, dan minyak berbalik turun tanpa pelemahan ekonomi tajam",
+      "not_prediction_of_price": true
+    },
+    {
+      "topic": "Rupiah 1–3 bulan",
+      "probabilities": {"bull": 0.20, "base": 0.45, "bear": 0.35},
+      "confidence": 56,
+      "thesis": "Penguatan tipis 20 hari belum menghapus pelemahan 60–120 hari. Yield AS tinggi dan DXY positif pada horizon menengah menjaga tekanan arus modal, sementara lonjakan minyak meningkatkan kebutuhan dolar impor Indonesia.",
+      "evidence": ["USD/IDR -0,4%/20 hari tetapi +3,3%/60 hari", "DXY +2,8%/60 hari", "US10Y +8,1%/60 hari", "Minyak +29%/20 hari"],
+      "causal_chain": "yield AS tinggi + impor minyak mahal → permintaan dolar meningkat → rupiah sulit menguat berkelanjutan → biaya importir dan utang dolar naik",
+      "beneficiaries": ["eksportir", "emiten berpendapatan dolar"],
+      "losers": ["importir", "perusahaan dengan utang dolar tanpa lindung nilai"],
+      "invalidation": "DXY dan US10Y turun konsisten, neraca perdagangan menguat, serta USD/IDR turun menembus tren 60 hari",
+      "not_prediction_of_price": true
+    },
+    {
+      "topic": "Sektor energi Indonesia 3–6 bulan",
+      "probabilities": {"bull": 0.40, "base": 0.40, "bear": 0.20},
+      "confidence": 60,
+      "thesis": "Minyak yang melonjak memberi dukungan pendapatan produsen energi, tetapi volatilitas tinggi, kebijakan domestik, dan harga batu bara yang datar membuat peluang tidak merata. Fokus harus pada emiten berbiaya rendah, neraca sehat, dan eksposur harga yang jelas.",
+      "evidence": ["Minyak +29%/20 hari", "Batu bara relatif datar 20 hari dan +3,3%/60 hari", "ADRO menunjukkan relative strength positif terhadap IHSG", "Regime keseluruhan masih risk-off"],
+      "causal_chain": "gangguan/ketatnya pasokan energi → harga jual naik → cash flow produsen membaik → tetapi biaya ekonomi dan risiko regulasi meningkat",
+      "beneficiaries": ["produsen minyak/gas berbiaya rendah", "eksportir energi dengan neraca sehat"],
+      "losers": ["transportasi", "industri intensif energi", "emiten energi berutang tinggi"],
+      "invalidation": "Minyak turun di bawah tren 60 hari, permintaan global melemah tajam, atau kebijakan harga domestik membatasi realisasi margin",
+      "not_prediction_of_price": true
+    }
+  ]
+}
