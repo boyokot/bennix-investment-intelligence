@@ -1,42 +1,59 @@
 {
-  "analyst": "Hermes Agent — metode Bennix",
-  "analyzed_at": "2026-07-23T18:45:00+07:00",
-  "method": "Top-down manual: regime global → arus uang/barang → dampak orde 1/2 → sektor → emiten → skenario dan invalidasi",
+  "analyst": "Hermes Agent — analisis manual metode Bennix",
+  "analyzed_at": "2026-07-24T18:35:00+07:00",
+  "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dipakai sebagai bukti, bukan sebagai fungsi prediksi otomatis.",
   "predictions": [
     {
       "topic": "IHSG 1–3 bulan",
-      "probabilities": {"bull": 0.20, "base": 0.50, "bear": 0.30},
-      "confidence": 58,
-      "thesis": "IHSG memantul dalam 20 hari tetapi tren 60–120 hari masih turun tajam. Yield AS dan minyak yang meningkat mempertahankan tekanan biaya modal dan inflasi, sehingga pemulihan lebih mungkin sideways-volatil daripada bull market baru.",
-      "evidence": ["IHSG +5,3%/20 hari tetapi -16,5%/60 hari", "US 10Y sekitar 4,66 dan masih naik", "Minyak +29%/20 hari", "Likuiditas volume IHSG masih di bawah rata-rata"],
-      "causal_chain": "yield/minyak tinggi → biaya modal dan inflasi naik → ruang pelonggaran terbatas → valuasi dan konsumsi tertekan → IHSG sideways/rentan koreksi",
-      "beneficiaries": ["emiten defensif", "eksportir berpendapatan dolar", "energi terpilih"],
-      "losers": ["emiten berutang dolar", "importir bermargin tipis", "saham mahal tanpa pertumbuhan laba"],
-      "invalidation": "IHSG bertahan di atas tren 60 hari dengan volume kuat, US10Y turun konsisten, dan minyak berbalik turun tanpa pelemahan ekonomi tajam",
+      "probabilities": {"bull": 0.15, "base": 0.50, "bear": 0.35},
+      "confidence": 62,
+      "thesis": "Pantulan jangka pendek belum mengubah struktur turun menengah. IHSG memang naik 5,1% dalam 20 hari, tetapi masih turun 17,8% dalam 60 hari dan 31,7% dalam 120 hari. Kenaikan yield AS dan mahalnya minyak menahan peluang ekspansi valuasi; skenario utama tetap konsolidasi volatil dengan risiko menguji ulang area bawah.",
+      "evidence": [
+        "IHSG 6.196, naik 5,1%/20 hari tetapi turun 17,8%/60 hari dan 31,7%/120 hari",
+        "US Treasury 10Y 4,70%, naik 6,8%/20 hari dan 8,5%/60 hari",
+        "Minyak 89,78, naik 24,8%/20 hari dengan volatilitas tahunan sekitar 55%",
+        "Rupiah 17.935 per dolar; penguatan 0,3%/20 hari belum menghapus pelemahan 3,6%/60 hari",
+        "Relative strength terlihat pada defensif konsumsi dan energi tertentu, bukan reli pasar yang merata"
+      ],
+      "causal_chain": "yield AS tinggi + minyak mahal → arus modal EM dan ruang pelonggaran moneter tertekan → biaya modal/inflasi bertahan → laba serta valuasi pasar tertahan → IHSG lebih mungkin sideways-volatil daripada membentuk bull market baru",
+      "beneficiaries": ["konsumer defensif dengan daya harga", "eksportir berpendapatan dolar", "produsen energi berbiaya rendah"],
+      "losers": ["importir bermargin tipis", "emiten berutang dolar tanpa lindung nilai", "saham berdurasi panjang dengan valuasi mahal"],
+      "invalidation": "IHSG bertahan di atas tren 60 hari disertai volume meluas, sementara US10Y dan minyak turun konsisten serta rupiah menguat menembus tren 60 hari",
       "not_prediction_of_price": true
     },
     {
       "topic": "Rupiah 1–3 bulan",
-      "probabilities": {"bull": 0.20, "base": 0.45, "bear": 0.35},
-      "confidence": 56,
-      "thesis": "Penguatan tipis 20 hari belum menghapus pelemahan 60–120 hari. Yield AS tinggi dan DXY positif pada horizon menengah menjaga tekanan arus modal, sementara lonjakan minyak meningkatkan kebutuhan dolar impor Indonesia.",
-      "evidence": ["USD/IDR -0,4%/20 hari tetapi +3,3%/60 hari", "DXY +2,8%/60 hari", "US10Y +8,1%/60 hari", "Minyak +29%/20 hari"],
-      "causal_chain": "yield AS tinggi + impor minyak mahal → permintaan dolar meningkat → rupiah sulit menguat berkelanjutan → biaya importir dan utang dolar naik",
-      "beneficiaries": ["eksportir", "emiten berpendapatan dolar"],
-      "losers": ["importir", "perusahaan dengan utang dolar tanpa lindung nilai"],
-      "invalidation": "DXY dan US10Y turun konsisten, neraca perdagangan menguat, serta USD/IDR turun menembus tren 60 hari",
+      "probabilities": {"bull": 0.15, "base": 0.45, "bear": 0.40},
+      "confidence": 61,
+      "thesis": "Rupiah berpeluang stabil sesaat, namun bias menengah masih lemah. Yield AS 4,70% dan DXY yang tetap positif pada horizon 60–120 hari menarik dolar, sedangkan lonjakan minyak menambah kebutuhan devisa impor. Tanpa perbaikan arus modal atau neraca eksternal, penguatan rupiah cenderung terbatas.",
+      "evidence": [
+        "USD/IDR 17.935, turun 0,3%/20 hari tetapi naik 3,6%/60 hari dan 6,3%/120 hari",
+        "DXY relatif datar 20 hari namun naik 2,8%/60 hari dan 4,5%/120 hari",
+        "US10Y naik ke 4,70% dan menguat pada seluruh horizon 20–120 hari",
+        "Minyak naik 24,8%/20 hari, memperbesar tagihan impor energi bila kenaikan bertahan"
+      ],
+      "causal_chain": "yield AS tinggi + dolar menengah menguat + impor minyak mahal → permintaan dolar dan premi risiko meningkat → rupiah sulit menguat berkelanjutan → biaya impor, inflasi, dan beban utang dolar naik",
+      "beneficiaries": ["eksportir dengan biaya rupiah", "emiten berpendapatan dolar dan utang terkendali"],
+      "losers": ["importir bahan baku", "emiten dengan utang dolar tanpa natural hedge", "sektor dengan daya tawar harga rendah"],
+      "invalidation": "DXY dan US10Y turun berkelanjutan, minyak kembali di bawah tren 60 hari, dan USD/IDR menembus turun tren 60 hari dengan dukungan arus modal masuk",
       "not_prediction_of_price": true
     },
     {
-      "topic": "Sektor energi Indonesia 3–6 bulan",
-      "probabilities": {"bull": 0.40, "base": 0.40, "bear": 0.20},
-      "confidence": 60,
-      "thesis": "Minyak yang melonjak memberi dukungan pendapatan produsen energi, tetapi volatilitas tinggi, kebijakan domestik, dan harga batu bara yang datar membuat peluang tidak merata. Fokus harus pada emiten berbiaya rendah, neraca sehat, dan eksposur harga yang jelas.",
-      "evidence": ["Minyak +29%/20 hari", "Batu bara relatif datar 20 hari dan +3,3%/60 hari", "ADRO menunjukkan relative strength positif terhadap IHSG", "Regime keseluruhan masih risk-off"],
-      "causal_chain": "gangguan/ketatnya pasokan energi → harga jual naik → cash flow produsen membaik → tetapi biaya ekonomi dan risiko regulasi meningkat",
-      "beneficiaries": ["produsen minyak/gas berbiaya rendah", "eksportir energi dengan neraca sehat"],
-      "losers": ["transportasi", "industri intensif energi", "emiten energi berutang tinggi"],
-      "invalidation": "Minyak turun di bawah tren 60 hari, permintaan global melemah tajam, atau kebijakan harga domestik membatasi realisasi margin",
+      "topic": "Defensif konsumsi vs energi Indonesia 3–6 bulan",
+      "probabilities": {"bull": 0.35, "base": 0.45, "bear": 0.20},
+      "confidence": 59,
+      "thesis": "Dalam rezim risk-off, barbel defensif konsumsi dan produsen energi terpilih lebih masuk akal daripada mengejar beta pasar. UNVR, INDF, dan ICBP menunjukkan relative strength menengah, sementara ADRO paling kuat di kelompok pantauan. Namun energi bukan taruhan satu arah karena batu bara datar dan minyak sangat volatil; seleksi neraca, biaya produksi, serta kemampuan meneruskan harga tetap krusial.",
+      "evidence": [
+        "UNVR +13,5%/60 hari; ICBP +3,0%; INDF +0,4%, semuanya jauh lebih baik daripada IHSG -17,8%",
+        "ADRO +12,9%/20 hari dan +5,4%/60 hari; relative strength paling jelas dalam universe yang dipantau",
+        "ITMG naik 11,1%/20 hari tetapi masih turun 3,8%/60 hari, menunjukkan selektivitas",
+        "Minyak +24,8%/20 hari, sedangkan batu bara datar 20 hari dan hanya +3,3%/60 hari",
+        "Aluminium -5,4%/20 hari dan bijih besi -8,1%/60 hari belum mendukung tesis siklus industri luas"
+      ],
+      "causal_chain": "risk-off → investor mencari laba/arus kas yang lebih tahan → defensif konsumsi mendapat premium relatif; pada sisi lain minyak tinggi → cash flow produsen tertentu membaik, tetapi biaya logistik dan daya beli tertekan → pemenang ditentukan daya harga, biaya rendah, dan neraca sehat",
+      "beneficiaries": ["UNVR sebagai defensif relatif, tetap wajib cek valuasi dan pemulihan volume", "INDF/ICBP dengan integrasi dan daya harga", "ADRO serta produsen energi berbiaya rendah dengan neraca sehat"],
+      "losers": ["konsumer tanpa daya harga", "transportasi dan industri intensif energi", "produsen komoditas berbiaya tinggi atau berutang besar"],
+      "invalidation": "Relative strength UNVR/INDF/ICBP dan ADRO hilang terhadap IHSG, minyak turun tajam di bawah tren 60 hari, atau laporan keuangan menunjukkan penurunan volume, margin, arus kas, maupun kenaikan utang yang berlawanan dengan tesis",
       "not_prediction_of_price": true
     }
   ]
