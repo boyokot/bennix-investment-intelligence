@@ -1,79 +1,61 @@
 {
-  "analyst": "Hermes Agent — analisis manual metode Bennix (auto-refresh)",
-  "analyzed_at": "2026-07-27T18:00:57+07:00",
-  "method": "Analisis top-down: rezim global (proxy makro) → arus uang/barang (kausal chain) → dampak orde pertama/kedua → skor sektor → seleksi emiten → skenario probabilitas + invalidasi. Angka pasar sebagai bukti, bukan fungsi prediksi otomatis.",
-  "prediction_mode": "MANUAL_AGENT_ANALYSIS",
+  "analyst": "Hermes Agent — analisis manual metode Bennix",
+  "analyzed_at": "2026-07-27T18:40:00+07:00",
+  "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dipakai sebagai bukti; probabilitas merupakan judgement analis, bukan keluaran fungsi/rule prediksi otomatis.",
   "predictions": [
     {
       "topic": "IHSG 1–3 bulan",
-      "probabilities": {"bull": 0.18, "base": 0.44, "bear": 0.38},
-      "confidence": 64,
-      "thesis": "IHSG masih berada dalam rezim risk-off: pantulan 20 hari sebesar 6,3% belum cukup untuk menetralkan penurunan 60 hari -16,2% dan drawdown sekitar -32%. Tekanan utama datang dari US10Y 4,68% yang naik di horizon 20/60/120 hari, membuat valuasi aset berisiko EM sulit re-rating. Minyak yang melonjak 20,3% dalam 20 hari menambah risiko biaya dan inflasi, sementara volume IHSG hanya 77% dari rerata 60 hari sehingga reli belum terlihat institusional. Skenario dasar adalah konsolidasi volatil dengan bias bawah sampai yield AS dan rupiah memberi sinyal stabilisasi yang lebih jelas.",
+      "probabilities": {"bull": 0.15, "base": 0.50, "bear": 0.35},
+      "confidence": 63,
+      "thesis": "Pantulan satu bulan belum membalik struktur turun menengah. IHSG menguat 6,3% dalam 20 hari, tetapi masih turun 16,2% dalam 60 hari dan 32,3% dalam 120 hari, dengan volume hanya 0,77 kali pembanding. Yield AS tinggi, rupiah kembali melemah, dan minyak mahal membatasi ruang ekspansi valuasi. Skenario utama tetap konsolidasi volatil; risiko pengujian ulang area bawah masih material.",
       "evidence": [
-        "IHSG 6.185,78: +6,3%/20 hari tetapi -16,2%/60 hari dan -32,3%/120 hari",
-        "Risk score pasar 72,6 dengan label RISK-OFF; sinyal utama: IHSG 60h -16,2%, US10Y 20h +6,5%",
-        "US10Y 4,68%: +6,5%/20 hari, +7,5%/60 hari, +10,3%/120 hari",
-        "Minyak 83,31: +20,3%/20 hari dengan volatilitas tinggi 54,8% tahunan",
-        "Volume ratio IHSG 0,77x rerata 60 hari, menandakan partisipasi pemulihan masih tipis"
+        "IHSG 6.185,78: +6,3%/20 hari, tetapi -16,2%/60 hari dan -32,3%/120 hari",
+        "Rasio volume IHSG 0,77; pantulan belum didukung partisipasi volume yang meyakinkan",
+        "US Treasury 10Y 4,68%: +6,5%/20 hari dan +7,5%/60 hari",
+        "USD/IDR 18.000: +1,0%/20 hari, +4,1%/60 hari, dan +6,9%/120 hari",
+        "Minyak 83,39 masih +20,5%/20 hari dengan volatilitas tahunan sekitar 54,8%",
+        "Tidak ada emiten berstatus STUDY; hanya 9 WATCH dan 23 AVOID dalam universe 32 saham"
       ],
-      "causal_chain": "yield AS tinggi + minyak naik + rupiah melemah bertahap → premi risiko EM meningkat → investor menuntut diskon valuasi → emiten siklikal dan berutang mahal tertahan → IHSG cenderung konsolidasi dengan downside risk",
-      "beneficiaries": ["konsumer defensif dengan pricing power seperti INDF, ICBP, UNVR", "eksportir dolar dan energi selektif seperti ADRO", "bank berkualitas aset kuat seperti BBCA"],
-      "losers": ["teknologi dan growth berarus kas panjang seperti GOTO", "emiten importir atau berutang dolar tanpa lindung nilai", "material dan infrastruktur yang sensitif biaya modal"],
-      "invalidation": "IHSG bertahan di atas area 6.400 dengan volume di atas rerata 60 hari, US10Y turun di bawah 4,3%, USD/IDR kembali di bawah 17.600, dan minyak turun stabil di bawah 78",
+      "causal_chain": "yield AS tinggi + rupiah lemah + minyak mahal → arus modal EM, inflasi impor, dan ruang pelonggaran BI tertekan → biaya modal serta biaya input bertahan → pertumbuhan laba dan valuasi pasar tertahan → pantulan IHSG lebih mungkin menjadi konsolidasi daripada awal bull market",
+      "beneficiaries": ["konsumer defensif dengan daya harga", "eksportir berpendapatan dolar", "bank berkualitas dengan likuiditas dan kualitas aset kuat"],
+      "losers": ["importir bermargin tipis", "emiten berutang dolar tanpa lindung nilai", "saham siklikal dan berdurasi panjang dengan neraca lemah"],
+      "invalidation": "IHSG bertahan di atas tren 60 hari dengan volume konsisten di atas normal dan breadth meluas, bersamaan dengan US10Y turun, rupiah menguat menembus tren 60 hari, dan minyak mereda",
       "not_prediction_of_price": true
     },
     {
       "topic": "Rupiah 1–3 bulan",
-      "probabilities": {"bull": 0.17, "base": 0.43, "bear": 0.40},
-      "confidence": 63,
-      "thesis": "Rupiah tetap rentan meski pelemahan 20 hari hanya 1,0%, karena arah 60 dan 120 hari masih menunjukkan depresiasi. DXY belum meledak, tetapi kenaikan 2,4%/60 hari cukup untuk menahan minat carry trade rupiah saat US10Y berada di 4,68%. Lonjakan minyak memperburuk kebutuhan valas impor energi dan dapat menahan ruang Bank Indonesia untuk melonggarkan kebijakan. Skenario dasar adalah rupiah bergerak lemah-terkendali, dengan risiko bear bila yield AS dan minyak tetap tinggi bersamaan.",
+      "probabilities": {"bull": 0.10, "base": 0.45, "bear": 0.45},
+      "confidence": 64,
+      "thesis": "Bias rupiah memburuk dibanding akhir pekan lalu: USD/IDR kembali ke 18.000 dan kini naik pada horizon 20, 60, serta 120 hari. DXY memang datar dalam 20 hari, tetapi yield AS 4,68% tetap menarik dolar dan minyak yang masih mahal memperbesar kebutuhan devisa impor. Skenario base adalah stabil-lemah, dengan peluang depresiasi lanjutan setara bila tidak ada perbaikan arus modal atau neraca eksternal.",
       "evidence": [
-        "USD/IDR 18.000: +1,0%/20 hari, +4,1%/60 hari, +6,9%/120 hari",
-        "Dollar Index 101,27: datar 20 hari tetapi +2,4%/60 hari dan +3,7%/120 hari",
-        "US10Y 4,68%: kenaikan lintas horizon menaikkan opportunity cost memegang aset rupiah",
-        "Minyak 83,31: +20,3%/20 hari memperbesar kebutuhan dolar untuk impor energi",
-        "Emas turun -9,7%/60 hari, belum memberi sinyal risk hedge global yang benar-benar mendukung rupiah"
+        "USD/IDR 18.000: +1,0%/20 hari, +4,1%/60 hari, dan +6,9%/120 hari",
+        "DXY 101,32 datar 20 hari tetapi masih +2,7%/60 hari dan +4,5%/120 hari",
+        "US10Y 4,68% menguat pada horizon 20–120 hari",
+        "Minyak 83,39 masih +20,5%/20 hari meski turun 22,0%/60 hari",
+        "Pantulan IHSG belum disertai volume kuat, sehingga belum menjadi bukti arus modal masuk yang kukuh"
       ],
-      "causal_chain": "yield dolar tinggi + DXY menguat moderat + tagihan impor energi naik → permintaan USD domestik naik dan inflow portofolio selektif → rupiah sulit menguat berkelanjutan → imported inflation dan biaya lindung nilai meningkat",
-      "beneficiaries": ["eksportir komoditas dengan pendapatan dolar", "emiten biaya rupiah dan penjualan ekspor", "perusahaan kas dolar bersih"],
-      "losers": ["importir bahan baku", "peritel dengan pasokan impor", "emiten berutang dolar besar", "sektor transportasi yang sensitif bahan bakar"],
-      "invalidation": "DXY turun di bawah 100, US10Y turun di bawah 4,2%, minyak kembali di bawah 75, dan USD/IDR tutup mingguan di bawah 17.600 secara konsisten",
+      "causal_chain": "yield AS tinggi + dolar menengah tetap kuat + tagihan minyak mahal → permintaan dolar dan premi risiko Indonesia meningkat → rupiah sulit menguat berkelanjutan → biaya impor, inflasi, dan beban utang dolar naik",
+      "beneficiaries": ["eksportir dengan biaya dominan rupiah", "emiten berpendapatan dolar dengan utang terkendali"],
+      "losers": ["importir bahan baku", "emiten berutang dolar tanpa natural hedge", "sektor dengan daya tawar harga rendah"],
+      "invalidation": "DXY dan US10Y turun berkelanjutan, minyak melemah di bawah tren menengah, dan USD/IDR menembus turun tren 60 hari disertai arus modal asing masuk",
       "not_prediction_of_price": true
     },
     {
-      "topic": "Defensif konsumsi vs energi 3–6 bulan",
-      "probabilities": {"bull": 0.30, "base": 0.48, "bear": 0.22},
+      "topic": "Konsumer defensif dan bank berkualitas vs siklikal 3–6 bulan",
+      "probabilities": {"bull": 0.35, "base": 0.45, "bear": 0.20},
       "confidence": 61,
-      "thesis": "Dalam risk-off, defensif konsumsi masih lebih layak menjadi inti portofolio karena permintaan relatif stabil dan beberapa emiten memperlihatkan relative strength tinggi. INDF, ICBP, dan UNVR semuanya berada di WATCH, meski momentum 20 hari tidak seragam sehingga seleksi tetap penting. Energi mendapat dorongan dari minyak +20,3%/20 hari dan ADRO menjadi kandidat paling kuat dengan skor 56,9 serta r20 10,5%, tetapi sektor ini lebih rentan terhadap pembalikan harga komoditas dan volatilitas. Skenario dasar adalah barbel: defensif konsumsi untuk stabilitas, energi hanya selektif pada produsen berbiaya rendah dan neraca kuat.",
+      "thesis": "Barbel konsumer defensif dan bank berkualitas tetap lebih menarik secara relatif daripada siklikal luas. INDF, ICBP, UNVR, dan BBCA masih positif dalam 60 hari ketika IHSG turun 16,2%. ADRO tetap kuat relatif, tetapi energi secara keseluruhan lemah dan divergen. Mineral, material, dan banyak saham energi belum mengonfirmasi pemulihan siklus; prioritasnya seleksi neraca, daya harga, kualitas aset, dan arus kas, bukan mengejar pantulan 20 hari.",
       "evidence": [
-        "INDF skor 55,0, r20 +4,2%, r60 +0,4%; ICBP skor 53,7, r20 +4,5%, r60 +3,4%",
-        "UNVR skor 52,7 dengan r60 +6,7% meski r20 -5,1%, menunjukkan defensif tidak lagi murah seragam",
-        "ADRO skor 56,9 tertinggi universe, r20 +10,5%, r60 +3,3%, relative strength 87,7",
-        "Minyak +20,3%/20 hari tetapi masih -22,1%/60 hari, sehingga sinyal energi sangat taktis",
-        "ITMG r20 +10,2% namun r60 -7,1%; PGAS r60 -20,3%, menegaskan energi tidak merata"
+        "Konsumer adalah sektor teratas dalam universe dengan skor rata-rata 51,6; INDF +0,4%, ICBP +3,4%, dan UNVR +6,7%/60 hari",
+        "BBCA +5,4%/60 hari, jauh mengungguli IHSG -16,2%; bank lain masih divergen: BBRI -3,9%, BMRI -6,1%, BBNI -7,4%",
+        "ADRO +3,3%/60 hari, tetapi ITMG -7,1%, PTBA -18,9%, PGAS -20,3%, dan MEDC -27,8%",
+        "Sektor mineral rata-rata 28,8 dan material 31,9; bijih besi -8,1%/60 hari serta aluminium -5,8%/20 hari",
+        "AUTO +9,6%/20 hari tetapi masih -0,4%/60 hari, sedangkan ASII -18,8%/60 hari; belum ada konfirmasi siklus otomotif luas"
       ],
-      "causal_chain": "risk-off + daya beli tertekan → investor mencari laba defensif → konsumsi kebutuhan pokok mendapat premium relatif; pada saat yang sama minyak naik → produsen hulu tertentu diuntungkan tetapi emiten hilir/importir biaya energi tertekan → strategi selektif mengungguli beta sektor",
-      "beneficiaries": ["INDF dan ICBP sebagai konsumsi pokok", "UNVR bila pricing power pulih", "ADRO sebagai energi selektif dengan momentum dan skor tertinggi"],
-      "losers": ["konsumer tanpa daya harga seperti MYOR saat input cost naik", "PGAS dan energi dengan tren 60 hari lemah", "transportasi, logistik, dan manufaktur energi-intensif"],
-      "invalidation": "IHSG kembali risk-on dengan breadth luas, minyak turun tajam di bawah 75 dan tetap rendah, atau skor energi melebar positif lintas emiten sementara konsumer gagal mempertahankan WATCH",
-      "not_prediction_of_price": true
-    },
-    {
-      "topic": "Perbankan Indonesia 3–6 bulan",
-      "probabilities": {"bull": 0.22, "base": 0.46, "bear": 0.32},
-      "confidence": 59,
-      "thesis": "Perbankan belum menjadi tema agresif karena rezim risk-off, rupiah lemah, dan yield AS tinggi membatasi ruang penurunan suku bunga domestik. Namun divergensi kualitas terlihat jelas: BBCA masih WATCH dengan skor 54,6 dan r60 +5,4%, sedangkan BMRI dan BBNI sudah AVOID dengan r60 negatif. BBRI masih WATCH tetapi r60 -3,9% menunjukkan pasar menuntut diskon untuk eksposur kredit lebih siklikal. Skenario dasar adalah sektor bergerak selektif: bank CASA kuat dan kualitas aset tinggi outperform, sementara bank yang lebih sensitif biaya dana dan kualitas kredit tertahan.",
-      "evidence": [
-        "BBCA skor 54,6, r20 +6,3%, r60 +5,4%, relative strength 92,5; paling defensif di bank besar",
-        "BBRI skor 48,1 masih WATCH tetapi r60 -3,9% dan trend 38,4",
-        "BMRI skor 46,1 dan BBNI skor 45,8 masuk AVOID dengan r60 masing-masing -6,1% dan -7,4%",
-        "BRIS skor 50,8, r20 +8,2%, r60 +3,1%; bank syariah masih menunjukkan momentum relatif",
-        "USD/IDR 18.000 dan US10Y 4,68% menahan prospek pelonggaran BI yang biasanya positif bagi valuasi bank"
-      ],
-      "causal_chain": "rupiah lemah + yield global tinggi → BI cenderung berhati-hati → biaya dana sulit turun cepat → NIM dan pertumbuhan kredit tidak ekspansif → valuasi bank besar selektif; kualitas CASA dan aset menjadi pembeda utama",
-      "beneficiaries": ["BBCA karena kualitas aset, CASA, dan relative strength terbaik", "BRIS karena momentum relatif dan basis pertumbuhan syariah", "bank dengan deposito murah dan NPL rendah"],
-      "losers": ["BBNI dan BMRI yang saat ini AVOID secara skor", "bank dengan eksposur kredit siklikal tinggi", "bank kecil yang bergantung pada dana mahal"],
-      "invalidation": "BI dapat memangkas suku bunga tanpa tekanan rupiah, pertumbuhan kredit kembali akseleratif, NPL tetap rendah, dan mayoritas bank besar naik ke skor >50 secara konsisten",
+      "causal_chain": "risk-off + rupiah lemah → investor memberi premium pada laba, kualitas aset, dan arus kas yang tahan → konsumer berdaya harga dan bank berkualitas unggul relatif; pada saat yang sama biaya modal serta input tinggi → siklikal berutang, importir, dan produsen berbiaya tinggi tertinggal",
+      "beneficiaries": ["INDF/ICBP dengan integrasi dan daya harga", "UNVR bila volume dan margin membaik", "BBCA dengan kualitas pendanaan/aset kuat", "ADRO hanya sebagai eksposur energi selektif"],
+      "losers": ["mineral/material tanpa pemulihan permintaan", "energi berbiaya tinggi atau berutang besar", "importir dan siklikal tanpa daya harga"],
+      "invalidation": "Relative strength INDF/ICBP/UNVR dan BBCA hilang terhadap IHSG, atau breadth siklikal meluas dengan perbaikan komoditas industri, volume pasar, laba, margin, arus kas, dan neraca yang terverifikasi",
       "not_prediction_of_price": true
     }
   ]
