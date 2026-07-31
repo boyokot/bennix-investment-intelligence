@@ -1,62 +1,62 @@
 {
   "analyst": "Hermes Agent — analisis manual metode Bennix",
-  "analyzed_at": "2026-07-30T18:33:00+07:00",
+  "analyzed_at": "2026-07-31T18:35:00+07:00",
   "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dan berita dipakai sebagai bukti; probabilitas merupakan judgement analis, bukan keluaran fungsi/rule prediksi otomatis.",
   "predictions": [
     {
       "topic": "IHSG 1–3 bulan",
-      "probabilities": {"bull": 0.16, "base": 0.50, "bear": 0.34},
+      "probabilities": {"bull": 0.18, "base": 0.51, "bear": 0.31},
       "confidence": 66,
-      "thesis": "IHSG melanjutkan pantulan ke 6.186,36 dan momentum 20 hari membaik menjadi +7,7%, tetapi belum cukup untuk menyatakan perubahan tren besar: kinerja 60 hari masih -12,5% dan 120 hari -31,2%. Volume 0,84 kali normal dan breadth tetap hanya 7 WATCH berbanding 25 AVOID. Minyak naik makin tajam ke 83,83, yield AS 4,62%, dan rupiah 18.080 mempertahankan tekanan biaya dan valuasi. Base case tetap konsolidasi volatil dengan bias rapuh; peluang bull dinaikkan tipis karena pantulan indeks dan beberapa saham pemimpin menguat, tetapi bear tetap besar sampai volume dan breadth mengonfirmasi.",
+      "thesis": "IHSG naik ke 6.236,13 dan mempertahankan pantulan 20 hari sebesar 6,1%, sehingga peluang pemulihan bertahap membaik tipis. Namun tren menengah belum pulih: indeks masih turun 12,2% dalam 60 hari dan 30,3% dalam 120 hari. Volume baru 0,87 kali normal, tidak ada emiten berstatus STUDY, dan breadth tetap sempit pada 7 WATCH berbanding 25 AVOID. Minyak 84,87, yield AS 4,66%, dan rupiah 17.990 menjaga rezim RISK-OFF. Base case adalah konsolidasi volatil dengan pantulan selektif, bukan awal bull market luas; bear tetap material bila biaya energi, yield, dan dolar menekan arus modal.",
       "evidence": [
-        "IHSG 6.186,36: +7,7%/20 hari, tetapi -12,5%/60 hari dan -31,2%/120 hari",
-        "Rasio volume IHSG 0,84; partisipasi masih di bawah normal",
-        "Breadth tidak meluas: 0 STUDY, 7 WATCH, dan 25 AVOID dari 32 emiten",
-        "Minyak 83,83: +22,2%/20 hari dan +32,5%/120 hari; volume 1,13 kali normal",
-        "US Treasury 10Y 4,62%: +4,6%/20 hari, +5,6%/60 hari, dan +8,1%/120 hari",
-        "USD/IDR 18.080: +0,5%/20 hari, +4,5%/60 hari, dan +7,7%/120 hari",
-        "Berita 30 Juli mengaitkan kenaikan harian IHSG dengan pemicu sentimen, sementara rivalitas global tetap menjadi risiko investasi"
+        "IHSG 6.236,13: +6,1%/20 hari, tetapi -12,2%/60 hari dan -30,3%/120 hari",
+        "Rasio volume IHSG 0,87; pantulan belum didukung transaksi di atas normal",
+        "Breadth tetap 0 STUDY, 7 WATCH, dan 25 AVOID dari 32 emiten",
+        "Minyak 84,87: +23,6%/20 hari dan +33,6%/120 hari dengan volume 1,16 kali normal",
+        "US Treasury 10Y 4,66%: +4,2%/20 hari, +4,9%/60 hari, dan +10,8%/120 hari",
+        "USD/IDR 17.990 masih +1,1%/20 hari, +4,0%/60 hari, dan +7,0%/120 hari",
+        "Berita 31 Juli menunjukkan optimisme pelaku pasar pada Indonesia, tetapi berita pasar lain tetap menyoroti sentimen global, arus asing, dan musim laporan keuangan"
       ],
-      "causal_chain": "minyak melonjak + yield AS tinggi + rupiah lemah → inflasi impor, kebutuhan devisa, dan daya tarik dolar bertahan → ruang pelonggaran BI serta ekspansi valuasi terbatas → margin importir dan saham berdurasi panjang tertekan → pantulan IHSG tanpa volume dan breadth luas rawan berubah menjadi konsolidasi atau uji ulang area bawah",
-      "beneficiaries": ["konsumer defensif dengan daya harga", "eksportir berpendapatan dolar dan biaya rupiah", "bank berkualitas dengan dana murah", "emiten yang mengonfirmasi laba dan arus kas kuat"],
+      "causal_chain": "minyak dan yield AS tinggi + rupiah masih lemah → inflasi impor, kebutuhan devisa, dan biaya modal bertahan → ruang ekspansi valuasi dan margin menyempit → investor memilih laba serta neraca yang terbukti → IHSG dapat memantul, tetapi tanpa volume dan breadth luas cenderung berkonsolidasi dan rentan uji ulang",
+      "beneficiaries": ["bank berkualitas dengan dana murah", "konsumer defensif dengan daya harga", "eksportir berpendapatan dolar dan biaya rupiah", "emiten dengan laba, arus kas, dan neraca terverifikasi"],
       "losers": ["importir bermargin tipis", "emiten berutang dolar tanpa natural hedge", "transportasi dan industri intensif energi tanpa daya harga", "siklikal berneraca lemah"],
-      "invalidation": "IHSG membentuk higher high dan bertahan di atas struktur 60 hari dengan volume konsisten di atas normal serta breadth meluas, bersamaan dengan minyak, US10Y, dan USD/IDR berbalik turun",
+      "invalidation": "IHSG bertahan di atas struktur 60 hari dengan volume konsisten di atas normal dan breadth meluas ke mayoritas emiten, bersamaan dengan penurunan minyak, US10Y, dan USD/IDR; atau sebaliknya menembus dasar pantulan dengan volume membesar",
       "not_prediction_of_price": true
     },
     {
       "topic": "Rupiah dan tekanan biaya impor 1–3 bulan",
-      "probabilities": {"bull": 0.10, "base": 0.41, "bear": 0.49},
-      "confidence": 68,
-      "thesis": "Rupiah masih berisiko stabil-lemah dan tekanan biaya impor meningkat. USD/IDR naik ke 18.080 dan menguat pada seluruh horizon 20–120 hari. DXY melemah 0,6%/20 hari, namun masih +2,3%/60 hari; kegagalan rupiah memanfaatkan pelemahan dolar jangka pendek menunjukkan faktor domestik atau arus modal belum cukup mendukung. Yield AS 4,62% menjaga daya tarik dolar, sementara lonjakan minyak +22,2%/20 hari menambah kebutuhan devisa dan risiko inflasi. Probabilitas bear dinaikkan tipis; stabilisasi tetap mungkin bila BI menjaga pasar dan DXY melanjutkan penurunan.",
+      "probabilities": {"bull": 0.12, "base": 0.43, "bear": 0.45},
+      "confidence": 67,
+      "thesis": "Rupiah membaik harian ke 17.990, tetapi belum mengubah tren stabil-lemah karena USD/IDR masih naik pada horizon 20–120 hari. DXY turun 0,6% dalam 20 hari, sedangkan rupiah tetap melemah 1,1%; divergensi ini menunjukkan dukungan dari pelemahan dolar global belum cukup mengalahkan tekanan domestik atau arus modal. Yield AS 4,66% mempertahankan daya tarik aset dolar, dan lonjakan minyak 23,6% dalam 20 hari menambah kebutuhan devisa impor. Probabilitas bear diturunkan sedikit karena level rupiah membaik dari sehari sebelumnya, tetapi risiko biaya impor masih dominan.",
       "evidence": [
-        "USD/IDR 18.080: +0,5%/20 hari, +4,5%/60 hari, dan +7,7%/120 hari",
-        "DXY 100,75 turun 0,6%/20 hari, tetapi masih +2,3%/60 hari dan +3,0%/120 hari",
-        "US10Y 4,62% menguat pada seluruh horizon 20–120 hari",
-        "Minyak 83,83 naik 22,2%/20 hari dan 32,5%/120 hari dengan volume di atas normal",
-        "IHSG masih -12,5%/60 hari, mengindikasikan risk appetite dan arus modal belum pulih penuh"
+        "USD/IDR 17.990: +1,1%/20 hari, +4,0%/60 hari, dan +7,0%/120 hari",
+        "DXY 100,26 turun 0,6%/20 hari, tetapi masih +1,8%/60 hari dan +2,7%/120 hari",
+        "US10Y 4,66% menguat pada seluruh horizon 20–120 hari",
+        "Minyak 84,87 naik 23,6%/20 hari dan 33,6%/120 hari dengan volume di atas normal",
+        "IHSG masih -12,2%/60 hari dan berita lama tentang keluarnya investor asing menandakan arus modal belum pulih penuh"
       ],
-      "causal_chain": "yield AS tinggi + dolar menengah masih kuat + tagihan minyak meningkat → arus ke aset dolar dan permintaan devisa impor bertambah → premi risiko serta permintaan USD bertahan → rupiah sulit menguat berkelanjutan → biaya bahan baku, energi, logistik, inflasi, dan beban utang dolar naik",
+      "causal_chain": "yield AS tinggi + kekuatan dolar menengah + tagihan minyak meningkat → aset dolar menarik dan permintaan devisa impor bertambah → premi risiko serta permintaan USD bertahan → penguatan rupiah sulit berkelanjutan → biaya bahan baku, energi, logistik, inflasi, dan beban utang dolar naik",
       "beneficiaries": ["eksportir dengan biaya dominan rupiah", "emiten berpendapatan dolar dengan utang terkendali"],
       "losers": ["importir bahan baku dan energi", "emiten berutang dolar tanpa lindung nilai", "transportasi dan konsumer tanpa daya tawar harga"],
-      "invalidation": "DXY dan US10Y turun berkelanjutan, minyak kembali di bawah tren 20 hari, serta USD/IDR menembus turun struktur 60 hari disertai arus modal asing masuk",
+      "invalidation": "DXY dan US10Y turun berkelanjutan, minyak kembali di bawah tren 20 hari, dan USD/IDR menembus turun struktur 60 hari disertai arus modal asing masuk",
       "not_prediction_of_price": true
     },
     {
       "topic": "Seleksi kualitas vs reli siklikal 3–6 bulan",
-      "probabilities": {"bull": 0.40, "base": 0.44, "bear": 0.16},
-      "confidence": 66,
-      "thesis": "Seleksi kualitas diperkirakan tetap mengungguli pembelian siklikal secara luas. BBCA, AUTO, ICBP, dan UNVR tetap positif 60 hari saat IHSG turun 12,5%; AUTO paling kuat, tetapi ASII masih -15,7%, sehingga belum ada pemulihan otomotif yang merata. ADRO masuk WATCH dan minyak melonjak, namun saham energi lain masih negatif besar dalam 60 hari—MEDC -25,7%, PTBA -20,3%, PGAS -19,8%, ITMG -7,6%—yang mengisyaratkan transmisi harga komoditas ke laba belum dipercaya pasar. Mineral, material, dan kesehatan berada di dasar ranking; harga aluminium dan bijih besi juga melemah 60 hari. Musim laporan keuangan menjadi ujian utama: utamakan laba, margin, arus kas, dan neraca yang terverifikasi daripada tema makro semata.",
+      "probabilities": {"bull": 0.41, "base": 0.44, "bear": 0.15},
+      "confidence": 67,
+      "thesis": "Seleksi kualitas masih lebih masuk akal daripada membeli siklikal secara luas. AUTO dan BBCA menjadi dua pemimpin: keduanya positif 60 hari ketika IHSG turun 12,2%, tetapi ASII masih -11,3%, sehingga kekuatan otomotif belum merata. BBRI masuk WATCH setelah naik 12,2% dalam 20 hari, namun BBNI dan BMRI masih negatif sekitar 7–8% dalam 60 hari. Energi menunjukkan pantulan pada ADRO, ITMG, dan MEDC, tetapi kinerja 60 hari sektor tetap lemah dan minyak sendiri masih turun 17,0%/60 hari meski melonjak jangka pendek. Aluminium dan bijih besi melemah 60 hari, membatasi keyakinan pada rotasi mineral/material. Musim laporan keuangan harus menjadi filter: prioritaskan kualitas laba, margin, arus kas, dan neraca, bukan momentum harga saja.",
       "evidence": [
-        "AUTO +17,0%/20 hari dan +7,4%/60 hari, sedangkan ASII masih -15,7%/60 hari",
-        "BBCA +8,4%/60 hari saat IHSG -12,5%; BBRI -5,1%, BMRI -7,4%, dan BBNI -9,4% menegaskan seleksi kualitas bank",
-        "Konsumer dan otomotif memimpin skor sektor 49,9; ICBP +4,5%, UNVR +4,6%, dan INDF datar/60 hari",
-        "ADRO mencapai WATCH dengan +10,1%/20 hari, tetapi MEDC, PTBA, PGAS, dan ITMG masih negatif 7,6–25,7%/60 hari",
-        "Mineral 32,5 dan material 31,7 termasuk sektor terlemah; bijih besi -8,9% dan aluminium -3,4%/60 hari",
-        "Tidak ada emiten berstatus STUDY; breadth keseluruhan belum mendukung rotasi siklikal luas"
+        "AUTO +15,1%/20 hari dan +6,2%/60 hari, sedangkan ASII masih -11,3%/60 hari",
+        "BBCA +6,3%/60 hari saat IHSG -12,2%; BBRI membaik +12,2%/20 hari tetapi masih -3,8%/60 hari",
+        "Otomotif memimpin skor sektor 50,7, disusul konsumer 47,6 dan perbankan 46,8; belum ada sektor berstatus positif",
+        "ADRO +7,0%, ITMG +9,1%, dan MEDC +16,8%/20 hari, tetapi semuanya masih negatif 2,8–25,3%/60 hari",
+        "Aluminium -6,3% dan bijih besi -9,2%/60 hari; mineral dan material tetap di kelompok sektor terbawah",
+        "Tidak ada emiten STUDY; reli tetap selektif dan belum menjadi rotasi siklikal luas"
       ],
-      "causal_chain": "risk-off + rupiah lemah + biaya energi/modal tinggi → investor memberi premium pada kepastian laba, dana murah, daya harga, dan neraca sehat → saham berkualitas unggul relatif; sementara permintaan logam lemah dan biaya input tinggi → siklikal, importir, dan produsen berneraca lemah tertinggal; lonjakan minyak hanya menguntungkan energi jika realisasi volume, biaya, dan arus kas ikut membaik",
-      "beneficiaries": ["BBCA karena relative strength dan kualitas pendanaan", "ICBP/INDF bila integrasi menahan tekanan input", "AUTO bila laba mengonfirmasi kekuatan harga", "ADRO secara selektif bila transmisi komoditas terlihat pada kas"],
-      "losers": ["mineral/material tanpa pemulihan permintaan", "energi dengan utang atau biaya tinggi", "importir dan siklikal tanpa daya harga", "emiten yang reli tanpa konfirmasi laba dan arus kas"],
+      "causal_chain": "risk-off + rupiah lemah + biaya energi dan modal tinggi → premium berpindah ke kepastian laba, dana murah, daya harga, dan neraca sehat → saham berkualitas unggul relatif; sementara permintaan logam dan breadth lemah → reli siklikal mudah gagal kecuali harga komoditas ditransmisikan menjadi volume, margin, dan arus kas",
+      "beneficiaries": ["BBCA karena relative strength dan kualitas pendanaan", "AUTO bila laba mengonfirmasi momentum", "ICBP/INDF bila integrasi menahan tekanan input", "ADRO secara selektif bila arus kas mengikuti pantulan komoditas"],
+      "losers": ["mineral/material tanpa pemulihan permintaan", "energi dengan biaya atau utang tinggi", "importir dan siklikal tanpa daya harga", "emiten yang reli tanpa konfirmasi laba dan kas"],
       "invalidation": "Relative strength pemimpin kualitas hilang terhadap IHSG, atau breadth siklikal meluas disertai perbaikan harga komoditas industri, volume, laba, margin, arus kas, dan neraca yang terverifikasi",
       "not_prediction_of_price": true
     }
