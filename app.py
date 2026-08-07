@@ -154,13 +154,17 @@ def build_indicators(proxies, generated_at):
     return out
 
 def enrich_news(news):
-    topics={'Geopolitik':['perang','iran','israel','china','amerika','tarif','trump'],
+    topics={'Konflik & Perang Dunia':['perang','konflik','invasi','sanksi','militer','rudal','serangan','rusia','ukraina','iran','israel','palestina','gaza','taiwan','china'],
+            'Kondisi Alam & Bencana':['gempa','tsunami','banjir','longsor','topan','badai','kekeringan','cuaca','iklim','el nino','la nina','gelombang panas','kebakaran','tornado','puting beliung'],
+            'Gagal Panen & Produksi Komoditas':['gagal panen','panen','produksi menurun','produksi turun','pasokan','pangan','beras','gandum','jagung','kelapa sawit','cpo','pupuk','kekurangan pasokan','gandum'],
+            'Geopolitik':['tarif','trump','asing','embargo','sanksi'],
             'Makro':['inflasi','rupiah','suku bunga','ekonomi','pdb','defisit','surplus'],
             'Emiten':['saham','emiten','laba','dividen','ipo','bei'],
             'Komoditas':['minyak','emas','nikel','batu bara','pangan']}
     out=[]
     for n in news:
-        score=sentiment(n.get('title','')); topic='Umum'
+        score=sentiment(n.get('title',''))
+        topic='Umum'
         low=n.get('title','').lower()
         for k,words in topics.items():
             if any(w in low for w in words): topic=k; break
@@ -193,8 +197,17 @@ def scan():
     proxies={}; sources=set()
     for name,symbol in CFG['proxies'].items():
         rows,src=chart(symbol); sources.add(src); proxies[name]=metrics(rows); proxies[name]['_source']=src
-    bench=proxies['IHSG']; news,nsrc=rss_news('ekonomi Indonesia OR emiten IHSG OR geopolitik investasi'); sources.add(nsrc)
-    news=enrich_news(news)
+    bench=proxies['IHSG']
+    news_queries=['ekonomi Indonesia OR emiten IHSG OR geopolitik investasi',
+                  'perang konflik dunia OR konflik Timur Tengah OR Rusia Ukraina',
+                  'bencana alam cuaca ekstrem banjir gempa OR El Nino tanah longsor',
+                  'gagal panen pangan OR harga beras OR produksi komoditas gandum']
+    news=[]; nsrcs=set()
+    for q in news_queries:
+        part,src=rss_news(q,limit=6); news+=part; nsrcs.add(src)
+    news=list({n['title']:n for n in news}.values())
+    news=enrich_news(news); nsrc='RSS multi-topic'
+    sources|=nsrcs
     nscore=sentiment(' '.join(x['title'] for x in news))
     stocks=[]
     for ticker,sector in CFG['universe'].items():
