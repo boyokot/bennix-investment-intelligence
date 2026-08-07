@@ -68,8 +68,8 @@ def score_stock(m):
     w=CFG['weights']; score=sum(parts[k]*w[k] for k in parts)/sum(w.values())
     return round(clamp(score),1),parts
 
-def rss_news(query,limit=8):
-    url='https://news.google.com/rss/search?q='+urllib.parse.quote(query)+'&hl=id&gl=ID&ceid=ID:id'
+def rss_news(query,limit=8,hl='id',gl='ID',ceid='ID:id'):
+    url='https://news.google.com/rss/search?q='+urllib.parse.quote(query)+f'&hl={hl}&gl={gl}&ceid={ceid}'
     try:
         with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=12) as r: root=ElementTree.parse(r).getroot()
         out=[]
@@ -77,6 +77,46 @@ def rss_news(query,limit=8):
             out.append({'title':item.findtext('title',''),'link':item.findtext('link',''),'published':item.findtext('pubDate','')})
         return out,'google-news-rss'
     except Exception as e: return [],'rss-fallback:'+type(e).__name__
+
+def rss_feed(url,limit=10,label=''):
+    """Ambil item RSS/Atom dari feed langsung (sumber global)."""
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=15) as r: root=ElementTree.parse(r).getroot()
+        out=[]
+        for item in root.findall('.//item')[:limit] or root.findall('.//{*}entry')[:limit]:
+            title=item.findtext('title','')
+            link=item.findtext('link','')
+            if not link:
+                ln=item.find('{*}link'); link=ln.get('href','') if ln is not None else ''
+            pub=item.findtext('pubDate','') or item.findtext('{*}published','') or item.findtext('{*}updated','')
+            if title: out.append({'title':title,'link':link,'published':pub})
+        return out,label or 'rss-feed'
+    except Exception as e:
+        return [],'feed-fallback:'+type(e).__name__
+
+def global_news():
+    """Berita global: Google News EN (perang/konflik, cuaca/alam, gagal panen/komoditas) + feed internasional."""
+    items=[]; srcs=set()
+    queries=[
+      ('geopolitics conflict war sanctions OR Russia Ukraine OR Middle East','en-US','US','US:en'),
+      ('extreme weather flood drought El Nino natural disaster','en-US','US','US:en'),
+      ('crop failure harvest wheat rice OR commodity production shortage','en-US','US','US:en'),
+    ]
+    for q,hl,gl,ceid in queries:
+        part,src=rss_news(q,limit=5,hl=hl,gl=gl,ceid=ceid)
+        for it in part: it['source']='Google News Global'
+        items+=part; srcs.add('Google News Global')
+    feeds=[
+      ('https://feeds.bbci.co.uk/news/world/rss.xml','BBC World'),
+      ('https://www.cnbc.com/id/100727362/device/rss/rss.html','CNBC Commodities'),
+      ('https://www.aljazeera.com/xml/rss/all.xml','Al Jazeera'),
+      ('https://finance.yahoo.com/news/rssindex','Yahoo Finance'),
+    ]
+    for url,label in feeds:
+        part,src=rss_feed(url,limit=6,label=label)
+        for it in part: it['source']=label
+        items+=part; srcs.add(label)
+    return items,srcs
 
 def sentiment(t):
     t=t.lower(); pos=['naik','tumbuh','surplus','rekor','ekspansi','untung','laba','menguat','investasi']; neg=['turun','rugi','defisit','perang','krisis','anjlok','utang','phk','melemah']
@@ -187,7 +227,7 @@ q('#top').innerHTML=`<div class="card"><h2>Regime Makro</h2><div class="big">${D
 q('#stockrows').innerHTML=D.stocks.map(s=>`<tr><td><b>${s.ticker}</b><details><summary>alasan</summary>${Object.entries(s.parts).map(([k,v])=>`${k}: ${Math.round(v)}`).join('<br>')}<br><small>${s.note}</small></details></td><td>${s.sector}</td><td><b>${s.score}</b><div class="bar"><i style="width:${s.score}%"></i></div></td><td class="${s.status}">${s.status}</td><td class="hide">${fmt(s.r20_pct)}</td></tr>`).join('');
 q('#sectors').innerHTML=D.sectors.map(s=>`<div class="card"><h2>${s.sector}</h2><div class="big">${s.score}</div><p>${s.count} emiten · ${s.direction}</p></div>`).join('');
 q('#pred').innerHTML=`<div class="card"><h2>Analisis manual</h2><b>${D.prediction_meta.analyst||'Hermes Agent'}</b><p>${D.prediction_meta.method||''}</p><small>Dianalisis: ${D.prediction_meta.analyzed_at||'menunggu pembaruan'}</small></div>`+D.predictions.map(p=>`<div class="card"><h2>${p.topic}</h2><p>Bull ${Math.round(p.probabilities.bull*100)}% · Base ${Math.round(p.probabilities.base*100)}% · Bear ${Math.round(p.probabilities.bear*100)}%</p><b>Confidence ${p.confidence}%</b><p>${p.thesis}</p><details><summary>Bukti & causal chain</summary><p>${(p.evidence||[]).map(x=>'• '+x).join('<br>')}</p><small>${p.causal_chain}</small></details><p><small>Invalidasi: ${p.invalidation}</small></p></div>`).join('');
-function drawNews(topic='Semua'){q('#newslist').innerHTML=D.news.filter(n=>topic==='Semua'||n.topic===topic).map(n=>`<a class="card news" href="${n.link}" target="_blank" rel="noopener"><span class="pill">${n.topic}</span><span class="${n.sentiment}">${n.sentiment}</span><h3>${n.title}</h3><small>${n.published||'Waktu tidak tersedia'} · Google News RSS</small></a>`).join('')||'<p class="muted">Belum ada berita.</p>'}const nts=['Semua',...new Set(D.news.map(x=>x.topic))];q('#newsfilters').innerHTML=nts.map(x=>`<button class="filter">${x}</button>`).join('');[...q('#newsfilters').children].forEach((b,i)=>b.onclick=()=>drawNews(nts[i]));drawNews();
+function drawNews(topic='Semua'){q('#newslist').innerHTML=D.news.filter(n=>topic==='Semua'||n.topic===topic).map(n=>`<a class="card news" href="${n.link}" target="_blank" rel="noopener"><span class="pill">${n.topic}</span><span class="${n.sentiment}">${n.sentiment}</span><h3>${n.title}</h3><small>${n.published||'Waktu tidak tersedia'} · ${n.source||'Google News'}</small></a>`).join('')||'<p class="muted">Belum ada berita.</p>'}const nts=['Semua',...new Set(D.news.map(x=>x.topic))];q('#newsfilters').innerHTML=nts.map(x=>`<button class="filter">${x}</button>`).join('');[...q('#newsfilters').children].forEach((b,i)=>b.onclick=()=>drawNews(nts[i]));drawNews();
 function drawInd(group='Semua'){q('#indrows').innerHTML=D.indicators.filter(x=>group==='Semua'||x.group===group).map(x=>`<tr><td><b>${x.name}</b><br><small>${x.group} · ${x.source}</small></td><td>${x.value==null?'—':x.value}<br><span>${x.trend} · 20H ${fmt(x.r20_pct)}</span></td><td class="hide">${x.use}<br><small>${x.causal_impact}</small></td><td class="${x.status==='LIVE'?'LIVE':'WATCH'}">${x.status}</td></tr>`).join('')}const ig=['Semua',...new Set(D.indicators.map(x=>x.group))];q('#indfilters').innerHTML=ig.map(x=>`<button class="filter">${x}</button>`).join('');[...q('#indfilters').children].forEach((b,i)=>b.onclick=()=>drawInd(ig[i]));drawInd();
 </script></body></html>'''
     return html
@@ -205,8 +245,16 @@ def scan():
     news=[]; nsrcs=set()
     for q in news_queries:
         part,src=rss_news(q,limit=6); news+=part; nsrcs.add(src)
-    news=list({n['title']:n for n in news}.values())
-    news=enrich_news(news); nsrc='RSS multi-topic'
+    for it in news: it['source']='Google News ID'
+    # Berita global dari luar Indonesia
+    gnews, gsrcs = global_news(); nsrcs |= gsrcs
+    news+=gnews
+    seen={}
+    for it in news:
+        key=(it.get('title') or '').strip().lower()
+        if key and key not in seen: seen[key]=it
+    news=list(seen.values())
+    news=enrich_news(news); nsrc='RSS lokal + global'
     sources|=nsrcs
     nscore=sentiment(' '.join(x['title'] for x in news))
     stocks=[]
