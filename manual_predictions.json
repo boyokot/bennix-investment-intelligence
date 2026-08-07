@@ -1,86 +1,84 @@
 {
   "analyst": "Hermes Agent — analisis manual metode Bennix",
-  "analyzed_at": "2026-08-07T11:30:00+07:00",
-  "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dan berita dipakai sebagai bukti; probabilitas merupakan judgement analis, bukan keluaran fungsi/rule prediksi otomatis.",
+  "analyzed_at": "2026-08-07T12:48:00+07:00",
+  "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dan berita dipakai sebagai bukti; probabilitas merupakan judgement analis, bukan keluaran fungsi/rule prediksi otomatis. Data kalkulasi 7 Agu 12:48 WIB (live Yahoo Finance + Google News RSS); beberapa re-run pada sesi tengah hari sempat jatuh ke data demo karena jaringan, sehingga angka yang dipakai hanya snapshot live yang konsisten dengan IHSG 6.388,5.",
   "predictions": [
     {
-      "topic": "IHSG 1–3 bulan",
-      "probabilities": {"bull": 0.16, "base": 0.49, "bear": 0.35},
-      "confidence": 68,
-      "thesis": "IHSG ditutup di 6.234,5 setelah berita hari ini menyebut tekanan sentimen Timur Tengah. Pantulan 20 hari masih positif 5,4%, tetapi indeks tetap turun 10,4% dalam 60 hari dan 30,5% dalam 120 hari; volume 0,91 kali normal belum mengonfirmasi akumulasi luas. Breadth justru menyempit menjadi 0 STUDY, 5 WATCH, dan 27 AVOID. Risiko eksternal juga memburuk pada yield AS 4,74%, sementara minyak 79,69 masih naik 16,3% dalam 20 hari meski turun dari level 31 Juli. Karena itu base case tetap konsolidasi volatil dengan reli selektif, sedangkan probabilitas bear dinaikkan: shock geopolitik dapat cepat diteruskan ke energi, rupiah, biaya modal, dan arus asing.",
+      "topic": "IHSG dan arah risk-appetite 1–3 bulan",
+      "probabilities": {"bull": 0.18, "base": 0.47, "bear": 0.35},
+      "confidence": 66,
+      "thesis": "Pasar keluar dari pantulan tajam jangka pendek: IHSG 6.388,5 masih +7,8% dalam 20 hari setelah 5 Agustus ditutup naik 0,69% ke 6.363 menyusul meredanya ketegangan AS-Iran. Namun ini belum menjadi tren menengah yang bersih — indeks masih -11,0% dalam 60 hari dan -23,3% dalam 120 hari (drawdown -23,9%), dengan volume 1,12x normal yang belum menunjukkan akumulasi luas yang tegas. Breadth justru sempit: 0 STUDY, 15 WATCH, dan 17 AVOID dari 32 emiten, menandakan pemulihan belum merata. Kondisi eksternal mendua: rupiah stabil menguat jangka pendek dan DXY turun, tetapi US10Y 4,67 berada di puncak periode 120 hari (+13,8%) dan minyak naik +9,6%/20 hari, sehingga premi risiko tetap terjaga. Karena itu base case adalah konsolidasi volatil dengan reli selektif (quality bounce), bukan rotasi risiko yang luas; bear tetap material karena konflik global, risiko pangan-energi, dan biaya modal yang tinggi dapat menekan lagi.",
       "evidence": [
-        "IHSG 6.234,5: +5,4%/20 hari, tetapi -10,4%/60 hari dan -30,5%/120 hari",
-        "Volume IHSG 0,91 kali normal; belum ada konfirmasi transaksi di atas normal",
-        "Breadth menyempit menjadi 0 STUDY, 5 WATCH, dan 27 AVOID dari 32 emiten",
-        "Berita 3 Agustus: IHSG ditutup melemah dan dikaitkan dengan sentimen Timur Tengah",
-        "Minyak 79,69 masih +16,3%/20 hari dan +23,8%/120 hari; volume 1,17 kali normal",
-        "US Treasury 10Y 4,74% berada di puncak 120 hari: +5,8%/20 hari, +7,5%/60 hari, dan +12,8%/120 hari",
-        "USD/IDR 17.985 datar dalam 20 hari, tetapi masih +3,6%/60 hari dan +6,9%/120 hari"
+        "IHSG 6.388,5: +7,8%/20 hari, tetapi -11,0%/60 hari dan -23,3%/120 hari (drawdown -23,9%)",
+        "Berita 5 Agu: IHSG ditutup naik 0,69% ke 6.363 dan dibuka menguat ke 6.338 seiring redanya ketegangan AS-Iran",
+        "Breadth terbatas: 0 STUDY, 15 WATCH, 17 AVOID dari 32 emiten — pemulihan belum luas",
+        "Volume indeks 1,12x normal; belum ada konfirmasi transaksi di atas normal yang menyeluruh",
+        "US10Y 4,67 naik di 20/60/120 hari dan berada di puncak periode; DXY 99,95 turun 1,0%/20 hari",
+        "Minyak 78,24 +9,6%/20 hari dan +24,4%/120 hari; volume emas 2,11x normal menandakan arus safe-haven",
+        "Rezim MIXED risk 58,5: sinyal cukup untuk bertahan, belum memadai untuk RISK-ON atau RISK-OFF penuh"
       ],
-      "causal_chain": "eskalasi Timur Tengah → premi risiko dan risiko gangguan energi naik → minyak, inflasi impor, serta kebutuhan devisa berpotensi meningkat → yield/biaya modal dan tekanan rupiah bertahan → arus ke emerging market dan ekspansi valuasi melemah → IHSG cenderung volatil dengan kepemimpinan sempit",
-      "beneficiaries": ["emiten berarus kas kuat dan utang rendah", "bank berkualitas dengan dana murah", "konsumer defensif dengan daya harga", "eksportir dolar yang tidak terbebani biaya energi besar"],
-      "losers": ["importir bermargin tipis", "emiten berutang dolar tanpa natural hedge", "transportasi dan industri intensif energi", "siklikal berneraca lemah"],
-      "invalidation": "Skenario defensif batal bila ketegangan mereda, minyak dan US10Y turun berkelanjutan, USD/IDR menguat menembus struktur 60 hari, serta IHSG pulih di atas struktur 60 hari dengan volume di atas normal dan mayoritas sampel menjadi WATCH/STUDY; bear terkonfirmasi bila dasar pantulan ditembus dengan volume membesar",
+      "causal_chain": "meredanya ketegangan AS-Iran + rupiah stabil → sentimen jangka pendek membaik dan IHSG memantul → namun yield AS tinggi, minyak naik, dan risiko pangan-energi belum hilang → pemulihan belum meluas dan masih dibawa saham tertentu → indeks berpeluang menyamping dengan reli selektif selama tak ada shock baru; shock geopolitik/biaya modal sebaliknya menekan energi, rupiah, dan arus asing",
+      "beneficiaries": ["emiten berarus kas kuat dan utang terkendali saat biaya modal tinggi", "saham kualitas yang mendapat aliran saat risk-off", "eksportir dolar yang tidak terbebani biaya energi besar"],
+      "losers": ["importir margin tipis saat rupiah tertekan dan yield tinggi", "emiten berutang dolar tanpa natural hedge", "sektor siklikal berneraca lemah"],
+      "invalidation": "Base case batal bila ketegangan geopolitik mereda lebih jauh, minyak dan US10Y turun berkelanjutan, USD/IDR menembus turun struktur 60 hari, serta IHSG pulih di atas struktur 60 dengan volume di atas normal dan breadth meluas ke mayoritas WATCH/STUDY; bear terkonfirmasi bila dasar pantulan ditembus dengan volume membesar dan katalis domestik/global memburuk",
       "not_prediction_of_price": true
     },
     {
       "topic": "Rupiah dan tekanan biaya impor 1–3 bulan",
-      "probabilities": {"bull": 0.14, "base": 0.41, "bear": 0.45},
-      "confidence": 69,
-      "thesis": "USD/IDR 17.985 hampir datar dalam 20 hari dan DXY turun 1,0%, sehingga rupiah mendapat jeda jangka pendek. Namun jeda ini belum menjadi penguatan struktural: USD/IDR masih naik 3,6% dalam 60 hari dan 6,9% dalam 120 hari. Yield AS naik ke 4,74% dan mencapai puncak periode 120 hari, menjaga daya tarik aset dolar. Risiko Timur Tengah menambah jalur tekanan melalui premi risiko dan tagihan energi; minyak memang turun dari 84,9 pada 31 Juli ke 79,69, tetapi masih naik tajam terhadap 20 dan 120 hari. Maka bear tetap skenario tunggal terbesar, dengan base berupa rupiah stabil-lemah karena pelemahan DXY sebagian mengimbangi tekanan yield dan minyak.",
+      "probabilities": {"bull": 0.22, "base": 0.43, "bear": 0.35},
+      "confidence": 67,
+      "thesis": "Rupiah mendapat jeda jangka pendek yang nyata: USD/IDR turun ke 17.905 (-1,2% dalam 20 hari) seiring DXY melemah 1,0%, sehingga biaya impor dan tekanan permintaan devisa sedikit longgar. Namun jeda ini belum menjadi penguatan struktural — pasangan masih naik 2,1% dalam 60 hari dan 6,0% dalam 120 hari, DXY masih +1,7%/60 dan +3,2%/120, sementara US10Y 4,67 di puncak periode membuat aset dolar tetap menarik. Risiko geopolitik dan El Nino menambah jalur tekanan: minyak 78,24 masih +9,6% terhadap 20 hari dan +24,4% terhadap 120 hari, dengan risiko beras/gandum yang bisa menaikkan tagihan impor pangan. Karena itu base case adalah rupiah stabil-lemah (melemah bila DXY dan minyak bangkit bersamaan), dan probabilitas bear tetap signifikan secara kolektif dari yield tinggi, premi geopolitik, dan risiko pangan.",
       "evidence": [
-        "USD/IDR 17.985: -0,1%/20 hari, tetapi +3,6%/60 hari dan +6,9%/120 hari",
-        "DXY 99,82 turun 1,0%/20 hari, namun masih +1,8%/60 hari dan +3,1%/120 hari",
-        "US10Y 4,74% naik pada seluruh horizon dan berada di puncak 120 hari",
-        "Minyak 79,69 masih +16,3%/20 hari dan +23,8%/120 hari dengan volume 1,17 kali normal",
-        "IHSG masih -10,4%/60 hari dan breadth domestik menyempit, menandakan arus risiko belum pulih",
-        "Sentimen Timur Tengah pada penutupan 3 Agustus membuka risiko tambahan untuk energi dan safe-haven dolar"
+        "USD/IDR 17.905: -1,2%/20 hari, tetapi +2,1%/60 hari dan +6,0%/120 hari",
+        "DXY 99,95: -1,0%/20 hari, namun masih +1,7%/60 hari dan +3,2%/120 hari",
+        "US10Y 4,67 naik pada 20/60/120 hari dan berada di puncak periode — aset dolar tetap menarik",
+        "Minyak 78,24 +9,6%/20 hari dan +24,4%/120 hari; emas 4.333,2 +5,6%/20 hari dengan volume 2,11x (safe haven)",
+        "Risiko gagal panen dan El Nino (beras, gandum) menyiratkan inflasi pangan impor dan permintaan devisa bisa naik",
+        "IHSG 60 hari masih -11,0% dengan breadth sempit: arus risiko asing belum pulih penuh"
       ],
-      "causal_chain": "yield AS tinggi + premi geopolitik + risiko tagihan minyak → aset dolar menarik dan permintaan devisa berpotensi naik → arus modal serta neraca pembayaran menghadapi tekanan → penguatan rupiah sulit berkelanjutan → biaya bahan baku, logistik, inflasi, dan beban utang dolar tetap tinggi",
-      "beneficiaries": ["eksportir dengan biaya dominan rupiah", "emiten berpendapatan dolar dengan utang terkendali", "bisnis dengan natural hedge"],
-      "losers": ["importir energi dan bahan baku", "emiten berutang dolar tanpa lindung nilai", "transportasi dan konsumer tanpa daya tawar harga"],
-      "invalidation": "DXY dan US10Y turun persisten, risiko geopolitik mereda, minyak kehilangan tren 20 hari, dan USD/IDR menembus turun struktur 60 hari disertai arus modal asing masuk",
+      "causal_chain": "yield US tinggi + premi geopolitik + risiko tagihan minyak dan pangan impor → aset dolar menarik dan permintaan devisa berpotensi naik → arus modal dan neraca pembayaran tertekan → penguatan rupiah sulit berkelanjutan → biaya bahan baku, logistik, inflasi, dan beban utang dolar tetap tinggi",
+      "beneficiaries": ["eksportir dengan biaya dominan rupiah", "emiten berpendapatan dolar dengan utang terkendali", "bisnis dengan lindung nilai natural"],
+      "losers": ["importir energi dan bahan pangan tanpa daya tawar harga", "emiten berutang dolar tanpa hedging", "konsumer dan transportasi tanpa daya tawar saat biaya impor naik"],
+      "invalidation": "Jeda menjadi penguatan struktural bila DXY dan US10Y turun persisten, risiko geopolitik mereda, minyak kehilangan tren 20 hari, dan USD/IDR menembus turun struktur 60 hari disertai aliran masuk modal asing; bear terulang bila yield dan minyak naik bersama dan USD/IDR menembus naik struktur 60 hari",
       "not_prediction_of_price": true
     },
     {
-      "topic": "Kualitas defensif vs reli komoditas 3–6 bulan",
-      "probabilities": {"bull": 0.39, "base": 0.46, "bear": 0.15},
-      "confidence": 68,
-      "thesis": "Kepemimpinan tetap sempit dan lebih mendukung seleksi kualitas defensif daripada pembelian komoditas luas. AUTO menjadi pemimpin jelas (+5,3%/60 hari) tetapi ASII -13,7%, sehingga sinyal otomotif tidak merata. INDF dan ICBP masuk WATCH dan relatif bertahan, cocok dengan kebutuhan daya harga serta integrasi saat biaya impor tinggi. Energi memberi pantulan pada MEDC +17,6%, ITMG +8,8%, dan ADRO +7,4% dalam 20 hari, tetapi seluruhnya masih negatif pada 60 hari; minyak juga masih -16,2%/60 hari. Mineral/material lebih lemah lagi: bijih besi -9,7%/60 hari, sedangkan ANTM, INCO, MDKA, dan TINS semuanya AVOID. Reli energi dapat diperdagangkan secara selektif jika laba dan kas mengonfirmasi, tetapi belum cukup bukti untuk rotasi komoditas luas.",
+      "topic": "Seleksi sektor 3–6 bulan: kualitas defensif vs reli komoditas/siklikal",
+      "probabilities": {"bull": 0.38, "base": 0.47, "bear": 0.15},
+      "confidence": 66,
+      "thesis": "Kepemimpinan tetap sempit dan bersifat bottom-up: kualitas defensif (daya tawar harga, arus kas, neraca sehat) masih mengungguli pembelian komoditas/siklikal secara luas. Konsumer adalah sektor paling kokoh — ICBP +12,5% dan INDF +8,8% dalam 60 hari saat IHSG -11,0%, dan Konsumer menjadi sektor dengan skor tertinggi (55,6). Otomotif menjadi kekecualian: AUTO memimpin (WATCH 63,4, +7,7%/60 hari) sementara ASII AVOID (-10,9%) — sinyal sektor tidak merata. Komoditas belum seragam: ITMG dan ADRO relatif bertahan, TINS dan INTP menguat dalam 60 hari, tetapi INCO, ANTM, dan SMGR tetap AVOID, dan sektor energi secara agregat masih lemah (41,7). Minyak naik terhadap 20 hari tapi masih -23,4% terhadap 60 hari, sehingga lonjakan geopolitik belum menjadi tren menengah yang layak dirotasi luas. Kesimpulan: tren menengah didorong seleksi (bottom-up) pada kualitas dan emiten berdaya tawar harga berarus kas, bukan rotasi komoditas menyeluruh.",
       "evidence": [
-        "AUTO +15,9%/20 hari dan +5,3%/60 hari, sementara ASII masih -13,7%/60 hari",
-        "INDF dan ICBP menjadi WATCH; masing-masing -0,7% dan +0,4%/60 hari saat IHSG -10,4%",
-        "Otomotif memimpin sektor dengan skor 48,8 dan konsumer 45,9; sepuluh sektor lain tergolong lemah",
-        "ADRO, ITMG, dan MEDC naik 7,4%–17,6%/20 hari, tetapi masih turun 1,2%–17,7%/60 hari",
-        "Minyak +16,3%/20 hari tetapi -16,2%/60 hari, menunjukkan lonjakan geopolitik belum menjadi tren menengah bersih",
-        "Bijih besi -9,7%/60 hari; seluruh empat saham mineral berstatus AVOID",
-        "Tidak ada emiten STUDY dan hanya 5 WATCH, sehingga reli belum luas"
+        "ICBP 63,7 (WATCH) +15,4%/20 hari dan +12,5%/60; INDF 62,4 +9,6%/20 dan +8,8%/60 — bertahan saat IHSG -11,0%/60",
+        "Sektor Konsumer skor 55,6 (tertinggi); Perbankan 48,4; Energi 41,7 dan Teknologi 43,0 lemah",
+        "AUTO 63,4 +14,8%/20 hari dan +7,7%/60 hari, sementara ASII AVOID -10,9%/60 — otomotif tidak merata",
+        "ITMG 53,5 & ADRO 52,3 relatif kuat; tetapi INCO, ANTM, SMGR, MEDC, PTBA, PGAS tetap AVOID",
+        "Minyak +9,6%/20 hari namun -23,4%/60 hari: lonjakan geopolitik belum jadi tren menengah bersih",
+        "Breadth 15 WATCH vs 17 AVOID dan 0 STUDY — reli belum luas"
       ],
-      "causal_chain": "risk-off + rupiah lemah + biaya modal/energi tinggi → premium berpindah ke dana murah, daya harga, arus kas, dan neraca sehat → kualitas defensif unggul relatif; geopolitik dapat mengangkat energi jangka pendek → hanya produsen dengan transmisi harga ke margin dan kas yang layak, sedangkan logam industri tetap tertahan permintaan lemah",
-      "beneficiaries": ["AUTO bila laba dan arus kas mengonfirmasi", "INDF/ICBP bila integrasi menahan biaya input", "BBCA secara relatif karena kualitas pendanaan meski status scanner turun", "ADRO/ITMG secara selektif bila harga komoditas masuk ke margin dan kas"],
-      "losers": ["mineral/material tanpa pemulihan permintaan", "importir dan siklikal tanpa daya harga", "energi berutang tinggi atau berbiaya tinggi", "emiten yang reli tanpa konfirmasi laba dan arus kas"],
-      "invalidation": "Preferensi kualitas batal bila relative strength pemimpin hilang; tesis anti-rotasi komoditas batal bila breadth energi/mineral meluas bersama perbaikan harga 60 hari, volume, laba, margin, arus kas, dan neraca terverifikasi",
+      "causal_chain": "biaya modal tinggi + risiko geopolitik/pangan + rupiah stabil-lemah → premi pindah ke biaya murah, daya tawar harga, arus kas, dan neraca sehat → kualitas defensif unggul relatif; geopolitik dapat mengangkat komoditas jangka pendek, tetapi hanya produsen yang menyalurkan harga ke margin dan kas yang layak → logam/siklikal tanpa pemulihan permintaan dan harga tetap tertinggal",
+      "beneficiaries": ["ICBP/INDF/UNVR bila daya tawar harga dan integrasi menahan biaya input", "AUTO bila laba dan arus kas mengonfirmasi", "ITMG/ADRO serta TINS/INTP secara selektif", "kualitas perbankan (BBCA) secara relatif"],
+      "losers": ["importir dan siklikal tanpa daya tawar harga", "mineral/logam tanpa pemulihan permintaan (INCO, ANTM, SMGR, MEDC)", "energi berutang tinggi yang tidak menyalurkan harga ke margin", "emiten yang memantul tanpa dukungan laba dan arus kas"],
+      "invalidation": "Preferensi kualitas gagal bila relative strength pemimpin hilang; tesis anti-rotasi luas gagal bila breadth energi/material meluas bersama perbaikan harga 60 hari, volume, laba, margin, arus kas, dan neraca terverifikasi; pada lingkungan RISK-ON penuh dengan rupiah menguat berkelanjutan, rotasi ke siklikal dapat berjalan",
       "not_prediction_of_price": true
     },
     {
-          "topic": "Konflik global, cuaca ekstrem & gagal panen — risiko inflasi pangan dan energi 3–6 bulan",
-          "probabilities": {"bull": 0.18, "base": 0.46, "bear": 0.36},
-          "confidence": 67,
-          "thesis": "Kategori berita baru menegaskan tiga tekanan yang saling terhubung. (1) Perang/konflik: ketegangan AS-Iran mereda untuk sesaat — IHSG dibuka menguat ke 6.338 menyambut redanya tekanan — tetapi aktor yang terlibat kian banyak dan Prabowo menilai perang Rusia-Ukraina dapat berlangsung lebih lama dari Perang Dunia, sehingga premi risiko geopolitik tidak hilang. (2) Kondisi alam: BNPB mencatat 814 bencana di Indonesia sepanjang 2026 yang didominasi banjir dan cuaca ekstrem, ditambah ancaman El Nino yang menekan produksi pangan Asia. (3) Kegagalan produksi komoditas: risiko El Nino dan dampak konflik global ke Iran memicu ancaman gagal panen, sehingga harga beras dan gandum berpotensi naik dan rantai pasok pangan global terganggu. Di pasar, minyak sudah +10% dalam 20 hari (78,55) dan emas +5,3% (4.321,7) sebagai cermin arus safe haven. Base case adalah tekanan harga pangan dan energi yang naik namun terkontrol, dengan pantulan jangka pendek tiap ketegangan mereda tapi risiko tetap menjulang bila panen gagal luas; bear mencerminkan gangguan pangan/energi lebih parah yang memicu inflasi impor dan tekanan rupiah; bull berarti pemulihan cuaca, panen membaik, dan konflik mereda tanpa memperparah rantai pasok.",
-          "evidence": [
-            "Berita AS-Iran: IHS dibuka naik ke 6.338 atas redanya ketegangan, namun 'Semakin Banyak Aktor Terlibat' menjaga premi tetap fluktuatif",
-            "Berita komoditas: 'Ancaman Gagal Panen Global akibat Serangan AS-Israel ke Iran' (Kompas)",
-            "Kondisi alam: BNPB 814 bencana di RI sepanjang 2026 didominasi banjir dan cuaca ekstrem; El Nino mengancam produksi pangan Asia dan harga beras/gandum berpotensi naik",
-            "Harga energi: Minyak 78,55 +10,0%/20 hari (r60 -23,1%); Emas 4.321,7 +5,3%/20 hari menandai arus safe haven",
-            "Indeks: IHSG 6.364,1 -10,9%/60 hari (MIXED, risk 59) — pasar domestik belum keluar dari tekanan energi & pangan",
-            "Sektor: Konsumer (ICBP 63,6 WATCH, INDF 62,0 WATCH, UNVR 52,6 WATCH) relatif bertahan karena daya harga; energi (ADRO 52,3, ITMG 52,9) mulai WATCH",
-            "Breadth 15 WATCH vs 17 AVOID: kualitas defensif dan konsumer tetap unggul dalam ketidakpastian iklim-geopolitik"
-          ],
-          "causal_chain": "geopolitik (AS-Iran, Rusia-Ukraina) + cuaca ekstrem/El Nino → gangguan produksi dan rantai pasok pertanian → harga beras, gandum, dan pangan naik → inflasi pangan impor naik, tekanan rupiah dan biaya hidup → premi berpindah ke emas, energi, dan kualitas defensif (konsumer/CPO) → sektor energi-mineral belum tentu universal, sementara importir pangan dan siklikal berneraca lemah tertinggal; tesis batal bila panen dan pasokan membaik",
-          "beneficiaries": ["perusahaan pangan berdaya harga (ICBP, INDF, UNVR) dan eksportir CPO", "energi yang mampu melewatkan lonjakan minyak dengan arus kas kuat", "emas dan aset safe-haven", "eksportir pangan bila produksi negara asal gagal"],
-          "losers": ["importir pangan dan pengguna energi tanpa daya harga", "emiten siklikal berneraca lemah dengan biaya input tinggi", "industri yang bergantung pada pasokan pertanian impor", "transportasi dan peternakan yang ditekan biaya energi-pangan"],
-          "invalidation": "tesis ini batal bila cuaca memulih dengan panen cukup dan stabil, konflik mereda di seluruh kawasan (Iran, Rusia, Ukraina), harga beras/gandum turun persisten, dan rupiah menguat; bear terkonfirmasi bila panen gagal luas, harga pangan melonjak struktural, dan inflasi impor menekan lebih jauh",
-          "not_prediction_of_price": true
-        }
+      "topic": "Konflik global, cuaca ekstrem & risiko gagal panen — tekanan inflasi pangan & energi 3–6 bulan",
+      "probabilities": {"bull": 0.18, "base": 0.46, "bear": 0.36},
+      "confidence": 64,
+      "thesis": "Berita kategori baru (Konflik, Kondisi Alam/Bencana, Gagal Panen) membingkai risiko inflasi pangan-energi yang masih menjulang kendati ketegangan AS-Iran mereda sesaat — IHSG naik 0,69% ke 6.363 (dibuka 6.338) sebagai respon pasar. Namun (1) eskalasi bisa kembali: judul 'Semakin Banyak Aktor Terlibat' dan pernyataan Prabowo bahwa konflik Rusia-Ukraina bisa lebih lama dari PD I dan II menjaga premi; (2) iklim: BNPB mencatat 814 bencana di RI sepanjang 2026 didominasi banjir dan cuaca ekstrem, dan ancaman El Nino menekan produksi pangan Asia; (3) pasokan: ancaman gagal panen global dan alarm harga pangan pada disrupsi rantai pasok membuat beras dan gandum berpotensi naik. Di pasar, minyak 78,24 +9,6%/20 hari dan emas 4.333,2 +5,6%/20 hari (volume 2,11x) mencerminkan arus safe-haven. Base case adalah biaya pangan-energi yang tinggi dan fluktuatif; bear = gangguan panen/pasokan lebih parah memperkuat inflasi impor dan tekanan rupiah; bull = pemulihan cuaca dan panen membaik serta konflik mereda tanpa memperburuk rantai pasok.",
+      "evidence": [
+        "Berita 3–5 Agu: IHSG membaik atas meredanya ketegangan AS-Iran, tetapi 'Semakin Banyak Aktor Terlibat' dan risiko Rusia-Ukraina tetap menjadi ancaman (Prabowo)",
+        "BNPB: 814 bencana di RI sepanjang 2026 (banjir dan cuaca ekstrem mendominasi); El Nino menekan produksi pangan Asia",
+        "'El Nino Ancam Produksi Pangan Asia, Harga Beras dan Gandum Berpotensi Naik' (Kontan) dan 'Ancaman Gagal Panen Global akibat Serangan AS-Israel ke Iran' (Kompas)",
+        "Minyak 78,24 +9,6%/20 hari (r60 -23,4%); Emas 4.333,2 +5,6%/20 hari dengan volume 2,11x (safe haven)",
+        "Konsumer berdaya tawar harga terpilih (ICBP 63,7; INDF 62,4) WATCH tetap menarik saat biaya pangan-energi naik",
+        "US10Y 4,67 tinggi; USD/IDR -1,2%/20 hari sedikit meredakan tekanan dari sisi permintaan devisa"
+      ],
+      "causal_chain": "geopolitik (AS-Iran, Rusia-Ukraina) + cuaca ekstrem/El Nino → gangguan produksi dan rantai pasok pangan → harga beras, gandum, dan pangan naik → inflasi impor dan permintaan devisa naik → premi pindah ke emas, energi, dan kualitas (konsumer, CPO); importir pangan dan siklikal berneraca lemah tertinggal; tesis batal bila panen dan pasokan membaik",
+      "beneficiaries": ["perusahaan pangan berdaya tawar harga (ICBP, INDF) dan produsen CPO", "energi yang menyalurkan lonjakan minyak dengan arus kas kuat", "emas dan aset safe-haven", "eksportir pangan bila panen di negara asal gagal"],
+      "losers": ["importir pangan dan pengguna energi tanpa daya tawar harga", "emiten berneraca lemah dengan biaya input tinggi", "industri yang bergantung pasokan pangan impor; peternakan dan transportasi tertekan biaya energi-pangan"],
+      "invalidation": "Tesis berubah bila cuaca memulih dengan panen cukup dan stabil, konflik mereda di seluruh kawasan, harga beras/gandum turun berkelanjutan, dan rupiah menguat; bear terkonfirmasi bila panen gagal luas dan harga pangan-energi naik struktural",
+      "not_prediction_of_price": true
+    }
   ]
 }
