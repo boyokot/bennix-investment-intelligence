@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-11T18:40:15+07:00",
+  "generated_at": "2026-08-14T21:56:31+07:00",
   "sources": [
     "Al Jazeera",
     "BBC World",
@@ -12,78 +12,78 @@
   ],
   "regime": {
     "label": "MIXED",
-    "risk_score": 52.7,
+    "risk_score": 51.3,
     "signals": [
-      "IHSG 60h -9.2%",
-      "USD/IDR 20h -1.6%",
-      "Minyak 20h +3.8%",
-      "US10Y 20h +1.9%"
+      "IHSG 60h -3.0%",
+      "USD/IDR 20h -0.9%",
+      "Minyak 20h -1.0%",
+      "US10Y 20h +2.9%"
     ]
   },
   "proxies": {
     "IHSG": {
-      "price": 6267.88,
-      "r20": 0.037810761294885475,
-      "r60": -0.09235090021643655,
-      "r120": -0.2283404244728865,
-      "vol": 0.3233851325285265,
-      "drawdown": -0.25347562595462825,
-      "rel": -0.09235090021643655,
-      "volume_ratio": 1.124047273449571,
+      "price": 6401.89,
+      "r20": 0.03665318415597829,
+      "r60": -0.029905268450943212,
+      "r120": -0.19323520934673244,
+      "vol": 0.3234012925091612,
+      "drawdown": -0.23751481229386662,
+      "rel": -0.029905268450943212,
+      "volume_ratio": 1.2721301823220437,
       "_source": "yahoo-chart"
     },
     "USDIDR": {
-      "price": 17830.0,
-      "r20": -0.015515432610015978,
-      "r60": 0.007287723857409167,
-      "r120": 0.061037899291499276,
-      "vol": 0.07680285550671802,
-      "drawdown": -0.01980730201126668,
-      "rel": 0.007287723857409167,
+      "price": 17831.0,
+      "r20": -0.008562691131498434,
+      "r60": 0.007856658376667491,
+      "r120": 0.06460087169383244,
+      "vol": 0.07505504745716035,
+      "drawdown": -0.019752327659164126,
+      "rel": 0.007856658376667491,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "DollarIndex": {
-      "price": 99.83,
-      "r20": -0.01103631875902844,
-      "r60": 0.009567143727596594,
-      "r120": 0.02176048635712724,
-      "vol": 0.04470763410172612,
-      "drawdown": -0.01755736837623867,
-      "rel": 0.009567143727596594,
+      "price": 99.54,
+      "r20": -0.012049596895355119,
+      "r60": 0.002376636996799908,
+      "r120": 0.018792284768682554,
+      "vol": 0.04411737304668612,
+      "drawdown": -0.02041135208247702,
+      "rel": 0.002376636996799908,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "Minyak": {
-      "price": 82.32,
-      "r20": 0.0375599129629709,
-      "r60": -0.18632004364221888,
-      "r120": 0.26277031157982655,
-      "vol": 0.5657492251633252,
-      "drawdown": -0.27118192192119983,
-      "rel": -0.18632004364221888,
-      "volume_ratio": 1.0658403280129622,
+      "price": 81.65,
+      "r20": -0.010183008360333146,
+      "r60": -0.24236796818039041,
+      "r120": 0.23133772480884507,
+      "vol": 0.5564295342376937,
+      "drawdown": -0.2771137341128578,
+      "rel": -0.24236796818039041,
+      "volume_ratio": 1.114910932985448,
       "_source": "yahoo-chart"
     },
     "Emas": {
-      "price": 4445.8,
-      "r20": 0.09472795493350894,
-      "r60": -0.04965697358317189,
-      "r120": -0.10843280764313645,
-      "vol": 0.2532774588204887,
-      "drawdown": -0.16028258410940732,
-      "rel": -0.04965697358317189,
-      "volume_ratio": 2.718579052454222,
+      "price": 4438.5,
+      "r20": 0.10611310439590027,
+      "r60": -0.01504556013272218,
+      "r120": -0.14721312785750107,
+      "vol": 0.24766882682071853,
+      "drawdown": -0.16166136259651565,
+      "rel": -0.01504556013272218,
+      "volume_ratio": 3.127952785169548,
       "_source": "yahoo-chart"
     },
     "Yield_US": {
-      "price": 4.7,
-      "r20": 0.01952694114304765,
-      "r60": 0.04864984105073167,
-      "r120": 0.15967419266009708,
-      "vol": 0.15067330402452334,
-      "drawdown": -0.009694416211619594,
-      "rel": 0.04864984105073167,
+      "price": 4.67,
+      "r20": 0.028848281249294505,
+      "r60": 0.0010713766096193122,
+      "r120": 0.1595929900555364,
+      "vol": 0.13791872087968496,
+      "drawdown": -0.015384606108379661,
+      "rel": 0.0010713766096193122,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
@@ -93,161 +93,275 @@
       "r60": 0.03336919723577769,
       "r120": null,
       "vol": 0.12932294360766083,
-      "drawdown": -0.052319870603062535,
+      "drawdown": -0.04572563164903454,
       "rel": 0.03336919723577769,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "Aluminium": {
-      "price": 3548.25,
-      "r20": 0.02907482598607891,
-      "r60": -0.08832219938335051,
-      "r120": 0.1760855154126615,
-      "vol": 0.3511709721510377,
-      "drawdown": -0.1541716328963051,
-      "rel": -0.08832219938335051,
-      "volume_ratio": 0.5046728971962617,
+      "price": 3401.75,
+      "r20": -0.03605837347690566,
+      "r60": -0.12190242643262772,
+      "r120": 0.12836885313873458,
+      "vol": 0.33917276758382836,
+      "drawdown": -0.18909415971394516,
+      "rel": -0.12190242643262772,
+      "volume_ratio": 2.10752688172043,
       "_source": "yahoo-chart"
     },
     "BijihBesi": {
-      "price": 94.55,
-      "r20": -0.03824630861774703,
-      "r60": -0.15034144420436135,
-      "r120": -0.052035240857940535,
-      "vol": 0.13336954734057493,
-      "drawdown": -0.1514090414146988,
-      "rel": -0.15034144420436135,
+      "price": 95.05,
+      "r20": -0.03805277400807827,
+      "r60": -0.14013024909966032,
+      "r120": -0.043088681167815834,
+      "vol": 0.13457491082922163,
+      "drawdown": -0.14692151665956588,
+      "rel": -0.14013024909966032,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     }
   },
   "stocks": [
     {
-      "ticker": "AUTO.JK",
-      "sector": "Otomotif",
-      "score": 63.0,
-      "status": "WATCH",
+      "ticker": "ISAT.JK",
+      "sector": "Telekomunikasi",
+      "score": 74.0,
+      "status": "STUDY",
       "parts": {
-        "trend": 59.399399399399414,
-        "relative_strength": 83.84288559078257,
-        "risk": 87,
-        "liquidity": 35.464047542314574,
+        "trend": 88.71481028151774,
+        "relative_strength": 91.400137175145,
+        "risk": 57,
+        "liquidity": 100,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 2810.0,
-      "r20_pct": 11.51,
-      "r60_pct": 8.49,
-      "vol_pct": 25.78,
+      "price": 2540.0,
+      "r20_pct": 33.68,
+      "r60_pct": 18.14,
+      "vol_pct": 62.47,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
-      "ticker": "ICBP.JK",
-      "sector": "Konsumer",
-      "score": 61.5,
+      "ticker": "TINS.JK",
+      "sector": "Mineral",
+      "score": 65.1,
       "status": "WATCH",
       "parts": {
-        "trend": 64.31463273568538,
-        "relative_strength": 89.3868911347881,
-        "risk": 73,
-        "liquidity": 18.041231609934197,
+        "trend": 79.71988795518206,
+        "relative_strength": 100,
+        "risk": 33,
+        "liquidity": 52.0579803123559,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 7575.0,
-      "r20_pct": 13.91,
-      "r60_pct": 10.99,
-      "vol_pct": 34.85,
+      "price": 3890.0,
+      "r20_pct": 8.96,
+      "r60_pct": 27.12,
+      "vol_pct": 70.14,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "AUTO.JK",
+      "sector": "Otomotif",
+      "score": 64.9,
+      "status": "WATCH",
+      "parts": {
+        "trend": 64.34937611408198,
+        "relative_strength": 81.59114898038389,
+        "risk": 90,
+        "liquidity": 39.92981130731306,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 2900.0,
+      "r20_pct": 9.85,
+      "r60_pct": 13.73,
+      "vol_pct": 25.7,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
       "ticker": "INDF.JK",
       "sector": "Konsumer",
-      "score": 58.8,
+      "score": 61.8,
       "status": "WATCH",
       "parts": {
-        "trend": 53.81614695267834,
-        "relative_strength": 79.61888136677833,
-        "risk": 85,
-        "liquidity": 18.987075240502417,
+        "trend": 63.656716417910445,
+        "relative_strength": 78.86783743354293,
+        "risk": 87,
+        "liquidity": 20.423618289517485,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 7275.0,
-      "r20_pct": 7.38,
-      "r60_pct": 6.59,
-      "vol_pct": 28.8,
+      "price": 7425.0,
+      "r20_pct": 10.82,
+      "r60_pct": 12.5,
+      "vol_pct": 28.6,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
-      "ticker": "INTP.JK",
-      "sector": "Material",
-      "score": 53.4,
+      "ticker": "ICBP.JK",
+      "sector": "Konsumer",
+      "score": 60.2,
       "status": "WATCH",
       "parts": {
-        "trend": 60.568397120121276,
-        "relative_strength": 77.00846496325849,
-        "risk": 49,
-        "liquidity": 7.7480382422483745,
+        "trend": 63.87023519870236,
+        "relative_strength": 79.07359875041537,
+        "risk": 74,
+        "liquidity": 23.161252874917622,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 5350.0,
-      "r20_pct": 17.58,
-      "r60_pct": 5.42,
-      "vol_pct": 43.46,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "ITMG.JK",
-      "sector": "Energi",
-      "score": 51.0,
-      "status": "WATCH",
-      "parts": {
-        "trend": 45.88256784968684,
-        "relative_strength": 71.69384421418377,
-        "risk": 67,
-        "liquidity": 3.6078256835737474,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 24675.0,
-      "r20_pct": 2.81,
-      "r60_pct": 3.03,
-      "vol_pct": 29.15,
+      "price": 7600.0,
+      "r20_pct": 10.95,
+      "r60_pct": 12.59,
+      "vol_pct": 34.75,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
       "ticker": "ADRO.JK",
       "sector": "Energi",
-      "score": 50.5,
+      "score": 58.7,
       "status": "WATCH",
       "parts": {
-        "trend": 42.08909370199694,
-        "relative_strength": 65.84870092993123,
-        "risk": 78,
-        "liquidity": 3.420549329291996,
+        "trend": 57.428638320096525,
+        "relative_strength": 80.98542587400132,
+        "risk": 80,
+        "liquidity": 11.541578088848636,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
       "price": 2530.0,
-      "r20_pct": 2.02,
-      "r60_pct": 0.4,
-      "vol_pct": 35.1,
+      "r20_pct": 1.61,
+      "r60_pct": 13.45,
+      "vol_pct": 32.29,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "MDKA.JK",
+      "sector": "Mineral",
+      "score": 57.2,
+      "status": "WATCH",
+      "parts": {
+        "trend": 75.30315149576067,
+        "relative_strength": 100,
+        "risk": 21,
+        "liquidity": 2.628105380813313,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 2900.0,
+      "r20_pct": 9.02,
+      "r60_pct": 23.4,
+      "vol_pct": 82.88,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "INTP.JK",
+      "sector": "Material",
+      "score": 55.9,
+      "status": "WATCH",
+      "parts": {
+        "trend": 65.16461366181412,
+        "relative_strength": 77.99064445108678,
+        "risk": 52,
+        "liquidity": 12.361594042650632,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 5325.0,
+      "r20_pct": 13.3,
+      "r60_pct": 12.11,
+      "vol_pct": 42.65,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "ITMG.JK",
+      "sector": "Energi",
+      "score": 52.3,
+      "status": "WATCH",
+      "parts": {
+        "trend": 51.381353081270866,
+        "relative_strength": 65.0232276803253,
+        "risk": 73,
+        "liquidity": 5.482285498499384,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 25000.0,
+      "r20_pct": 4.82,
+      "r60_pct": 6.27,
+      "vol_pct": 24.44,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "MIKA.JK",
+      "sector": "Kesehatan",
+      "score": 48.7,
+      "status": "WATCH",
+      "parts": {
+        "trend": 50.197150997151,
+        "relative_strength": 69.55159811730361,
+        "risk": 48,
+        "liquidity": 0,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 1760.0,
+      "r20_pct": 0.28,
+      "r60_pct": 8.31,
+      "vol_pct": 41.54,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "BBCA.JK",
+      "sector": "Perbankan",
+      "score": 47.9,
+      "status": "AVOID",
+      "parts": {
+        "trend": 45.986979208736535,
+        "relative_strength": 65.0370610504653,
+        "risk": 56,
+        "liquidity": 0,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 6350.0,
+      "r20_pct": -1.93,
+      "r60_pct": 6.28,
+      "vol_pct": 47.03,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "BBRI.JK",
+      "sector": "Perbankan",
+      "score": 47.0,
+      "status": "AVOID",
+      "parts": {
+        "trend": 47.198298777246166,
+        "relative_strength": 56.938012872139446,
+        "risk": 54,
+        "liquidity": 7.010429862362333,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 3120.0,
+      "r20_pct": 5.05,
+      "r60_pct": 2.63,
+      "vol_pct": 39.42,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
       "ticker": "GOTO.JK",
       "sector": "Teknologi",
-      "score": 49.5,
-      "status": "WATCH",
+      "score": 46.9,
+      "status": "AVOID",
       "parts": {
         "trend": 40.0,
-        "relative_strength": 64.96686671476368,
+        "relative_strength": 51.09005965576516,
         "risk": 78,
         "liquidity": 0,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
       "price": 50.0,
       "r20_pct": 0.0,
@@ -256,552 +370,438 @@
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
-      "ticker": "TINS.JK",
-      "sector": "Mineral",
-      "score": 49.1,
-      "status": "WATCH",
-      "parts": {
-        "trend": 49.93642143505903,
-        "relative_strength": 71.0219681377125,
-        "risk": 30,
-        "liquidity": 31.447364832614277,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 3770.0,
-      "r20_pct": 8.33,
-      "r60_pct": 2.72,
-      "vol_pct": 76.03,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "BBCA.JK",
-      "sector": "Perbankan",
-      "score": 48.7,
-      "status": "WATCH",
-      "parts": {
-        "trend": 46.22014051522248,
-        "relative_strength": 72.25284121385293,
-        "risk": 53,
-        "liquidity": 0,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 6300.0,
-      "r20_pct": 2.86,
-      "r60_pct": 3.28,
-      "vol_pct": 47.4,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "BBRI.JK",
-      "sector": "Perbankan",
-      "score": 48.1,
-      "status": "WATCH",
-      "parts": {
-        "trend": 47.131868131868146,
-        "relative_strength": 62.83011457801155,
-        "risk": 53,
-        "liquidity": 10.57880407599306,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 3090.0,
-      "r20_pct": 10.36,
-      "r60_pct": -0.96,
-      "vol_pct": 39.54,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "ISAT.JK",
+      "ticker": "EXCL.JK",
       "sector": "Telekomunikasi",
-      "score": 48.1,
-      "status": "WATCH",
+      "score": 46.0,
+      "status": "AVOID",
       "parts": {
-        "trend": 41.33387777324079,
-        "relative_strength": 44.33864355489495,
-        "risk": 52,
-        "liquidity": 63.146216503414685,
+        "trend": 42.285622952129785,
+        "relative_strength": 42.689906925715526,
+        "risk": 53,
+        "liquidity": 39.19992309263732,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 2150.0,
-      "r20_pct": 15.59,
-      "r60_pct": -9.28,
-      "vol_pct": 56.16,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "MDKA.JK",
-      "sector": "Mineral",
-      "score": 48.0,
-      "status": "WATCH",
-      "parts": {
-        "trend": 56.171197223828806,
-        "relative_strength": 80.43288218077915,
-        "risk": 21,
-        "liquidity": 0,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 2920.0,
-      "r20_pct": 9.77,
-      "r60_pct": 6.96,
-      "vol_pct": 84.29,
+      "price": 2800.0,
+      "r20_pct": 8.53,
+      "r60_pct": -3.78,
+      "vol_pct": 46.84,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
       "ticker": "UNVR.JK",
       "sector": "Konsumer",
-      "score": 47.2,
+      "score": 45.7,
       "status": "AVOID",
       "parts": {
-        "trend": 40.65420795183745,
-        "relative_strength": 59.98709702911164,
-        "risk": 59,
-        "liquidity": 14.014115510117463,
+        "trend": 42.19236441094544,
+        "relative_strength": 48.61404603769025,
+        "risk": 60,
+        "liquidity": 14.1649867523613,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 1745.0,
-      "r20_pct": 4.18,
-      "r60_pct": -2.24,
-      "vol_pct": 27.59,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "KLBF.JK",
-      "sector": "Kesehatan",
-      "score": 46.3,
-      "status": "AVOID",
-      "parts": {
-        "trend": 40.61240934730056,
-        "relative_strength": 51.89497128992707,
-        "risk": 42,
-        "liquidity": 47.20386974274567,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 800.0,
-      "r20_pct": 9.59,
-      "r60_pct": -5.88,
-      "vol_pct": 44.7,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "BMRI.JK",
-      "sector": "Perbankan",
-      "score": 44.8,
-      "status": "AVOID",
-      "parts": {
-        "trend": 36.94505494505494,
-        "relative_strength": 60.73406248195944,
-        "risk": 50,
-        "liquidity": 11.326377509467084,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 4120.0,
-      "r20_pct": -0.96,
-      "r60_pct": -1.9,
-      "vol_pct": 41.29,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "MYOR.JK",
-      "sector": "Konsumer",
-      "score": 44.1,
-      "status": "AVOID",
-      "parts": {
-        "trend": 32.33577181703984,
-        "relative_strength": 55.47019055142086,
-        "risk": 42,
-        "liquidity": 38.67593382416161,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 1680.0,
-      "r20_pct": -3.17,
-      "r60_pct": -4.27,
-      "vol_pct": 43.59,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "MIKA.JK",
-      "sector": "Kesehatan",
-      "score": 44.0,
-      "status": "AVOID",
-      "parts": {
-        "trend": 42.72690601048811,
-        "relative_strength": 58.96086070875769,
-        "risk": 45,
-        "liquidity": 0,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 1800.0,
-      "r20_pct": 7.46,
-      "r60_pct": -2.7,
-      "vol_pct": 44.87,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "BRIS.JK",
-      "sector": "Perbankan Syariah",
-      "score": 43.4,
-      "status": "AVOID",
-      "parts": {
-        "trend": 37.67940662351773,
-        "relative_strength": 57.68089221567442,
-        "risk": 31,
-        "liquidity": 30.519251547166988,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 1770.0,
-      "r20_pct": 2.02,
-      "r60_pct": -3.28,
-      "vol_pct": 57.44,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "IPCC.JK",
-      "sector": "Logistik",
-      "score": 41.1,
-      "status": "AVOID",
-      "parts": {
-        "trend": 25.671872983090232,
-        "relative_strength": 45.71927266402003,
-        "risk": 64,
-        "liquidity": 11.99431940482405,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 1160.0,
-      "r20_pct": -4.92,
-      "r60_pct": -8.66,
-      "vol_pct": 37.93,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "BBNI.JK",
-      "sector": "Perbankan",
-      "score": 40.4,
-      "status": "AVOID",
-      "parts": {
-        "trend": 31.921899783303175,
-        "relative_strength": 46.59190260336546,
-        "risk": 49,
-        "liquidity": 9.615718434654623,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 3550.0,
-      "r20_pct": 2.31,
-      "r60_pct": -8.27,
-      "vol_pct": 44.82,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "JSMR.JK",
-      "sector": "Infrastruktur",
-      "score": 38.5,
-      "status": "AVOID",
-      "parts": {
-        "trend": 30.785185185185192,
-        "relative_strength": 45.707607455504416,
-        "risk": 46,
-        "liquidity": 0,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 2740.0,
-      "r20_pct": 1.48,
-      "r60_pct": -8.67,
-      "vol_pct": 39.98,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "MEDC.JK",
-      "sector": "Energi",
-      "score": 34.6,
-      "status": "AVOID",
-      "parts": {
-        "trend": 28.180382165605106,
-        "relative_strength": 32.41201887329164,
-        "risk": 24,
-        "liquidity": 27.152416274476515,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 1340.0,
-      "r20_pct": 7.2,
-      "r60_pct": -14.65,
-      "vol_pct": 58.92,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "BUKA.JK",
-      "sector": "Teknologi",
-      "score": 34.3,
-      "status": "AVOID",
-      "parts": {
-        "trend": 34.82553191489362,
-        "relative_strength": 28.717851742344447,
-        "risk": 29,
-        "liquidity": 7.205901867641473,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 118.0,
-      "r20_pct": 18.0,
-      "r60_pct": -16.31,
-      "vol_pct": 52.96,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "TLKM.JK",
-      "sector": "Telekomunikasi",
-      "score": 34.1,
-      "status": "AVOID",
-      "parts": {
-        "trend": 27.373310810810818,
-        "relative_strength": 38.69059043848741,
-        "risk": 29,
-        "liquidity": 3.780588557159,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 2610.0,
-      "r20_pct": 1.95,
-      "r60_pct": -11.82,
-      "vol_pct": 57.75,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "ASII.JK",
-      "sector": "Otomotif",
-      "score": 33.7,
-      "status": "AVOID",
-      "parts": {
-        "trend": 21.470848182466142,
-        "relative_strength": 30.957204879014878,
-        "risk": 42,
-        "liquidity": 10.385351589856844,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 4870.0,
-      "r20_pct": -0.2,
-      "r60_pct": -15.3,
-      "vol_pct": 43.77,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "ANTM.JK",
-      "sector": "Mineral",
-      "score": 33.7,
-      "status": "AVOID",
-      "parts": {
-        "trend": 30.600391389432485,
-        "relative_strength": 38.93512068301766,
-        "risk": 18,
-        "liquidity": 7.854744657545394,
-        "fundamental": 50,
-        "news": 47.6
-      },
-      "price": 3090.0,
-      "r20_pct": 5.82,
-      "r60_pct": -11.71,
-      "vol_pct": 65.16,
+      "price": 1775.0,
+      "r20_pct": 4.41,
+      "r60_pct": -1.11,
+      "vol_pct": 27.88,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
       "ticker": "INCO.JK",
       "sector": "Mineral",
-      "score": 33.5,
+      "score": 45.5,
       "status": "AVOID",
       "parts": {
-        "trend": 32.42674032195416,
-        "relative_strength": 41.32620477622939,
-        "risk": 13,
-        "liquidity": 4.655396782919766,
+        "trend": 54.94604748833032,
+        "relative_strength": 69.26351261182681,
+        "risk": 12,
+        "liquidity": 11.05635996485664,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 5250.0,
-      "r20_pct": 6.49,
-      "r60_pct": -10.64,
-      "vol_pct": 79.56,
+      "price": 5225.0,
+      "r20_pct": 6.42,
+      "r60_pct": 8.18,
+      "vol_pct": 76.95,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
-      "ticker": "PTBA.JK",
-      "sector": "Energi",
-      "score": 33.2,
+      "ticker": "KLBF.JK",
+      "sector": "Kesehatan",
+      "score": 43.5,
       "status": "AVOID",
       "parts": {
-        "trend": 17.33259352276378,
-        "relative_strength": 27.27546506576486,
-        "risk": 53,
-        "liquidity": 7.260821073447328,
+        "trend": 39.87317691819911,
+        "relative_strength": 43.057931141708934,
+        "risk": 42,
+        "liquidity": 36.60594704617967,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 2350.0,
-      "r20_pct": -2.89,
-      "r60_pct": -16.96,
-      "vol_pct": 35.0,
+      "price": 800.0,
+      "r20_pct": 5.26,
+      "r60_pct": -3.61,
+      "vol_pct": 44.61,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "IPCC.JK",
+      "sector": "Logistik",
+      "score": 41.9,
+      "status": "AVOID",
+      "parts": {
+        "trend": 30.132441646997126,
+        "relative_strength": 39.44131413605191,
+        "risk": 65,
+        "liquidity": 16.992293409139457,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 1175.0,
+      "r20_pct": -4.47,
+      "r60_pct": -5.24,
+      "vol_pct": 37.55,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "BMRI.JK",
+      "sector": "Perbankan",
+      "score": 41.7,
+      "status": "AVOID",
+      "parts": {
+        "trend": 32.76215805471124,
+        "relative_strength": 47.937971397293914,
+        "risk": 52,
+        "liquidity": 10.907591667047186,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 4170.0,
+      "r20_pct": -6.92,
+      "r60_pct": -1.42,
+      "vol_pct": 40.9,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "BRIS.JK",
+      "sector": "Perbankan Syariah",
+      "score": 41.2,
+      "status": "AVOID",
+      "parts": {
+        "trend": 34.9738219895288,
+        "relative_strength": 51.09005965576516,
+        "risk": 35,
+        "liquidity": 19.592172166578358,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 1790.0,
+      "r20_pct": -6.28,
+      "r60_pct": 0.0,
+      "vol_pct": 55.02,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "BBNI.JK",
+      "sector": "Perbankan",
+      "score": 40.1,
+      "status": "AVOID",
+      "parts": {
+        "trend": 35.7488973831226,
+        "relative_strength": 41.1485391879289,
+        "risk": 51,
+        "liquidity": 3.2815464656972124,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 3630.0,
+      "r20_pct": 1.4,
+      "r60_pct": -4.47,
+      "vol_pct": 44.77,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "ANTM.JK",
+      "sector": "Mineral",
+      "score": 38.4,
+      "status": "AVOID",
+      "parts": {
+        "trend": 38.83870967741936,
+        "relative_strength": 48.93952202135657,
+        "risk": 20,
+        "liquidity": 9.336348941445188,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 3070.0,
+      "r20_pct": 0.0,
+      "r60_pct": -0.97,
+      "vol_pct": 62.14,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "MYOR.JK",
+      "sector": "Konsumer",
+      "score": 37.9,
+      "status": "AVOID",
+      "parts": {
+        "trend": 24.346227499042524,
+        "relative_strength": 28.4507984106058,
+        "risk": 45,
+        "liquidity": 43.54075909151131,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 1675.0,
+      "r20_pct": -4.29,
+      "r60_pct": -10.19,
+      "vol_pct": 42.93,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
       "ticker": "SIDO.JK",
       "sector": "Kesehatan",
-      "score": 32.5,
+      "score": 37.1,
       "status": "AVOID",
       "parts": {
-        "trend": 7.712454722764006,
-        "relative_strength": 18.920820668717635,
+        "trend": 16.125687352710138,
+        "relative_strength": 20.133730191973005,
+        "risk": 47,
+        "liquidity": 69.49814836637685,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 346.0,
+      "r20_pct": -8.95,
+      "r60_pct": -13.93,
+      "vol_pct": 29.09,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "JSMR.JK",
+      "sector": "Infrastruktur",
+      "score": 35.7,
+      "status": "AVOID",
+      "parts": {
+        "trend": 29.35106772422208,
+        "relative_strength": 32.447255778061944,
         "risk": 46,
-        "liquidity": 51.261285695299065,
+        "liquidity": 0,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 352.0,
-      "r20_pct": -9.28,
-      "r60_pct": -20.72,
-      "vol_pct": 31.77,
+      "price": 2730.0,
+      "r20_pct": -0.73,
+      "r60_pct": -8.39,
+      "vol_pct": 39.63,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
-      "ticker": "PGAS.JK",
+      "ticker": "BUKA.JK",
+      "sector": "Teknologi",
+      "score": 32.7,
+      "status": "AVOID",
+      "parts": {
+        "trend": 32.16192937123171,
+        "relative_strength": 26.972919259555,
+        "risk": 28,
+        "liquidity": 0.9933785994263052,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 115.0,
+      "r20_pct": 6.48,
+      "r60_pct": -10.85,
+      "vol_pct": 52.54,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "PTBA.JK",
       "sector": "Energi",
-      "score": 29.5,
+      "score": 32.7,
       "status": "AVOID",
       "parts": {
-        "trend": 16.64864864864865,
-        "relative_strength": 21.723623471520433,
-        "risk": 29,
-        "liquidity": 19.15737377499791,
+        "trend": 18.76578087754922,
+        "relative_strength": 14.841044683345931,
+        "risk": 59,
+        "liquidity": 11.775961109609183,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 1490.0,
-      "r20_pct": 0.0,
-      "r60_pct": -19.46,
-      "vol_pct": 45.23,
+      "price": 2360.0,
+      "r20_pct": -2.07,
+      "r60_pct": -16.31,
+      "vol_pct": 29.12,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
-      "ticker": "EXCL.JK",
-      "sector": "Telekomunikasi",
-      "score": 29.4,
+      "ticker": "MEDC.JK",
+      "sector": "Energi",
+      "score": 31.9,
       "status": "AVOID",
       "parts": {
-        "trend": 11.651078151293392,
-        "relative_strength": 19.4956529267182,
-        "risk": 43,
-        "liquidity": 13.957252374482621,
+        "trend": 27.334906897456072,
+        "relative_strength": 17.39830338336373,
+        "risk": 25,
+        "liquidity": 28.75218793120235,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 2410.0,
-      "r20_pct": -4.74,
-      "r60_pct": -20.46,
-      "vol_pct": 42.83,
+      "price": 1315.0,
+      "r20_pct": 6.91,
+      "r60_pct": -15.16,
+      "vol_pct": 55.44,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
       "ticker": "SMGR.JK",
       "sector": "Material",
-      "score": 25.9,
+      "score": 31.1,
       "status": "AVOID",
       "parts": {
-        "trend": 15.398550724637689,
-        "relative_strength": 8.6061581801421,
-        "risk": 19,
-        "liquidity": 27.229637861548596,
+        "trend": 27.310961644654057,
+        "relative_strength": 20.209042398726094,
+        "risk": 20,
+        "liquidity": 22.131326195731475,
         "fundamental": 50,
-        "news": 47.6
+        "news": 50
       },
-      "price": 1545.0,
-      "r20_pct": 7.29,
-      "r60_pct": -25.36,
-      "vol_pct": 48.88,
+      "price": 1580.0,
+      "r20_pct": 4.98,
+      "r60_pct": -13.9,
+      "vol_pct": 48.5,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "PGAS.JK",
+      "sector": "Energi",
+      "score": 28.6,
+      "status": "AVOID",
+      "parts": {
+        "trend": 19.40000000000001,
+        "relative_strength": 13.435738668110849,
+        "risk": 29,
+        "liquidity": 17.0607605941862,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 1495.0,
+      "r20_pct": -0.33,
+      "r60_pct": -16.94,
+      "vol_pct": 45.16,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "TLKM.JK",
+      "sector": "Telekomunikasi",
+      "score": 28.2,
+      "status": "AVOID",
+      "parts": {
+        "trend": 20.216347319912696,
+        "relative_strength": 16.681457505227538,
+        "risk": 30,
+        "liquidity": 3.2970644279426864,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 2620.0,
+      "r20_pct": -1.5,
+      "r60_pct": -15.48,
+      "vol_pct": 57.15,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "ASII.JK",
+      "sector": "Otomotif",
+      "score": 26.4,
+      "status": "AVOID",
+      "parts": {
+        "trend": 10.98039215686275,
+        "relative_strength": 6.645615211320726,
+        "risk": 43,
+        "liquidity": 8.266837242814534,
+        "fundamental": 50,
+        "news": 50
+      },
+      "price": 4780.0,
+      "r20_pct": -6.27,
+      "r60_pct": -20.0,
+      "vol_pct": 42.73,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     }
   ],
   "sectors": [
     {
-      "sector": "Konsumer",
-      "score": 52.9,
+      "sector": "Mineral",
+      "score": 51.5,
       "count": 4,
       "direction": "netral"
     },
     {
+      "sector": "Konsumer",
+      "score": 51.4,
+      "count": 4,
+      "direction": "netral"
+    },
+    {
+      "sector": "Telekomunikasi",
+      "score": 49.4,
+      "count": 3,
+      "direction": "netral"
+    },
+    {
       "sector": "Otomotif",
-      "score": 48.4,
+      "score": 45.7,
       "count": 2,
       "direction": "netral"
     },
     {
       "sector": "Perbankan",
-      "score": 45.5,
+      "score": 44.2,
       "count": 4,
-      "direction": "netral"
-    },
-    {
-      "sector": "Perbankan Syariah",
-      "score": 43.4,
-      "count": 1,
-      "direction": "lemah"
-    },
-    {
-      "sector": "Teknologi",
-      "score": 41.9,
-      "count": 2,
-      "direction": "lemah"
-    },
-    {
-      "sector": "Logistik",
-      "score": 41.1,
-      "count": 1,
-      "direction": "lemah"
-    },
-    {
-      "sector": "Mineral",
-      "score": 41.1,
-      "count": 4,
-      "direction": "lemah"
-    },
-    {
-      "sector": "Kesehatan",
-      "score": 40.9,
-      "count": 3,
-      "direction": "lemah"
-    },
-    {
-      "sector": "Energi",
-      "score": 39.8,
-      "count": 5,
       "direction": "lemah"
     },
     {
       "sector": "Material",
-      "score": 39.6,
+      "score": 43.5,
+      "count": 2,
+      "direction": "lemah"
+    },
+    {
+      "sector": "Kesehatan",
+      "score": 43.1,
+      "count": 3,
+      "direction": "lemah"
+    },
+    {
+      "sector": "Logistik",
+      "score": 41.9,
+      "count": 1,
+      "direction": "lemah"
+    },
+    {
+      "sector": "Perbankan Syariah",
+      "score": 41.2,
+      "count": 1,
+      "direction": "lemah"
+    },
+    {
+      "sector": "Energi",
+      "score": 40.8,
+      "count": 5,
+      "direction": "lemah"
+    },
+    {
+      "sector": "Teknologi",
+      "score": 39.8,
       "count": 2,
       "direction": "lemah"
     },
     {
       "sector": "Infrastruktur",
-      "score": 38.5,
+      "score": 35.7,
       "count": 1,
-      "direction": "lemah"
-    },
-    {
-      "sector": "Telekomunikasi",
-      "score": 37.2,
-      "count": 3,
       "direction": "lemah"
     }
   ],
@@ -809,151 +809,176 @@
     {
       "topic": "IHSG dan arah risk-appetite 1–3 bulan",
       "probabilities": {
-        "bull": 0.14,
-        "base": 0.42,
-        "bear": 0.44
+        "bull": 0.22,
+        "base": 0.48,
+        "bear": 0.3
       },
-      "confidence": 72,
-      "thesis": "Hari kedua pelemahan menegaskan reli selektif pekan lalu habis: IHSG ditutup 6.267,88 (-1,53% dari 6.365,37), mengembalikan seluruh penguatan Senin dan kini hanya ~0,5% di atas level 6.234 (3 Agu) yang saya tetapkan sebagai garis konfirmasi bear. Return 20 hari menyusut ke +3,8% (dari +5,4%), 60 hari -9,2%, 120 hari -22,8%, drawdown melebar ke -25,3%, volume 1,12x normal — belum ada akumulasi. Katalis hari ini semuanya ke arah risiko: harapan kesepakatan Hormuz memudar dan AS-Iran malah saling menuntut ganti rugi (CNBC), minyak menembus 80 ke 82,20 (+3,7%), US10Y 4,70 di puncak baru periode 120 hari (+16,0%), rupiah berbalik melemah ke 17.830, dan anggota Fed Schmid mendorong suku bunga lebih tinggi (mortgage AS 6,69%). Berita lokal makin pesimistis: 'IHSG Terpangkas 33%, investor asing terus tinggalkan Indonesia' (InvestorTrust) dan 'IHSG Ditutup Melemah ke Level 6.234' menjadi rujukan level kritis. Breadth 12 WATCH vs 20 AVOID masih tanpa STUDY. Base case bergeser ke tekanan turun menuju uji 6.234; bear kini probabilitas tertinggi karena kombinasi harga, yield, minyak, dan rupiah semuanya bergerak melawan.",
+      "confidence": 68,
+      "thesis": "Skenario bear pekan lalu batal uji garis 6.234 dan berbalik kuat: IHSG ditutup 6.401,89 (+1,59% intraday dari pidato Prabowo, mengembalikan posisi ke atas struktur 60 hari). Katalis domestik jelas: 'IHSG Melejit Saat Prabowo Sampaikan Pencapaian Ekonomi RI' (Bloomberg Technoz) dan 'Realisasi Investasi RI Rp1.010 Triliun Semester I/2026 di Tengah Konflik Geopolitik' (Bisnis.com). Return 60 hari membaik dari -9,2% ke -3,0%; drawdown menyempit ke -23,8%; volume 1,27x. Namun r120 masih -19,3% dan US10Y tetap di 4,67 (+2,9%/20 hari) dengan Fed belum dovish — pemulihan kali ini bersifat reli katalis kepemimpinan melawan latar makro yang belum longgar. Breadth membaik menjadi 1 STUDY / 9 WATCH / 22 AVOID, dipimpin ISAT (STUDY 74,0) dan TINS. Base case naik ke konsolidasi positif di atas 6.350–6.400 dengan bias uji resistance struktur 60 hari; bull naik karena momentum domestik dan dolar melemah (DXY 99,53, -1,2%/20); bear turun karena garis 6.234 tertahan dan yield relatif turun sedikit, tetapi tidak bisa diabaikan bila global memburuk lagi.",
       "evidence": [
-        "IHSG 6.267,88: -1,53% dari 6.365,37 (Senin); +3,8%/20 hari, -9,2%/60 hari, -22,8%/120 hari (drawdown -25,3%) — hanya ~0,5% di atas 6.234 (3 Agu)",
-        "Minyak 82,20 +3,7% hari ini, tembus 80; intraday 'U.S. oil tops $84 as Hormuz deal hopes dwindle' (CNBC 11 Agu)",
-        "US10Y 4,70 +0,86% hari ini — puncak baru 120 hari (+16,0%); Fed's Schmid 'pushes rates higher' (Yahoo 11 Agu)",
-        "USD/IDR 17.830 +0,42% — penguatan Senin berbalik; DXY 99,82 stabil",
-        "Berita 11 Agu: 'Hormuz deadlock: Where oil prices could head next' (CNBC); AS dan Iran saling tuntut ganti rugi, harapan kesepakatan memudar",
-        "Berita lokal: 'Investor Asing Terus Tinggalkan Indonesia, IHSG Terpangkas 33%' (InvestorTrust); rujukan level 6.234 (suarasurabaya.net)",
-        "Breadth tetap sempit: 0 STUDY, 12 WATCH, 20 AVOID dari 32 emiten; volume indeks 1,12x normal",
-        "Regime MIXED risk 52,6 dengan sinyal IHSG 60h -9,2% dan minyak 20h +3,6% — sinyal campuran namun memburuk"
+        "IHSG 6.401,89: +1,59% intraday; r20 +3,7%, r60 -3,0% (membaik dari -9,2%), r120 -19,3%, drawdown -23,8%, volume 1,27x — reli katalis Prabowo, garis 6.234 tidak diuji",
+        "'IHSG Melejit Saat Prabowo Sampaikan Pencapaian Ekonomi RI' (Bloomberg Technoz 14 Agu); 'Pidato Presiden Prabowo Bikin IHSG Rebound 1,59%, Bisakah IHSG Lanjut Menguat?' (Kontan 14 Agu)",
+        "'Prabowo: Realisasi Investasi RI Rp1.010 Triliun Semester I/2026 di Tengah Konflik Geopolitik' (Bisnis.com 14 Agu) — katalis fundamental domestik",
+        "US10Y 4,67 +2,9%/20 hari, +16,0%/120 hari (tetap tinggi); 'US consumers sour on economy as inflation concerns remain' (Yahoo/UMich 14 Agu) — biaya modal global belum longgar",
+        "DXY 99,53 -1,2%/20 hari melemah — dolar kurang menarik, mendukung EM; USD/IDR 17.831 stabil",
+        "Breadth membaik: 1 STUDY (ISAT 74,0), 9 WATCH, 22 AVOID (dari 0/12/20); volume indeks 1,27x",
+        "Regime MIXED risk 51,3 (turun dari 52,7): sinyal IHSG 60h -3,0%, minyak 20h -0,9%, US10Y 20h +2,9% — campuran namun membaik"
       ],
-      "causal_chain": "harapan deal Hormuz memudar + AS-Iran saling menuntut ganti rugi + Rusia tolak gencatan dan Korea Utara kirim rudal → premi geopolitik naik dan minyak menembus 80 → tagihan impor dan biaya modal naik bersama (US10Y 4,70 puncak baru) → rupiah berbalik melemah dan arus asing tetap keluar → indeks kehilangan seluruh reli dan mendekati garis bear 6.234 → base case tekanan turun menuju uji level itu; de-eskalasi nyata atau penurunan yield berkelanjutan adalah satu-satunya pembalik",
+      "causal_chain": "pidato Prabowo + realisasi investasi Rp1.010 T memberi katalis fundamental domestik → risk appetite lokal membaik, rupiah stabil (17.831), dolar melemah (DXY 99,53) → IHSG rebound +1,59% dan breadth meluas → konsolidasi positif di atas 6.350–6.400 dengan bias menguji resistance 60 hari; pemulihan tetap bergantung pada latar global (US10Y tinggi, konflik) — bila yield naik lagi atau geopolitik eskalasi, reli bisa menguap",
       "beneficiaries": [
-        "emiten defensif berarus kas kuat yang bertahan di atas level relatif (ICBP, INDF, AUTO)",
-        "produsen energi berbiaya rendah saat minyak >80 dengan arus kas kuat (ITMG, ADRO secara selektif)",
-        "emas dan aset safe-haven saat premi risiko naik"
+        "emiten berkatalis kinerja/arus kas terkonfirmasi yang memimpin breadth (ISAT, TINS, AUTO, INDF, ICBP, MDKA, INTP)",
+        "defensif konsumer berdaya tawar harga (INDF, ICBP) saat risk-appetite membaik selektif",
+        "sektor yang mendapat dorongan dolar lemah dan realisasi investasi domestik"
       ],
       "losers": [
-        "siklikal berneraca lemah tanpa pemulihan harga (ASII, SMGR, PTBA, PGAS, MEDC)",
-        "sektor yang butuh risk-on dan likuiditas luas (teknologi, logistik, infrastruktur)",
-        "importir margin tipis saat rupiah melemah dan yield tinggi"
+        "siklikal berneraca lemah yang belum pulih harga (ASII -20%/60, TLKM -15,5%/60, PGAS, PTBA, SMGR, MEDC)",
+        "sektor yang bergantung risk-on penuh dan likuiditas luas (infrastruktur, teknologi, logistik)",
+        "emiten yang memantul tanpa dukungan laba/arus kas dan volume"
       ],
-      "invalidation": "Base case batal bila de-eskalasi berbuah kesepakatan nyata, minyak dan US10Y turun berkelanjutan, rupiah menguat kembali, dan IHSG pulih di atas struktur 60 hari dengan volume dan breadth meluas; bear terkonfirmasi bila 6.234 ditembus turun dengan volume membesar, atau eskalasi Hormuz menutup jalur minyak",
+      "invalidation": "Base case gagal bila US10Y dan minyak naik bersama dan rupiah melemah kembali ke >17.950, IHSG kehilangan penguatan dan kembali menguji garis 6.234; bull terkonfirmasi bila IHSG menembus naik struktur 60 hari dengan volume dan breadth meluas (STUDY bertambah), rupiah menguat berkelanjutan, dan yield AS turun; bear kembali bila 6.234 ditembus turun dengan volume membesar atau eskalasi Hormuz menutup jalur minyak",
       "not_prediction_of_price": true,
       "manual_analysis": true
     },
     {
       "topic": "Rupiah dan tekanan biaya impor 1–3 bulan",
       "probabilities": {
-        "bull": 0.18,
-        "base": 0.44,
-        "bear": 0.38
+        "bull": 0.2,
+        "base": 0.48,
+        "bear": 0.32
       },
-      "confidence": 68,
-      "thesis": "Penguatan rupiah Senin hanya jeda satu hari: USD/IDR kembali ke 17.830 (+0,42% dari 17.755) saat DXY stabil 99,82 dan minyak melonjak 82,20 (+3,7%). Pasangan masih -1,6% dalam 20 hari sehingga tekanan jangka pendek belum penuh, tetapi struktur 60 hari kembali positif (+0,7%) dan 120 hari +6,1% — tren melemah menengah belum patah. Jalur tekanan tagihan impor hidup kembali: minyak >80 menaikkan tagihan energi, US10Y 4,70 di puncak membuat aset dolar tetap menarik, dan sikap hawkish Fed (Schmid dorong suku bunga naik, mortgage 6,69%) berpotensi menguatkan DXY. Berita lokal hari ini justru membahas dampak pelemahan rupiah ke harga bahan pangan (Kompasiana 9 Agu) dan tekanan IHSG oleh sentimen global (Kontan 9 Agu). Base case: rupiah rentan melemah lagi dalam konsolidasi 17.750–17.950; perbaikan hanya akan berkelanjutan bila yield AS turun dan premi geopolitik mereda.",
+      "confidence": 64,
+      "thesis": "Rupiah stabil di 17.831 (datar dari 17.830) di tengah dolar yang melemah (DXY 99,53, -1,2%/20 hari) — tekanan pelemahan belum kembali, tetapi perbaikan juga belum mendalam. r20 -0,9% (rupiah masih sedikit menguat dalam 20 hari), r60 +0,8% dan r120 +6,5% (tren melemah menengah tetap utuh). Jalur biaya impor sedikit mereda karena minyak turun ke 81,72 (-0,9%/20, -24,2%/60) dari puncak >84, tetapi US10Y 4,67 tetap tinggi dan Fed belum dovish (survei UMich 14 Agu: konsumen AS makin cemas soal inflasi). Berita lokal masih mengangkat dampak pelemahan rupiah ke harga pangan (InvestasiKu, Kompasiana). Base case: rupiah konsolidasi 17.750–17.900 dengan bias datar-melemah ringan; penguatan berkelanjutan hanya bila DXY terus turun dan yield AS benar-benar melandai, sementara eskalasi Hormuz tetap menjadi risiko utama di sisi pelemahan.",
       "evidence": [
-        "USD/IDR 17.830: +0,42% dari 17.755 (Senin); -1,6%/20 hari, tetapi +0,7%/60 hari dan +6,1%/120 hari — tren melemah menengah masih utuh",
-        "DXY 99,82 stabil (+0,10% hari ini); US10Y 4,70 puncak baru 120 hari (+16,0%) — aset dolar tetap menarik",
-        "Minyak 82,20 +3,7% (intraday >84): 'Hormuz deadlock' dan harapan deal memudar (CNBC 11 Agu) — tagihan impor energi naik",
-        "Fed hawkish: 'Fed's Schmid pushes rates higher as mortgages hit 6.69%' (Yahoo 11 Agu) — risiko DXY menguat",
-        "Berita lokal: pelemahan rupiah berdampak ke harga bahan pangan (Kompasiana 9 Agu); IHSG tertekan sentimen global, fundamental kuat (Kontan 9 Agu)",
-        "El Nino dan alarm gandum masih hidup: panas rekor Eropa, kerugian panen ±€2 miliar (The Guardian 22 Jul) — inflasi pangan impor tetap menjadi risiko",
-        "Emas 4.444,9 +1,1% dengan volume 2,71x — arus safe-haven global menguat, mencerminkan risk-off"
+        "USD/IDR 17.831: datar dari 17.830; r20 -0,9%, r60 +0,8%, r120 +6,5% — tren melemah menengah belum patah",
+        "DXY 99,53 -1,2%/20 hari — dolar melemah, sedikit menopang rupiah dan EM",
+        "Minyak 81,72 -0,9%/20, -24,2%/60 (turun dari puncak >84); 'US consumers sour on economy as inflation concerns remain' (Yahoo/UMich 14 Agu)",
+        "US10Y 4,67 tetap tinggi (+2,9%/20, +16,0%/120) — aset dolar masih menarik, Fed belum dovish",
+        "Berita lokal: 'Apakah Rupiah Melemah Bisa Berdampak Pada IHSG?' (InvestasiKu 10 Agu); dampak pelemahan rupiah ke harga bahan pangan (Kompasiana 9 Agu)",
+        "Emas 4.440,4 +10,7%/20 hari volume 3,12x — arus safe-haven masih menguat, mencerminkan ketidakpastian global yang belum reda"
       ],
-      "causal_chain": "minyak >80 (Hormuz deadlock) + US10Y di puncak + Fed hawkish → tagihan impor energi naik dan aset dolar tetap menarik → permintaan devisa kembali naik dan rupiah berbalik melemah → tekanan biaya impor dan inflasi pangan-energi menghidup lagi; perbaikan rupiah hanya bertahan bila yield AS turun, DXY melemah persisten, dan premi geopolitik mereda",
+      "causal_chain": "dolar melemah (DXY 99,53) + minyak turun dari puncak (81,72) → tekanan permintaan devisa berkurang dan rupiah stabil di 17.831 → tekanan biaya impor mereda sementara; namun US10Y tinggi dan Fed belum dovish + potensi eskalasi Hormuz → rupiah rentan melemah lagi; perbaikan berkelanjutan hanya bila yield AS melandai, DXY turun persisten, dan premi geopolitik mereda",
       "beneficiaries": [
-        "eksportir dengan biaya dominan rupiah saat rupiah melemah",
+        "eksportir dengan biaya dominan rupiah saat rupiah stabil/melemah ringan",
         "emiten berpendapatan dolar dengan utang terkendali",
-        "produsen energi yang menikmati harga minyak >80"
+        "produsen energi menikmati harga minyak >80 dengan arus kas kuat"
       ],
       "losers": [
         "importir energi dan bahan pangan tanpa daya tawar harga",
         "emiten berutang dolar tanpa hedging",
-        "konsumer dan transportasi tanpa daya tawar saat biaya impor naik"
+        "konsumer dan transportasi tanpa daya tawar saat biaya impor kembali naik"
       ],
-      "invalidation": "Jeda menjadi penguatan struktural bila DXY dan US10Y turun persisten, kesepakatan konflik meredakan premi minyak, dan USD/IDR menembus turun struktur 60 hari disertai aliran masuk asing; bear terulang bila yield dan minyak naik bersama (eskalasi Hormuz) dan USD/IDR menembus naik ke atas 17.950–18.000",
+      "invalidation": "Penguatan struktural bila DXY dan US10Y turun persisten, kesepakatan konflik meredakan premi minyak, dan USD/IDR menembus turun struktur 60 hari disertai aliran masuk asing; bear terulang bila yield dan minyak naik bersama (eskalasi Hormuz) dan USD/IDR menembus naik ke atas 17.950–18.000",
       "not_prediction_of_price": true,
       "manual_analysis": true
     },
     {
-      "topic": "Seleksi sektor 3–6 bulan: kualitas defensif vs reli komoditas/siklikal",
+      "topic": "Seleksi sektor 3–6 bulan: kualitas defensif vs rotasi mineral/energi terpilih",
       "probabilities": {
-        "bull": 0.3,
-        "base": 0.48,
-        "bear": 0.22
+        "bull": 0.32,
+        "base": 0.47,
+        "bear": 0.21
       },
-      "confidence": 67,
-      "thesis": "Kepemimpinan tetap sempit dan bottom-up; hari ini menegaskan kualitas defensif unggul relatif, dengan satu kejutan: ISAT melonjak ke WATCH 48,1 (+15,6%/20 hari) saat TLKM 34,1 dan EXCL 29,4 tetap AVOID — telekomunikasi tidak merata. Konsumer tetap sektor tertinggi (52,9): ICBP 61,5 (+11,0%/60) dan INDF 58,8 (+6,6%/60) bertahan, tetapi UNVR turun dari WATCH ke AVOID 47,2 (-2,2%/60) — kualitas konsumer makin selektif. Otomotif tidak merata: AUTO 63,0 (+8,5%/60) tetap pemimpin keseluruhan, ASII 33,7 (-15,3%/60) makin dalam AVOID. Perbankan selektif membaik tipis: BBCA 48,7 dan BBRI 48,1 (+10,4%/20) WATCH, sementara BMRI 44,8 dan BBNI 40,4 AVOID. Energi terbelah: minyak >80 mengangkat sentimen produsen — ITMG 51,0 dan ADRO 50,5 WATCH, MEDC naik ke 34,6 — tetapi PTBA 33,2 dan PGAS 29,5 tetap AVOID dan sektor Energi agregat masih lemah (39,8). Mineral justru melemah hari ini: MDKA -4,7 poin ke 48,0 dan TINS -2,7 ke 49,1 (masih WATCH), INCO 33,5 dan ANTM 33,7 AVOID; INTP 53,4 stabil di Material sementara SMGR 25,9 (-25,4%/60) AVOID dalam. Emas 4.444,9 (+9,5%/20, volume 2,71x) mendukung emiten emas secara terbatas. Kesimpulan: pilihan makin ketat — daya tawar harga dan arus kas tetap inti; rotasi komoditas menyeluruh belum terjadi; lonjakan minyak hanya membantu produsen energi terpilih.",
+      "confidence": 65,
+      "thesis": "Breadth meluas dan kepemimpinan bergeser: Mineral kini sektor tertinggi (51,5) dipimpin TINS 65,1 (+27,1%/60, rel 100) dan MDKA 57,2 (+23,4%/60), sementara Konsumer tetap solid (51,4) dengan INDF 61,8 (+12,5%/60) dan ICBP 60,2 (+12,6%/60). Kejutan terbesar adalah ISAT yang melonjak ke STUDY 74,0 (+33,7%/20, +18,1%/60, likuiditas 100) — telekomunikasi kini tak merata lagi: EXCL 46,0 dan TLKM 28,2 tetap AVOID. Otomotif terbelah dalam: AUTO 64,9 (+13,7%/60) tetap pemimpin, ASII 26,4 (-20,0%/60) AVOID dalam. Perbankan masih lemah (44,2): BBCA 47,9 dan BBRI 47,0 di ambang AVOID, BMRI 41,7 (-6,9%/20) dan BBNI 40,1 lemah. Energi agregat tetap lemah (40,8) namun selektif: ADRO 58,7 (+13,5%/60) dan ITMG 52,3 WATCH, sementara PGAS 28,6, PTBA 32,7, MEDC 31,9 AVOID. Material: INTP 55,9 WATCH vs SMGR 31,1 AVOID dalam. Kesimpulan: rotasi mulai meluas ke mineral/energi terpilih dan nama berkatalis (ISAT, TINS), namun tetap sangat bottom-up — kualitas arus kas dan konfirmasi laba tetap penentu; pilihan makin tajam.",
       "evidence": [
-        "ICBP 61,5 (WATCH) +13,9%/20 dan +11,0%/60; INDF 58,8 +7,4%/20 dan +6,6%/60; tetapi UNVR turun ke AVOID 47,2 (-2,2%/60) — konsumer makin selektif",
-        "Sektor: Konsumer 52,9 (tertinggi); Otomotif 48,4; Perbankan 45,5; Teknologi 41,9; Mineral 41,1; Kesehatan 40,9; Energi 39,8; Material 39,6; Telekomunikasi 37,2 lemah",
-        "AUTO 63,0 +11,5%/20 dan +8,5%/60 tetap pemimpin; ASII 33,7 -0,2%/20 dan -15,3%/60 AVOID dalam",
-        "Kejutan telekomunikasi: ISAT 48,1 WATCH (+15,6%/20, -9,3%/60) vs TLKM 34,1 dan EXCL 29,4 AVOID",
-        "ITMG 51,0 dan ADRO 50,5 WATCH; MEDC +1,8 poin ke 34,6; tetapi PTBA 33,2 dan PGAS 29,5 AVOID — Energi agregat 39,8",
-        "Mineral melemah: MDKA -4,7 ke 48,0, TINS -2,7 ke 49,1 (masih WATCH); INCO 33,5, ANTM 33,7 AVOID; INTP 53,4 stabil, SMGR 25,9 AVOID dalam",
-        "Perbankan: BBCA 48,7, BBRI 48,1 (+10,4%/20) WATCH; BMRI 44,8, BBNI 40,4 AVOID",
-        "Minyak 82,20 +3,7% hari ini namun r60 masih -18,8%; emas 4.444,9 +9,5%/20 volume 2,71x; bijih besi -3,8%/20 — komoditas belum seragam",
-        "Breadth 12 WATCH vs 20 AVOID dan 0 STUDY — reli makin sempit, pilihan harus ketat"
+        "ISAT 74,0 STUDY: +33,7%/20 dan +18,1%/60, likuiditas 100 — telekomunikasi tidak merata (EXCL 46,0, TLKM 28,2 AVOID)",
+        "TINS 65,1 WATCH +8,96%/20 dan +27,1%/60 (rel 100); MDKA 57,2 +23,4%/60 — Mineral 51,5 sektor tertinggi",
+        "Konsumer 51,4: INDF 61,8 (+12,5%/60), ICBP 60,2 (+12,6%/60); MYOR 37,9 (-10,2%/60) dan UNVR 45,7 lemah",
+        "AUTO 64,9 +9,85%/20 dan +13,7%/60 tetap pemimpin; ASII 26,4 -6,27%/20 dan -20,0%/60 AVOID dalam",
+        "Perbankan 44,2 lemah: BBCA 47,9 (-1,9%/20), BBRI 47,0, BMRI 41,7 (-6,9%/20), BBNI 40,1",
+        "Energi 40,8 lemah namun selektif: ADRO 58,7 (+13,5%/60) dan ITMG 52,3 WATCH; PGAS 28,6, PTBA 32,7, MEDC 31,9 AVOID",
+        "Material 43,5: INTP 55,9 WATCH vs SMGR 31,1 (-13,9%/60) AVOID dalam; bijih besi -14,0%/60 dan aluminium -12,2%/60 masih lemah",
+        "Emas 4.440,4 +10,7%/20 volume 3,12x mendukung emiten emas secara terbatas; batu bara stabil 96 (+3,3%/60)",
+        "Breadth membaik 1 STUDY / 9 WATCH / 22 AVOID — reli meluas tapi pilihan tetap ketat"
       ],
-      "causal_chain": "biaya modal tinggi (US10Y 4,70 puncak baru) + premi geopolitik naik (Hormuz deadlock, Rusia-Korea Utara) + rupiah melemah lagi → premi pindah ke daya tawar harga, arus kas, dan neraca sehat → kualitas defensif unggul relatif; minyak >80 mengangkat produsen energi terpilih namun tanpa perbaikan harga 60 hari dan volume meluas, rotasi komoditas menyeluruh belum layak; gerakan individu (ISAT) menegaskan pentingnya bottom-up ketat",
+      "causal_chain": "dolar lemah (DXY 99,53) + realisasi investasi domestik (Rp1.010 T) + reli katalis Prabowo → risk appetite membaik selektif → breadth meluas dan rotasi mulai ke mineral/energi terpilih (TINS, MDKA, ADRO) serta nama berkatalis (ISAT); namun US10Y tinggi dan r60 banyak sektor masih negatif → kualitas arus kas dan konfirmasi laba tetap penentu; pilihan sangat bottom-up",
       "beneficiaries": [
-        "ICBP/INDF bila daya tawar harga dan integrasi menahan biaya input; AUTO bila laba dan arus kas mengonfirmasi",
-        "ITMG/ADRO serta INTP secara selektif; kualitas perbankan (BBCA, BBRI) secara relatif",
-        "ISAT bila lonjakan +15,6%/20 dikonfirmasi laba dan volume",
-        "produsen emas secara terbatas saat emas 4.444,9"
+        "ISAT bila lonjakan +33,7%/20 dikonfirmasi laba, volume, dan fundamental",
+        "TINS, MDKA (mineral) dan ADRO, ITMG (energi) bila arus kas dan harga 60 hari terverifikasi",
+        "AUTO, INDF, ICBP, INTP secara selektif — kualitas defensif berdaya tawar harga dan arus kas",
+        "produsen emas secara terbatas saat emas 4.440,4"
       ],
       "losers": [
-        "importir dan siklikal tanpa daya tawar harga",
-        "mineral/logam tanpa pemulihan permintaan (INCO, ANTM, SMGR, MEDC)",
-        "energi berutang tinggi yang tidak menyalurkan harga ke margin (PGAS, PTBA)",
-        "emiten yang memantul tanpa dukungan laba dan arus kas; UNVR dan MYOR yang kehilangan relative strength"
+        "ASII, SMGR, PGAS, PTBA, MEDC — siklikal/energi berneraca lemah tanpa pemulihan harga",
+        "TLKM, EXCL yang kalah relatif dari ISAT; perbankan lemah (BMRI, BBNI)",
+        "emiten yang memantul tanpa dukungan laba dan arus kas (MYOR, SIDO, UNVR relatif)",
+        "sektor yang butuh risk-on penuh dan likuiditas luas (infrastruktur JSMR, teknologi, logistik IPCC)"
       ],
-      "invalidation": "Preferensi kualitas gagal bila relative strength pemimpin hilang; tesis anti-rotasi luas gagal bila breadth energi/material meluas bersama perbaikan harga 60 hari, volume, laba, margin, arus kas, dan neraca terverifikasi; pada lingkungan RISK-ON penuh dengan rupiah menguat berkelanjutan, rotasi ke siklikal dapat berjalan",
+      "invalidation": "Preferensi kualitas gagal bila relative strength pemimpin hilang; tesis rotasi mineral/energi gagal bila harga 60 hari, laba, margin, arus kas, dan neraca tidak terverifikasi dan volume tidak meluas; pada lingkungan RISK-ON penuh dengan rupiah menguat berkelanjutan, rotasi ke siklikal dapat berjalan lebih luas",
       "not_prediction_of_price": true,
       "manual_analysis": true
     },
     {
       "topic": "Konflik global, cuaca ekstrem & risiko gagal panen — tekanan inflasi pangan & energi 3–6 bulan",
       "probabilities": {
-        "bull": 0.12,
-        "base": 0.4,
-        "bear": 0.48
+        "bull": 0.15,
+        "base": 0.44,
+        "bear": 0.41
       },
-      "confidence": 73,
-      "thesis": "Eskalasi menjadi tema dominan hari ini dan probabilitas bear naik ke level tertinggi di antara empat topik. Hormuz: harapan kesepakatan memudar — 'U.S. oil tops $84 as Hormuz deal hopes dwindle and deadlock deepens' (CNBC), AS dan Iran saling menuntut ganti rugi ('That's a good idea'), laporan Trump bersembunyi di truk katering dalam perpindahan rahasia karena ancaman Iran, dan minyak menembus 80 ke 82,20 (+3,7%) dengan r120 +26,1%. Rusia-Ukraina: Rusia menolak penghentian perang dan mensyaratkan negosiasi, Rusia memakai rudal Korea Utara untuk menyerang Ukraina (Zelensky), dan Zelensky memperingatkan eskalasi dengan masuknya peralatan militer Korea Utara — sementara CNBC Indonesia mengangkat 'Siaga PD3 Depan Mata'. Pasokan minyak tambahan terganggu: kebakaran besar di kilang minyak utama Libya dan kepala intelijen militer Libya Timur tewas dalam bom mobil. Di sisi pangan-cuaca: El Nino, panas rekor Eropa dengan kerugian panen ±€2 miliar, dan alarm gandum masih hidup. Pasar merespons: emas 4.444,9 +1,1% dengan volume 2,71x (safe-haven kuat), minyak >80, sementara futures AS berfluktuasi saat AS-Iran mengeras. Base case: biaya pangan-energi tetap tinggi dan fluktuatif; bear naik karena bukti eskalasi (Hormuz deadlock, Rusia-Korea Utara, Libya) jauh lebih nyata daripada bukti penyelesaian.",
+      "confidence": 70,
+      "thesis": "Konflik tetap aktif dan multi-front, namun premi minyak sedikit mereda hari ini (minyak 81,72, -0,9%/20 dari puncak >84) — pertanda pasar mulai menahan premi, bukan penyelesaian. AS-Iran masih perang: 'U.S. to use economic tactics on Iran that have never been seen; Navy works to relieve troubled carrier USS Abraham Lincoln' (CNBC 14 Agu); Rusia-Ukraina masih berkecamuk ('Pertempuran Berkecamuk dari Ukraina hingga Timur Tengah' — Vatican News; Ukraina sampaikan usulan damai ke AS dan minta tekanan ke Rusia — Antara 12 Agu); Putin kunjungi Kepulauan Kuril yang dikutuk Jepang (CNBC); NATO tembak drone Rusia di Latvia (CNBC 14 Agu). Blok geopolitik baru terbentuk: 'Saudi Arabia announces Red Sea defence alliance' dan 'Turkiye-Pakistan-Saudi pact' (Al Jazeera 14 Agu) — fragmentasi geopolitik menguat. Di sisi pangan-cuaca: El Nino tetap aktif (Brazil bersiap El Nino sangat kuat — Valor 11 Agu; UN, WFP), panas rekor Eropa merusak panen ±€2 miliar, alarm gandum dan krisis beras Bangladesh (Think Global Health). Emas 4.440,4 +10,7%/20 volume 3,12x menegaskan arus safe-haven. Base case: biaya pangan-energi tetap tinggi dan fluktuatif; bear sedikit turun dari 0,48 karena minyak mereda, namun tetap tinggi karena bukti eskalasi/fragmentasi jauh lebih nyata daripada penyelesaian.",
       "evidence": [
-        "Berita 11 Agu: 'U.S. oil tops $84 as Hormuz deal hopes dwindle and deadlock deepens' (CNBC); 'Hormuz deadlock: Where oil prices could head next' (CNBC)",
-        "Berita 11 Agu: 'That's a good idea: U.S. and Iran trade reparation demands as Hormuz deal hopes fade'; laporan 'Trump hid in catering truck in secret plane swap over Iran threat'",
-        "Berita 11 Agu: 'Russia using North Korean missiles to strike Ukraine, Zelensky says'; 'Zelenskyy warns Putin is preparing for escalation'; 'Rusia Tolak Penghentian Perang dan Persyaratkan Negosiasi Ucrania'; 'Siaga PD3 Depan Mata' (CNBC Indonesia)",
-        "Berita 11 Agu: 'Libyan authorities battle big blaze at major oil refinery'; 'East Libya military intelligence chief killed in car bomb' — gangguan pasokan minyak Libya",
-        "Minyak 82,20 +3,7% hari ini (r20 +3,6%, r120 +26,1%); emas 4.444,9 +1,1% dengan volume 2,71x — arus safe-haven kuat",
-        "El Nino dan cuaca ekstrem masih hidup: panas rekor Eropa, kerugian panen ±€2 miliar (The Guardian), alarm gandum, kesiapsiagaan El Nino di Vietnam",
-        "US10Y 4,70 puncak baru dan Fed hawkish (Schmid, mortgage 6,69%) — biaya modal tinggi memperberat beban pangan-energi",
-        "Konsumer berdaya tawar terpilih (ICBP 61,5; INDF 58,8) WATCH tetap menarik saat biaya pangan-energi naik; UNVR justru turun ke AVOID"
+        "Berita 14 Agu: 'U.S. to use economic tactics on Iran that have never been seen; Navy works to relieve troubled carrier USS Abraham Lincoln' (CNBC) — AS-Iran masih perang, taktik ekonomi baru",
+        "Berita 14 Agu: Putin kunjungi Kepulauan Kuril, dikutuk PM Jepang Takaichi (CNBC); NATO tembak drone Rusia di Latvia (CNBC); 'Pertempuran Berkecamuk dari Ukraina hingga Timur Tengah' (Vatican News)",
+        "Berita 12–13 Agu: Ukraina sampaikan usulan damai ke AS dan minta tekanan ke Rusia (Antara); konflik belum menunjukkan tanda berakhir (Prabowo: bisa lebih lama dari PD II)",
+        "Berita 14 Agu: 'Saudi Arabia announces start of Red Sea defence alliance'; 'Turkiye-Pakistan-Saudi pact' (Al Jazeera) — fragmentasi geopolitik dan pembentukan blok pertahanan",
+        "Minyak 81,72 -0,9%/20 dan -24,2%/60 (turun dari puncak >84); r120 +23,2% tetap positif jangka panjang",
+        "El Nino aktif: 'Brazil braces for potentially very strong El Niño' (Valor 11 Agu); UN/WFP soal dampak kelaparan; panas rekor Eropa ±€2 miliar panen rusak; alarm gandum; krisis beras Bangladesh (Think Global Health)",
+        "Emas 4.440,4 +10,7%/20 volume 3,12x — arus safe-haven kuat; US10Y 4,67 tinggi dan Fed belum dovish (UMich 14 Agu)",
+        "Konsumer berdaya tawar (INDF 61,8, ICBP 60,2) WATCH tetap menarik saat biaya pangan-energi tinggi; MYOR 37,9 dan SIDO 37,1 lemah"
       ],
-      "causal_chain": "geopolitik (Hormuz deadlock, AS-Iran saling tuntut ganti rugi, Rusia-Korea Utara, Libya) + cuaca ekstrem (El Nino, panas rekor Eropa) → gangguan produksi dan rantai pasok pangan-energi → minyak >80, emas naik, dan harga beras-gandum berpotensi naik → inflasi impor dan permintaan devisa naik → premi pindah ke emas, energi, dan kualitas (konsumer berdaya tawar); importir pangan dan siklikal berneraca lemah tertinggal; tesis batal bila negosiasi berbuah kesepakatan nyata dan panen membaik",
+      "causal_chain": "geopolitik multi-front (AS-Iran, Rusia-Ukraina, Kuril, Latvia) + fragmentasi blok (Red Sea alliance, Turkiye-Pakistan-Saudi) + cuaca ekstrem (El Nino sangat kuat, panas Eropa, krisis beras) → gangguan produksi dan rantai pasok pangan-energi → minyak >80 dan harga pangan berpotensi naik → inflasi impor dan permintaan devisa naik → premi pindah ke emas (safe-haven), energi, dan kualitas konsumer berdaya tawar; premi minyak sedikit mereda hari ini namun belum ada penyelesaian; tesis batal bila negosiasi berbuah kesepakatan nyata dan panen membaik",
       "beneficiaries": [
         "perusahaan pangan berdaya tawar harga (ICBP, INDF) dan produsen CPO",
-        "energi yang menyalurkan lonjakan minyak dengan arus kas kuat (ITMG, ADRO, MEDC secara selektif)",
-        "emas dan aset safe-haven",
+        "energi yang menyalurkan harga dengan arus kas kuat (ADRO, ITMG, MEDC secara selektif)",
+        "emas dan aset safe-haven saat fragmentasi geopolitik menguat",
         "eksportir pangan bila panen di negara asal gagal"
       ],
       "losers": [
         "importir pangan dan pengguna energi tanpa daya tawar harga",
-        "emiten berneraca lemah dengan biaya input tinggi",
+        "emiten berneraca lemah dengan biaya input tinggi (MYOR, SIDO, SMGR, PGAS)",
         "industri yang bergantung pasokan pangan impor; peternakan dan transportasi tertekan biaya energi-pangan",
-        "siklikal yang tertekan oleh US10Y tinggi dan rupiah melemah"
+        "siklikal yang tertekan US10Y tinggi dan rupiah lemah"
       ],
-      "invalidation": "Tesis berubah bila negosiasi konflik berbuah kesepakatan yang menormalkan Hormuz dan Laut Hitam, cuaca memulih dengan panen cukup dan stabil, harga beras/gandum/minyak turun berkelanjutan, dan rupiah menguat; bear terkonfirmasi bila Hormuz ditutup, kilang Libya/rantai pasok terganggu berkepanjangan, atau panen gagal luas dan harga pangan-energi naik struktural",
+      "invalidation": "Tesis berubah bila negosiasi konflik berbuah kesepakatan yang menormalkan Hormuz dan Laut Hitam, fragmentasi mereda, cuaca memulih dengan panen cukup, harga beras/gandum/minyak turun berkelanjutan, dan rupiah menguat; bear terkonfirmasi bila Hormuz ditutup, rantai pasok terganggu berkepanjangan, atau panen gagal luas dan harga pangan-energi naik struktural",
       "not_prediction_of_price": true,
       "manual_analysis": true
     }
   ],
   "prediction_meta": {
     "analyst": "Hermes Agent — analisis manual metode Bennix",
-    "analyzed_at": "2026-08-11T18:40:00+07:00",
-    "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dan berita dipakai sebagai bukti; probabilitas merupakan judgement analis, bukan keluaran fungsi/rule prediksi otomatis. Data kalkulasi 11 Agu 18:35 WIB (live Yahoo Finance + Google News RSS) — snapshot penutupan Selasa: IHSG 6.267,88 (-1,53%), minyak menembus 82,20 (+3,7%, intraday US oil >84), emas 4.444,9, US10Y 4,70 (puncak baru), USD/IDR berbalik melemah ke 17.830."
+    "analyzed_at": "2026-08-14T22:10:00+07:00",
+    "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dan berita dipakai sebagai bukti; probabilitas merupakan judgement analis, bukan keluaran fungsi/rule prediksi otomatis. Data kalkulasi 14 Agu 21:54 WIB (live Yahoo Finance + Google News RSS) — snapshot penutupan Jumat: IHSG rebound 6.401,89 (+1,59% intraday, katalis pidato Prabowo dan realisasi investasi Rp1.010 T), minyak 81,72, emas 4.440,4 (volume 3,12x), US10Y 4,67, USD/IDR 17.831, DXY 99,53. Breadth membaik: 1 STUDY (ISAT), 9 WATCH, 22 AVOID."
   },
   "prediction_mode": "MANUAL_AGENT_ANALYSIS",
   "news": [
+    {
+      "title": "IHSG Melejit Saat Prabowo Sampaikan Pencapaian Ekonomi RI - Market - Bloomberg Technoz",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPanV3eVhSdDNZbjd0Vm4yTUpxYVY3T0NXYmtIN1Jjc2R1ZnJxT1VJLW5PRENjSy1xdGEwTHBsOWFzVmtySHhNNEo3RmdNWWJuTUlla195UF9TelQzc3ZUVXJnbHc3a1IxUHJiajdoQU1WSHBFZmN0eTN5QlRqY1FSOGxyRGZLR24yNnZRb0FqLXlPUThxSUhLRzR2YUhzQlRGMWhEVVd4WGdvX0J1YnZyRg?oc=5",
+      "published": "Fri, 14 Aug 2026 07:03:03 GMT",
+      "source": "Google News ID",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Makro"
+    },
+    {
+      "title": "Pidato Presiden Prabowo Bikin IHSG Rebound 1,59%, Bisakah IHSG Lanjut Menguat? - kontan.co.id",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkY1VmszTHp3VzN5R09vREtubGFobjFNT1BEdUh4Z3lkREhmUG50SXlYQUlOTmc3MklJc2d4dUVETXpoZHpkbkFVdFVfYmlwTVAxZEtGQmxEdmxFZnk4d0E5YlRtRHl0VU5BcTVBdGE3QzNLMkhCbU95UFFZWHdoZlJvQW9uZUFteUU3dkFMZEc4d05Gd1l1bkc0VDhZd2ljUzc3bGdVOENrdm9TWWxR0gGnAUFVX3lxTE5YT3kwM3FESWxYY2dpTWFmQ3otLWNTZmdUWGJLSGRwVS1YcTB5dmpObTJsbGp6NWd1bmt2SnFsOGlNYVNQVlJfdE9lWk91Y0Z3VGQteHhuSEtBTHQ0Uk1NUmt2WTlidW1uLW5XM3pSXzJsUDJvSXY4TGZjRWpCY1RCS2s2NFVMbllrRUJPOGNGdHZfbUxCbDkyZ25oYzlyTmxTTjY1dm53?oc=5",
+      "published": "Fri, 14 Aug 2026 12:02:07 GMT",
+      "source": "Google News ID",
+      "sentiment_score": 1,
+      "sentiment": "Positif",
+      "topic": "Umum"
+    },
+    {
+      "title": "Prabowo: Realisasi Investasi RI Rp1.010 Triliun Semester I/2026 di Tengah Konflik Geopolitik - Bisnis.com - Ekonomi",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQ25rSC04LTBMZzNYVV8yVmVLVW9FeW54T25RMndOUnpEOUtmS1JjaVFHTXY0RTJZaGNmMnBrb1g2aEMzbE5Eb0JsRXRrTlQtME1QYndvV3FnblAwTEJmWGtnRFVXUEFmOENVZExNN2hYbnlqUGRQTmdXd3Z3bGdjdTJ2VVFmUnNya25aSXNnQnhldkd1NWxXTzRHTWhNNFFERTktVFZLT3ZKei1DQUVNTDBVMENGX0JRdEFON2tBY1lJQ3BSX0lCazJFRDBZR0dUNzFzQWZsRQ?oc=5",
+      "published": "Fri, 14 Aug 2026 03:55:12 GMT",
+      "source": "Google News ID",
+      "sentiment_score": 1,
+      "sentiment": "Positif",
+      "topic": "Konflik & Perang Dunia"
+    },
     {
       "title": "Apakah Rupiah Melemah Bisa Berdampak Pada IHSG? Simak Penjelasannya! - InvestasiKu",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWRqdENNeTlGQnpyWjlqLU9UVHhKQkc1V1lGTHVhaUlrd2NLN0JhV3hvbHU5Y3B0YjI1Q2pfOFNxb3RBYURpVnA2QjlYODEya3VlUHdKN3YxZ3hiOE4xbWlRS1o4aGljS0NQT3U5RmZqSmVtS1p1czJjLUhKRjhSN1o5aXE?oc=5",
@@ -964,57 +989,21 @@
       "topic": "Makro"
     },
     {
-      "title": "IHSG Tertekan Sentimen Global, Analis: Fundamental Ekonomi Kuat di Tengah Volatilitas - kontan.co.id",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNX0o1TTAtVnlvMWd3X2FLWEZQMFNlZU81WUo5LUVZSFNhanh5YUMxYlM3NXNFMTVSb2pCakRsTDc4MVdFQUdVVDVqcVFBT0RvMkJQRTM4bEdWRDNGYVZmWmZJVWJEcHpUWlpCZVpGYlJLWWhVNjducEtzUUh6UDZrR3Zlc3lYQzduSjRRR0N0bG9rbHNoWGpEXzJlbnAzWGRIUDkzamJSMUhraXZBVm41a3dvcUpoRGFPQkRr0gGzAUFVX3lxTE1XdEtvWVR5M0hnSzF0TS0tN2IzSnlPeVFuWmtueTJPVkpVSFQ3a3FaWXNsQzJqc0QyejY1cEZ5OGVvMFJ0Q2x1SzN6TkdiU1BWTUxnMnFEeHFYdGt4MFhnc05LT0Q1MHhZa3NlSDV2cWI5bm9DNVczWUh2TjhDYlhva1NhMDNwUmxDZFk4V1ZKRnpKLTlKcHZJbzJMbGZSNUpmbTNxbFJocHUzbGp6RlF0d1FB?oc=5",
-      "published": "Sun, 09 Aug 2026 13:18:38 GMT",
+      "title": "Strategi Investasi Saham Indonesia 2026: Perburuan Harta Karun di Tengah IHSG yang Stagnan - obrolanbisnis.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOFg4bzdLMzVrZWs4OEFnY0xKNnE1dk1SVlQ4X2ptVUlOMUVhSlgzZ0RlX1Z0Y05uR0pnS28yYzNna2p5N2t1M3pwak1UOUpLaWQ4Y0hqTzZmVnktRWpyX1o3YXBUbmFuWi1Tbk1adDBmTG1TZFU2aUxjdzYyTm5uV1JiUWk0eEFFOWZHY0tKc1lYZFNzMktHMXhRRlVfQnFxZUs0dFBfVC1qY09JRllOOEtCTEM0XzNrZ1BkY0VGVnlqdnJ4eHc?oc=5",
+      "published": "Thu, 13 Aug 2026 06:48:31 GMT",
+      "source": "Google News ID",
+      "sentiment_score": 1,
+      "sentiment": "Positif",
+      "topic": "Emiten"
+    },
+    {
+      "title": "Pertempuran Berkecamuk dari Ukraina hingga Timur Tengah - Vatican News",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV3hzd3lwdWNSZWtSbEdzUXhnMXd1V20yX1dzeURrQmVPM0VJcks1UTJHTjQ4WUpUb3cxLUl2UnpFWGJMMEVLaGphNlctaUNVUmVqcklJUnUwN2tZVXVXWndBMVRVMTJoRzF6WElfMkVmYUFfbnlQV2xrdmlLODVuOS1ZakZxODI4dUgwOHYwbTctMWNlb2RWdk1ncXlCdW5ubmtmM0tVNFQ1a19QU1E?oc=5",
+      "published": "Tue, 11 Aug 2026 08:21:00 GMT",
       "source": "Google News ID",
       "sentiment_score": 0,
       "sentiment": "Netral",
-      "topic": "Makro"
-    },
-    {
-      "title": "Penyebab IHSG Anjlok: Faktor Utama dan Cara Menghadapinya - Pegadaian",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kWlg3eHJsQVhDUFB1SXd0UHBzTk40N0g4czNaVVhKR0RVdjhwYjNyaFRSMENMNnVoejdpNUx4NGNqSnFEdHNoUERBX2pEMThqbHpidXBncWtYZTdqaEp1QkhaczFXdDdtVFdrNTY3TQ?oc=5",
-      "published": "Mon, 08 Jun 2026 07:00:00 GMT",
-      "source": "Google News ID",
-      "sentiment_score": -1,
-      "sentiment": "Negatif",
-      "topic": "Umum"
-    },
-    {
-      "title": "Kementerian Koordinator Bidang Perekonomian Republik Indonesia - - Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM0tGdGgyaHpjajZEWFMwaUY3NG1kVTNTbUZnaFM1OXNaanV6WThGekh3ZTBaUkhLNkFnb2FXQmM4Z3lTSE1lRVNPdkhTd2Z4YWE4WExUb3RreGhWNUVFbTVzYTBnNWJqaWZDWXNkNkxpMlhlQWFSYVI2Q3F5dGRzM2ktYWQ2VjF6LVFrSThHQ2I2eldaREd0SVcwMk1mWGpUS3h0WFZabVFvOGNpRDVEU082RDZYam5CMEowQmdUQlc3bndpd3A1blpn?oc=5",
-      "published": "Fri, 30 Jan 2026 08:00:00 GMT",
-      "source": "Google News ID",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Makro"
-    },
-    {
-      "title": "Investor Asing Terus Tinggalkan Indonesia, IHSG Terpangkas 33% - InvestorTrust",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZ1d1NFU0NHhfVElDSGdsMllSU1ZpbjBVOTNRc1hQaUZYd00tajdZaVVpaTFPU3V3UWVCZy00S3JGcElmZllMclcxRVUtZVozaWU1YzY3cXYxLXJoV2ZiNDc1aXpqZVB4bVJUQkRBRGI0Rmx5Q3hhb2R0bTI4X0htd3dIVndWMUVYMHlSQXNkdnJ3TENlNDZZNE5HRTBMamtMTmc?oc=5",
-      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
-      "source": "Google News ID",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Geopolitik"
-    },
-    {
-      "title": "IHSG Ditutup Melemah ke Level 6.234, Tertekan Sentimen Timur Tengah - suarasurabaya.net",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONElrT2t5NTZXT3ZCZkJ6WXBpVmZhT0NrZV9TRndEN3NnXzM3SXRoTEw1ZDdtc0JKOC1IbzJmeFFwZi1xSEN2bGRtc29udmpQNlRwcG0wLUFqR3V2UW5jUmFoNVZkY0duTVc5cEJsaFBrekRaWlM5eVFTUEVwRmhWQW9FcEVoYi1maTlYU3ZsaTY2SU5PWGJYcGFhNThvSTExdW80YUpqZlhtdmFic3k3RU12ZFh1UjTSAbwBQVVfeXFMTjFQOG5feDRSd3FWdVV1OXFuaVMwN0JzZnA2S1FOQng4MVRqbzBpMUlMSlUzc19QY0pHT1RwYzd6THFNemxyLVpzdWlzVkdjM195WnZnNmRSczVleUJtSmRQbURyTFJXNW1nckNjeHVTNktDaURFX0NvRHIyRXFmZmNHZlp4YXUwR0YzYWtHbXlLQ0Y2amZZRUwyUzVxUjNGaWhaNnFTd05vQ1JKSnpMcW1Yd2U1dGZ6QXptb3Q?oc=5",
-      "published": "Mon, 03 Aug 2026 11:20:18 GMT",
-      "source": "Google News ID",
-      "sentiment_score": -1,
-      "sentiment": "Negatif",
-      "topic": "Umum"
-    },
-    {
-      "title": "Rusia Tolak Penghentian Perang dan Persyaratkan Negosiasi Ucrania - achmadnurhidayat.id",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zSTZmZnI2VEVGWU4zNlhtWGxpcTlCc1BERk1MS3gzcElDaEVLdkpMWWNZQl9fZFJwamdkbW5PNy1UcGp2ZHN5emR4LUFILWpYUzhsOWZaeGFxQ0JPMUFzcnp2aDltem9rMXo1S2ZzS0RyTWxF?oc=5",
-      "published": "Tue, 11 Aug 2026 00:53:33 GMT",
-      "source": "Google News ID",
-      "sentiment_score": -1,
-      "sentiment": "Negatif",
       "topic": "Konflik & Perang Dunia"
     },
     {
@@ -1027,39 +1016,39 @@
       "topic": "Konflik & Perang Dunia"
     },
     {
-      "title": "Newsweek: Dunia di Ambang Perang Dunia III? Tumpukan Konflik Global Kian Mengkhawatirkan - Arrahmah.id",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQclNNaTNubDhRNzlkQ2pmQWJNVGM3elFNNldRYUx2TEJyNXdLSTcxTnBHNjRuejYtTnp4dXFCVmxUckl1NU9OVmxmOEVKRElxaUpTbW1nRW93aDJ1MGx0NU5DcUFEeXBmcXJBcDM0RXlCbWVyR3QtUnJzQklVaDJ6dTU0S2ZpSDNIRFUzOGoxRzNrb21Ea1BnN0hGZ3c2VEljTzVONnBiNVJJQ3J6eGww?oc=5",
-      "published": "Sat, 08 Aug 2026 00:03:48 GMT",
+      "title": "Zelenskyy: Ukraina sampaikan usulan damai kepada AS, minta tekanan terhadap Rusia - ANTARA News Riau",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPY1M1YVpRNEZKNU10dmZselZoYTdZN0NhaVNiWlRlSzVrdjBjNXA0QUJSQ1pscF9jQmlTMnNKUEIxRVhNOU4yMEExQUN2UzZudzZkUHJvLXZUUnFCa1JWaEk1dlBmWWVrMU5IQUpFZExEb3ExbkpCVDg3SUt0MnlOUFNSMnowcXFMWTUwbTItUzR2ak9jOHdjMGRRNVBTaHpEUXJqWlY3aWZuS0c2WS1oNjNIQlVUeTNwZTZPaV9B?oc=5",
+      "published": "Wed, 12 Aug 2026 09:32:49 GMT",
       "source": "Google News ID",
-      "sentiment_score": -1,
-      "sentiment": "Negatif",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
       "topic": "Konflik & Perang Dunia"
     },
     {
       "title": "Presiden RI Prabowo Subianto menyoroti konflik Rusia-Ukraina yang hingga kini belum menunjukkan tanda-tanda akan berakhir. Menurutnya, perang yang dimulai sejak 2022 itu bahkan berpotensi berlangsung lebih lama dibanding Perang Dunia II. Hal ters - facebook.com",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUUFoQTJoVFFJcHBXZFEwN1NLbjd5akpHZUdmODJlVmRnMDJHTWdBMEo4MTlIcXJPeGFoSllValU4cm9XRzV3ZHlrclRJQUdyQXdONGlTdFdVZEhSOTlMNWpsZGRhWDJoc195bFZncHBlU0Q5c3RMa3NadGo2NWRsNi01cm5DOGo3cWl2UE0yaHRKei1OVXk1dmVucGFVcVNNZk93anZXR0o0UHM4SWlEb0VTQTd0TVFTZTBqbnN5LVVpTjFxeThqc1ptQ2k4c0lUbEVORzE4OTJEeTdj?oc=5",
-      "published": "Tue, 04 Aug 2026 02:47:35 GMT",
+      "published": "Mon, 03 Aug 2026 07:00:00 GMT",
       "source": "Google News ID",
       "sentiment_score": -1,
       "sentiment": "Negatif",
       "topic": "Konflik & Perang Dunia"
     },
     {
-      "title": "Paus Leo XIV serukan diplomasi untuk akhiri perang Ukraina - ANTARA News Riau",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSkRpekI4YkEtd1hJNkdfZmRCNzB0QVF6cUlGUTB2SnFSSi1LbU96TTUtM3dmanhLSG0yazc4b21jYjU3Q2N3NFNYRHd1SUhZVVV6UlRLSTdPazJTdkt6cW9fQmc2MVAtaU9KRUF4ZE9NdVNyM2NkSDlnOFFwU2R1RVI3aWp5eTBYc0ZPSWd0ajVZbTFCZThTWGlsTG9tSVRELXc?oc=5",
-      "published": "Mon, 10 Aug 2026 09:10:56 GMT",
-      "source": "Google News ID",
-      "sentiment_score": -1,
-      "sentiment": "Negatif",
-      "topic": "Konflik & Perang Dunia"
-    },
-    {
-      "title": "Perang Iran, Ukraina, dan El Niño Memicu Krisis Pangan Dunia - dw.com",
+      "title": "Perang Iran, Ukraina, dan El Niño Memicu Krisis Pangan Dunia - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pRnBYOTdkZFR2SDZKcFVTeVJJcGlNRWwwemN4aUkyWGtpY2N1Mm1lS3h3QWVwNFZzM1R4cjVhSkpvUXMtZjM2MTZUWnY4T3FSY2xwZjZXMUZFZE8zc3NEN3J30gFiQVVfeXFMT0hxbTE3dEhKVktza0V1YmRvd3prYkM5WXd6TzduQUpuUGtZVVlreV9tWFREV1UzLXJra1hhZnNxZ0VVNFY3bU9pcHZPWm5EMGNzWmo2Y2dOVkRfM3hSSjZoTFE?oc=5",
       "published": "Thu, 30 Jul 2026 07:00:00 GMT",
       "source": "Google News ID",
       "sentiment_score": -2,
       "sentiment": "Negatif",
+      "topic": "Konflik & Perang Dunia"
+    },
+    {
+      "title": "Zelenskyy: Keterlibatan AS di Timur Tengah kurangi bantuan untuk Ukraina - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWV8xQnRqaTgwZUdyUXNPYlk5eEtQcmZUYVJza3dDbENweTBHNWlOazZpNnViSTFGRi1ENGdYOU9pRkRTR3BQemplQWlVM2RFLXNiaTFRMWFVckNjblh6R0VCWGdYdG9tdm96WnJEdWkwZVBIWnoxSDRmRmhKSThKQW5XWU9wb0VLeUJMdjByNjBRbGkzYmtXeklxeGFtaEhISFVNclBXaW00enJ3X05lNDZPN2lzM1JkbHUzYlVSdmVSVGdPdEZOSQ?oc=5",
+      "published": "Fri, 31 Jul 2026 07:00:00 GMT",
+      "source": "Google News ID",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
       "topic": "Konflik & Perang Dunia"
     },
     {
@@ -1072,15 +1061,6 @@
       "topic": "Kondisi Alam & Bencana"
     },
     {
-      "title": "Curah hujan tinggi, Pemkot Ambon perkuat kesiapsiagaan hadapi potensi bencana alam - ANTARA News",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZXFwV2RTN0diQmVqNV8wd2pKQmVGTHk1NHNGVGp3bEY1T0tiY1Znck52b3FpVE1pYTRLTzk5TWk5TGRoVk9ONFZRbkxyZzVkV2ZvbDBfbm5Wek9SeDk5d2dXR3l1S3dUZGlBaVZLbkY3b2VCZTh5Q3dwUWcxRmREemw4NDdPaXl6dmkyY0llUHRmT0RQVF9wMEo0TlNZcWRUY3hybDJqNDlEZmpCX0liZFV0bXpvUXo5bW9Bcjc1NGt0Z9IBxwFBVV95cUxPWWV3R3FqSEx3QW9wOGdpRkRIUy1NUThEREU4OG91SFFjRXdFV0hSWFVSU29tVFg4dGRwZ2RhLW13cEQ5VlEtRlpzUU9FU1dfeVF4aThnVFcwYjZnMG9CeGdRc3J6aHlYSVF1bHNzeUhwSG40WDJWTXhLV2UwQmFjS1FGYWZQTm5ueS1TV3VkSnpjdE1IMTFmbDRUdU15bURnUndqZlRtRUVmamZMdDhhWHh4QmFxd0RFUU9BbS1keU83OXprQXBR?oc=5",
-      "published": "Fri, 08 May 2026 07:00:00 GMT",
-      "source": "Google News ID",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
       "title": "Kenapa Cuaca Ekstrem Makin Sering dan Sebabkan Bencana? Ini Jawabannya - CNN Indonesia",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTlYyRW5WNk96OWlhOE1lblF0UEl6U281SUtHZ2RDTE15Q1JQSDhZODc1cUtlRENUNi1qTGw3U2M0Wnk1Q1pCa2tlb0hYdUxCc0dYUkFBbGJNX2FBdW9nQWxEOGIzVGFtTVVQUi1WdktEdERRWV9QZExlbEItbHdXTFRGQlUzNkJjWHMyek9SNDQtX3JfLUgwM2JHRnpHVmZ2OUxjUU5UZnZZUlMwVldPdngyZzJxY0g5Mm5RbnBZZzd3RVQ3MkppRzNOaGVtelBw0gHWAUFVX3lxTE4wejcxcnVpR19yX085aEFuQWttYWliak9rVlloWnU4R0hzUWFyMHJya3NJV0RSLXdJSE5NbU94YzRJaXlRa1NkZk5iQnpPdUVIY2xZdFBmV2FuZUVaeF9nMnFxV2dLMG95QlhXdHNMUWJHV21MZThCb3dkT0pNS3N3c3NGYm93ZHUtVVViTDVYNVFGeEpCdDdtT1ZxVDhFdWdPQWZjUUpjbHUxak1CWkpDeENyMFZ4cWxSdGc4OGtNSXNFVWtQbUgyaEdlNlNTQ290NjZUVlE?oc=5",
       "published": "Tue, 02 Dec 2025 08:00:00 GMT",
@@ -1090,27 +1070,36 @@
       "topic": "Kondisi Alam & Bencana"
     },
     {
-      "title": "Mewaspadai Bencana Hidrometeorologi di Akhir Tahun - Kompas.id",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONDJwUEM3bmpzZDNZUnRISkJyZ3RtX3NNblJlajgwRTlYeXA2V2RST0hXMFBxajZWbTRsdDR2aVIwQU9Pc3NwY2xtZTBQN2UtWW9ja3VnVW1lZXJWRjVzdzAwQ09pZHluVUxQMXdZTXhCeEs0X2NOWkRMTVZpeTFfcjhXSDhJVTg?oc=5",
-      "published": "Wed, 24 Dec 2025 08:00:00 GMT",
+      "title": "Bencana Alam di Ponorogo Turun 45 Persen Sepanjang 2025, Longsor Masih Dominan - beritajatim.com",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAwZ1BWOTVGUm1kU0lObERPUE9TRHFUbTFmMHowbXVUOXhWQ1VQQXV4TlNDNEhtWV94ZTNUZmFyZEtUSTBhZlFiU1dLSUFFemd0ajllUHlPaG16LXVUVEo1UldzWWlzWnpJMTJqdGJFR0x3cVlGYlFibVM0dmI?oc=5",
+      "published": "Thu, 08 Jan 2026 08:00:00 GMT",
       "source": "Google News ID",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
+      "sentiment_score": -1,
+      "sentiment": "Negatif",
+      "topic": "Kondisi Alam & Bencana"
     },
     {
-      "title": "Pemerharti Gempa Ingatkan Soal Ratusan Bencana Terjadi di RI 2026 - Bloomberg Technoz",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLU1HeFZWU19EQlRDSWZpZG9NdnhLQWktQUZpZFhBa2RVNEhmNmppWnhZdFVJZG5vRTF3ekVBNHlQcFVUUmtBS3AxaHhhX2JteUd4a1B6NE85YTR5eGxtVjcwNFlhd3k4MlpXUnM4aDZzclVSaDJleXQ4ekhUSEt4TjVuYmZhMjJVR0d6RUQ2Wi1iUU5SZnFuUW85NDBoejlLMWhFVnZ0YTliby1zd190VW53MENBUGIw?oc=5",
-      "published": "Sun, 22 Feb 2026 08:00:00 GMT",
+      "title": "Prakiraan menunjukkan El Nino akan membawa gelombang panas yang memecahkan rekor dan curah hujan ekstrem serta banjir mulai sekarang hingga akhir tahun. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSDlaVVQ4NmVjdGktdFdzT1QtQkVfSmtRRDBwREhES3J6WlMzTURWRkI1WDZkUGVUQmJYMUR5NUJILWltSU5ZTnNmYzB5SWR3bmZBQm1qMTBJU3RQWk5QV25HbXlFbzhtRWJyeld3QlhWUUp0ZW5SUndDdHRvbGx2dk9WY2liNU1mZmdfaE9kclRibjBKdjlzZ3hMVi1mdw?oc=5",
+      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "source": "Google News ID",
+      "sentiment_score": 1,
+      "sentiment": "Positif",
+      "topic": "Kondisi Alam & Bencana"
+    },
+    {
+      "title": "814 Bencana Terjadi Sepanjang 2026, BNPB: Banjir dan Cuaca Ekstrem Mendominasi - SINDOnews Nasional",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQLUNqck9qRW00eGRvYkpPRU9LZEUzWHZQaVVHQUxiSkJVMFdmTlR0enZLbkdUYnl1enlfcXg2Qm5DZ2hEZDc0X2RmRlYyMDdiOEtKS3VUNVp4bUNUTzRiSHlKckFReGc0UnBBcXBiMnhTc2lVZGtjeDh1YVZad2pocjJBeFZaZGk5NW85a0IyckNrTkQ4TnI1OEdpQnhHamRvMDdaSlZ0T1NzT0l2eU5BTktEY2RXa21rLU41Y2hRUWRiallPaDlITndkQ0FSeDDSAdQBQVVfeXFMTmcwMW1CbFFJQnVOVDcxaUppQTM2WW41bUx0RjZya253OXJLTWMtVGtLTEtsVDhOazlFaGxKM0t6YkFRZ0NCYlRvbXZvQlpMSXlPTVJBVG9icEFMczZIZ0kzeVZiV2hFVW1UTnlBR0ZCMXo4b05qVWNIelBGZk0tQl9OcEtsOE45a1loX0psQ1RuZEhqdXlNVFotRENDM2pZRm5IMkNQS3drb2E1dElzdzRWdklNUngwZGVvbmxvc2FQNTFwcTkwZFNqVHN2ZmxsQTB3UGs?oc=5",
+      "published": "Fri, 24 Apr 2026 07:00:00 GMT",
       "source": "Google News ID",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Kondisi Alam & Bencana"
     },
     {
-      "title": "Meningkatkan kemampuan peramalan dan secara proaktif menanggapi El Niño dan peristiwa cuaca ekstrem lainnya. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbWN3dDRFMUF1YXlKX2VzZjdtTUxZQWdFclFMQjRzN3JMbnNmYTRaSVBiVDZtSEcwRVdJQkdsMG5YbUlrbVBlYXVaa2FBY1F2TkNQTk5JRk9jZGVmb0JGQ0p6U0hvY0RPMk1wa1BlU1FZTGtRc2FKaUdfUDJwUEtNSkdtdnIxNG9qaHNWMEhPSV9PSFpZRGl5b3VGZVp6WDAzcnpLQkduNXFxMmtqeEJUektB?oc=5",
-      "published": "Mon, 27 Jul 2026 07:00:00 GMT",
+      "title": "Bencana Banjir di Jawa Barat Akibatkan Kerusakan Struktural Infrastruktur Publik - Jabarprov",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSVk0RzFpSnlPT0xyQ1NNREVEZ1VWOWljZ2dmcUxhd25DS1U2WGh6UWE1TkZsWlpTR3ZENjY4c2FxZXpDaGRRbE1zTEttOGY0OEtwRTE5N09MYnZQT0pFa3VkdVFlY1lhY3hVZEdYelAzRkpLRXU5YWFHZkFGbklnbHREbThNNXVRXzExVnJpQnRzQnd2UWNSNTdaRFNvU04wbHlRZXI4ZzhXUmQwVkh5Q1d2b2FjUGtk?oc=5",
+      "published": "Thu, 02 May 2024 07:00:00 GMT",
       "source": "Google News ID",
       "sentiment_score": 0,
       "sentiment": "Netral",
@@ -1135,33 +1124,6 @@
       "topic": "Kondisi Alam & Bencana"
     },
     {
-      "title": "Ancaman Gagal Panen Global akibat Serangan AS-Israel ke Iran - Kompas.id",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTGxKTWIydUJrVFl0Y3BqbTRGOVg0ckstRG1WZDdYUTZOUHFjQkpjSlN2VDc2a2htZUtoOC1INFVlc1lwc3FEcEQ0UXpyNE9QQUNCZ21SNUhyYUZVSTJDTWZhZm5YWmdodUVxQUNfa29iMEpFRFE2aHIzZTFONmZZWk4tQjlXMnhXTkpIQjlkekFOU2dh?oc=5",
-      "published": "Tue, 10 Mar 2026 07:00:00 GMT",
-      "source": "Google News ID",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Konflik & Perang Dunia"
-    },
-    {
-      "title": "Alarm Harga Pangan Indonesia di Tengah Pusaran Disrupsi Rantai Pasok Global - ekonomi.bisnis.com",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd2Z0SU1hRUR4N3lvcGVGMlh4UFVYejVsQ09QeHI5UzFYbkh6MWtYbVZPYk1OWTlhWWpsZU9DdVBDdm8ycUpyUnJaT2hzRE5IMHhyVlVLVWRyYVBTZW9hRmlEWVBLajdnR2d4U2RTUnNHdVFxSzZxcnJBU3FNVXZWUWRySGhyV3FCUFd2ZDlsMVlidzU3QzRETHc4TU5aMkpNcjNZeEl6OWx2dEE5Q1ZUNHhva0Y4aFd6c3hSOVNlT011ZzFPU2c?oc=5",
-      "published": "Mon, 06 Apr 2026 07:00:00 GMT",
-      "source": "Google News ID",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Gagal Panen & Produksi Komoditas"
-    },
-    {
-      "title": "El Nino Picu Kekhawatiran Baru, Pangan Asia Tertekan - Kontan TV",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3LU0yRVRVLURjNXd2VDN2U2VFYU1aaEpkMVNlb0xZSnJETVF6TDhMMV9SSkJ0RGF0NXB5aFVvOGViMy0xeGw1Y2J5MGRST0NuWko4?oc=5",
-      "published": "Fri, 05 Jun 2026 07:00:00 GMT",
-      "source": "Google News ID",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Konflik & Perang Dunia"
-    },
-    {
       "title": "Ketahanan Pangan Indonesia: Dari Kecukupan Menuju Kedaulatan - Direktorat Jenderal Perbendaharaan",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaU5Nam5qRlAwZi1tT0lxUWVNLTFrYnRBMGt6Tmw5RjVGMENRSmdDSkpJWl9UOFVfWTd1TnQ5YzZadld4VFdaZG5hNTJ2b0Vjc1FJeXVRRDdEbG9MV0tlRHB5dDNWRkluZXozOEVtSndjRl9sdFdlS3J1b3BwNjh1TlVIckVESzJ1cEF0Z0dIS0hYYjlFUzFURnY2aWZVakNtbndJelNyM3FsUXJLZFZWaE9kX1hWZGt2TWpjTjNTMXBWYlpybWQ0M211U3Q3X0R3NTdRdHJJeHV2QTh6UzI1Z3pLX0w?oc=5",
       "published": "Fri, 26 Sep 2025 07:00:00 GMT",
@@ -1171,22 +1133,40 @@
       "topic": "Gagal Panen & Produksi Komoditas"
     },
     {
+      "title": "Mengenal Food Sovereignty Dalam Sistem Pangan Berkelanjutan - Validnews",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcGVWSlU1aG56ZUJ2MW5vZl92YmVWVnYtc1JlaVRjTjdjZm9iZ3JLM1FqZ2RObnpvUl9zc09VVTEwVjdWay1xN1VqN0F0WlNjV21jNGRmTFF2TUNTTzh6Q1ExZnhibU9PWFlfZm9Mdm1iRGJsQzF6UjBadTZQSC1rRDBCZk94Y2V3ZXk3YUpxclhkMncybnpxanNB?oc=5",
+      "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+      "source": "Google News ID",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Gagal Panen & Produksi Komoditas"
+    },
+    {
+      "title": "Alarm Harga Pangan Indonesia di Tengah Pusaran Disrupsi Rantai Pasok Global - Bisnis.com - Ekonomi",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd2Z0SU1hRUR4N3lvcGVGMlh4UFVYejVsQ09QeHI5UzFYbkh6MWtYbVZPYk1OWTlhWWpsZU9DdVBDdm8ycUpyUnJaT2hzRE5IMHhyVlVLVWRyYVBTZW9hRmlEWVBLajdnR2d4U2RTUnNHdVFxSzZxcnJBU3FNVXZWUWRySGhyV3FCUFd2ZDlsMVlidzU3QzRETHc4TU5aMkpNcjNZeEl6OWx2dEE5Q1ZUNHhva0Y4aFd6c3hSOVNlT011ZzFPU2c?oc=5",
+      "published": "Mon, 06 Apr 2026 07:00:00 GMT",
+      "source": "Google News ID",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Gagal Panen & Produksi Komoditas"
+    },
+    {
+      "title": "Krisis Iklim, Krisis Pangan, dan Jalan Keluarnya - Kompas.id",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUUFuMnBHMm9pQVNROHE1Z09rQU1QTkU2X0h6QS0zYjlxdDR4Tkpfd040cmZEaDdqbW1oYlhtWTVhMldmdmp1MGh4MkxxSXRkelN6SWFxelpNUHBQLVZFZkZNSVo5eGNCaHBtZjJsQndEb0RIMTVMdFc1VFNJMjN6WVRR?oc=5",
+      "published": "Tue, 22 Jul 2025 07:00:00 GMT",
+      "source": "Google News ID",
+      "sentiment_score": -1,
+      "sentiment": "Negatif",
+      "topic": "Kondisi Alam & Bencana"
+    },
+    {
       "title": "How Declining Oil Production Could Weaken Russia’s Geopolitical Power - Baker Institute",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSi1uWGd5eXNrRGNnRktlZnJCZ2tleV81TGxwcVNuSEFwZ3E5S19LRHgxS3R1RXVrTUpLWk9WZXRPOTNyUnRRaDFqdlF1NUt0bDE2X1JYRTF4bEdOZFdRTlp3MnBEYUREU1ZmRmlqcjFzNUtfS2dKdG5samtaYktKOGRJZnFZMWdkOE9kRGpYeDRMNlcxNXZDN25HSEtHQUVJSHdvemtVcUUtYTlk?oc=5",
-      "published": "Tue, 16 Jun 2026 07:00:00 GMT",
+      "published": "Tue, 16 Jun 2026 18:22:38 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
-    },
-    {
-      "title": "The Iran war is good for the Russian economy but bad for Putin’s prestige - Atlantic Council",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSVhIRkx3cXBDd2hleGRMdWpRQ0RnUW1OYzRSSjN3ckpTTVJ4bHN4UWgyOFhLQTJ6bGdVUUZjcXFDcVBOLWVsaFJURmdmVjVtMDZSd1ZaX3BYMlhBanZ0bzhOcHBuai1abW9zam1PRHZYLUpfbERNdllaX1JlNC1KNzg5VTBCdjRhZnZIRm5IbzFfOHBDYWgxVUNyX0tkUWVTOEt6S0NQU001S2QzWGJGVWJ6RjJaZE4tVmFQc0ExLUQxdw?oc=5",
-      "published": "Tue, 17 Mar 2026 07:00:00 GMT",
-      "source": "Google News Global",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Konflik & Perang Dunia"
     },
     {
       "title": "Iran War Has Put Putin in Zugzwang - Geopolitical Monitor",
@@ -1198,7 +1178,16 @@
       "topic": "Konflik & Perang Dunia"
     },
     {
-      "title": "How is the conflict in the Middle East affecting developing economies? - economicsobservatory.com",
+      "title": "The Iran war is good for the Russian economy but bad for Putin’s prestige - Atlantic Council",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSVhIRkx3cXBDd2hleGRMdWpRQ0RnUW1OYzRSSjN3ckpTTVJ4bHN4UWgyOFhLQTJ6bGdVUUZjcXFDcVBOLWVsaFJURmdmVjVtMDZSd1ZaX3BYMlhBanZ0bzhOcHBuai1abW9zam1PRHZYLUpfbERNdllaX1JlNC1KNzg5VTBCdjRhZnZIRm5IbzFfOHBDYWgxVUNyX0tkUWVTOEt6S0NQU001S2QzWGJGVWJ6RjJaZE4tVmFQc0ExLUQxdw?oc=5",
+      "published": "Tue, 17 Mar 2026 07:00:00 GMT",
+      "source": "Google News Global",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Konflik & Perang Dunia"
+    },
+    {
+      "title": "How is the conflict in the Middle East affecting developing economies? - Economics Observatory",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV0xmbWdNUzQ1V2xDTFlGa0FQZUFrWDZ0a3RybzBpbGtFT2dYQTVFYmRraDFCZ1FaVDZiX1AzdjYyLXNqRDR6OXR6RGgwLUh3amtzT28xUGVOUDNhTXVQM3ZyeGhOSWk3VUF4dWZ1N1BNZGxHbnZMUml1cXBEZVlQMzRKLXNKbkdGbUN1WHV0eVJJeFByWjY2SThNanZ4eVgyQVF0VnY0TGdnZw?oc=5",
       "published": "Tue, 21 Apr 2026 07:00:00 GMT",
       "source": "Google News Global",
@@ -1234,27 +1223,27 @@
       "topic": "Umum"
     },
     {
+      "title": "Brazil braces for potentially very strong El Niño - Valor International",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTzJGT1FWV0RIcnBvc1djS1RpUEFHQ04zRjVjX01wQlo0OXZYdWc3TUNUUnYxaGpBZmxRZmdnanRiSFhXRUVkczFERWMzQmdTU3VoOVVJTzZhemhOMlJ6cVhVRVZSN3ZQaW5ZV2U0QU9wUXM4OWJBc2I1NTMwV0VxNmpuWHBCN3VvLWZlSmRfWkJRVzRLNWZKZmpWOERkSVVidHdGX2ZuNlhXTWJZRGZSeHNkX1dWWkxMajZEaNIBywFBVV95cUxQWk42R2lzWWd5c1FyMXN6bUowck11Ykp4S0RsaUJydWZQVmIwTWVLV0c0ekJpLVJtMldRMTJGQkNTczQ1dG1EVjlLV0d2V1h3alBZdUJJOGpaSTkwcFlnMW4ydlRNX0JiZWdBb1dPVW1WV3ptbU5QWEVDWmFmWjEtVnRFbTlJVnk5YzBDbjZtTURCTXVTRVYzN3JwUGdfMVNGWG5Pc0lGMWoyRzdBc2Voa3Y3dHdIOEdVbFpaM3dvaGtzQU9oeGR3NWtsOA?oc=5",
+      "published": "Tue, 11 Aug 2026 10:52:24 GMT",
+      "source": "Google News Global",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
+      "title": "What is El Niño, how does it affect hunger and how does WFP respond? - UN World Food Programme",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWWNwOXBYV3J6Q1JydWVCaFpGNzllU3NkQmtrdDZRNDBWandEckNweFVmUUdvT3BLVHZtdUV6eDFFYlg3SXJSS1NzZWxFYV9XTUcxQWg3bC03VjlISUJZb19xcnpLVFpRZW9qNnBWT1JIWEVzbVBiVkxkajctdVBvc1BCSnFfaXF0VGhKVWFFSDA2Rk45ckE?oc=5",
+      "published": "Wed, 05 Aug 2026 12:00:00 GMT",
+      "source": "Google News Global",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
       "title": "El Niño early action urged as extreme weather looms - Gavi, the Vaccine Alliance",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQT2VQMC1yS0UwbURJa2I3WGRpdEYzdnFVT0NIMS1FTWYzSXkzRVFSZkF0TlhycW5qNGlCV1RnZHdMdTRyNG1oeFQxTDBZS25aY0VVYmdiaWRDSDBJczF3d2RtTWxldWJ0RjhwbkplZEphQmNncUlOOFE1bVVnMXd5RFo2R0R0aGRmX1E?oc=5",
       "published": "Mon, 20 Jul 2026 07:00:00 GMT",
-      "source": "Google News Global",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "How could El Niño affect Uganda, and why are authorities warning now? - Latest news from Azerbaijan",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdUZpa3gxS29yOTJ6Q1NxU3Q5ZUU2T2xZNmE2RzFsWi1VVWZfcmxDU0FxXzNCQlVnU1R3dUNuVjNweTVIYVpJaFpYeTRvX3NtbHd6ZDZ4NnRMbno0VTMyWWJoTVg2YlZ1YVRJUUl6VWJxNkE1MTNSWWJaNzA1LVprQ25MbXBRcllSMUpULW5jOE0?oc=5",
-      "published": "Wed, 05 Aug 2026 02:00:08 GMT",
-      "source": "Google News Global",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "Record El Niño threatens to unleash floods across East Africa and Asia - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObVA1MGFDeEVjTnpuVDU4S3JYU2gzdDJ5cnRXZWpXbjE3c3duM3lhcERiNUVJbVZ2cWVTY1R2aHE2SkFVYjRkeWxIQzhPN19MZ1dNWkNIVnJoSnRERi0xY2t1M1p1cjdGOXFRTGdqVGhWX1JDV2JHR2hTWlJROFB4WHMyMTZVNGRCYmlWVm54ekRBX3plZzhVYTVZbnhMdjZLRWQ0cGUtQlRvNTVxU1p4bNIBtgFBVV95cUxQUzRIbjRGTUp2U1NIMmlhRlpoNWxzVjM3RWhwdUZHcW51dHVrQjZFZWh0LWJiTWM5NDFlZkNDMnN0SFVCcUxVejlDRXhLR09yNEUxMDhURDIwUzhZWHRlRXlzdm9tN0ZYM2locmFfekZYNkZwWjFEUjBPZ3hGUnVQQlNuOHFINzFqc1lKZnhVd3pTYVVMUDVhTC1ZNXROWkNWQ2UzNVhGYzcySWZabzZ2Q1VCYnNSQQ?oc=5",
-      "published": "Tue, 14 Jul 2026 07:00:00 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
@@ -1268,6 +1257,24 @@
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
+    },
+    {
+      "title": "June heatwave knocks €2 billion off European harvest prospects – new analysis - Energy & Climate Intelligence Unit | ECIU",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX2Job1BadGx4VTh3a1c2YkJTem9waFFNZVZndXcwMS1SMWNtQzVHMWtEUjhRdFZ6ZnhsRWtjWTFuUmlIZG1yQzdoUE9IX3pHbTB6eTlkWjFSZGpRTTRUdnVOVDBiaFNUeFptU01feGpmYTNRWjBrM3EwY29HUVlGa2JLN2ZhaV9aMXdUV2FCMVJHSGtXZTkxZmlSRjA5ZG54OURkMENWb0J1T1FLOGNPVHh3?oc=5",
+      "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+      "source": "Google News Global",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
+      "title": "Bangladesh Faces Rice Shortages Amid Flash Floods and Iran War Fuel Crisis - Think Global Health",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ01pbkVCaU5ia0pLa0x4MmduUGZlWDJmRTVZRVdReDQ5dnpoUWZTNUVULVR2aGNUWUR0VUFHSGp4emllcnNxTWUxM19ZYXZiNVdHbFBZRzZQV0pFeUVlem9Ha1V6b2o2dm5mWnBPWVM5RFJXMEk0Uk5kZEdlMzMyTHJ1WGtwanNSd0ZfRERqaGNibmN4c0xRcDFmZXlONEw3cXFxamdlRnRyYVhhRWt5cFZianY?oc=5",
+      "published": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "source": "Google News Global",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Konflik & Perang Dunia"
     },
     {
       "title": "Ample world inventories may soften El Nino food supply shock - Reuters",
@@ -1288,316 +1295,298 @@
       "topic": "Umum"
     },
     {
-      "title": "Storage fund dwarfed by farm losses - The Express Tribune",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByZUhvNXNVakpRdXkybVFfc3EyLVI4Tk5BVG1FRks2UTVhWUF4cEgwWGJMX1pOempab2JfRjlpVmpkMTdDZ2tiQ3VOUmcyX2lCaG1OTG05TkpjU1BLSUJUaFNQeHNWTDdyTElFRlVwSURLc3ZqOFp6VURuY2jSAYQBQVVfeXFMTVoyVzliOW1fbi10R256RDl4LWd1ZDNqQkpxN2JxQVJTblByYmh0MXdMdFhJMEdGXy1rTFhQM3ZvdVlsU3NzNDlTTGI3QXptODhDSTJVZVQyaTh1V0pvdFJ0c2VpYU81UFpVbHgyRzVRcG02X0JxdXRGWmZBb3BvMmJzR19x?oc=5",
-      "published": "Sun, 14 Jun 2026 07:00:00 GMT",
-      "source": "Google News Global",
+      "title": "'Unprecedented' rain in Japan kills eight people",
+      "link": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 14 Aug 2026 10:36:14 GMT",
+      "source": "BBC World",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Storage shortage persists as wheat harvest approaches - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWE81MWVnbjgtSy04S3lnR2IyVUZwbVNxdVc4YnJxZG05SGh6QnI1eUpBZDFPckdsRU9ScG5aRFJSNm96emtHTVdtNkNGYzhIUXVQemN2OWdfUms3UHRyRmp4UE95UzQ1MVdncmZoOHpWREZiLWd6bXR5M3VzUXBNWVM0dnd2SEZNN0FVcHV0MTVuVTdhWVRuRzZpeFE5TlJvT1BNOVJuWHU2dEZyVEZHcmFGZ1Y0UjFtX21ENm8wX1lXb01FZ0twZEpfNNIB0AFBVV95cUxPdXNBX2Vkd2RjT0ExNUlJVEtUMXdoWW5QaC1lQ2lzd2R6cndyYmxpOFlIb3k4MG1vcEVQSkUxbnc0UW1KUnJSY0tKMnNvTGpuUFd2cy1OdnpoYmd2SkVvSEp2VG96OG9rZ2xMekJ3NnFSOUFETFhydV9DZkJyZW90RTMtS2g2LWVaVFJaOXI5NlBQbUEzRWQ1akw0UXJ5aUxraEFyQnFaTkRXUVhYLTdQdDNwclhiU1JVa0M4Vkp4TV9BemhoeVJmOGJWLVRjclpo?oc=5",
-      "published": "Sun, 01 Mar 2026 08:00:00 GMT",
-      "source": "Google News Global",
+      "title": "Instagram accounts fuelling Ceuta crisis with paid advice for help to cross",
+      "link": "https://www.bbc.co.uk/news/articles/c89n20wj9kko?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 14 Aug 2026 12:19:21 GMT",
+      "source": "BBC World",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Trump hid in catering truck in secret plane swap over Iran threat, reports say",
-      "link": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 11 Aug 2026 09:58:45 GMT",
+      "title": "US says dozens of countries helped China dodge Trump's tariffs",
+      "link": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 14 Aug 2026 08:39:46 GMT",
       "source": "BBC World",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Konflik & Perang Dunia"
     },
     {
-      "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
-      "link": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 11 Aug 2026 09:39:58 GMT",
+      "title": "Builders unearth €9m gold loot sealed in walls of Belgian property",
+      "link": "https://www.bbc.co.uk/news/articles/c5ydzg0dnz7o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 14 Aug 2026 13:18:08 GMT",
       "source": "BBC World",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
-      "link": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 11 Aug 2026 10:43:07 GMT",
+      "title": "Stolen Matisse artworks recovered by police in Brazil",
+      "link": "https://www.bbc.co.uk/news/articles/c1l1ym96ydvo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 14 Aug 2026 10:55:39 GMT",
       "source": "BBC World",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "At least 132 killed in Colombia's largest  earthquake in years",
-      "link": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 11 Aug 2026 04:06:07 GMT",
+      "title": "Presidential vote counting halted in Zambia over alleged attacks on polling staff",
+      "link": "https://www.bbc.co.uk/news/articles/c5yr8r04edvo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 14 Aug 2026 11:37:31 GMT",
       "source": "BBC World",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Libyan authorities battle big blaze at major oil refinery",
-      "link": "https://www.bbc.co.uk/news/articles/cp308z9pl30o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 11 Aug 2026 08:28:24 GMT",
-      "source": "BBC World",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "Australia PM under fire for remarks on Japanese counterpart's melon gifts",
-      "link": "https://www.bbc.co.uk/news/articles/c0jl6ewvq42o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 11 Aug 2026 07:55:22 GMT",
-      "source": "BBC World",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "'That's a good idea': U.S. and Iran trade reparation demands as Hormuz deal hopes fade",
-      "link": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html",
-      "published": "Tue, 11 Aug 2026 10:18:33 GMT",
+      "title": "U.S. to use economic tactics on Iran 'that have never been seen'; Navy works to relieve troubled carrier USS Abraham Lincoln",
+      "link": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
+      "published": "Fri, 14 Aug 2026 11:50:40 GMT",
       "source": "CNBC Commodities",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Konflik & Perang Dunia"
     },
     {
-      "title": "Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?",
-      "link": "https://www.cnbc.com/2026/08/11/wall-street-endorsed-jensen-huangs-big-concept-for-ai-what-now.html",
-      "published": "Tue, 11 Aug 2026 11:15:16 GMT",
+      "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
+      "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
+      "published": "Fri, 14 Aug 2026 13:24:54 GMT",
+      "source": "CNBC Commodities",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Geopolitik"
+    },
+    {
+      "title": "‘Absolutely unacceptable’: Japan PM Takaichi condemns Putin’s visit to disputed Kuril Islands",
+      "link": "https://www.cnbc.com/2026/08/14/putin-kuril-islands-japan.html",
+      "published": "Fri, 14 Aug 2026 12:28:54 GMT",
       "source": "CNBC Commodities",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Zelenskyy warns Putin is preparing for escalation by bringing in North Korean military equipment",
-      "link": "https://www.cnbc.com/2026/08/11/ukraine-war-zelenskyy-russia-putin-north-korea.html",
-      "published": "Tue, 11 Aug 2026 08:20:02 GMT",
+      "title": "AI’s infrastructure boom is getting more leveraged — and harder to track",
+      "link": "https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html",
+      "published": "Fri, 14 Aug 2026 12:03:32 GMT",
       "source": "CNBC Commodities",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Intel upsizes stock offering to $20 billion at $95 per share as AI demand accelerates",
-      "link": "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html",
-      "published": "Tue, 11 Aug 2026 07:17:00 GMT",
+      "title": "NATO aircraft shoot down drone over Latvia, which blames 'Russian electromagnetic warfare'",
+      "link": "https://www.cnbc.com/2026/08/14/nato-drone-latvia.html",
+      "published": "Fri, 14 Aug 2026 12:21:44 GMT",
       "source": "CNBC Commodities",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Hormuz deadlock: Where oil prices could head next as prospects for an imminent deal fade",
-      "link": "https://www.cnbc.com/2026/08/11/hormuz-oil-prices-us-iran.html",
-      "published": "Tue, 11 Aug 2026 10:29:34 GMT",
+      "title": "Arm co-founder Hermann Hauser’s AI warning: The revolution is real, but so is the bubble risk",
+      "link": "https://www.cnbc.com/2026/08/14/arm-ai-bubble-hermann-hauser-the-tech-download.html",
+      "published": "Fri, 14 Aug 2026 11:00:01 GMT",
       "source": "CNBC Commodities",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "U.S. oil tops $84 as Hormuz deal hopes dwindle and deadlock deepens",
-      "link": "https://www.cnbc.com/2026/08/11/oil-prices-today-us-crude-84.html",
-      "published": "Tue, 11 Aug 2026 09:12:25 GMT",
-      "source": "CNBC Commodities",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "What to know about South Carolina’s election to replace Lindsey Graham",
-      "link": "https://www.aljazeera.com/news/2026/8/11/what-to-know-about-south-carolinas-election-to-replace-lindsey-graham?traffic_source=rss",
-      "published": "Tue, 11 Aug 2026 10:55:03 +0000",
+      "title": "Mutual defence: The alliances that preceded Turkiye-Pakistan-Saudi pact",
+      "link": "https://www.aljazeera.com/news/2026/8/14/mutual-defence-the-alliances-that-preceded-turkiye-pakistan-saudi-pact?traffic_source=rss",
+      "published": "Fri, 14 Aug 2026 14:19:30 +0000",
       "source": "Al Jazeera",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "DRC Ebola death toll passes 2,000 amid fastest-growing outbreak on record",
-      "link": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record?traffic_source=rss",
-      "published": "Tue, 11 Aug 2026 10:52:27 +0000",
+      "title": "Pakistan PM’s ‘red line’ warning to India over water treaty",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss",
+      "published": "Fri, 14 Aug 2026 13:07:19 +0000",
       "source": "Al Jazeera",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "East Libya military intelligence chief killed in car bomb",
-      "link": "https://www.aljazeera.com/news/2026/8/11/east-libya-military-intelligence-chief-killed-in-car-bomb?traffic_source=rss",
-      "published": "Tue, 11 Aug 2026 10:25:50 +0000",
+      "title": "Russia stance will be defended in court, pledges World Athletics chief Coe",
+      "link": "https://www.aljazeera.com/sports/2026/8/14/russia-stance-will-be-defended-in-court-pledges-world-athletics-chief-coe?traffic_source=rss",
+      "published": "Fri, 14 Aug 2026 13:04:23 +0000",
       "source": "Al Jazeera",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Who is Atef Najib, former Syrian official sentenced to death with al-Assad?",
-      "link": "https://www.aljazeera.com/news/2026/8/11/who-is-atef-najib-former-syrian-official-sentenced-to-death-with-al-assad?traffic_source=rss",
-      "published": "Tue, 11 Aug 2026 10:03:25 +0000",
+      "title": "US missionary kidnapped in Niger released after nine months in captivity",
+      "link": "https://www.aljazeera.com/news/2026/8/14/us-missionary-kidnapped-in-niger-released-after-nine-months-in-captivity?traffic_source=rss",
+      "published": "Fri, 14 Aug 2026 12:54:30 +0000",
       "source": "Al Jazeera",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Bangladesh and India battle to save cricket series after political turmoil",
-      "link": "https://www.aljazeera.com/sports/2026/8/11/bangladesh-and-india-battle-to-save-cricket-series-after-political-turmoil?traffic_source=rss",
-      "published": "Tue, 11 Aug 2026 10:02:35 +0000",
+      "title": "Saudi Arabia announces start of Red Sea defence alliance: Will it work?",
+      "link": "https://www.aljazeera.com/news/2026/8/14/saudi-arabia-announces-start-of-red-sea-defence-alliance-will-it-work?traffic_source=rss",
+      "published": "Fri, 14 Aug 2026 12:45:11 +0000",
       "source": "Al Jazeera",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "The Global South’s digital future must not belong to Bezos and Musk",
-      "link": "https://www.aljazeera.com/opinions/2026/8/11/the-global-souths-digital-future-must-not-belong-to-bezos-and-musk?traffic_source=rss",
-      "published": "Tue, 11 Aug 2026 09:52:01 +0000",
+      "title": "Israeli soldiers prevent aid delivery to besieged Palestinians",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/israeli-soldiers-prevent-aid-delivery-to-besieged-palestinians?traffic_source=rss",
+      "published": "Fri, 14 Aug 2026 12:11:56 +0000",
       "source": "Al Jazeera",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "B&G Foods names Robert Mills as new CEO",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/b-g-foods-names-robert-113211696.html",
-      "published": "2026-08-11T11:32:11Z",
-      "source": "Yahoo Finance",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "SpaceX Rivals Report Mixed Earnings; Rocket Lab Sinks On Possible Neutron Delays",
-      "link": "https://www.investors.com/news/spacex-rocket-lab-ast-spacemobile-earnings-electron-launch-neutron-rocket/?src=A00220&yptr=yahoo",
-      "published": "2026-08-11T11:18:35Z",
-      "source": "Yahoo Finance",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "This Roth conversion trap easily destroys $1M in tax-free wealth — are you making an extremely costly mistake right now?",
-      "link": "https://finance.yahoo.com/markets/articles/roth-conversion-trap-easily-destroys-111500093.html",
-      "published": "2026-08-11T11:15:00Z",
-      "source": "Yahoo Finance",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "‘My primary concern is inflation’: Fed’s Schmid pushes rates higher as mortgages hit 6.69%. Make high rates work for you",
-      "link": "https://finance.yahoo.com/economy/policy/articles/primary-concern-inflation-fed-schmid-110500327.html",
-      "published": "2026-08-11T11:05:00Z",
-      "source": "Yahoo Finance",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures waver as US, Iran harden stances",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-11-dow-sp-500-nasdaq-102827503.html",
-      "published": "2026-08-11T10:28:27Z",
-      "source": "Yahoo Finance",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Konflik & Perang Dunia"
     },
     {
-      "title": "Oil rises above $89 as Strait of Hormuz deal hopes fade",
-      "link": "https://finance.yahoo.com/energy/articles/oil-rises-above-89-strait-112931165.html",
-      "published": "2026-08-11T11:29:31Z",
+      "title": "Resort destination mall and hotel file Chapter 11 bankruptcy",
+      "link": "https://finance.yahoo.com/real-estate/articles/68-old-resort-hotel-mall-015339982.html",
+      "published": "2026-08-14T01:53:39Z",
       "source": "Yahoo Finance",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
+    },
+    {
+      "title": "Why Top 3% Biotech Stock, Eton, Just Catapulted To A Record High",
+      "link": "https://www.investors.com/news/technology/eton-stock-eton-pharmaceuticals-earnings-q2-2026/?src=A00220&yptr=yahoo",
+      "published": "2026-08-14T14:36:56Z",
+      "source": "Yahoo Finance",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
+      "title": "AI Shopping is Sending Better Leads to Ulta and Etsy. Can They Keep the Customer?",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-shopping-sending-better-leads-143403287.html",
+      "published": "2026-08-14T14:34:03Z",
+      "source": "Yahoo Finance",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
+      "title": "Fed Rate Hike Odds Fall As Amazon Prime Day Effect Hits Retail Sales",
+      "link": "https://www.investors.com/news/federal-reserve-retail-sales-amazon-prime-day-wmt-tgt-tariff-refunds/?src=A00220&yptr=yahoo",
+      "published": "2026-08-14T14:33:52Z",
+      "source": "Yahoo Finance",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
+      "title": "Tech stocks today: Shares climb higher with AI trade back on",
+      "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-higher-with-ai-trade-back-on-135605566.html",
+      "published": "2026-08-10T13:56:05Z",
+      "source": "Yahoo Finance",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
+      "title": "Walmart set for in-line Q2 as investors eye tariff refund plans, 2H guidance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-set-line-q2-investors-143800559.html",
+      "published": "2026-08-14T14:38:00Z",
+      "source": "Yahoo Finance",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Geopolitik"
     }
   ],
   "indicators": [
     {
       "name": "IHSG",
       "group": "Global & Pasar",
-      "value": 6267.88,
-      "r20_pct": 3.78,
-      "r60_pct": -9.24,
+      "value": 6401.89,
+      "r20_pct": 3.67,
+      "r60_pct": -2.99,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-11T18:40:15+07:00",
+      "freshness": "2026-08-14T21:56:31+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
     {
       "name": "USDIDR",
       "group": "Makro Indonesia",
-      "value": 17830.0,
-      "r20_pct": -1.55,
-      "r60_pct": 0.73,
-      "trend": "Turun",
+      "value": 17831.0,
+      "r20_pct": -0.86,
+      "r60_pct": 0.79,
+      "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-11T18:40:15+07:00",
+      "freshness": "2026-08-14T21:56:31+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
     {
       "name": "DollarIndex",
       "group": "Global & Pasar",
-      "value": 99.83,
-      "r20_pct": -1.1,
-      "r60_pct": 0.96,
+      "value": 99.54,
+      "r20_pct": -1.2,
+      "r60_pct": 0.24,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-11T18:40:15+07:00",
+      "freshness": "2026-08-14T21:56:31+07:00",
       "use": "Kekuatan dolar dan tekanan emerging market",
       "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
     },
     {
       "name": "Minyak",
       "group": "Global & Geopolitik",
-      "value": 82.32,
-      "r20_pct": 3.76,
-      "r60_pct": -18.63,
-      "trend": "Naik",
+      "value": 81.65,
+      "r20_pct": -1.02,
+      "r60_pct": -24.24,
+      "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-11T18:40:15+07:00",
+      "freshness": "2026-08-14T21:56:31+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
     {
       "name": "Emas",
       "group": "Global & Pasar",
-      "value": 4445.8,
-      "r20_pct": 9.47,
-      "r60_pct": -4.97,
+      "value": 4438.5,
+      "r20_pct": 10.61,
+      "r60_pct": -1.5,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-11T18:40:15+07:00",
+      "freshness": "2026-08-14T21:56:31+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
     {
       "name": "Yield_US",
       "group": "Global & Pasar",
-      "value": 4.7,
-      "r20_pct": 1.95,
-      "r60_pct": 4.86,
+      "value": 4.67,
+      "r20_pct": 2.88,
+      "r60_pct": 0.11,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-11T18:40:15+07:00",
+      "freshness": "2026-08-14T21:56:31+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
     },
@@ -1610,33 +1599,33 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-11T18:40:15+07:00",
+      "freshness": "2026-08-14T21:56:31+07:00",
       "use": "Pendapatan eksportir energi dan devisa Indonesia",
       "causal_impact": "Batu bara naik → pendapatan eksportir/devisa naik; pengguna energi menanggung biaya"
     },
     {
       "name": "Aluminium",
       "group": "Sektoral",
-      "value": 3548.25,
-      "r20_pct": 2.91,
-      "r60_pct": -8.83,
-      "trend": "Naik",
+      "value": 3401.75,
+      "r20_pct": -3.61,
+      "r60_pct": -12.19,
+      "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-11T18:40:15+07:00",
+      "freshness": "2026-08-14T21:56:31+07:00",
       "use": "Siklus logam industri dan manufaktur",
       "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
     },
     {
       "name": "BijihBesi",
       "group": "Sektoral",
-      "value": 94.55,
-      "r20_pct": -3.82,
-      "r60_pct": -15.03,
+      "value": 95.05,
+      "r20_pct": -3.81,
+      "r60_pct": -14.01,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-11T18:40:15+07:00",
+      "freshness": "2026-08-14T21:56:31+07:00",
       "use": "Aktivitas baja, konstruksi, dan permintaan China",
       "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },
@@ -1759,9 +1748,9 @@
     }
   ],
   "summary": {
-    "study": 0,
-    "watch": 12,
-    "avoid": 20
+    "study": 1,
+    "watch": 9,
+    "avoid": 22
   },
   "disclaimer": "Riset otomatis, bukan nasihat investasi atau jaminan hasil."
 }
