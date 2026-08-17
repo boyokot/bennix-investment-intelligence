@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-17T18:37:06+07:00",
+  "generated_at": "2026-08-17T18:32:33+07:00",
   "sources": [
     "Al Jazeera",
     "BBC World",
@@ -16,7 +16,7 @@
     "signals": [
       "IHSG 60h -3.0%",
       "USD/IDR 20h -0.6%",
-      "Minyak 20h -0.7%",
+      "Minyak 20h -0.6%",
       "US10Y 20h +3.4%"
     ]
   },
@@ -44,36 +44,36 @@
       "_source": "yahoo-chart"
     },
     "DollarIndex": {
-      "price": 99.47,
-      "r20": -0.01500147956921527,
-      "r60": 0.003682755135927307,
-      "r120": 0.016295476761953198,
-      "vol": 0.043660468664121405,
-      "drawdown": -0.021011732343331646,
-      "rel": 0.003682755135927307,
+      "price": 99.49,
+      "r20": -0.014902438709307964,
+      "r60": 0.0037836746815722577,
+      "r120": 0.01639766450726521,
+      "vol": 0.0436414260368989,
+      "drawdown": -0.020913295809817267,
+      "rel": 0.0037836746815722577,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "Minyak": {
-      "price": 82.69,
-      "r20": -0.006488055914302238,
-      "r60": -0.1584571479373421,
-      "r120": 0.2599421895770353,
-      "vol": 0.5295092376538367,
-      "drawdown": -0.26790611176999124,
-      "rel": -0.1584571479373421,
-      "volume_ratio": 1.1584402162678533,
+      "price": 82.7,
+      "r20": -0.006367972934212984,
+      "r60": -0.1583554330317991,
+      "r120": 0.26009447522771656,
+      "vol": 0.5295149100695637,
+      "drawdown": -0.26781762565130174,
+      "rel": -0.1583554330317991,
+      "volume_ratio": 1.1583638502143667,
       "_source": "yahoo-chart"
     },
     "Emas": {
-      "price": 4461.0,
-      "r20": 0.112385593517766,
-      "r60": -0.015514269131955638,
-      "r120": -0.1347608190790901,
-      "vol": 0.24790493494410312,
-      "drawdown": -0.15741158917270615,
-      "rel": -0.015514269131955638,
-      "volume_ratio": 2.5153979549123964,
+      "price": 4459.1,
+      "r20": 0.1119118378584345,
+      "r60": -0.015933553316547555,
+      "r120": -0.13512931716197196,
+      "vol": 0.24777024077644216,
+      "drawdown": -0.15777044048329736,
+      "rel": -0.015933553316547555,
+      "volume_ratio": 2.5086258446450995,
       "_source": "yahoo-chart"
     },
     "Yield_US": {
@@ -809,64 +809,63 @@
     {
       "topic": "IHSG dan arah risk-appetite 1–3 bulan",
       "probabilities": {
-        "bull": 0.2,
-        "base": 0.44,
-        "bear": 0.36
+        "bull": 0.22,
+        "base": 0.48,
+        "bear": 0.3
       },
-      "confidence": 66,
-      "thesis": "Rezim IHSG tidak berubah karena 17 Agu libur HUT RI (IDX ditutup; IHSG beku di 6.401,89, penutupan Jumat +1,59% dari reli katalis Prabowo dan realisasi investasi Rp1.010 T). Yang bergerak justru latar global dan cenderung memburuk: US10Y naik ke 4,70 (+3,4%/20, masih menyentuh area tinggi), minyak rebound ke 82,7 setelah jeda, dan 17 Agu muncul berita eskalasi kuat — 'Strait of Hormuz shipping grinds to a halt ahead of U.S.-Iran ceasefire expiry' (CNBC 17 Agu) yang secara langsung mengancam jalur minyak global. Di sisi domestik katalis positif bertahan (respons pasar ke Nota Keuangan/RAPBN 2027 bullish, Kontan 15 Agu), tetapi risiko global kini lebih pekat: China melambat (retail sales nyaris tidak tumbuh, investasi turun — CNBC 17 Agu) dan AS belum dovish. Basis kasus tetap konsolidasi di atas 6.350–6.400 dengan bias uji struktur 60 hari, namun probabilitas bear dinaikkan dari 0,30 ke 0,36 karena sinyal eskalasi Hormuz dan yield yang masih tinggi; bull diturunkan ke 0,20 karena latar makro-energi belum mendukung reli berkelanjutan. Momentum domestik akan diuji begitu pasar buka (Selasa 18 Agu).",
+      "confidence": 68,
+      "thesis": "Skenario bear pekan lalu batal uji garis 6.234 dan berbalik kuat: IHSG ditutup 6.401,89 (+1,59% intraday dari pidato Prabowo, mengembalikan posisi ke atas struktur 60 hari). Katalis domestik jelas: 'IHSG Melejit Saat Prabowo Sampaikan Pencapaian Ekonomi RI' (Bloomberg Technoz) dan 'Realisasi Investasi RI Rp1.010 Triliun Semester I/2026 di Tengah Konflik Geopolitik' (Bisnis.com). Return 60 hari membaik dari -9,2% ke -3,0%; drawdown menyempit ke -23,8%; volume 1,27x. Namun r120 masih -19,3% dan US10Y tetap di 4,67 (+2,9%/20 hari) dengan Fed belum dovish — pemulihan kali ini bersifat reli katalis kepemimpinan melawan latar makro yang belum longgar. Breadth membaik menjadi 1 STUDY / 9 WATCH / 22 AVOID, dipimpin ISAT (STUDY 74,0) dan TINS. Base case naik ke konsolidasi positif di atas 6.350–6.400 dengan bias uji resistance struktur 60 hari; bull naik karena momentum domestik dan dolar melemah (DXY 99,53, -1,2%/20); bear turun karena garis 6.234 tertahan dan yield relatif turun sedikit, tetapi tidak bisa diabaikan bila global memburuk lagi.",
       "evidence": [
-        "IHSG 6.401,89 (beku libur HUT RI 17 Agu; penutupan Jumat +1,59%, r20 +3,7%, r60 -3,0%, r120 -19,3%, drawdown -23,8%, vol 1,32x) — arah hanya akan terbaca saat pasar buka Selasa",
-        "Eskalasi baru 17 Agu: 'Strait of Hormuz shipping grinds to a halt ahead of U.S.-Iran ceasefire expiry' (CNBC) — ancaman langsung ke jalur minyak & inflasi energi",
-        "US10Y 4,70 +3,4%/20 dan +16,5%/120 — biaya modal global tetap tinggi; Fed belum dovish",
-        "China melambat: 'China's economy slows further in July as retail sales barely grow, investment slump steepens' (CNBC 17 Agu) — kontraksi permintaan global",
-        "Domestik positif bertahan: 'Pasar Respons Positif Nota Keuangan dan RAPBN 2027, Tanda IHSG Bakal Bullish?' (Kontan 15 Agu); realisasi investasi Rp1.010 T tetap jadi penopang",
-        "Gempa Indonesia: 'Aid shortages and fears of starvation as Indonesia reels from deadly earthquake' (BBC 17 Agu) — sentimen domestik jangka pendek negatif di tengah libur",
-        "Risiko rezim MIXED naik tipis ke 52,0 (dari 51,3): sinyal IHSG 60h -3,0%, minyak 20h -0,6%, US10Y 20h +3,4%",
-        "Breadth tetap 1 STUDY / 9 WATCH / 22 AVOID; ISAT 73,8 dipimpin, TINS 64,8, AUTO 64,7"
+        "IHSG 6.401,89: +1,59% intraday; r20 +3,7%, r60 -3,0% (membaik dari -9,2%), r120 -19,3%, drawdown -23,8%, volume 1,27x — reli katalis Prabowo, garis 6.234 tidak diuji",
+        "'IHSG Melejit Saat Prabowo Sampaikan Pencapaian Ekonomi RI' (Bloomberg Technoz 14 Agu); 'Pidato Presiden Prabowo Bikin IHSG Rebound 1,59%, Bisakah IHSG Lanjut Menguat?' (Kontan 14 Agu)",
+        "'Prabowo: Realisasi Investasi RI Rp1.010 Triliun Semester I/2026 di Tengah Konflik Geopolitik' (Bisnis.com 14 Agu) — katalis fundamental domestik",
+        "US10Y 4,67 +2,9%/20 hari, +16,0%/120 hari (tetap tinggi); 'US consumers sour on economy as inflation concerns remain' (Yahoo/UMich 14 Agu) — biaya modal global belum longgar",
+        "DXY 99,53 -1,2%/20 hari melemah — dolar kurang menarik, mendukung EM; USD/IDR 17.831 stabil",
+        "Breadth membaik: 1 STUDY (ISAT 74,0), 9 WATCH, 22 AVOID (dari 0/12/20); volume indeks 1,27x",
+        "Regime MIXED risk 51,3 (turun dari 52,7): sinyal IHSG 60h -3,0%, minyak 20h -0,9%, US10Y 20h +2,9% — campuran namun membaik"
       ],
-      "causal_chain": "libur HUT RI membekukan IDX di penutupan positif Jumat (IHSG 6.401,89) → momentum domestik (RAPBN 2027 positif, investasi Rp1.010 T) tertahan menunggu pasar buka → sementara latar global memburuk: US10Y 4,70 tinggi, Hormuz macet menjelang gencatan senjata AS-Iran kedaluwarsa, China melambat → tekanan dari luar mengintai reli lokal; bila Hormuz eskalasi minyak >85–90 dan yield naik, IHSG berisiko menguji lagi area 6.234–6.350; bila gencatan tercapai dan global tenang, konsolidasi positif berlanjut menguji 60 hari",
+      "causal_chain": "pidato Prabowo + realisasi investasi Rp1.010 T memberi katalis fundamental domestik → risk appetite lokal membaik, rupiah stabil (17.831), dolar melemah (DXY 99,53) → IHSG rebound +1,59% dan breadth meluas → konsolidasi positif di atas 6.350–6.400 dengan bias menguji resistance 60 hari; pemulihan tetap bergantung pada latar global (US10Y tinggi, konflik) — bila yield naik lagi atau geopolitik eskalasi, reli bisa menguap",
       "beneficiaries": [
         "emiten berkatalis kinerja/arus kas terkonfirmasi yang memimpin breadth (ISAT, TINS, AUTO, INDF, ICBP, MDKA, INTP)",
-        "defensif konsumer berdaya tawar (INDF, ICBP) saat risk-appetite global meragukan",
-        "energi/gold secara terbatas bila premi minyak dan emas naik karena Hormuz"
+        "defensif konsumer berdaya tawar harga (INDF, ICBP) saat risk-appetite membaik selektif",
+        "sektor yang mendapat dorongan dolar lemah dan realisasi investasi domestik"
       ],
       "losers": [
-        "siklikal/berneraca lemah yang belum pulih (ASII -20%/60, TLKM -15,5%/60, PGAS, PTBA, SMGR, MEDC)",
-        "sektor yang butuh risk-on penuh dan likuiditas luas (infrastruktur, teknologi, logistik)",
-        "emiten yang memantul tanpa dukungan laba/arus kas dan volume; sektor yang tertekan yield naik"
+        "siklikal berneraca lemah yang belum pulih harga (ASII -20%/60, TLKM -15,5%/60, PGAS, PTBA, SMGR, MEDC)",
+        "sektor yang bergantung risk-on penuh dan likuiditas luas (infrastruktur, teknologi, logistik)",
+        "emiten yang memantul tanpa dukungan laba/arus kas dan volume"
       ],
-      "invalidation": "Base case gagal bila US10Y dan minyak naik bersama dan rupiah melemah kembali ke >17.950, IHSG kehilangan momentum dan menguji lagi 6.234; bull terkonfirmasi bila IHSG menembus naik struktur 60 hari dengan volume dan breadth meluas, rupiah menguat, serta yield AS melandai; bear kembali dominan bila Hormuz benar-benar ditutup (gencatan gagal) dan minyak menembus ke atas 85–90 dengan volume membesar",
+      "invalidation": "Base case gagal bila US10Y dan minyak naik bersama dan rupiah melemah kembali ke >17.950, IHSG kehilangan penguatan dan kembali menguji garis 6.234; bull terkonfirmasi bila IHSG menembus naik struktur 60 hari dengan volume dan breadth meluas (STUDY bertambah), rupiah menguat berkelanjutan, dan yield AS turun; bear kembali bila 6.234 ditembus turun dengan volume membesar atau eskalasi Hormuz menutup jalur minyak",
       "not_prediction_of_price": true,
       "manual_analysis": true
     },
     {
       "topic": "Rupiah dan tekanan biaya impor 1–3 bulan",
       "probabilities": {
-        "bull": 0.18,
+        "bull": 0.2,
         "base": 0.48,
-        "bear": 0.34
+        "bear": 0.32
       },
-      "confidence": 63,
-      "thesis": "Rupiah sedikit menguat ke 17.820 (-0,6%/20) di tengah dolar yang terus melemah (DXY 99,49, -1,5%/20) — tekanan pelemahan belum kembali, perbaikan juga belum mendalam (r60 +0,7%, r120 +6,1% tren melemah menengah masih utuh). Titik perhatian baru adalah minyak yang rebound ke 82,7 setelah berita Hormuz macet menjelang kedaluwarsa gencatan AS-Iran (CNBC 17 Agu) — bila eskalasi berlanjut, jalur biaya impor energi akan kembali tertekan. US10Y 4,70 (+3,4%/20) tetap jadi penahan penguatan rupiah karena menarik arus dolar. Basis kasus rupiah konsolidasi 17.750–17.900 dengan bias datar; penguatan berkelanjutan hanya bila DXY turun persisten, yield melandai, dan premi minyak/geopolitik mereda; risiko sisi lemah tetap dominan bila Hormuz eskalasi dan impor energi naik.",
+      "confidence": 64,
+      "thesis": "Rupiah stabil di 17.831 (datar dari 17.830) di tengah dolar yang melemah (DXY 99,53, -1,2%/20 hari) — tekanan pelemahan belum kembali, tetapi perbaikan juga belum mendalam. r20 -0,9% (rupiah masih sedikit menguat dalam 20 hari), r60 +0,8% dan r120 +6,5% (tren melemah menengah tetap utuh). Jalur biaya impor sedikit mereda karena minyak turun ke 81,72 (-0,9%/20, -24,2%/60) dari puncak >84, tetapi US10Y 4,67 tetap tinggi dan Fed belum dovish (survei UMich 14 Agu: konsumen AS makin cemas soal inflasi). Berita lokal masih mengangkat dampak pelemahan rupiah ke harga pangan (InvestasiKu, Kompasiana). Base case: rupiah konsolidasi 17.750–17.900 dengan bias datar-melemah ringan; penguatan berkelanjutan hanya bila DXY terus turun dan yield AS benar-benar melandai, sementara eskalasi Hormuz tetap menjadi risiko utama di sisi pelemahan.",
       "evidence": [
-        "USD/IDR 17.820, r20 -0,6%, r60 +0,7%, r120 +6,1% — menguat tipis, tren melemah menengah belum patah",
-        "DXY 99,49 -1,5%/20 — dolar melemah, menopang rupiah dan EM secara sementara",
-        "Minyak rebound 82,7 (dari 81,7); 'Strait of Hormuz shipping grinds to a halt ahead of U.S.-Iran ceasefire expiry' (CNBC 17 Agu) — risiko biaya impor energi kembali naik",
-        "US10Y 4,70 +3,4%/20 tetap tinggi — aset dolar menarik, Fed belum dovish",
-        "Emas 4.459,1 +11,2%/20 volume 2,5x — arus safe-haven kuat mencerminkan ketidakpastian global",
-        "Berita lokal: dampak pelemahan rupiah ke harga pangan (Kompasiana 9 Agu); gempa Indonesia menambah beban fiskal/domestik (BBC 17 Agu)"
+        "USD/IDR 17.831: datar dari 17.830; r20 -0,9%, r60 +0,8%, r120 +6,5% — tren melemah menengah belum patah",
+        "DXY 99,53 -1,2%/20 hari — dolar melemah, sedikit menopang rupiah dan EM",
+        "Minyak 81,72 -0,9%/20, -24,2%/60 (turun dari puncak >84); 'US consumers sour on economy as inflation concerns remain' (Yahoo/UMich 14 Agu)",
+        "US10Y 4,67 tetap tinggi (+2,9%/20, +16,0%/120) — aset dolar masih menarik, Fed belum dovish",
+        "Berita lokal: 'Apakah Rupiah Melemah Bisa Berdampak Pada IHSG?' (InvestasiKu 10 Agu); dampak pelemahan rupiah ke harga bahan pangan (Kompasiana 9 Agu)",
+        "Emas 4.440,4 +10,7%/20 hari volume 3,12x — arus safe-haven masih menguat, mencerminkan ketidakpastian global yang belum reda"
       ],
-      "causal_chain": "dolar melemah (DXY 99,49) → rupiah sedikit menguat ke 17.820 dan tekanan devisa sementara mereda → namun Hormuz macet + US10Y 4,70 tinggi membuat rupiah rentan; bila eskalasi menaikkan harga energi/import bill dan premi geopolitik, rupiah berisiko melemah lagi → penguatan berkelanjutan hanya bila yield AS melandai, DXY turun, dan premi energi mereda",
+      "causal_chain": "dolar melemah (DXY 99,53) + minyak turun dari puncak (81,72) → tekanan permintaan devisa berkurang dan rupiah stabil di 17.831 → tekanan biaya impor mereda sementara; namun US10Y tinggi dan Fed belum dovish + potensi eskalasi Hormuz → rupiah rentan melemah lagi; perbaikan berkelanjutan hanya bila yield AS melandai, DXY turun persisten, dan premi geopolitik mereda",
       "beneficiaries": [
-        "eksportir berbiaya dominan rupiah saat rupiah stabil",
+        "eksportir dengan biaya dominan rupiah saat rupiah stabil/melemah ringan",
         "emiten berpendapatan dolar dengan utang terkendali",
-        "produsen energi dengan arus kas kuat saat harga >80"
+        "produsen energi menikmati harga minyak >80 dengan arus kas kuat"
       ],
       "losers": [
         "importir energi dan bahan pangan tanpa daya tawar harga",
         "emiten berutang dolar tanpa hedging",
-        "konsumer/transportasi tanpa daya tawar bila biaya impor kembali naik"
+        "konsumer dan transportasi tanpa daya tawar saat biaya impor kembali naik"
       ],
       "invalidation": "Penguatan struktural bila DXY dan US10Y turun persisten, kesepakatan konflik meredakan premi minyak, dan USD/IDR menembus turun struktur 60 hari disertai aliran masuk asing; bear terulang bila yield dan minyak naik bersama (eskalasi Hormuz) dan USD/IDR menembus naik ke atas 17.950–18.000",
       "not_prediction_of_price": true,
@@ -875,81 +874,81 @@
     {
       "topic": "Seleksi sektor 3–6 bulan: kualitas defensif vs rotasi mineral/energi terpilih",
       "probabilities": {
-        "bull": 0.3,
-        "base": 0.46,
-        "bear": 0.24
+        "bull": 0.32,
+        "base": 0.47,
+        "bear": 0.21
       },
-      "confidence": 64,
-      "thesis": "Peta sektor hampir tidak berubah karena IDX libur HUT RI, namun komposisinya tetap tajam dan bottom-up. Mineral tetap tertinggi (51,3) dipimpin TINS 64,8 dan MDKA 57,0; Konsumer solid (51,1) dengan INDF 61,5 dan ICBP 60,0. ISAT tetap satu-satunya STUDY (73,8) — telekomunikasi tidak merata (EXCL 45,7, TLKM 28,0 AVOID). Otomotif terbelah: AUTO 64,7 pemimpin vs ASII 26,1 AVOID dalam. Perbankan masih lemah (43,9): BBCA 47,7, BBRI 46,7 di ambang AVOID, BMRI 41,4 dan BBNI 39,9 lemah. Energi selektif (40,6): ADRO 58,5 dan ITMG 52,1 WATCH, PGAS 28,4, PTBA 32,4, MEDC 31,7 AVOID. Konteks global baru (Hormuz macet → premi minyak kembali naik, US10Y 4,70) sedikit menguntungkan nama energi/mineral berkualitas dan safe-haven (emas), namun tetap harus diverifikasi laba/arus kas. Kesimpulan: pertahankan kualitas defensif berdaya tawar (INDF, ICBP, INTP) dan rotasi selektif ke mineral/energi terpilih (TINS, MDKA, ADRO) serta ISAT; waspada pada eskalasi yang bisa mengubah relative strength.",
+      "confidence": 65,
+      "thesis": "Breadth meluas dan kepemimpinan bergeser: Mineral kini sektor tertinggi (51,5) dipimpin TINS 65,1 (+27,1%/60, rel 100) dan MDKA 57,2 (+23,4%/60), sementara Konsumer tetap solid (51,4) dengan INDF 61,8 (+12,5%/60) dan ICBP 60,2 (+12,6%/60). Kejutan terbesar adalah ISAT yang melonjak ke STUDY 74,0 (+33,7%/20, +18,1%/60, likuiditas 100) — telekomunikasi kini tak merata lagi: EXCL 46,0 dan TLKM 28,2 tetap AVOID. Otomotif terbelah dalam: AUTO 64,9 (+13,7%/60) tetap pemimpin, ASII 26,4 (-20,0%/60) AVOID dalam. Perbankan masih lemah (44,2): BBCA 47,9 dan BBRI 47,0 di ambang AVOID, BMRI 41,7 (-6,9%/20) dan BBNI 40,1 lemah. Energi agregat tetap lemah (40,8) namun selektif: ADRO 58,7 (+13,5%/60) dan ITMG 52,3 WATCH, sementara PGAS 28,6, PTBA 32,7, MEDC 31,9 AVOID. Material: INTP 55,9 WATCH vs SMGR 31,1 AVOID dalam. Kesimpulan: rotasi mulai meluas ke mineral/energi terpilih dan nama berkatalis (ISAT, TINS), namun tetap sangat bottom-up — kualitas arus kas dan konfirmasi laba tetap penentu; pilihan makin tajam.",
       "evidence": [
-        "ISAT 73,8 satu-satunya STUDY: +33,7%/20 dan +18,1%/60, likuiditas 100 — telekomunikasi tidak merata (EXCL 45,7, TLKM 28,0)",
-        "TINS 64,8 +8,96%/20, +27,1%/60 (rel 100); MDKA 57,0 +23,4%/60 — Mineral 51,3 sektor tertinggi",
-        "Konsumer 51,1: INDF 61,5 (+12,5%/60), ICBP 60,0 (+12,6%/60); MYOR 37,6 dan UNVR 45,4 lemah",
-        "AUTO 64,7 +9,85%/20, +13,7%/60 pemimpin; ASII 26,1 -20,0%/60 AVOID dalam",
-        "Perbankan 43,9 lemah: BBCA 47,7, BBRI 46,7, BMRI 41,4 (-6,9%/20), BBNI 39,9 (AVOID)",
-        "Energi 40,6 selektif: ADRO 58,5 (+13,5%/60), ITMG 52,1 WATCH; PGAS 28,4, PTBA 32,4, MEDC 31,7 AVOID",
-        "Material 43,2: INTP 55,7 WATCH vs SMGR 30,8 AVOID; bijih besi -13,7%/60, aluminium -11,7%/60 masih lemah",
-        "Eskalasi 17 Agu (Hormuz macet, US10Y 4,70) + minyak 82,7 & emas 4.459,1 mendukung nama energi & gold berkualitas secara terbatas",
-        "Breadth tetap 1 STUDY / 9 WATCH / 22 AVOID — reli belum meluas, pilihan ketat dan bottom-up"
+        "ISAT 74,0 STUDY: +33,7%/20 dan +18,1%/60, likuiditas 100 — telekomunikasi tidak merata (EXCL 46,0, TLKM 28,2 AVOID)",
+        "TINS 65,1 WATCH +8,96%/20 dan +27,1%/60 (rel 100); MDKA 57,2 +23,4%/60 — Mineral 51,5 sektor tertinggi",
+        "Konsumer 51,4: INDF 61,8 (+12,5%/60), ICBP 60,2 (+12,6%/60); MYOR 37,9 (-10,2%/60) dan UNVR 45,7 lemah",
+        "AUTO 64,9 +9,85%/20 dan +13,7%/60 tetap pemimpin; ASII 26,4 -6,27%/20 dan -20,0%/60 AVOID dalam",
+        "Perbankan 44,2 lemah: BBCA 47,9 (-1,9%/20), BBRI 47,0, BMRI 41,7 (-6,9%/20), BBNI 40,1",
+        "Energi 40,8 lemah namun selektif: ADRO 58,7 (+13,5%/60) dan ITMG 52,3 WATCH; PGAS 28,6, PTBA 32,7, MEDC 31,9 AVOID",
+        "Material 43,5: INTP 55,9 WATCH vs SMGR 31,1 (-13,9%/60) AVOID dalam; bijih besi -14,0%/60 dan aluminium -12,2%/60 masih lemah",
+        "Emas 4.440,4 +10,7%/20 volume 3,12x mendukung emiten emas secara terbatas; batu bara stabil 96 (+3,3%/60)",
+        "Breadth membaik 1 STUDY / 9 WATCH / 22 AVOID — reli meluas tapi pilihan tetap ketat"
       ],
-      "causal_chain": "dolar lemah (DXY 99,49) + katalis domestik (RAPBN 2027 positif, investasi Rp1.010 T) → risk appetite lokal tertahan libur, diuji saat pasar buka → rotasi tetap ke mineral/energi terpilih (TINS, MDKA, ADRO) dan nama berkatalis (ISAT) + defensif berdaya tawar (INDF, ICBP, INTP) → namun US10Y 4,70 tinggi dan eskalasi Hormuz membuat premium energi naik → kualitas laba/arus kas tetap penentu; pilihan sangat bottom-up",
+      "causal_chain": "dolar lemah (DXY 99,53) + realisasi investasi domestik (Rp1.010 T) + reli katalis Prabowo → risk appetite membaik selektif → breadth meluas dan rotasi mulai ke mineral/energi terpilih (TINS, MDKA, ADRO) serta nama berkatalis (ISAT); namun US10Y tinggi dan r60 banyak sektor masih negatif → kualitas arus kas dan konfirmasi laba tetap penentu; pilihan sangat bottom-up",
       "beneficiaries": [
         "ISAT bila lonjakan +33,7%/20 dikonfirmasi laba, volume, dan fundamental",
-        "TINS, MDKA (mineral) dan ADRO, ITMG (energi) bila arus kas dan harga 60 hari terverifikasi; produsen emas terbatas saat emas 4.459",
-        "AUTO, INDF, ICBP, INTP secara selektif — kualitas defensif berdaya tawar harga dan arus kas"
+        "TINS, MDKA (mineral) dan ADRO, ITMG (energi) bila arus kas dan harga 60 hari terverifikasi",
+        "AUTO, INDF, ICBP, INTP secara selektif — kualitas defensif berdaya tawar harga dan arus kas",
+        "produsen emas secara terbatas saat emas 4.440,4"
       ],
       "losers": [
         "ASII, SMGR, PGAS, PTBA, MEDC — siklikal/energi berneraca lemah tanpa pemulihan harga",
         "TLKM, EXCL yang kalah relatif dari ISAT; perbankan lemah (BMRI, BBNI)",
         "emiten yang memantul tanpa dukungan laba dan arus kas (MYOR, SIDO, UNVR relatif)",
-        "sektor yang butuh risk-on penuh (infrastruktur JSMR, teknologi, logistik IPCC)"
+        "sektor yang butuh risk-on penuh dan likuiditas luas (infrastruktur JSMR, teknologi, logistik IPCC)"
       ],
-      "invalidation": "Preferensi kualitas gagal bila relative strength pemimpin hilang; tesis rotasi mineral/energi gagal bila laba, margin, arus kas, dan neraca tidak terverifikasi dan volume tidak meluas; pada lingkungan RISK-ON penuh dengan rupiah menguat berkelanjutan, rotasi ke siklikal dapat berjalan lebih luas",
+      "invalidation": "Preferensi kualitas gagal bila relative strength pemimpin hilang; tesis rotasi mineral/energi gagal bila harga 60 hari, laba, margin, arus kas, dan neraca tidak terverifikasi dan volume tidak meluas; pada lingkungan RISK-ON penuh dengan rupiah menguat berkelanjutan, rotasi ke siklikal dapat berjalan lebih luas",
       "not_prediction_of_price": true,
       "manual_analysis": true
     },
     {
       "topic": "Konflik global, cuaca ekstrem & risiko gagal panen — tekanan inflasi pangan & energi 3–6 bulan",
       "probabilities": {
-        "bull": 0.12,
-        "base": 0.4,
-        "bear": 0.48
+        "bull": 0.15,
+        "base": 0.44,
+        "bear": 0.41
       },
-      "confidence": 71,
-      "thesis": "Tesis makanan-energi makin berat ke sisi bear pada 17 Agu karena sinyal eskalasi paling konkret sejak pekan lalu: 'Strait of Hormuz shipping grinds to a halt ahead of U.S.-Iran ceasefire expiry' (CNBC) — pelayaran Hormuz macet menjelang gencatan AS-Iran kedaluwarsa, menempatkan minyak (rebound 82,7 dari 81,7) pada risiko penutupan jalur yang jauh lebih nyata daripada penyelesaian. Bersamaan, Rusia menargetkan pelabuhan Danube (CNBC) dan China melambat (retail nyaris stagnan). Fragmentasi tetap berjalan. Cuaca ekstrem/El Nino tetap aktif (Brazil bersiap El Nino sangat kuat, panas Eropa merusak panen ±€2 miliar, alarm gandum, krisis beras Bangladesh). Emas 4.459,1 (+11,2%/20, volume 2,5x) dan US10Y 4,70 menegaskan arus ke safe-haven di tengah biaya modal tinggi. Bear dinaikkan dari 0,41 ke 0,48 karena Hormuz macet adalah bukti gangguan pasokan langsung, bukan sekadar wacana; bull tetap rendah (0,12).",
+      "confidence": 70,
+      "thesis": "Konflik tetap aktif dan multi-front, namun premi minyak sedikit mereda hari ini (minyak 81,72, -0,9%/20 dari puncak >84) — pertanda pasar mulai menahan premi, bukan penyelesaian. AS-Iran masih perang: 'U.S. to use economic tactics on Iran that have never been seen; Navy works to relieve troubled carrier USS Abraham Lincoln' (CNBC 14 Agu); Rusia-Ukraina masih berkecamuk ('Pertempuran Berkecamuk dari Ukraina hingga Timur Tengah' — Vatican News; Ukraina sampaikan usulan damai ke AS dan minta tekanan ke Rusia — Antara 12 Agu); Putin kunjungi Kepulauan Kuril yang dikutuk Jepang (CNBC); NATO tembak drone Rusia di Latvia (CNBC 14 Agu). Blok geopolitik baru terbentuk: 'Saudi Arabia announces Red Sea defence alliance' dan 'Turkiye-Pakistan-Saudi pact' (Al Jazeera 14 Agu) — fragmentasi geopolitik menguat. Di sisi pangan-cuaca: El Nino tetap aktif (Brazil bersiap El Nino sangat kuat — Valor 11 Agu; UN, WFP), panas rekor Eropa merusak panen ±€2 miliar, alarm gandum dan krisis beras Bangladesh (Think Global Health). Emas 4.440,4 +10,7%/20 volume 3,12x menegaskan arus safe-haven. Base case: biaya pangan-energi tetap tinggi dan fluktuatif; bear sedikit turun dari 0,48 karena minyak mereda, namun tetap tinggi karena bukti eskalasi/fragmentasi jauh lebih nyata daripada penyelesaian.",
       "evidence": [
-        "Eskalasi 17 Agu: 'Strait of Hormuz shipping grinds to a halt ahead of U.S.-Iran ceasefire expiry' (CNBC) — pelayaran Hormuz macet menjelang gencatan kedaluwarsa; risiko penutupan jalur minyak",
-        "'Russia targets Danube port after one of Ukraine's largest aerial attacks of the war' (CNBC 17 Agu) — Rusia-Ukraina semakin agresif",
-        "'China's economy slows further in July as retail sales barely grow, investment slump steepens' (CNBC 17 Agu) — permintaan global melemah",
-        "Geopolitik/fragmentasi lanjut: 'USS Lincoln crisis', 'Iraqi Kurdish PM Barzani's office targeted in drone attack' (Al Jazeera 17 Agu); Trump kurangi latihan militer dengan Korsel (BBC 17 Agu)",
-        "Minyak 82,7 rebound (dari 81,7); r60 -15,8%, r120 +26,0% — tetap tinggi jangka panjang",
-        "El Nino & cuaca: Brazil bersiap El Nino sangat kuat (Valor 11 Agu); panas Eropa ±€2 miliar panen rusak; alarm gandum; krisis beras Bangladesh; El Nino ancam produksi pangan Asia (Kontan)",
-        "Emas 4.459,1 +11,2%/20 volume 2,5x — arus safe-haven kuat; US10Y 4,70 tinggi dan Fed belum dovish",
-        "Domestik: gempa Indonesia menambah beban fiskal/kemanusiaan (BBC 17 Agu); konsumer berdaya tawar (INDF 61,5, ICBP 60,0) tetap menarik",
-        "Berita lokal: 'Alarm Harga Pangan Indonesia di Tengah Pusaran Disrupsi Rantai Pasok Global' (Bisnis.com); pelemahan rupiah ke harga pangan (Kompasiana 9 Agu)"
+        "Berita 14 Agu: 'U.S. to use economic tactics on Iran that have never been seen; Navy works to relieve troubled carrier USS Abraham Lincoln' (CNBC) — AS-Iran masih perang, taktik ekonomi baru",
+        "Berita 14 Agu: Putin kunjungi Kepulauan Kuril, dikutuk PM Jepang Takaichi (CNBC); NATO tembak drone Rusia di Latvia (CNBC); 'Pertempuran Berkecamuk dari Ukraina hingga Timur Tengah' (Vatican News)",
+        "Berita 12–13 Agu: Ukraina sampaikan usulan damai ke AS dan minta tekanan ke Rusia (Antara); konflik belum menunjukkan tanda berakhir (Prabowo: bisa lebih lama dari PD II)",
+        "Berita 14 Agu: 'Saudi Arabia announces start of Red Sea defence alliance'; 'Turkiye-Pakistan-Saudi pact' (Al Jazeera) — fragmentasi geopolitik dan pembentukan blok pertahanan",
+        "Minyak 81,72 -0,9%/20 dan -24,2%/60 (turun dari puncak >84); r120 +23,2% tetap positif jangka panjang",
+        "El Nino aktif: 'Brazil braces for potentially very strong El Niño' (Valor 11 Agu); UN/WFP soal dampak kelaparan; panas rekor Eropa ±€2 miliar panen rusak; alarm gandum; krisis beras Bangladesh (Think Global Health)",
+        "Emas 4.440,4 +10,7%/20 volume 3,12x — arus safe-haven kuat; US10Y 4,67 tinggi dan Fed belum dovish (UMich 14 Agu)",
+        "Konsumer berdaya tawar (INDF 61,8, ICBP 60,2) WATCH tetap menarik saat biaya pangan-energi tinggi; MYOR 37,9 dan SIDO 37,1 lemah"
       ],
-      "causal_chain": "Hormuz macet menjelang gencatan AS-Iran kedaluwarsa + Rusia agresif di Danube + fragmentasi blok + China melambat → gangguan produksi/rantai pasok pangan-energi makin nyata → minyak rebound ke 82,7 dan harga pangan berpotensi naik → inflasi impor & permintaan devisa naik → premi berpindah ke emas (safe-haven), energi berkualitas, dan konsumer berdaya tawar; tesis batal bila gencatan berbuah kesepakatan nyata, Hormuz normal, dan panen membaik",
+      "causal_chain": "geopolitik multi-front (AS-Iran, Rusia-Ukraina, Kuril, Latvia) + fragmentasi blok (Red Sea alliance, Turkiye-Pakistan-Saudi) + cuaca ekstrem (El Nino sangat kuat, panas Eropa, krisis beras) → gangguan produksi dan rantai pasok pangan-energi → minyak >80 dan harga pangan berpotensi naik → inflasi impor dan permintaan devisa naik → premi pindah ke emas (safe-haven), energi, dan kualitas konsumer berdaya tawar; premi minyak sedikit mereda hari ini namun belum ada penyelesaian; tesis batal bila negosiasi berbuah kesepakatan nyata dan panen membaik",
       "beneficiaries": [
         "perusahaan pangan berdaya tawar harga (ICBP, INDF) dan produsen CPO",
         "energi yang menyalurkan harga dengan arus kas kuat (ADRO, ITMG, MEDC secara selektif)",
-        "emas dan aset safe-haven saat fragmentasi/eskalasi menguat (emas 4.459)",
+        "emas dan aset safe-haven saat fragmentasi geopolitik menguat",
         "eksportir pangan bila panen di negara asal gagal"
       ],
       "losers": [
         "importir pangan dan pengguna energi tanpa daya tawar harga",
         "emiten berneraca lemah dengan biaya input tinggi (MYOR, SIDO, SMGR, PGAS)",
-        "industri bergantung pasokan pangan impor; peternakan/transportasi tertekan biaya energi-pangan",
+        "industri yang bergantung pasokan pangan impor; peternakan dan transportasi tertekan biaya energi-pangan",
         "siklikal yang tertekan US10Y tinggi dan rupiah lemah"
       ],
-      "invalidation": "Tesis berubah bila gencatan AS-Iran berbuah kesepakatan yang menormalkan Hormuz dan Laut Hitam, fragmentasi mereda, cuaca memulih dengan panen cukup, harga beras/gandum/minyak turun berkelanjutan, dan rupiah menguat; bear terkonfirmasi bila Hormuz benar-benar ditutup, rantai pasok terganggu berkepanjangan, atau panen gagal luas dan harga pangan-energi naik struktural",
+      "invalidation": "Tesis berubah bila negosiasi konflik berbuah kesepakatan yang menormalkan Hormuz dan Laut Hitam, fragmentasi mereda, cuaca memulih dengan panen cukup, harga beras/gandum/minyak turun berkelanjutan, dan rupiah menguat; bear terkonfirmasi bila Hormuz ditutup, rantai pasok terganggu berkepanjangan, atau panen gagal luas dan harga pangan-energi naik struktural",
       "not_prediction_of_price": true,
       "manual_analysis": true
     }
   ],
   "prediction_meta": {
     "analyst": "Hermes Agent — analisis manual metode Bennix",
-    "analyzed_at": "2026-08-17T18:40:00+07:00",
-    "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dan berita dipakai sebagai bukti; probabilitas merupakan judgement analis, bukan keluaran fungsi/rule prediksi otomatis. Data kalkulasi 17 Agu 18:32 WIB (live Yahoo Finance + Google News RSS) — AHAD LIBUR HUT RI ke-81: IDX tutup, harga saham/IHSG beku di penutupan Jumat (IHSG 6.401,89), hanya proxy global yang bergerak: US10Y 4,70 (+3,4%/20), minyak 82,7 (rebound dari 81,7), emas 4.459,1 (vol 2,5x), USD/IDR 17.820, DXY 99,49. News 17 Agu menyoroti eskalasi: 'Strait of Hormuz shipping grinds to a halt ahead of U.S.-Iran ceasefire expiry' (CNBC), Rusia target pelabuhan Danube, China melambat (retail nyaris stagnan), serta gempa Indonesia. Breadth tetap 1 STUDY (ISAT 73,8) / 9 WATCH / 22 AVOID."
+    "analyzed_at": "2026-08-14T22:10:00+07:00",
+    "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dan berita dipakai sebagai bukti; probabilitas merupakan judgement analis, bukan keluaran fungsi/rule prediksi otomatis. Data kalkulasi 14 Agu 21:54 WIB (live Yahoo Finance + Google News RSS) — snapshot penutupan Jumat: IHSG rebound 6.401,89 (+1,59% intraday, katalis pidato Prabowo dan realisasi investasi Rp1.010 T), minyak 81,72, emas 4.440,4 (volume 3,12x), US10Y 4,67, USD/IDR 17.831, DXY 99,53. Breadth membaik: 1 STUDY (ISAT), 9 WATCH, 22 AVOID."
   },
   "prediction_mode": "MANUAL_AGENT_ANALYSIS",
   "news": [
@@ -999,13 +998,13 @@
       "topic": "Makro"
     },
     {
-      "title": "IHSG Mulai Pulih, Menjanjikan Tetapi Masih Ada Ujian Di Depan - investor.id",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOWN6TC1xQjhNUlRydnpwMjBacFFWc2NBakdGa0wyS000ZVFKQXNSeWg2Z0ZlUWVTdWVSXzNZTU5mZ2RJV3pjZmpUVnFOb25mdU1MLTdvWlRxVTNta1JJVmtWMU95U3E5NWZGUWhvQWhjekVCZDhNZU95MmpNcG9ieUt2SXFrdU1SOTFpb0NoYXdBLTlES2d4bW5tNWNnQQ?oc=5",
-      "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+      "title": "Kementerian Koordinator Bidang Perekonomian Republik Indonesia - - Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQXp1ZlFGdk43S0owZUZaZUs0SkFCR1Q3YjBIc3poUGIxaW9sYXhrbFF5YTJZYUJibnZNNHRHQTFQbmNicWR6WnVtcnQ2bzFBaUtvcDlXR1RrLU1zb0NoU1ZoMlZGMHJvelZndUdXU2hDa1cwdTlUc25PZmdZb0ZYSEszTFJWay03Sl9WUlJxLUpDZXExdmRrZ1JQUDRmeV9XazVnWlBPVXpneTFpODFneEdlODlzUjA5ZEQ4cFZpRmVhTVZwUzdNdHVHVjV4UmptcjBDNXEwZzhiTXhYV0NN?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
       "source": "Google News ID",
       "sentiment_score": 0,
       "sentiment": "Netral",
-      "topic": "Umum"
+      "topic": "Makro"
     },
     {
       "title": "Pertempuran Berkecamuk dari Ukraina hingga Timur Tengah - Vatican News",
@@ -1531,7 +1530,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-17T18:37:06+07:00",
+      "freshness": "2026-08-17T18:32:33+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
@@ -1544,46 +1543,46 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-17T18:37:06+07:00",
+      "freshness": "2026-08-17T18:32:33+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
     {
       "name": "DollarIndex",
       "group": "Global & Pasar",
-      "value": 99.47,
-      "r20_pct": -1.5,
-      "r60_pct": 0.37,
+      "value": 99.49,
+      "r20_pct": -1.49,
+      "r60_pct": 0.38,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-17T18:37:06+07:00",
+      "freshness": "2026-08-17T18:32:33+07:00",
       "use": "Kekuatan dolar dan tekanan emerging market",
       "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
     },
     {
       "name": "Minyak",
       "group": "Global & Geopolitik",
-      "value": 82.69,
-      "r20_pct": -0.65,
-      "r60_pct": -15.85,
+      "value": 82.7,
+      "r20_pct": -0.64,
+      "r60_pct": -15.84,
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-17T18:37:06+07:00",
+      "freshness": "2026-08-17T18:32:33+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
     {
       "name": "Emas",
       "group": "Global & Pasar",
-      "value": 4461.0,
-      "r20_pct": 11.24,
-      "r60_pct": -1.55,
+      "value": 4459.1,
+      "r20_pct": 11.19,
+      "r60_pct": -1.59,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-17T18:37:06+07:00",
+      "freshness": "2026-08-17T18:32:33+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
@@ -1596,7 +1595,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-17T18:37:06+07:00",
+      "freshness": "2026-08-17T18:32:33+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
     },
@@ -1609,7 +1608,7 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-17T18:37:06+07:00",
+      "freshness": "2026-08-17T18:32:33+07:00",
       "use": "Pendapatan eksportir energi dan devisa Indonesia",
       "causal_impact": "Batu bara naik → pendapatan eksportir/devisa naik; pengguna energi menanggung biaya"
     },
@@ -1622,7 +1621,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-17T18:37:06+07:00",
+      "freshness": "2026-08-17T18:32:33+07:00",
       "use": "Siklus logam industri dan manufaktur",
       "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
     },
@@ -1635,7 +1634,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-08-17T18:37:06+07:00",
+      "freshness": "2026-08-17T18:32:33+07:00",
       "use": "Aktivitas baja, konstruksi, dan permintaan China",
       "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },
