@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-02T18:34:37+07:00",
+  "generated_at": "2026-09-02T18:35:58+07:00",
   "sources": [
     "Al Jazeera",
     "BBC World",
@@ -44,13 +44,13 @@
       "_source": "yahoo-chart"
     },
     "DollarIndex": {
-      "price": 99.78,
-      "r20": -0.0011412395012763143,
-      "r60": -0.0029379306401349226,
-      "r120": 0.005502344060847486,
-      "vol": 0.04449501648948035,
-      "drawdown": -0.018049400873659915,
-      "rel": -0.0029379306401349226,
+      "price": 99.79,
+      "r20": -0.0010411079937021617,
+      "r60": -0.0028379792435028195,
+      "r120": 0.005603141560516001,
+      "vol": 0.0445059841638367,
+      "drawdown": -0.017950964340145648,
+      "rel": -0.0028379792435028195,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
@@ -62,18 +62,18 @@
       "vol": 0.5167532035592936,
       "drawdown": -0.2061088925036857,
       "rel": -0.017853283990455604,
-      "volume_ratio": 0.8242113802903805,
+      "volume_ratio": 0.8242455311957488,
       "_source": "yahoo-chart"
     },
     "Emas": {
-      "price": 4366.3,
-      "r20": 0.0283809895763254,
-      "r60": 0.007011209444045763,
-      "r120": -0.14650690578494663,
-      "vol": 0.25316929951235184,
-      "drawdown": -0.1358139921449777,
-      "rel": 0.007011209444045763,
-      "volume_ratio": 1.539688325212928,
+      "price": 4365.3,
+      "r20": 0.028145462691874457,
+      "r60": 0.006780576813560257,
+      "r120": -0.1467023786412308,
+      "vol": 0.2531546023002755,
+      "drawdown": -0.13601191396585843,
+      "rel": 0.006780576813560257,
+      "volume_ratio": 1.542024026481199,
       "_source": "yahoo-chart"
     },
     "Yield_US": {
@@ -1496,9 +1496,27 @@
       "topic": "Umum"
     },
     {
-      "title": "A 2% advisor fee on a $300,000 portfolio could cost $220,000 over a decade — here's how to tell if you're overpaying",
-      "link": "https://finance.yahoo.com/markets/options/articles/2-advisor-fee-300-000-111500076.html",
-      "published": "2026-09-02T11:15:00Z",
+      "title": "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html",
+      "published": "2026-09-02T11:26:39Z",
+      "source": "Yahoo Finance",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Konflik & Perang Dunia"
+    },
+    {
+      "title": "Palo Alto Earnings Reignite Debate Over Organic Growth, Acquisitions",
+      "link": "https://www.investors.com/news/technology/palo-alto-stock-panw-palo-alto-earnings-aug26/?src=A00220&yptr=yahoo",
+      "published": "2026-09-02T11:23:59Z",
+      "source": "Yahoo Finance",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
+      "title": "Dow Jones Futures Fall After Oil Prices Slam Market; Dell, Credo, Palo Alto Are Earnings Movers",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo",
+      "published": "2026-09-02T11:20:59Z",
       "source": "Yahoo Finance",
       "sentiment_score": 0,
       "sentiment": "Netral",
@@ -1512,24 +1530,6 @@
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
-    },
-    {
-      "title": "Dow Jones Futures Fall After Oil Prices Slam Market; Dell, Credo, Palo Alto Are Earnings Movers",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo",
-      "published": "2026-09-02T11:13:41Z",
-      "source": "Yahoo Finance",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as US-Iran war escalates, inflation jitters return",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-2-dow-sp-500-nasdaq-082624175.html",
-      "published": "2026-09-02T08:26:24Z",
-      "source": "Yahoo Finance",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Konflik & Perang Dunia"
     },
     {
       "title": "Citi says investors should consider buying tumbling tech stock",
@@ -1551,7 +1551,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-02T18:34:37+07:00",
+      "freshness": "2026-09-02T18:35:58+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
@@ -1564,20 +1564,20 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-02T18:34:37+07:00",
+      "freshness": "2026-09-02T18:35:58+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
     {
       "name": "DollarIndex",
       "group": "Global & Pasar",
-      "value": 99.78,
-      "r20_pct": -0.11,
-      "r60_pct": -0.29,
+      "value": 99.79,
+      "r20_pct": -0.1,
+      "r60_pct": -0.28,
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-02T18:34:37+07:00",
+      "freshness": "2026-09-02T18:35:58+07:00",
       "use": "Kekuatan dolar dan tekanan emerging market",
       "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
     },
@@ -1590,20 +1590,20 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-02T18:34:37+07:00",
+      "freshness": "2026-09-02T18:35:58+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
     {
       "name": "Emas",
       "group": "Global & Pasar",
-      "value": 4366.3,
-      "r20_pct": 2.84,
-      "r60_pct": 0.7,
+      "value": 4365.3,
+      "r20_pct": 2.81,
+      "r60_pct": 0.68,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-02T18:34:37+07:00",
+      "freshness": "2026-09-02T18:35:58+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
@@ -1616,7 +1616,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-02T18:34:37+07:00",
+      "freshness": "2026-09-02T18:35:58+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
     },
@@ -1629,7 +1629,7 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-02T18:34:37+07:00",
+      "freshness": "2026-09-02T18:35:58+07:00",
       "use": "Pendapatan eksportir energi dan devisa Indonesia",
       "causal_impact": "Batu bara naik → pendapatan eksportir/devisa naik; pengguna energi menanggung biaya"
     },
@@ -1642,7 +1642,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-02T18:34:37+07:00",
+      "freshness": "2026-09-02T18:35:58+07:00",
       "use": "Siklus logam industri dan manufaktur",
       "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
     },
@@ -1655,7 +1655,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-02T18:34:37+07:00",
+      "freshness": "2026-09-02T18:35:58+07:00",
       "use": "Aktivitas baja, konstruksi, dan permintaan China",
       "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },
