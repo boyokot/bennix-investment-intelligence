@@ -1,146 +1,101 @@
 {
   "analyst": "Hermes Agent — analisis manual metode Bennix",
-  "analyzed_at": "2026-09-02T18:45:00+07:00",
-  "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dan berita dipakai sebagai bukti; probabilitas merupakan judgement analis, bukan keluaran fungsi/rule prediksi otomatis. Data kalkulasi 2 Sep 18:30 WIB (live Yahoo Finance + Google News RSS) — RABU, hari ketiga pekan. IHSG 6.595,78 (r20 +5,8%, r60 +12,9%, r120 -20,4%, drawdown -20,8%, volume 1,25x) — turun tipis -0,06% dari 6.599,94 kemarin. Rezim tetap MIXED dengan risk_score 54,0 (naik dari 50,1 kemarin — lebih berisiko). Rupiah melemah ke 17.750 dari 17.720 kemarin (-1,2%/20). Minyak NAIK LAGI ke 89,71 (+19,3%/20 dari ~75,3) — SANGAT DEKAT 90, sangat berbahaya. Emas TURUN LAGI ke 4.366,3 (+2,8%/20 tapi turun dari 4.425 kemarin) — permintaan safe-haven makin mereda. US10Y NAIK ke 4,80 (+3,7%/20) — bond rout makin parah. DXY sedikit naik ke 99,79. Batu bara datar 96. Paling penting: (1) CNBC 2 Sep melaporkan 'Global bond rout gathers pace as inflation fears mount' — bond selloff global makin parah, lebih buruk dari kemarin; (2) Al Jazeera 2 Sep melaporkan 'fatal US bombing of a wedding in Iran's Sirik' — pendudukan militer AS di Iran makin dalam, eskalasi berlanjut; (3) Yahoo Finance: 'Dow Jones Futures Fall After Oil Prices Slam Market' — pasar AS tertekan berat; (4) CNBC: 'Zelenskyy says airlines should avoid Russian airspace as Ukraine expands drone operations' — eskalasi Ukraina berlanjut; (5) Kompas.id: 'Ketegangan Iran-Ukraina Bayangi Jeda Pertempuran AS-Iran' — sinyal jeda tapi masih tegang; (6) Chevron-Venezuela $7B investment — tambahan supply energi (jangka panjang); (7) RAPBN 2027 & investasi Rp1.010T — sentimen domestik positif; (8) El Nino makin menguat jadi 'sangat kuat' — tekanan pangan makin nyata. Breadth: masih 2 STUDY tapi KOMPOSISI BERUBAH — AUTO masuk STUDY (83,0), TINS keluar STUDY (64,2). INTP naik ke 73,3. Ini rotasi sektoral: dari mineral (TINS) ke otomotif (AUTO). Perbankan membaik: BBCA naik dari 56,1 ke 63,3, BBRI dari 57,5 ke 59,6 — semua masih WATCH tapi membaik.",
+  "analyzed_at": "2026-09-03T18:30:00+07:00",
+  "method": "Analisis manusia top-down: rezim global → arus uang/barang → dampak orde pertama/kedua → sektor → emiten → skenario dan invalidasi. Angka pasar dan berita dipakai sebagai bukti; probabilitas merupakan judgement analis, bukan keluaran fungsi/rule prediksi otomatis. Data kalkulasi 3 Sep 18:30 WIB (live Yahoo Finance + Google News RSS) — KAMIS, hari keempat pekan. IHSG 6.667,89 (r20 +6,95%, r60 +19,18%, r120 -19,88%, drawdown -19,03%, volume 1,24x) — NAIK +1,09% dari 6.595,78 kemarin, lonjakan signifikan. Rezim tetap MIXED tapi risk_score TURUN dari 54,0 ke 47,8 — situasi membaik meski ada risiko baru. Breadth MEMBAIK dari 2 STUDY ke 4 STUDY: AUTO (83,7), ISAT (75,8), INTP (73,4), TINS (71,9). Ini perubahan BESAR dari kemarin. Rupiah MENGUAT ke 17.655 dari 17.750 kemarin (-0,54%) — tren positif. Minyak TEMBUS 90 ke 92,29 (+2,87% dari 89,71 kemarin, +19,4%/20) — ANGKA KRITIS. Emas NAIK ke 4.478,5 (+2,58% dari 4.366 kemarin) — permintaan safe-haven kembali naik. US10Y datar 4,80 (stabil setelah naik terus kemarin). DXY TURUN ke 99,12 dari 99,79 — dolar global melemah, membantu rupiah. Batu bara datar 96. Berita paling material: (1) CNBC 3 Sep: 'The world appears to be entering a higher-rate era' — bond rout sudah jadi tren struktural, bukan sementara; (2) CNBC 3 Sep: 'Iran strikes Kuwait as Trump says renewed Mideast hostilities will not last too long' — ESKALASI BESAR, Iran serang Kuwait; (3) CNBC 3 Sep: 'Dutch central bank moves gold bars out of U.S. and Canada, citing crisis preparedness' — bank sentral Belanda pindahkan emas, sinyal krisis; (4) Al Jazeera 3 Sep: 'Nepal-China flood death toll surpasses 1,270' — bencana alam besar di Asia; (5) CNBC 3 Sep: 'Putin floats chance at peace with Ukraine as NATO chief warns Russia is becoming increasingly reckless' — sinyal damai Ukraina; (6) Bloomberg: 'Harga LNG di Asia Terbang ke Rekor Tertinggi Sejak 2022' — energi Asia makin mahal; (7) BBC 3 Sep: 'UN warns of supersized El Niño as countries prepare for impact' — El Niño makin dikhawatirkan. TAPI: IHSG naik 1,09%, breadth membaik ke 4 STUDY, rupiah menguat — ini SANGAT BERBEDA dari tekanan eksternal. Pasar Indonesia menunjukkan KETAHANAN yang tidak terduga.",
   "predictions": [
     {
       "topic": "IHSG dan arah risk-appetite 1–3 bulan",
-      "probabilities": {"bull": 0.15, "base": 0.45, "bear": 0.40},
-      "confidence": 65,
-      "thesis": "IHSG stagnan di 6.595,78 (-0,06% dari 6.599,94 kemarin) dengan breadth masih 2 STUDY tapi KOMPOSISI BERUBAH: AUTO masuk STUDY (83,0), TINS keluar STUDY (64,2). Ini perubahan signifikan dari kemarin. Saya NAIKKAN bear dari 0,34 ke 0,40 dan TURUNKAN bull dari 0,18 ke 0,15 karena tiga perubahan material: (1) MINYAK MELEJIT ke 89,71 (+19,3%/20) — mendekati 90, sangat berbahaya untuk risk appetite; CNBC laporkan 'Dow Jones Futures Fall After Oil Prices Slam Market'; (2) BOND ROUT MAKIN PARAH — CNBC 2 Sep: 'Global bond rout gathers pace as inflation fears mount' — lebih buruk dari kemarin saat yields baru mulai naik; (3) US BOMBING WEDDING IN IRAN — Al Jazeera: 'fatal US bombing of a wedding in Iran's Sirik' — eskalasi militer AS makin dalam, bukan de-eskalasi seperti harapan kemarin. Sisi positif: (1) RAPBN 2027 & investasi Rp1.010T — sentimen domestik kuat; (2) AUTO masuk STUDY (83,0) — breadth tidak menyusut lebih jauh, hanya rotasi; (3) Chevron-Venezuela $7B — potensi tambahan supply energi (jangka panjang). Tapi sisi negatif jauh lebih berat: minyak mendekati 90, bond rout global (US10Y 4,80 naik terus), eskalasi Iran berlanjut, pasar AS tertekan, emas turun ke 4.366 (permintaan safe-haven mereda meski dunia kacau — tanda yields menekan emas riil). Base case: IHSG konsolidasi di 6.500–6.650 dengan tekanan berat; breadth masih 2 STUDY tapi bila minyak tembus 90, rally terancam serius. Bull bila de-eskalasi Hormuz + bond mereda + RAPBN jadi catalyst; bear bila minyak >90 + bond rout parah + breadth kolaps ke 1 STUDY.",
+      "probabilities": {"bull": 0.20, "base": 0.45, "bear": 0.35},
+      "confidence": 68,
+      "thesis": "IHSG NAIK signifikan +1,09% ke 6.667,89 dari 6.595,78 kemarin, dengan breadth MEMBAIK dari 2 STUDY ke 4 STUDY. Ini perubahan terbesar dalam analisis minggu ini. Saya NAIKKAN bull dari 0,15 ke 0,20 dan TURUNKAN bear dari 0,40 ke 0,35 karena empat perubahan material: (1) BREADTH MEMBAIK BESAR — 4 STUDY (AUTO 83,7, ISAT 75,8, INTP 73,4, TINS 71,9) dari hanya 2 STUDY kemarin. TINS masuk kembali, ISAT muncul sebagai STUDY baru. Ini sinyal rally MELUAS, bukan menyempit; (2) RUPIAH MENGUAT ke 17.655 dari 17.750 — tekanan capital outflow mereda, modal asing tidak keluar agresif meski minyak tembus 90; (3) DXY TURUN ke 99,12 dari 99,79 — dolar global melemah, membantu EM termasuk Indonesia; (4) US10Y STABIL di 4,80 setelah naik terus kemarin — bond rout sementara berhenti. TAPI ada dua peringatan serius: (1) MINYAK TEMBUS 90 ke 92,29 — ini angka kritis yang kemarin saya sebut sebagai bear trigger. Kalau naik terus ke 95+, ekonomi RI tertekan berat; (2) IRAN SERANG KUWAIT — CNBC 3 Sep: eskalasi besar, selangkah lagi dari krisis Hormuz. Trump bilang 'tidak akan berlangsung lama' tapi ini retoris. Sisi positif lain: emas naik ke 4.478,5 (safe-haven aktif tapi pasar juga naik — dual signal); LNG Asia rekor tertinggi (energi makin mahal); Putin sinyal damai Ukraina (potensi de-eskalasi). Base case: IHSG konsolidasi di 6.600–6.750 dengan tekanan dari minyak 92+, tapi breadth 4 STUDY memberikan fondasi lebih kuat dari kemarin. Bull bila breadth naik ke 5+ STUDY + de-eskalasi Hormuz + rupiah stabil; bear bila minyak >95 + Iran serang Hormuz + breadth kolaps ke 2 STUDY.",
       "evidence": [
-        "IHSG 6.595,78 (r20 +5,8%, r60 +12,9%, r120 -20,4%, drawdown -20,8%, vol 1,25x) — stagnan, momentum melambat",
-        "Breadth: 2 STUDY tapi KOMPOSISI BERUBAH — AUTO masuk (83,0), TINS keluar (64,2), INTP naik (73,3) — rotasi sektoral",
-        "Minyak 89,71 (+19,3%/20) — SANGAT DEKAT 90, sangat berbahaya untuk risk appetite",
-        "'Global bond rout gathers pace as inflation fears mount' (CNBC 2 Sep) — bond selloff makin parah dari kemarin",
-        "'Dow Jones Futures Fall After Oil Prices Slam Market' (Yahoo Finance 2 Sep) — pasar AS tertekan berat",
-        "'Fatal US bombing of a wedding in Iran's Sirik' (Al Jazeera 2 Sep) — eskalasi militer AS makin dalam",
-        "Emas 4.366,3 (turun dari 4.425 kemarin) — permintaan safe-haven makin mereda, tekanan yields",
-        "US10Y 4,80 (naik dari 4,76 kemarin) — bond rout berlanjut",
-        "USD/IDR 17.750 (melemah dari 17.720) — rupiah tertekan",
-        "DXY 99,79 (naik dari 99,6) — dolar global mulai menguat",
-        "RAPBN 2027 & investasi Rp1.010T — sentimen domestik positif",
-        "Chevron-Venezuela $7B — potensi tambahan supply energi jangka panjang",
-        "El Nino makin kuat jadi 'sangat kuat' — tekanan pangan makin nyata",
-        "'Zelenskyy says airlines should avoid Russian airspace' (CNBC 2 Sep) — eskalasi Ukraina berlanjut"
+        "IHSG 6.667,89 (r20 +6,95%, r60 +19,18%, r120 -19,88%, drawdown -19,03%, vol 1,24x) — NAIK +1,09% dari 6.595,78 kemarin",
+        "Breadth: 4 STUDY dari 2 STUDY kemarin — AUTO (83,7), ISAT (75,8), INTP (73,4), TINS (71,9) — rally meluas",
+        "TINS masuk kembali ke STUDY (71,9) setelah keluar kemarin — momentum mineral pulih",
+        "ISAT muncul sebagai STUDY baru (75,8) — telekomunikasi menunjukkan kekuatan",
+        "Rupiah MENGUAT ke 17.655 dari 17.750 kemarin — tekanan mereda",
+        "Minyak tembus 90 ke 92,29 (+2,87% dari kemarin) — ANGKA KRITIS, tapi pasar tetap naik",
+        "US10Y stabil di 4,80 setelah naik terus kemarin — bond rout sementara berhenti",
+        "DXY TURUN ke 99,12 dari 99,79 — dolar global melemah, membantu EM",
+        "Emas naik ke 4.478,5 dari 4.366 — safe-haven aktif",
+        "Iran serang Kuwait (CNBC 3 Sep) — eskalasi besar, tapi Trump bilang 'tidak lama'",
+        "Putin sinyal damai Ukraina (CNBC 3 Sep) — potensi de-eskalasi",
+        "Bloomberg: Harga LNG Asia rekor tertinggi sejak 2022 — energi makin mahal",
+        "BBC: UN warns of supersized El Niño — tekanan pangan berlanjut"
       ],
-      "causal_chain": "Minyak 89,71 mendekati 90 + bond rout makin parah + US bombing di Iran → eskalasi berlanjut, bukan de-eskalasi → risk appetite tertekan berat → IHSG stagnan di 6.595 dengan breadth rotasi tapi tidak membaik → bila minyak tembus 90 + bond rout parah → risk-off makin kuat → breadth kolaps ke 1 STUDY → rally terancam; bila de-eskalasi Hormuz + bond mereda + RAPBN jadi catalyst → peluang rally berlanjut; bila breadth rotasi ke arah positif (3+ STUDY) → rally berlanjut meski tekanan eksternal",
-      "beneficiaries": [
-        "AUTO (STUDY 83,0) — masuk kembali ke STUDY, otomotif diuntungkan konsumsi domestik",
-        "INTP (STUDY 73,3) — naik dari 70,6, material masih kuat",
-        "Perbankan membaik: BBCA (63,3), BBRI (59,6) — meski masih WATCH, scoring membaik signifikan",
-        "Energi diuntungkan minyak naik: ADRO (59,2), ITMG (58,0), MEDC (54,5)"
-      ],
-      "losers": [
-        "TINS turun dari STUDY (64,2) — momentum mineral menurun, rotasi keluar",
-        "Perbankan masih AVOID meski membaik — bond rout menekan valuasi",
-        "Teknologi (GOTO 41,2, BUKA 34,9) — risk-off global + bond rout menekan growth",
-        "Konsumer lemah (MYOR 39,0, UNVR 49,4) — inflasi pangan menekan daya beli"
-      ],
-      "invalidation": "Base case gagal bila IHSG menembus turun di bawah 6.450 dengan breadth menyusut ke 1 STUDY dan minyak >90; bull terkonfirmasi bila IHSG menembus 6.700 dengan breadth ≥3 STUDY dan rupiah menembus 17.600; bear dominan bila minyak >92, yields US10Y >4,95, dan breadth kolaps ke 1 STUDY",
-      "not_prediction_of_price": true
+      "causal_chain": "Minyak tembus 90 ke 92,29 + Iran serang Kuwait → potensi krisis Hormuz → TAPI rupiah mengkuat ke 17.655 + DXY turun ke 99,12 + US10Y stabil → modal asing tidak panic sell → breadth membaik ke 4 STUDY → rally meluas ke telekom mineral → IHSG naik +1,09% → base: konsolidasi 6.600–6.750 dengan fondasi lebih kuat; bila minyak naik terus >95 + Hormuz tertutup → bear; bila breadth naik 5+ + de-eskalasi → rally berlanjut",
+      "invalidation": "Base case gagal bila IHSG turun di bawah 6.550 dengan breadth kolaps ke 2 STUDY; bull terkonfirmasi bila IHSG menembus 6.800 dengan breadth ≥5 STUDY dan rupiah stabil <17.500; bear dominan bila minyak >95, Hormuz tertutup, dan breadth kolaps ke 1-2 STUDY",
+      "not_prediction_of_price": true,
+      "manual_analysis": true
     },
     {
       "topic": "Rupiah dan tekanan biaya impor 1–3 bulan",
-      "probabilities": {"bull": 0.12, "base": 0.48, "bear": 0.40},
-      "confidence": 67,
-      "thesis": "Rupiah melemah ke 17.750 dari 17.720 kemarin, sementara minyak naik lagi ke 89,71 dari 87,74. Tekanan makin berat dari tiga sisi: (1) ENERGI: minyak mendekati 90, import bill energi RI makin berat; (2) BOND ROUT: CNBC 2 Sep 'Global bond rout gathers pace as inflation fears mount' — modal asing menarik diri dari emerging market makin agresif; (3) PANGAN: El Nino makin kuat, gandum mahal. Sisi penyejuk: (1) DXY masih relatif datar di 99,79 (meski naik sedikit dari 99,6); (2) RAPBN 2027 & investasi Rp1.010T — sentimen domestik positif; (3) Chevron-Venezuela $7B — potensi tambahan supply energi jangka panjang. Tapi sisi negatif jauh lebih berat: minyak 89,71 (sangat dekat 90), bond rout makin parah (US10Y 4,80 naik terus, emas turun ke 4.366 — permintaan safe-haven mereda), US bombing di Iran (bukan de-eskalasi), pasar AS tertekan. Base case: rupiah tertekan di 17.700–17.850 dengan bias melemah; tekanan makin berat bila minyak tembus 90 dan bond rout berlanjut. Bila de-eskalasi Hormuz + bond mereda → rupiah bisa menguat ke 17.600.",
+      "probabilities": {"bull": 0.18, "base": 0.47, "bear": 0.35},
+      "confidence": 65,
+      "thesis": "Rupiah MENGUAT ke 17.655 dari 17.750 kemarin — ini berita bagus, tren penguatan pulih setelah terhenti kemarin. Tapi situasi dual: (1) Sisi positif: DXY turun ke 99,12 (dolar global melemah), US10Y stabil di 4,80 (bond rout sementara berhenti), breadth Indonesia membaik ke 4 STUDY (risk appetite membaik); (2) Sisi negatif: minyak tembus 90 ke 92,29 (import bill energi makin berat), Iran serang Kuwait (risiko Hormuz masih ada), LNG Asia rekor tertinggi. Perubahan dari kemarin: kemarin saya bilang 'rupiah tertekan di 17.700–17.850 dengan bias melemah'. Sekarang rupiah sudah keluar dari range itu ke 17.655 — tesis melemah perlu dikoreksi. TAPI ini bisa sementara: bila minyak terus naik ke 95+ dan Iran-Kuwait eskalasi, rupiah bisa kembali tertekan. Saya naikkan bull dari 0,12 ke 0,18 karena DXY melemah + US10Y stabil + breadth membaik, tapi tetap waspada karena minyak 92,29 sangat tinggi. Base case: rupiah di 17.600–17.750 dengan bias stabil-menguat selama DXY lemah dan bond mereda; bila minyak >95 + Hormuz tertutup → rupiah menguji 17.900; bila de-eskalasi + minyak turun → rupiah bisa ke 17.500.",
       "evidence": [
-        "USD/IDR 17.750 (r20 -1,2%) — melemah dari 17.720 kemarin, tren penguatan terhenti total",
-        "Minyak 89,71 (+19,3%/20) — SANGAT DEKAT 90, langsung menekan import bill energi RI",
-        "'Global bond rout gathers pace as inflation fears mount' (CNBC 2 Sep) — modal asing menarik diri dari EM makin agresif",
-        "US10Y 4,80 (naik dari 4,76 kemarin) — bond rout berlanjut, tekanan capital outflow",
-        "DXY 99,79 (naik dari 99,6) — dolar global mulai menguat, tambahan tekanan",
-        "Emas 4.366,3 (turun dari 4.425) — permintaan safe-haven makin mereda",
-        "El Nino makin kuat jadi 'sangat kuat' — tekanan pangan berlanjut",
-        "RAPBN 2027 & investasi Rp1.010T — sentimen domestik positif, satu penyejuk",
-        "Chevron-Venezuela $7B — potensi tambahan supply energi jangka panjang",
-        "'Fatal US bombing of a wedding in Iran's Sirik' (Al Jazeera 2 Sep) — eskalasi berlanjut, bukan de-eskalasi"
+        "USD/IDR 17.655 (r20 -1,22%) — menguat dari 17.750 kemarin, tren penguatan pulih",
+        "DXY turun ke 99,12 dari 99,79 — dolar global melemah, membantu rupiah",
+        "US10Y stabil di 4,80 — bond rout sementara berhenti, modal tidak panic",
+        "Minyak tembus 90 ke 92,29 — import bill energi berat, tapi pasar tidak panik",
+        "Iran serang Kuwait (CNBC 3 Sep) — risiko Hormuz ada, tapi Trump bilang 'tidak lama'",
+        "Breadth Indonesia membaik ke 4 STUDY — risk appetite domestik membaik",
+        "LNG Asia rekor tertinggi — energi mahal, tapi rupiah tetap menguat",
+        "Emas naik ke 4.478,5 — safe-haven aktif, tapi tidak mengganggu rupiah",
+        "BBC: UN warns supersized El Niño — tekanan pangan, tapi belum memukul rupiah",
+        "Nepal-China flood 1.270+ tewas — bencana Asia, dampak langsung ke RI terbatas"
       ],
-      "causal_chain": "Minyak 89,71 mendekati 90 + bond rout makin parah + US bombing di Iran → tekanan ganda pada rupiah: import bill energi naik DAN capital outflow makin agresif → rupiah tertekan ke 17.750 → DXY naik ke 99,79 menambah tekanan → basis: rupiah tertekan di 17.700–17.850; bila minyak tembus 90 + bond rout parah → rupiah menguji 17.900; bila de-eskalasi Hormuz + bond mereda → rupiah bisa ke 17.600",
-      "beneficiaries": [
-        "eksportir berbiaya dominan rupiah — batu bara, CPO, mineral yang diuntungkan rupiah lemah",
-        "produsen pangan lokal/CPO yang menggantikan impor gandum mahal",
-        "emiten berpendapatan dolar dengan utang hedged — dinikmati saat rupiah melemah"
-      ],
-      "losers": [
-        "importir minyak tanpa pass-through pricing — margin tertekan langsung oleh minyak mendekati 90",
-        "importir gandum/tepung tanpa daya tawar — tekanan energi + pangan sekaligus",
-        "perusahaan berutang dolar besar — rupiah melemah + bond rout = beban ganda",
-        "sektor yang bergantung modal asing — bond rout menarik modal keluar dari EM makin agresif"
-      ],
-      "invalidation": "Bull terkonfirmasi bila USD/IDR menembus turun 17.500 dengan minyak kembali <83 dan bond mereda; bear kembali bila minyak >90 dan rupiah melemah melewati 17.900; tesis mereda bila kesepakatan gencatan senjata AS-Iran tercapai dan bond global stabil",
-      "not_prediction_of_price": true
+      "causal_chain": "DXY turun ke 99,12 + US10Y stabil + breadth membaik → modal asing tidak panic → rupiah menguat ke 17.655 → TAPI minyak 92,29 + Iran serang Kuwait → import bill energi berat + risiko Hormuz → tekanan potensial ke depan → base: rupiah stabil 17.600–17.750; bila minyak >95 + Hormuz tertutup → rupiah 17.900; bila de-eskalasi + minyak turun → rupiah 17.500",
+      "invalidation": "Bull terkonfirmasi bila USD/IDR menembus turun 17.500 dengan minyak <85 dan DXY <98; bear kembali bila minyak >95 dan rupiah melemah melewati 17.900; tesis stabil bila minyak di 90-95 dan DXY di 98-100",
+      "not_prediction_of_price": true,
+      "manual_analysis": true
     },
     {
-      "topic": "Seleksi sektor 3–6 bulan: rotasi dalam breadth, bond rout jadi ancaman baru",
-      "probabilities": {"bull": 0.22, "base": 0.48, "bear": 0.30},
-      "confidence": 63,
-      "thesis": "Breadth masih 2 STUDY tapi KOMPOSISI BERUBAH dari kemarin: AUTO masuk STUDY (83,0), TINS keluar STUDY (64,2). INTP naik ke 73,3. Ini rotasi sektoral dari mineral ke otomotif — bisa sinyal bahwa rally bergeser dari komoditas ke konsumen/siklikal. Perubahan kedua: perbankan membaik signifikan — BBCA naik dari 56,1 ke 63,3, BBRI dari 57,5 ke 59,6. Meski masih AVOID, arahnya positif. Perubahan ketiga: bond rout makin parah (CNBC 2 Sep) — ini tekanan baru yang lebih buruk dari kemarin. Minyak mendekati 90 — sangat berbahaya untuk sektor yang bergantung energi. Sektor paling terdampak: teknologi (GOTO 41,2, BUKA 34,9 — risk-off global + bond rout), konsumer lemah (MYOR 39,0 — inflasi pangan). Masih positif: AUTO (STUDY 83,0) dan INTP (STUDY 73.3) — dua STUDY tersisa. ADRO (59,2) masih kuat meski turun dari 64,2. Konsumer defensif (ICBP 56,0, INDF 57,1) masih relevan karena inflasi pangan. Kesimpulan: rotasi STUDY menarik — dari mineral ke otomotif. Ini bisa sinyal positif (rally meluas ke siklikal) atau negatif (mineral kehilangan momentum). Bond rout + minyak mendekati 90 membuat risiko tetap tinggi. Pertahankan AUTO/INTP/ADRO, perhatikan perbankan yang membaik, kurangi eksposur ke teknologi dan konsumer lemah.",
+      "topic": "Seleksi sektor 3–6 bulan: breadth membaik 4 STUDY, minyak tembus 90 jadi risiko baru",
+      "probabilities": {"bull": 0.28, "base": 0.45, "bear": 0.27},
+      "confidence": 65,
+      "thesis": "Breadth MEMBAIK BESAR dari 2 STUDY ke 4 STUDY — ini perubahan paling positif dari analisis minggu ini. AUTO (83,7), ISAT (75,8), INTP (73,4), TINS (71,9). Dari kemarin hanya AUTO dan INTP yang STUDY, sekarang ada 4. Yang menarik: (1) TINS masuk kembali (71,9) setelah keluar kemarin — momentum mineral pulih; (2) ISAT muncul sebagai STUDY baru (75,8) — telekomunikasi muncul sebagai pemenang baru; (3) AUTO tetap di puncak (83,7) — konsisten. Sektor terkuat: Otomotif (66,0), Material (64,3), Perbankan (61,0). Perbankan naik signifikan dari kemarin. Energi masih netral (56,4) meski minyak tembus 90 — ini menarik, pasar tidak langsung menghargai. Yang berubah dari kemarin: kemarin saya bilang 'rotasi dari mineral ke otomotif, bond rout jadi ancaman'. Sekarang situasi lebih kompleks: breadth membaik, tapi minyak tembus 90 (risiko baru). Saya naikkan bull dari 0,22 ke 0,28 karena breadth 4 STUDY + rupiah mengkuat + DXY turun, tapi turunkan confidence karena minyak 92,29 dan Iran-Kuwait. Teknologi tetap lemah (GOTO 38,5, BUKA 41,3) — risk-off masih menekan. Konsumer lemah (MYOR 40,7, UNVR 46,0). Tapi INDF (57,3) dan ICBP (60,3) masih relevan sebagai hedge inflasi pangan.",
       "evidence": [
-        "AUTO (STUDY 83,0) — masuk kembali ke STUDY, rotasi dari mineral ke otomotif",
-        "INTP (STUDY 73,3) — naik dari 70,6, material masih kuat",
-        "TINS turun dari STUDY (64,2) — momentum mineral menurun, rotasi keluar",
-        "Perbankan membaik: BBCA (63,3 dari 56,1), BBRI (59,6 dari 57,5) — arah positif meski masih WATCH",
-        "ADRO (WATCH 59,2) — masih kuat tapi turun dari 64,2 kemarin",
-        "Bond rout makin parah (CNBC 2 Sep) — tekanan baru pada valuasi",
-        "Minyak 89,71 — mendekati 90, sangat berbahaya untuk sektor energi",
-        "Teknologi lemah (GOTO 41,2, BUKA 34,9) — risk-off + bond rout menekan growth",
-        "Konsumer lemah: MYOR 39,0 — inflasi pangan menekan",
-        "ICBP (56,0), INDF (57,1) — defensif pangan masih relevan"
+        "AUTO (STUDY 83,7) — tetap puncak, konsisten",
+        "ISAT (STUDY 75,8) — STUDY BARU, telekomunikasi muncul sebagai pemenang",
+        "INTP (STUDY 73,4) — material masih kuat",
+        "TINS (STUDY 71,9) — masuk kembali setelah keluar kemarin, momentum mineral pulih",
+        "Sektor terkuat: Otomotif (66,0), Material (64,3), Perbankan (61,0) — perbankan naik",
+        "Perbankan membaik: BBCA (66,8), BBRI (63,2), BBNI (61,6) — arah positif",
+        "Energi netral (56,4) meski minyak 92,29 — pasar belum fully price in",
+        "Teknologi lemah: GOTO (38,5), BUKA (41,3) — risk-off masih menekan",
+        "Konsumer campuran: ICBP (60,3), INDF (57,3) defensif, tapi MYOR (40,7), UNVR (46,0) lemah",
+        "Minyak tembus 90 ke 92,29 — risiko biaya energi untuk sektor padat energi",
+        "Iran serang Kuwait — eskalasi, tapi dampak ke sektor Indonesia belum terlihat"
       ],
-      "causal_chain": "Rotasi STUDY dari TINS ke AUTO + perbankan membaik → rally bergeser dari komoditas ke siklikal/otomotif → tapi bond rout makin parah + minyak mendekati 90 menekan risk appetite → rotasi terhambat → bila breadth membaik ke 3+ STUDY → rally berlanjut meski tekanan eksternal; bila breadth kolaps ke 1 STUDY → rally terancam; bila perbankan masuk STUDY → sinyal positif rally meluas",
-      "beneficiaries": [
-        "AUTO (STUDY 83,0) — otomotif, konsumsi domestik diuntungkan RAPBN positif",
-        "INTP (STUDY 73,3) — material, fundamental kuat",
-        "Perbankan membaik: BBCA (63,3), BBRI (59,6) — potensi masuk WATCH naik",
-        "ADRO (59,2), ITMG (58,0), MEDC (54,5) — energi diuntungkan minyak naik",
-        "ICBP (56,0), INDF (57,1) — defensif pangan hedge inflasi"
-      ],
-      "losers": [
-        "TINS turun dari STUDY (64,2) — momentum mineral menurun",
-        "Teknologi (GOTO 41,2, BUKA 34,9) — risk-off global + bond rout menekan growth berat",
-        "Konsumer lemah (MYOR 39,0, UNVR 49,4) — inflasi pangan menekan daya beli",
-        "Semua sektor bergantung modal asing — bond rout menarik modal keluar dari EM"
-      ],
-      "invalidation": "Rotasi gagal bila breadth menyusut ke 1 STUDY; tesis otomotif gagal bila AUTO turun dari STUDY lagi; tesis energi gagal bila Hormuz de-eskalasi dan minyak turun di bawah 83; skenario bear bila bond rout parah + minyak >90 dan breadth kolaps — saat itu bahkan defensif pun tertekan",
-      "not_prediction_of_price": true
+      "causal_chain": "Breadth 4 STUDY + rupiah menguat + DXY turun → rally meluas dari 2 sektor ke 4 sektor → otomotif + material + telekom + mineral → TAPI minyak 92,29 → sektor padat energi tertekan → base: rally berlanjut dengan rotasi; bila breadth naik 5+ → rally makin kuat; bila minyak >95 + breadth kolaps → rally terancam",
+      "invalidation": "Rotasi gagal bila breadth menyusut ke 2 STUDY; tesis otomotif gagal bila AUTO turun dari STUDY; tesis telekom gagal bila ISAT turun dari STUDY; skenario bear bila minyak >95 + breadth kolaps — saat itu bahkan defensif pun tertekan",
+      "not_prediction_of_price": true,
+      "manual_analysis": true
     },
     {
-      "topic": "Konflik global, bond rout global & risiko sistemik — tekanan inflasi & capital outflow 3–6 bulan",
-      "probabilities": {"bull": 0.10, "base": 0.35, "bear": 0.55},
-      "confidence": 75,
-      "thesis": "Ini perubahan paling signifikan dari analisis kemarin: saya NAIKKAN bear dari 0,50 ke 0,55 karena situasi MEMBURUK dari tiga sisi: (1) MINYAK MELEJIT ke 89,71 dari 87,74 — mendekati 90, sangat berbahaya; (2) BOND ROUT MAKIN PARAH — CNBC 2 Sep: 'Global bond rout gathers pace as inflation fears mount' — lebih buruk dari kemarin saat bond baru mulai selloff; (3) US BOMBING DI IRAN — Al Jazeera: 'fatal US bombing of a wedding in Iran's Sirik' — eskalasi militer AS makin dalam, bukan de-eskalasi seperti harapan kemarin. Saya TAMBAHKAN Chevron-Venezuela $7B sebagai satu sinyal positif jangka panjang — potensi tambahan supply energi. Tapi dampaknya masih 3-6 bulan, tidak sekarang. Beda dengan kemarin: kemarin ada sinyal diplomatik dari Tehran minta de-eskalasi, sekarang situasi memburuk — US bombing di Iran justru menambah eskalasi. CNBC juga melaporkan 'Bond market selloff: What fixed-income investors can do to protect their money without panicking' — ini sinyal bahwa bond rout sudah sampai ke level yang bikin investor panik. Yahoo Finance: 'Dow Jones Futures Fall After Oil Prices Slam Market' — pasar AS tertekan berat. Zelenskyy minta airlines hindari airspace Rusia — eskalasi Ukraina berlanjut. Sisi positif: (1) RAPBN 2027 & investasi Rp1.010T — ketahanan domestik; (2) AUTO masuk STUDY — breadth tidak kolaps; (3) Chevron-Venezuela $7B — potensi supply tambahan jangka panjang. Sisi negatif jauh lebih berat: (1) Minyak 89,71, nyaris 90 — kalau tembus 90, stagflasi makin nyata; (2) Bond rout global makin parah — capital outflow dari EM makin agresif; (3) US bombing di Iran — eskalasi, bukan de-eskalasi; (4) El Nino makin kuat — tekanan pangan makin nyata; (5) DXY naik ke 99,79 — dolar global mulai menguat. Risiko paling material: bila minyak tembus 90 + bond rout parah + El Niño makin kuat → kombinasi 'stagflasi' yang sangat berat untuk emerging market, termasuk Indonesia. Ini lebih buruk dari kemarin.",
+      "topic": "Konflik global, bond rout, minyak 92 & risiko sistemik — tekanan inflasi & capital outflow 3–6 bulan",
+      "probabilities": {"bull": 0.12, "base": 0.38, "bear": 0.50},
+      "confidence": 72,
+      "thesis": "Saya TURUNKAN bear dari 0,55 ke 0,50 dan NAIKKAN base dari 0,35 ke 0,38 karena situasi campuran: (1) MINYAK TEMBUS 90 ke 92,29 — ini bear trigger yang saya sebut kemarin, sekarang sudah terjadi; (2) IRAN SERANG KUWAIT — eskalasi BESAR, CNBC 3 Sep; (3) CNBC: 'The world appears to be entering a higher-rate era' — bond rout jadi tren struktural; (4) CNBC: 'Dutch central bank moves gold bars out of U.S. and Canada, citing crisis preparedness' — bank sentral Belanda pindahkan emas, sinyal krisis. TAPI ada penyejuk signifikan: (1) IHSG naik +1,09% meski minyak 92 — pasar Indonesia TAHAN; (2) Breadth membaik ke 4 STUDY — rally meluas; (3) Rupiah menguat ke 17.655 — modal asing tidak panic; (4) DXY turun ke 99,12 — dolar global melemah; (5) US10Y stabil di 4,80 — bond rout sementara berhenti; (6) Putin sinyal damai Ukraina — potensi de-eskalasi. Beda dengan kemarin: kemarin situasi jelas MEMBURUK (minyak naik + bond rout + bombing Iran). Sekarang situasi DUAL — minyak tembus 90 dan Iran serang Kuwait (buruk), TAPI pasar Indonesia malah naik + breadth membaik + rupiah menguat (baik). Ini bisa berarti: (a) pasar sudah resilient, (b) minyak 92 belum cukup untuk panic, atau (c) ini bear market rally yang akan terbalik. Saya condong ke (a) dan (b) — Indonesia punya ketahanan domestik (RAPBN, investasi, breadth membaik). Tapi risiko tetap tinggi: bila minyak naik terus ke 95+ dan Hormuz tertutup, ketahanan ini akan diuji berat. El Niño makin dikhawatirkan UN — tekanan pangan jangka panjang.",
       "evidence": [
-        "'Global bond rout gathers pace as inflation fears mount' (CNBC 2 Sep) — bond selloff makin parah, lebih buruk dari kemarin",
-        "'Bond market selloff: What fixed-income investors can do to protect their money without panicking' (CNBC 2 Sep) — investor mulai panik",
-        "Minyak 89,71 (+19,3%/20) — SANGAT DEKAT 90, sangat berbahaya untuk stagflasi",
-        "'Fatal US bombing of a wedding in Iran's Sirik' (Al Jazeera 2 Sep) — eskalasi militer AS makin dalam",
-        "'Dow Jones Futures Fall After Oil Prices Slam Market' (Yahoo Finance 2 Sep) — pasar AS tertekan berat",
-        "US10Y 4,80 (naik dari 4,76 kemarin) — bond rout berlanjut",
-        "'Zelenskyy says airlines should avoid Russian airspace' (CNBC 2 Sep) — eskalasi Ukraina berlanjut",
-        "El Nino makin kuat jadi 'sangat kuat' — tekanan pangan makin nyata",
-        "DXY 99,79 (naik dari 99,6) — dolar global mulai menguat, tekanan tambahan",
-        "Chevron-Venezuela $7B — potensi tambahan supply energi jangka panjang (satu sinyal positif)",
-        "RAPBN 2027 & investasi Rp1.010T — ketahanan domestik Indonesia",
-        "Emas 4.366,3 (turun dari 4.425) — permintaan safe-haven makin mereda, tapi yields naik menekan emas riil"
+        "Minyak tembus 90 ke 92,29 (+19,4%/20) — bear trigger sudah terjadi",
+        "Iran serang Kuwait (CNBC 3 Sep) — eskalasi besar, selangkah dari Hormuz",
+        "CNBC: 'The world appears to be entering a higher-rate era' — bond rout struktural",
+        "CNBC: 'Dutch central bank moves gold bars out of U.S. and Canada' — sinyal krisis",
+        "Bloomberg: Harga LNG Asia rekor tertinggi sejak 2022 — energi Asia makin mahal",
+        "BBC: UN warns of supersized El Niño — tekanan pangan jangka panjang",
+        "TAPI: IHSG +1,09% meski minyak 92 — pasar Indonesia TAHAN",
+        "TAPI: Breadth 4 STUDY dari 2 — rally meluas",
+        "TAPI: Rupiah menguat ke 17.655 — modal asing tidak panic",
+        "TAPI: DXY turun ke 99,12 — dolar global melemah",
+        "TAPI: US10Y stabil 4,80 — bond rout sementara berhenti",
+        "Putin sinyal damai Ukraina — potensi de-eskalasi"
       ],
-      "causal_chain": "Minyak 89,71 mendekati 90 + bond rout makin parah + US bombing di Iran + El Nino makin kuat → risiko STAGFLASI makin nyata → capital outflow dari EM makin agresif karena bond rout → tekanan SISTEMIK pada emerging market termasuk Indonesia → DXY naik ke 99,79 menambah tekanan → tapi RAPBN positif + AUTO masuk STUDY menunjukkan ketahanan domestik → base: tekanan sangat tinggi, risiko stagflasi makin nyata; bila minyak tembus 90 + bond rout parah → risiko sistemik makin dekat; bila de-eskalasi Hormuz + bond mereda → risiko turun signifikan; bila Chevron-Venezuela supply naik + de-eskalasi → risiko turun jangka panjang",
-      "beneficiaries": [
-        "energi berkualitas langsung diuntungkan minyak naik: ADRO (59,2), ITMG (58,0), MEDC (54,5)",
-        "konsumer pangan berdaya tawar (ICBP 56,0, INDF 57,1) — hedge inflasi pangan",
-        "eksportir batu bara saat minyak naik — batu bara jadi alternatif energi",
-        "emas/gold sebagai hedge eskalasi dan inflasi — meski turun dari ekstrem, masih relevan"
-      ],
-      "losers": [
-        "industri tepung/gandum tanpa daya tawar — harga pangan naik karena El Nino + konflik",
-        "importir minyak tanpa pass-through pricing — margin tertekan langsung oleh minyak mendekati 90",
-        "siklikal berneraca lemah — inflasi ganda + bond rout menekan daya beli DAN valuasi",
-        "perbankan dan teknologi — bond rout + risk-off global menekan",
-        "semua sektor bergantung modal asing — bond rout menarik modal keluar dari EM makin agresif"
-      ],
-      "invalidation": "Bear terkonfirmasi bila minyak tembus 90 + yields US10Y >4,95 + bond rout berlanjut + breadth kolaps ke 1 STUDY — ini level 'stagflasi EM' yang sangat berat; tesis mereda bila kesepakatan gencatan senjata AS-Iran tercapai, Hormuz aman, bond global stabil, dan El Niño melemah; Chevron-Venezuela supply naik bisa menjadi penyejik jangka panjang bila de-eskalasi terjadi",
-      "not_prediction_of_price": true
+      "causal_chain": "Minyak tembus 90 ke 92,29 + Iran serang Kuwait → risiko Hormuz makin dekat + import bill RI berat → TAPI DXY turun + US10Y stabil + breadth 4 STUDY + rupiah menguat → pasar Indonesia menunjukkan ketahanan → base: tekanan tinggi tapi manageable selama Hormuz aman + minyak <95; bila minyak >95 + Hormuz tertutup → risiko sistemik nyata; bila de-eskalasi + minyak turun → risiko turun signifikan",
+      "invalidation": "Bear terkonfirmasi bila minyak >95 + Hormuz tertutup + breadth kolaps ke 2 STUDY + rupiah >17.900; tesis mereda bila de-eskalasi AS-Iran + minyak turun <85 + bond stabil; tesis netral bila minyak di 90-95 dan Hormuz tetap aman — situasi ketat tapi manageable",
+      "not_prediction_of_price": true,
+      "manual_analysis": true
     }
   ]
 }
