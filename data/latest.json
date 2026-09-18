@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-18T18:32:39+07:00",
+  "generated_at": "2026-09-18T18:35:24+07:00",
   "sources": [
     "Al Jazeera",
     "BBC World",
@@ -12,11 +12,11 @@
   ],
   "regime": {
     "label": "MIXED",
-    "risk_score": 53.1,
+    "risk_score": 52.9,
     "signals": [
       "IHSG 60h +9.5%",
       "USD/IDR 20h -0.1%",
-      "Minyak 20h +9.6%",
+      "Minyak 20h +9.4%",
       "US10Y 20h +6.3%"
     ]
   },
@@ -44,36 +44,36 @@
       "_source": "yahoo-chart"
     },
     "DollarIndex": {
-      "price": 100.44,
-      "r20": 0.01558139881128029,
-      "r60": -0.011504760468849184,
-      "r120": 0.0029056451500477642,
-      "vol": 0.0459843733088779,
-      "drawdown": -0.011504760468849184,
-      "rel": -0.011504760468849184,
+      "price": 100.45,
+      "r20": 0.015672349832650978,
+      "r60": -0.01141623516525403,
+      "r120": 0.002995460986445986,
+      "vol": 0.04600435415860836,
+      "drawdown": -0.01141623516525403,
+      "rel": -0.01141623516525403,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "Minyak": {
-      "price": 96.25,
-      "r20": 0.09586699297970624,
-      "r60": 0.3683537817893263,
-      "r120": -0.0340224750141922,
-      "vol": 0.5126997013167869,
-      "drawdown": -0.14785300929131262,
-      "rel": 0.3683537817893263,
-      "volume_ratio": 1.1495921686870931,
+      "price": 96.05,
+      "r20": 0.09358990150671631,
+      "r60": 0.36551049264154956,
+      "r120": -0.03602967041229821,
+      "vol": 0.5136997059827054,
+      "drawdown": -0.14962367731827886,
+      "rel": 0.36551049264154956,
+      "volume_ratio": 1.149705670497808,
       "_source": "yahoo-chart"
     },
     "Emas": {
-      "price": 4421.1,
-      "r20": -0.03287828846704954,
-      "r60": 0.10284874371537955,
-      "r120": -0.015893133521146408,
-      "vol": 0.21413671147066268,
-      "drawdown": -0.09396261800638639,
-      "rel": 0.10284874371537955,
-      "volume_ratio": 1.3826581827376572,
+      "price": 4421.3,
+      "r20": -0.03283460227999169,
+      "r60": 0.10289856087483318,
+      "r120": -0.015848680091819722,
+      "vol": 0.21413952700405542,
+      "drawdown": -0.09392169108056192,
+      "rel": 0.10289856087483318,
+      "volume_ratio": 1.3827060453652373,
       "_source": "yahoo-chart"
     },
     "Yield_US": {
@@ -1072,9 +1072,9 @@
       "topic": "Kondisi Alam & Bencana"
     },
     {
-      "title": "Cuaca Ekstrem Terjang Enam Kecamatan di Kabupaten Probolinggo, Puluhan Rumah Rusak dan Jembatan Terputus - TIMES Indonesia",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOeUxIdnR5dkVqTnRmMHJkNUM0d1M1U25zLUZubnNJMzE5WGFKb3BIUklCWTNEVnRQX1pfb01hRlBzN1V0R29DS3VycWlmeURiQWt1RHliNXl6MWFzYTVsVmVHSm9USlhlTE16SWg1RGJHR3NmWkRzUHB0eTB4dmFXVVV3M21keWJrTm1BMUFGQUJUWHlKMHliSVJNQWNILTFyM2ExOEYzMFdWUTY0M1JpSlhOSmgtRWVCSTJNSWVHeFVNT0VBZ0h0aXRlcDNaeV9QNUNqSV9TSFp2cG9IYjQ4NjhTUEpOSkFsLTBJWg?oc=5",
-      "published": "Sat, 21 Feb 2026 08:00:00 GMT",
+      "title": "Dibayangi Potensi Bencana Khas dan El Nino Panjang, BPBD Banggai Ajak Warga dan Perusahaan Bersiap - luwuktimes.id",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLUxCM2k2eWVFeU50dUp5aEVSM09kdHlQUEdXYmFhOUFRTXpWT0FkTFE0NXpIc2c3ZG9ZY2tyYzZXcVJHMUJSVHZyWXRzcXFtdHNqTGhqVTk5eUZzSThnVm9EeHBYTzlYQU9sblhDdmltYlNEbE1XTnFWMGU2LU0tck8tMmdjV0hEWTJNRVpaQ3pHc0NDMGVKN3RSclA5TnVBYmZLbEZRSTV2TlV5MkdueElVLVE2MWh6Z1Jyag?oc=5",
+      "published": "Tue, 18 Aug 2026 15:50:30 GMT",
       "source": "Google News ID",
       "sentiment_score": 0,
       "sentiment": "Netral",
@@ -1378,6 +1378,24 @@
       "topic": "Umum"
     },
     {
+      "title": "Deadly blast hits mosque at Pakistan police complex",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/18/09-18-26-pakistan-blast?traffic_source=rss",
+      "published": "Fri, 18 Sep 2026 11:15:52 +0000",
+      "source": "Al Jazeera",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
+      "title": "Who gets to decide how quickly AI moves?",
+      "link": "https://www.aljazeera.com/opinions/2026/9/18/who-gets-to-decide-how-quickly-ai-moves?traffic_source=rss",
+      "published": "Fri, 18 Sep 2026 11:04:01 +0000",
+      "source": "Al Jazeera",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
       "title": "North Korea anthem played at South’s Bangladesh hockey match at Asian Games",
       "link": "https://www.aljazeera.com/sports/2026/9/18/north-korea-anthem-played-at-souths-bangladesh-hockey-match-at-asian-games?traffic_source=rss",
       "published": "Fri, 18 Sep 2026 10:59:04 +0000",
@@ -1414,24 +1432,6 @@
       "topic": "Konflik & Perang Dunia"
     },
     {
-      "title": "Israel is killing the people who could end its wars",
-      "link": "https://www.aljazeera.com/opinions/2026/9/18/israel-is-killing-the-people-who-could-end-its-wars?traffic_source=rss",
-      "published": "Fri, 18 Sep 2026 10:29:34 +0000",
-      "source": "Al Jazeera",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Konflik & Perang Dunia"
-    },
-    {
-      "title": "Ukraine fires drone barrage as Russia launches elections",
-      "link": "https://www.aljazeera.com/news/2026/9/18/ukraine-fires-drone-barrage-as-russia-launches-elections?traffic_source=rss",
-      "published": "Fri, 18 Sep 2026 10:28:17 +0000",
-      "source": "Al Jazeera",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
       "title": "What is the Federal Reserve?",
       "link": "https://finance.yahoo.com/personal-finance/mortgages/article/what-is-the-federal-reserve-205012702.html",
       "published": "2024-04-22T20:50:12Z",
@@ -1441,22 +1441,13 @@
       "topic": "Umum"
     },
     {
-      "title": "XOM Keeps Climbing. Should You Climb On?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/xom-keeps-climbing-climb-232922566.html",
-      "published": "2026-09-16T23:29:22Z",
+      "title": "Is Ciena's Pricing Power Real, Or Just A Parts Shortage?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cienas-pricing-power-real-just-233841142.html",
+      "published": "2026-09-16T23:38:41Z",
       "source": "Yahoo Finance",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
-    },
-    {
-      "title": "This High-Yield Tech Stock Just Raised Its Dividend by Nearly 8%",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/high-yield-tech-stock-just-233002292.html",
-      "published": "2026-09-16T23:30:02Z",
-      "source": "Yahoo Finance",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Emiten"
     },
     {
       "title": "StanChart Sees Higher Oil Floor as Hormuz Crisis Spreads to Saudi Export Routes",
@@ -1484,6 +1475,15 @@
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
+    },
+    {
+      "title": "Understanding the Fed's rate decisions: Do we want high or low interest rates​?",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/do-we-want-high-or-low-interest-rates-223031516.html",
+      "published": "2024-12-27T22:30:31Z",
+      "source": "Yahoo Finance",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
     }
   ],
   "indicators": [
@@ -1496,7 +1496,7 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:32:39+07:00",
+      "freshness": "2026-09-18T18:35:24+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
@@ -1509,46 +1509,46 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:32:39+07:00",
+      "freshness": "2026-09-18T18:35:24+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
     {
       "name": "DollarIndex",
       "group": "Global & Pasar",
-      "value": 100.44,
-      "r20_pct": 1.56,
-      "r60_pct": -1.15,
+      "value": 100.45,
+      "r20_pct": 1.57,
+      "r60_pct": -1.14,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:32:39+07:00",
+      "freshness": "2026-09-18T18:35:24+07:00",
       "use": "Kekuatan dolar dan tekanan emerging market",
       "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
     },
     {
       "name": "Minyak",
       "group": "Global & Geopolitik",
-      "value": 96.25,
-      "r20_pct": 9.59,
-      "r60_pct": 36.84,
+      "value": 96.05,
+      "r20_pct": 9.36,
+      "r60_pct": 36.55,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:32:39+07:00",
+      "freshness": "2026-09-18T18:35:24+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
     {
       "name": "Emas",
       "group": "Global & Pasar",
-      "value": 4421.1,
-      "r20_pct": -3.29,
-      "r60_pct": 10.28,
+      "value": 4421.3,
+      "r20_pct": -3.28,
+      "r60_pct": 10.29,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:32:39+07:00",
+      "freshness": "2026-09-18T18:35:24+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
@@ -1561,7 +1561,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:32:39+07:00",
+      "freshness": "2026-09-18T18:35:24+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
     },
@@ -1574,7 +1574,7 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:32:39+07:00",
+      "freshness": "2026-09-18T18:35:24+07:00",
       "use": "Pendapatan eksportir energi dan devisa Indonesia",
       "causal_impact": "Batu bara naik → pendapatan eksportir/devisa naik; pengguna energi menanggung biaya"
     },
@@ -1587,7 +1587,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:32:39+07:00",
+      "freshness": "2026-09-18T18:35:24+07:00",
       "use": "Siklus logam industri dan manufaktur",
       "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
     },
@@ -1600,7 +1600,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:32:39+07:00",
+      "freshness": "2026-09-18T18:35:24+07:00",
       "use": "Aktivitas baja, konstruksi, dan permintaan China",
       "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },
