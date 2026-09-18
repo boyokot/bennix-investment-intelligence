@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-18T18:39:10+07:00",
+  "generated_at": "2026-09-18T18:39:45+07:00",
   "sources": [
     "Al Jazeera",
     "BBC World",
@@ -45,35 +45,35 @@
     },
     "DollarIndex": {
       "price": 100.47,
-      "r20": 0.01586451182945714,
-      "r60": -0.011229198243069338,
-      "r120": 0.00318522455596959,
-      "vol": 0.04604891720763715,
-      "drawdown": -0.011229198243069338,
-      "rel": -0.011229198243069338,
+      "r20": 0.015874617498498278,
+      "r60": -0.011219362098225383,
+      "r120": 0.0031952040933471704,
+      "vol": 0.046051348813911555,
+      "drawdown": -0.011219362098225383,
+      "rel": -0.011219362098225383,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "Minyak": {
-      "price": 96.22,
-      "r20": 0.09552543794530499,
-      "r60": 0.3679272992636127,
-      "r120": -0.03432354666694848,
-      "vol": 0.5128478453319373,
-      "drawdown": -0.148118602740692,
-      "rel": 0.3679272992636127,
-      "volume_ratio": 1.149819562349109,
+      "price": 96.24,
+      "r20": 0.09575311234641526,
+      "r60": 0.36821158479257887,
+      "r120": -0.034122857754976366,
+      "vol": 0.5127490224115211,
+      "drawdown": -0.1479415629566576,
+      "rel": 0.36821158479257887,
+      "volume_ratio": 1.1498542759613208,
       "_source": "yahoo-chart"
     },
     "Emas": {
-      "price": 4419.7,
-      "r20": -0.03318451902522768,
-      "r60": 0.10249953638982112,
-      "r120": -0.01620474227879798,
-      "vol": 0.2141180898255745,
-      "drawdown": -0.09424950675049115,
-      "rel": 0.10249953638982112,
-      "volume_ratio": 1.38278359024248,
+      "price": 4418.0,
+      "r20": -0.03355643908228245,
+      "r60": 0.1020754206215635,
+      "r120": -0.01658319421257648,
+      "vol": 0.2140980977356974,
+      "drawdown": -0.09459793598208266,
+      "rel": 0.1020754206215635,
+      "volume_ratio": 1.3827962051985863,
       "_source": "yahoo-chart"
     },
     "Yield_US": {
@@ -1274,9 +1274,9 @@
       "topic": "Umum"
     },
     {
-      "title": "At least 16 killed in attack on mosque in Pakistan",
+      "title": "At least 16 killed after vehicle loaded with explosives rams into Pakistan mosque",
       "link": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 18 Sep 2026 11:36:50 GMT",
+      "published": "Fri, 18 Sep 2026 11:39:11 GMT",
       "source": "BBC World",
       "sentiment_score": 0,
       "sentiment": "Netral",
@@ -1436,13 +1436,22 @@
       "topic": "Umum"
     },
     {
-      "title": "Is Ciena's Pricing Power Real, Or Just A Parts Shortage?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/cienas-pricing-power-real-just-233841142.html",
-      "published": "2026-09-16T23:38:41Z",
+      "title": "XOM Keeps Climbing. Should You Climb On?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/xom-keeps-climbing-climb-232922566.html",
+      "published": "2026-09-16T23:29:22Z",
       "source": "Yahoo Finance",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
+    },
+    {
+      "title": "This High-Yield Tech Stock Just Raised Its Dividend by Nearly 8%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/high-yield-tech-stock-just-233002292.html",
+      "published": "2026-09-16T23:30:02Z",
+      "source": "Yahoo Finance",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Emiten"
     },
     {
       "title": "StanChart Sees Higher Oil Floor as Hormuz Crisis Spreads to Saudi Export Routes",
@@ -1470,15 +1479,6 @@
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
-    },
-    {
-      "title": "Understanding the Fed's rate decisions: Do we want high or low interest rates​?",
-      "link": "https://finance.yahoo.com/personal-finance/banking/article/do-we-want-high-or-low-interest-rates-223031516.html",
-      "published": "2024-12-27T22:30:31Z",
-      "source": "Yahoo Finance",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
     }
   ],
   "indicators": [
@@ -1491,7 +1491,7 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:39:10+07:00",
+      "freshness": "2026-09-18T18:39:45+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
@@ -1504,7 +1504,7 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:39:10+07:00",
+      "freshness": "2026-09-18T18:39:45+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
@@ -1517,33 +1517,33 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:39:10+07:00",
+      "freshness": "2026-09-18T18:39:45+07:00",
       "use": "Kekuatan dolar dan tekanan emerging market",
       "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
     },
     {
       "name": "Minyak",
       "group": "Global & Geopolitik",
-      "value": 96.22,
-      "r20_pct": 9.55,
-      "r60_pct": 36.79,
+      "value": 96.24,
+      "r20_pct": 9.58,
+      "r60_pct": 36.82,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:39:10+07:00",
+      "freshness": "2026-09-18T18:39:45+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
     {
       "name": "Emas",
       "group": "Global & Pasar",
-      "value": 4419.7,
-      "r20_pct": -3.32,
-      "r60_pct": 10.25,
+      "value": 4418.0,
+      "r20_pct": -3.36,
+      "r60_pct": 10.21,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:39:10+07:00",
+      "freshness": "2026-09-18T18:39:45+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
@@ -1556,7 +1556,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:39:10+07:00",
+      "freshness": "2026-09-18T18:39:45+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
     },
@@ -1569,7 +1569,7 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:39:10+07:00",
+      "freshness": "2026-09-18T18:39:45+07:00",
       "use": "Pendapatan eksportir energi dan devisa Indonesia",
       "causal_impact": "Batu bara naik → pendapatan eksportir/devisa naik; pengguna energi menanggung biaya"
     },
@@ -1582,7 +1582,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:39:10+07:00",
+      "freshness": "2026-09-18T18:39:45+07:00",
       "use": "Siklus logam industri dan manufaktur",
       "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
     },
@@ -1595,7 +1595,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-18T18:39:10+07:00",
+      "freshness": "2026-09-18T18:39:45+07:00",
       "use": "Aktivitas baja, konstruksi, dan permintaan China",
       "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },
