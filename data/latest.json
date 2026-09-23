@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-23T18:29:55+07:00",
+  "generated_at": "2026-09-23T18:33:19+07:00",
   "sources": [
     "Al Jazeera",
     "BBC World",
@@ -12,11 +12,11 @@
   ],
   "regime": {
     "label": "MIXED",
-    "risk_score": 53.9,
+    "risk_score": 54.0,
     "signals": [
       "IHSG 60h +8.1%",
       "USD/IDR 20h +0.6%",
-      "Minyak 20h +9.5%",
+      "Minyak 20h +9.6%",
       "US10Y 20h +4.8%"
     ]
   },
@@ -44,36 +44,36 @@
       "_source": "yahoo-chart"
     },
     "DollarIndex": {
-      "price": 100.83,
-      "r20": 0.01849496244180071,
-      "r60": -0.005219014654970877,
-      "r120": 0.008713507455412994,
-      "vol": 0.04660037078705853,
-      "drawdown": -0.007666561597618138,
-      "rel": -0.005219014654970877,
+      "price": 100.85,
+      "r20": 0.018666662351049634,
+      "r60": -0.005051312495210958,
+      "r120": 0.00888355838749888,
+      "vol": 0.04666377092371552,
+      "drawdown": -0.007499272050196515,
+      "rel": -0.005051312495210958,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "Minyak": {
-      "price": 90.16,
-      "r20": 0.09470620439477573,
-      "r60": 0.27434634151391335,
-      "r120": -0.09948061137875541,
-      "vol": 0.5122787129602576,
-      "drawdown": -0.201770641008304,
-      "rel": 0.27434634151391335,
-      "volume_ratio": 1.0417439622395852,
+      "price": 90.24,
+      "r20": 0.09567747929845893,
+      "r60": 0.2754770016080499,
+      "r120": -0.09868162816395643,
+      "vol": 0.5119250918160397,
+      "drawdown": -0.20106241432551086,
+      "rel": 0.2754770016080499,
+      "volume_ratio": 1.04182927836679,
       "_source": "yahoo-chart"
     },
     "Emas": {
-      "price": 4348.0,
-      "r20": -0.07380977739908401,
-      "r60": 0.07653076459678565,
-      "r120": -0.09663212653373476,
-      "vol": 0.21196008281603976,
-      "drawdown": -0.108943373845653,
-      "rel": 0.07653076459678565,
-      "volume_ratio": 1.2409060651251063,
+      "price": 4343.0,
+      "r20": -0.07487485355202894,
+      "r60": 0.07529280373593372,
+      "r120": -0.09767095803496095,
+      "vol": 0.2121494777829618,
+      "drawdown": -0.10996804797876525,
+      "rel": 0.07529280373593372,
+      "volume_ratio": 1.241246317580276,
       "_source": "yahoo-chart"
     },
     "Yield_US": {
@@ -814,7 +814,7 @@
         "bear": 0.25
       },
       "confidence": 72,
-      "thesis": "IHSG TURUN ke 6.374,91 — turun dari 6.441 di pertengahan September. Penurunan 1% ini MENYEBABKAN kekhawatiran, tapi di balik angka ada PERUBAHAN BESAR yang BAGUS: BREADTH STUDY NAIK DARI 3 KE 5! AUTO (83,4), PTBA (82,9), TINS (74,8), MEDC (73,3), ISAT (71,0) — semua STUDY. Ini seperti BENTENG yang kehilangan satu penjaga (kemarin) tapi sekarang DUA penjaga BARU DATANG (TINS pulih + ISAT naik). Yang BAGUS: (1) Minyak TURUN TAJAM dari $96 ke $90,23 — tekanan inflasi mereda; (2) Breadth 5 STUDY — yang TERBAIK dalam beberapa minggu terakhir; (3) PTBA dan AUTO masih anchor TERKUAT; (4) TINS pulih ke STUDY — Mineral mulai bangkit. Yang MASIH BERAT: (1) IHSG turun 1% dalam 5 hari — meskipun breadth membaik, harga indeks masih tertekan; (2) Rupiah melemah ke 17.795 dari 17.735; (3) DXY naik ke 100,82 dari 100,45 — dolar masih KUAT; (4) Yield US 4,96% — masih sangat tinggi; (5) El Nino makin kuat — potensi inflasi pangan. Yang BERUBAH dari analisis sebelumnya: Breadth PULIH dari 3 ke 5 (TINS + ISAT masuk STUDY). Ini perubahan BESAR — pertahanan domestik MENGUAT. KEPUTUSAN: Saya NAIKKAN bull dari 0,12 ke 0,25 karena: (1) Breadth 5 STUDY = pertahanan menguat signifikan; (2) Minyak turun ke $90 = positif besar. Saya TURUNKAN bear dari 0,35 ke 0,25 karena minyak turun + breadth membaik. Base tetap 0,50 karena indeks masih turun + rupiah tertekan + DXY kuat. Base case: IHSG 6.300-6.550 dengan BIAS SEDIKIT POSITIF karena breadth membaik + minyak turun. PERUBAHAN DARI ANALISIS SEBELUMNYA (18 Sep): (1) Breadth NAIK dari 3 ke 5 STUDY — TINS pulih + ISAT masuk STUDY!; (2) Minyak TURUN TAJAM dari $96,05 ke $90,23 (-6,1%); (3) Bull NAIK dari 0,12 ke 0,25; (4) Bear TURUN dari 0,35 ke 0,25; (5) Tesis BERUBAH dari 'pertahanan menyusut' jadi 'pertahanan menguat tapi indeks masih tertekan'. Ini perubahan BESAR —内层 bertambah kuat meskipun luar masih berat.",
+      "thesis": "IHSG TURUN ke 6.374,91 — turun dari 6.441 di pertengahan September. Penurunan 1% ini MENYEBABKAN kekhawatiran, tapi di balik angka ada PERUBAHAN BESAR yang BAGUS: BREADTH STUDY NAIK DARI 3 KE 5! AUTO (83,4), PTBA (82,9), TINS (74,8), MEDC (73,3), ISAT (71,0) — semua STUDY. Ini seperti BENTENG yang kehilangan satu penjaga (kemarin) tapi sekarang DUA penjaga BARU DATANG (TINS pulih + ISAT naik). Yang BAGUS: (1) Minyak TURUN TAJAM dari $96 ke $90,23 — tekanan inflasi mereda; (2) Breadth 5 STUDY — yang TERBAIK dalam beberapa minggu terakhir; (3) PTBA dan AUTO masih anchor TERKUAT; (4) TINS pulih ke STUDY — Mineral mulai bangkit. Yang MASIH BERAT: (1) IHSG turun 1% dalam 5 hari — meskipun breadth membaik, harga indeks masih tertekan; (2) Rupiah melemah ke 17.795 dari 17.735; (3) DXY naik ke 100,82 dari 100,45 — dolar masih KUAT; (4) Yield US 4,96% — masih sangat tinggi; (5) El Nino makin kuat — potensi inflasi pangan. Yang BERUBAH dari analisis sebelumnya: Breadth PULIH dari 3 ke 5 (TINS + ISAT masuk STUDY). Ini perubahan BESAR — pertahanan domestik MENGUAT. KEPUTUSAN: Saya NAIKKAN bull dari 0,12 ke 0,25 karena: (1) Breadth 5 STUDY = pertahanan menguat signifikan; (2) Minyak turun ke $90 = positif besar. Saya TURUNKAN bear dari 0,35 ke 0,25 karena minyak turun + breadth membaik. Base tetap 0,50 karena indeks masih turun + rupiah tertekan + DXY kuat. Base case: IHSG 6.300-6.550 dengan BIAS SEDIKIT POSITIF karena breadth membaik + minyak turun. PERUBAHAN DARI ANALISIS SEBELUMNYA (18 Sep): (1) Breadth NAIK dari 3 ke 5 STUDY — TINS pulih + ISAT masuk STUDY!; (2) Minyak TURUN TAJAM dari $96,05 ke $90,23 (-6,1%); (3) Bull NAIK dari 0,12 ke 0,25; (4) Bear TURUN dari 0,35 ke 0,25; (5) Tesis BERUBAH dari 'pertahanan menyusut' jadi 'pertahanan menguat tapi indeks masih tertekan'. Ini perubahan BESAR — lapisan dalam bertambah kuat meskipun luar masih berat.",
       "evidence": [
         "IHSG 6.374,91 — turun dari 6.441 (18 Sep), turun 1,03% dalam 5 hari",
         "Breadth STUDY NAIK dari 3 ke 5 — TINS pulih + ISAT masuk STUDY!",
@@ -890,7 +890,7 @@
         "bear": 0.45
       },
       "confidence": 73,
-      "thesis": "RISIKO SISTEMIK SEDIKIT MEMBAIK dari analisis sebelumnya karena DUA PERUBAHAN BESAR: (1) Minyak TURUN TAJAM dari $96 ke $90,23 (-6,1%) — ini POSITIF BESAR; (2) US dan Iran mulai bicara lagi (BBC, CNBC) — sinyal de-eskalasi AWAL. Yang PERLU DIPECAH: (1) MINYAK $90,23 — turun signifikan dari $96, tekanan inflasi BERkurang; (2) DIPLOMASI: (a) 'US and Iran hold first talks since June after Trump's annihilation threat' (BBC) — ini PERTANDA BAIK, dialog DIMULAI LAGI; (b) 'Iran says Trump's threats a sign of strategic desperation, floats conditions for Hormuz reopening' (CNBC) — Iran SIAP berunding; (c) Qatar: 'We can't let diplomacy fail' (Al Jazeera) — mediasi AKTIF; (d) Zelenskyy siap energy ceasefire (CNBC) — konflik Rusia-Ukraine mulai REDA; (e) Trump-Xi summit bahas AI safety (CNBC) — hubungan AS-China mulai DINGIN; (3) El Nino makin kuat — 'Powerful El Nino could cause more than 450,000 deaths' (Al Jazeera) — risiko inflasi pangan MASIH ADA; (4) 170.000+ kasus pernapasan di Indonesia karena kabut asap (BBC) — dampak domestik; (5) Hurricane Polo kategori 5 (BBC) — bencana alam global. Yang MASIH BERISIKO: (1) Konflik belum SELESAI — baru mulai bicara, belum ada kesepakatan; (2) Hormuz masih terancam — Iran kasih syarat; (3) El Nino makin kuat — risiko pangan; (4) Yield AS 4,96% — masih tinggi; (5) DXY >100 — dolar masih kuat. KEPUTUSAN: Saya NAIKKAN bull dari 0,12 ke 0,15 karena minyak turun + diplomasi mulai. Saya TURUNKAN bear dari 0,55 ke 0,45 karena minyak turun + sinyal de-eskalasi. Base NAIK dari 0,33 ke 0,40 karena ada Improvement meskipun kecil. Yang berubah: kemarin saya NAIKKAN bear karena berita eskalasi — sekarang berita DE-ESKALASI (minyak turun + diplomasi) menggeser kalkulasi ke arah LEBIH SEIMBANG. PERUBAHAN DARI ANALISIS SEBELUMNYA (18 Sep): (1) Minyak TURUN TAJAM dari $96 ke $90 (-6,1%); (2) Bull NAIK dari 0,12 ke 0,15; (3) Bear TURUN dari 0,55 ke 0,45; (4) Base NAIK dari 0,33 ke 0,40; (5) Berita baru: US-Iran mulai bicara + Qatar mediasi + Zelenskyy energy ceasefire; (6) Tesis BERUBAH dari 'risiko sistemik tinggi dan memburuk' jadi 'risiko sistemik sedikit membaik, tapi masih tinggi'.",
+      "thesis": "RISIKO SISTEMIK SEDIKIT MEMBAIK dari analisis sebelumnya karena DUA PERUBAHAN BESAR: (1) Minyak TURUN TAJAM dari $96 ke $90,23 (-6,1%) — ini POSITIF BESAR; (2) US dan Iran mulai bicara lagi (BBC, CNBC) — sinyal de-eskalasi AWAL. Yang PERLU DIPECAH: (1) MINYAK $90,23 — turun signifikan dari $96, tekanan inflasi BERkurang; (2) DIPLOMASI: (a) 'US and Iran hold first talks since June after Trump's annihilation threat' (BBC) — ini PERTANDA BAIK, dialog DIMULAI LAGI; (b) 'Iran says Trump's threats a sign of strategic desperation, floats conditions for Hormuz reopening' (CNBC) — Iran SIAP berunding; (c) Qatar: 'We can't let diplomacy fail' (Al Jazeera) — mediasi AKTIF; (d) Zelenskyy siap energy ceasefire (CNBC) — konflik Rusia-Ukraine mulai REDA; (e) Trump-Xi summit bahas AI safety (CNBC) — hubungan AS-China mulai DINGIN; (3) El Nino makin kuat — 'Powerful El Nino could cause more than 450,000 deaths' (Al Jazeera) — risiko inflasi pangan MASIH ADA; (4) 170.000+ kasus pernapasan di Indonesia karena kabut asap (BBC) — dampak domestik; (5) Hurricane Polo kategori 5 (BBC) — bencana alam global. Yang MASIH BERISIKO: (1) Konflik belum SELESAI — baru mulai bicara, belum ada kesepakatan; (2) Hormuz masih terancam — Iran kasih syarat; (3) El Nino makin kuat — risiko pangan; (4) Yield AS 4,96% — masih tinggi; (5) DXY >100 — dolar masih kuat. KEPUTUSAN: Saya NAIKKAN bull dari 0,12 ke 0,15 karena minyak turun + diplomasi mulai. Saya TURUNKAN bear dari 0,55 ke 0,45 karena minyak turun + sinyal de-eskalasi. Base NAIK dari 0,33 ke 0,40 karena ada Improvement meskipun kecil. Yang berubah: kemarin saya NAIKKAN bear karena berita eskalasi — sekarang berita DE-ESKALASI (minyak turun + diplomasi) menggeser kalkulasi ke arah LEBIH SEIMBANG. PERUBAHAN DARI ANALISIS SEBELUMNYA (18 Sep): (1) Minyak TURUN TAJAM dari $96 ke $90 (-6,1%); (2) Bull NAIK dari 0,12 ke 0,15; (3) Bear TURUN dari 0,55 ke 0,45; (4) Base NAIK dari 0,33 ke 0,40; (5) Berita baru: US-Iran mulai bicara + Qatar mediasi aktif + Zelenskyy siap energy ceasefire.",
       "evidence": [
         "Minyak TURUN TAJAM dari $96,05 ke $90,23 (-6,1%) — tekanan inflasi BERkurang",
         "US-Iran mulai bicara lagi (BBC) — sinyal de-eskalasi AWAL",
@@ -1079,7 +1079,7 @@
       "topic": "Umum"
     },
     {
-      "title": "Mewujudkan Kedaulatan Pangan Kebijakan Strategis untuk Masa Depan Indonesia - kompasiana.com",
+      "title": "Mewujudkan Kedaulatan Pangan Kebijakan Strategis untuk Masa Depan Indonesia - Kompasiana.com",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdkUzSmRvYVpyeGlzOTM3RFhLdmlTX012MTUtMDFqaFoyU0tiMVBJYUxIQkF0aEhFZ2FfUkNPUmZueHRKakNEY0MxakVQNnhaVEtiZ3hfR29PV0dKdGtmQU9aTGxhNHZQSXFLdkxZUDJOVE4ycVY3T05yYWlUY3Y2UmRmM3ZDU1hhSkdEY09NcDNqRE1zYkFENzhtNmZ2X0tZZlhxN2Nzdk81OGJJd215RmdReGJNOXVaSTN4MnhGRUVlQjdSTFhqNE5YbUhlbXkzWDJRMUt4U20?oc=5",
       "published": "Thu, 17 Sep 2026 06:56:13 GMT",
       "source": "Google News ID",
@@ -1106,7 +1106,7 @@
       "topic": "Kondisi Alam & Bencana"
     },
     {
-      "title": "Alarm Harga Pangan Indonesia di Tengah Pusaran Disrupsi Rantai Pasok Global - Bisnis.com - Ekonomi",
+      "title": "Alarm Harga Pangan Indonesia di Tengah Pusaran Disrupsi Rantai Pasok Global - ekonomi.bisnis.com",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd2Z0SU1hRUR4N3lvcGVGMlh4UFVYejVsQ09QeHI5UzFYbkh6MWtYbVZPYk1OWTlhWWpsZU9DdVBDdm8ycUpyUnJaT2hzRE5IMHhyVlVLVWRyYVBTZW9hRmlEWVBLajdnR2d4U2RTUnNHdVFxSzZxcnJBU3FNVXZWUWRySGhyV3FCUFd2ZDlsMVlidzU3QzRETHc4TU5aMkpNcjNZeEl6OWx2dEE5Q1ZUNHhva0Y4aFd6c3hSOVNlT011ZzFPU2c?oc=5",
       "published": "Mon, 06 Apr 2026 07:00:00 GMT",
       "source": "Google News ID",
@@ -1133,7 +1133,7 @@
       "topic": "Gagal Panen & Produksi Komoditas"
     },
     {
-      "title": "How Declining Oil Production Could Weaken Russia’s Geopolitical Power - bakerinstitute.org",
+      "title": "How Declining Oil Production Could Weaken Russia’s Geopolitical Power - Baker Institute",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSi1uWGd5eXNrRGNnRktlZnJCZ2tleV81TGxwcVNuSEFwZ3E5S19LRHgxS3R1RXVrTUpLWk9WZXRPOTNyUnRRaDFqdlF1NUt0bDE2X1JYRTF4bEdOZFdRTlp3MnBEYUREU1ZmRmlqcjFzNUtfS2dKdG5samtaYktKOGRJZnFZMWdkOE9kRGpYeDRMNlcxNXZDN25HSEtHQUVJSHdvemtVcUUtYTlk?oc=5",
       "published": "Tue, 16 Jun 2026 18:22:38 GMT",
       "source": "Google News Global",
@@ -1494,7 +1494,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-23T18:29:55+07:00",
+      "freshness": "2026-09-23T18:33:19+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
@@ -1507,46 +1507,46 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-23T18:29:55+07:00",
+      "freshness": "2026-09-23T18:33:19+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
     {
       "name": "DollarIndex",
       "group": "Global & Pasar",
-      "value": 100.83,
-      "r20_pct": 1.85,
-      "r60_pct": -0.52,
+      "value": 100.85,
+      "r20_pct": 1.87,
+      "r60_pct": -0.51,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-23T18:29:55+07:00",
+      "freshness": "2026-09-23T18:33:19+07:00",
       "use": "Kekuatan dolar dan tekanan emerging market",
       "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
     },
     {
       "name": "Minyak",
       "group": "Global & Geopolitik",
-      "value": 90.16,
-      "r20_pct": 9.47,
-      "r60_pct": 27.43,
+      "value": 90.24,
+      "r20_pct": 9.57,
+      "r60_pct": 27.55,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-23T18:29:55+07:00",
+      "freshness": "2026-09-23T18:33:19+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
     {
       "name": "Emas",
       "group": "Global & Pasar",
-      "value": 4348.0,
-      "r20_pct": -7.38,
-      "r60_pct": 7.65,
+      "value": 4343.0,
+      "r20_pct": -7.49,
+      "r60_pct": 7.53,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-23T18:29:55+07:00",
+      "freshness": "2026-09-23T18:33:19+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
@@ -1559,7 +1559,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-23T18:29:55+07:00",
+      "freshness": "2026-09-23T18:33:19+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
     },
@@ -1572,7 +1572,7 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-23T18:29:55+07:00",
+      "freshness": "2026-09-23T18:33:19+07:00",
       "use": "Pendapatan eksportir energi dan devisa Indonesia",
       "causal_impact": "Batu bara naik → pendapatan eksportir/devisa naik; pengguna energi menanggung biaya"
     },
@@ -1585,7 +1585,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-23T18:29:55+07:00",
+      "freshness": "2026-09-23T18:33:19+07:00",
       "use": "Siklus logam industri dan manufaktur",
       "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
     },
@@ -1598,7 +1598,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-09-23T18:29:55+07:00",
+      "freshness": "2026-09-23T18:33:19+07:00",
       "use": "Aktivitas baja, konstruksi, dan permintaan China",
       "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },
