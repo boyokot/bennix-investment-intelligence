@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-06T19:17:23+07:00",
+  "generated_at": "2026-10-06T19:27:31+07:00",
   "sources": [
     "Al Jazeera",
     "BBC World",
@@ -17,7 +17,7 @@
     "signals": [
       "IHSG 60h +4.5%",
       "USD/IDR 20h +1.3%",
-      "Minyak 20h -6.3%",
+      "Minyak 20h -6.4%",
       "US10Y 20h +11.0%"
     ]
   },
@@ -45,25 +45,25 @@
       "_source": "yahoo-chart"
     },
     "DollarIndex": {
-      "price": 101.82,
-      "r20": 0.03014977202898983,
-      "r60": 0.005331762658331796,
-      "r120": 0.03834389383890979,
-      "vol": 0.04824125996879519,
-      "drawdown": -0.0034256482371893826,
-      "rel": 0.005331762658331796,
+      "price": 101.81,
+      "r20": 0.030068800406571672,
+      "r60": 0.005252741776027747,
+      "r120": 0.03826227814379912,
+      "vol": 0.04826551478871775,
+      "drawdown": -0.0035039807712670124,
+      "rel": 0.005252741776027747,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "Minyak": {
-      "price": 87.2,
-      "r20": -0.06266797707786398,
-      "r60": 0.11594570807987448,
-      "r120": -0.04480232146201557,
-      "vol": 0.4763318591094047,
-      "drawdown": -0.19749683407520868,
-      "rel": 0.11594570807987448,
-      "volume_ratio": 1.2085114565289872,
+      "price": 87.08,
+      "r20": -0.06395783109013986,
+      "r60": 0.11441006541126963,
+      "r120": -0.04611676023936362,
+      "vol": 0.4766615384017514,
+      "drawdown": -0.19860115133218803,
+      "rel": 0.11441006541126963,
+      "volume_ratio": 1.2091678426601822,
       "_source": "yahoo-chart"
     },
     "Emas": {
@@ -74,7 +74,7 @@
       "vol": 0.21331319204903007,
       "drawdown": -0.13839254845763027,
       "rel": 0.04957931346243849,
-      "volume_ratio": 1.0442823325387005,
+      "volume_ratio": 1.044772003276016,
       "_source": "yahoo-chart"
     },
     "Yield_US": {
@@ -1150,7 +1150,7 @@
       "topic": "Konflik & Perang Dunia"
     },
     {
-      "title": "Geopolitical and Geoeconomic Lessons from the War in the Middle East - bfpg.co.uk",
+      "title": "Geopolitical and Geoeconomic Lessons from the War in the Middle East - British Foreign Policy Group",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYmRHcjRHdHVaRE5LbGpDNlZ3VEY3MlhkeVVtUGVXS0JsNHI2dE1yeHpwbW5vbjljUk54NjFNNlpKR21nMng3SC1PN3k2TjRkSG1XMHpZQU1aRmhSMC12TGlnN1hjQjBXWUQ4bHV6MzZtendMcHBPZi1OVlY5RkxBU1BqSEdHem9CUzdYTVk5Q1BCdGhMdGREWUp0b1M?oc=5",
       "published": "Tue, 29 Sep 2026 18:58:30 GMT",
       "source": "Google News Global",
@@ -1204,7 +1204,7 @@
       "topic": "Umum"
     },
     {
-      "title": "El Niño set to become very strong, raising risks of extreme weather into 2027 - World Meteorological Organization WMO",
+      "title": "El Niño set to become very strong, raising risks of extreme weather into 2027 - wmo.int",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVXJMY3dxaEtBaEtTMzJQZERydE15ektRX0o2SVdEUFlyS2xGYjVsYVZ5UXVtUjNuQnBqbUUzenJiWS1UYnA2blRtck83a3NGMTZsbG9abWlpTllIT2tOa1BKVHpGNWN4RTZQSEJ0N3k3Q0ppR3NteFJxd1FVSHFOeW9MZHBDUnVWTXlPbDBkTEQ5TldRZ2llZmVTNUVEQmNWeXRscg?oc=5",
       "published": "Thu, 03 Sep 2026 07:00:00 GMT",
       "source": "Google News Global",
@@ -1213,7 +1213,7 @@
       "topic": "Umum"
     },
     {
-      "title": "Fierce floods or wild waves? How San Diego is preparing for a winter of extreme weather under El Niño. - CalMatters",
+      "title": "Fierce floods or wild waves? How San Diego is preparing for a winter of extreme weather under El Niño. - calmatters.org",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU0JCbEI3TUFaOENyNFBFeFY2VHhTRkhHTlZaeEYyQ1ZpNzRfQWt6QVE0VFNVd3R6RWY0ZFdwMGJCRnVzMHAzbEx3U2FDN21nS2pXN0V4TUVyMWRwWGhaNTNGZDluMnBoLWRKQzVWd2paU2Nnd2pWWVRVZ254OV9RbElB?oc=5",
       "published": "Sat, 01 Aug 2026 07:00:00 GMT",
       "source": "Google News Global",
@@ -1348,9 +1348,9 @@
       "topic": "Geopolitik"
     },
     {
-      "title": "Russia’s neighbor could lift its ban on nuclear weapons, prompting outcry from Moscow",
+      "title": "Russia’s neighbor backs push to lift ban on nuclear weapons, prompting outcry from Moscow",
       "link": "https://www.cnbc.com/2026/10/06/russia-ukraine-lithuania-trump-nato.html",
-      "published": "Tue, 06 Oct 2026 12:04:46 GMT",
+      "published": "Tue, 06 Oct 2026 12:17:44 GMT",
       "source": "CNBC Commodities",
       "sentiment_score": 0,
       "sentiment": "Netral",
@@ -1457,7 +1457,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-06T19:17:23+07:00",
+      "freshness": "2026-10-06T19:27:31+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
@@ -1470,33 +1470,33 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-06T19:17:23+07:00",
+      "freshness": "2026-10-06T19:27:31+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
     {
       "name": "DollarIndex",
       "group": "Global & Pasar",
-      "value": 101.82,
+      "value": 101.81,
       "r20_pct": 3.01,
       "r60_pct": 0.53,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-06T19:17:23+07:00",
+      "freshness": "2026-10-06T19:27:31+07:00",
       "use": "Kekuatan dolar dan tekanan emerging market",
       "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
     },
     {
       "name": "Minyak",
       "group": "Global & Geopolitik",
-      "value": 87.2,
-      "r20_pct": -6.27,
-      "r60_pct": 11.59,
+      "value": 87.08,
+      "r20_pct": -6.4,
+      "r60_pct": 11.44,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-06T19:17:23+07:00",
+      "freshness": "2026-10-06T19:27:31+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
@@ -1509,7 +1509,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-06T19:17:23+07:00",
+      "freshness": "2026-10-06T19:27:31+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
@@ -1522,7 +1522,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-06T19:17:23+07:00",
+      "freshness": "2026-10-06T19:27:31+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
     },
@@ -1548,7 +1548,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-06T19:17:23+07:00",
+      "freshness": "2026-10-06T19:27:31+07:00",
       "use": "Siklus logam industri dan manufaktur",
       "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
     },
@@ -1561,7 +1561,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-06T19:17:23+07:00",
+      "freshness": "2026-10-06T19:27:31+07:00",
       "use": "Aktivitas baja, konstruksi, dan permintaan China",
       "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },
