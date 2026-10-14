@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T11:32:15+07:00",
+  "generated_at": "2026-10-14T11:47:58+07:00",
   "sources": [
     "Al Jazeera",
     "BBC World",
@@ -13,68 +13,68 @@
   ],
   "regime": {
     "label": "MIXED",
-    "risk_score": 55.3,
+    "risk_score": 55.0,
     "signals": [
-      "IHSG 60h -4.2%",
-      "USD/IDR 20h +1.5%",
+      "IHSG 60h -4.1%",
+      "USD/IDR 20h +1.2%",
       "Minyak 20h -7.6%",
       "US10Y 20h +4.4%"
     ]
   },
   "proxies": {
     "IHSG": {
-      "price": 5972.3,
-      "r20": -0.07217131576102731,
-      "r60": -0.041638652054798775,
-      "r120": -0.21637611084665564,
-      "vol": 0.17091448667763323,
-      "drawdown": -0.21767175543223805,
-      "rel": -0.041638652054798775,
+      "price": 5973.81,
+      "r20": -0.07193653791813881,
+      "r60": -0.04139614822429605,
+      "r120": -0.2161778225964036,
+      "vol": 0.17096832540902734,
+      "drawdown": -0.2174737950319935,
+      "rel": -0.04139614822429605,
       "volume_ratio": 1.1049798152263928,
       "_source": "yahoo-chart"
     },
     "USDIDR": {
-      "price": 17925.0,
-      "r20": 0.01471836965751483,
-      "r60": 0.0007816425660209791,
-      "r120": 0.03949199721642316,
-      "vol": 0.07838093492719211,
-      "drawdown": -0.014584738561523092,
-      "rel": 0.0007816425660209791,
+      "price": 17880.0,
+      "r20": 0.012170959524483438,
+      "r60": -0.0017307799676176128,
+      "r120": 0.0368823938761309,
+      "vol": 0.07846037199196215,
+      "drawdown": -0.0170585844061385,
+      "rel": -0.0017307799676176128,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "DollarIndex": {
-      "price": 102.08,
-      "r20": 0.017645342593364477,
-      "r60": 0.008895053599173197,
-      "r120": 0.033198367186067834,
-      "vol": 0.048267946554080204,
-      "drawdown": -0.004874244405098427,
-      "rel": 0.008895053599173197,
+      "price": 102.1,
+      "r20": 0.01782476380896858,
+      "r60": 0.009072932049903892,
+      "r120": 0.03338053055796353,
+      "vol": 0.04825193873217399,
+      "drawdown": -0.0046987936215346915,
+      "rel": 0.009072932049903892,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "Minyak": {
-      "price": 94.67,
-      "r20": -0.07575907559416806,
-      "r60": 0.11494516648091113,
-      "r120": -0.012310905831619534,
-      "vol": 0.46990941553393756,
-      "drawdown": -0.1287502762899546,
-      "rel": 0.11494516648091113,
-      "volume_ratio": 0.9749997096452023,
+      "price": 94.62,
+      "r20": -0.07624716914307295,
+      "r60": 0.1143563616262766,
+      "r120": -0.012832506490557227,
+      "vol": 0.4698946260923885,
+      "drawdown": -0.1292103850758769,
+      "rel": 0.1143563616262766,
+      "volume_ratio": 0.975050532650419,
       "_source": "yahoo-chart"
     },
     "Emas": {
-      "price": 4180.6,
-      "r20": -0.047156672898860386,
-      "r60": 0.02556181871474128,
-      "r120": -0.11502961522941368,
-      "vol": 0.20914859646032308,
-      "drawdown": -0.11818427223289518,
-      "rel": 0.02556181871474128,
-      "volume_ratio": 0.8521550434769748,
+      "price": 4186.5,
+      "r20": -0.04581196581196578,
+      "r60": 0.02700915030268436,
+      "r120": -0.11378069432684168,
+      "vol": 0.20917630570996296,
+      "drawdown": -0.11693980336300125,
+      "rel": 0.02700915030268436,
+      "volume_ratio": 0.8523098925625049,
       "_source": "yahoo-chart"
     },
     "Yield_US": {
@@ -132,7 +132,7 @@
         "trend": 91.8120218579235,
         "relative_strength": 100,
         "risk": 82,
-        "liquidity": 39.93535743328253,
+        "liquidity": 39.963001201837564,
         "fundamental": 50,
         "news": 48.8
       },
@@ -145,20 +145,20 @@
     {
       "ticker": "AUTO.JK",
       "sector": "Otomotif",
-      "score": 68.7,
+      "score": 68.9,
       "status": "WATCH",
       "parts": {
-        "trend": 74.83756483756483,
+        "trend": 75.53235053235055,
         "relative_strength": 100,
         "risk": 90,
-        "liquidity": 15.82758164499971,
+        "liquidity": 15.897300440616501,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 3380.0,
-      "r20_pct": 1.5,
-      "r60_pct": 28.03,
-      "vol_pct": 23.8,
+      "price": 3390.0,
+      "r20_pct": 1.8,
+      "r60_pct": 28.41,
+      "vol_pct": 23.74,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
@@ -170,7 +170,7 @@
         "trend": 61.08453637865404,
         "relative_strength": 100,
         "risk": 62,
-        "liquidity": 8.541293919167796,
+        "liquidity": 8.623666101877465,
         "fundamental": 50,
         "news": 48.8
       },
@@ -187,9 +187,9 @@
       "status": "WATCH",
       "parts": {
         "trend": 59.682115941433764,
-        "relative_strength": 86.60162701837683,
+        "relative_strength": 86.54773727826512,
         "risk": 79,
-        "liquidity": 13.523089219463893,
+        "liquidity": 13.58770642712571,
         "fundamental": 50,
         "news": 48.8
       },
@@ -206,9 +206,9 @@
       "status": "WATCH",
       "parts": {
         "trend": 58.40959975849663,
-        "relative_strength": 93.94244761322736,
+        "relative_strength": 93.88855787311563,
         "risk": 57,
-        "liquidity": 21.28057758158192,
+        "liquidity": 21.32105496267277,
         "fundamental": 50,
         "news": 48.8
       },
@@ -221,39 +221,39 @@
     {
       "ticker": "ITMG.JK",
       "sector": "Energi",
-      "score": 55.4,
+      "score": 55.8,
       "status": "WATCH",
       "parts": {
-        "trend": 45.78039869615951,
-        "relative_strength": 66.94402385504607,
-        "risk": 91,
-        "liquidity": 20.78832683010333,
+        "trend": 46.17958472660794,
+        "relative_strength": 67.34691155012908,
+        "risk": 92,
+        "liquidity": 20.814715100517134,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 25775.0,
-      "r20_pct": -1.72,
-      "r60_pct": 5.96,
-      "vol_pct": 19.49,
+      "price": 25825.0,
+      "r20_pct": -1.53,
+      "r60_pct": 6.17,
+      "vol_pct": 19.52,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
       "ticker": "MDKA.JK",
       "sector": "Mineral",
-      "score": 52.5,
+      "score": 52.0,
       "status": "WATCH",
       "parts": {
-        "trend": 51.010447466982065,
-        "relative_strength": 72.00792351113714,
-        "risk": 56,
-        "liquidity": 20.260324897880775,
+        "trend": 50.28030751034891,
+        "relative_strength": 71.12174080390099,
+        "risk": 55,
+        "liquidity": 20.28751879178675,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 2890.0,
-      "r20_pct": 1.4,
-      "r60_pct": 8.24,
-      "vol_pct": 43.27,
+      "price": 2880.0,
+      "r20_pct": 1.05,
+      "r60_pct": 7.87,
+      "vol_pct": 43.29,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
@@ -263,9 +263,9 @@
       "status": "WATCH",
       "parts": {
         "trend": 40.32006920415224,
-        "relative_strength": 59.41643248276572,
+        "relative_strength": 59.362542742654,
         "risk": 88,
-        "liquidity": 15.52982647724146,
+        "liquidity": 15.558396339601153,
         "fundamental": 50,
         "news": 48.8
       },
@@ -276,41 +276,41 @@
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
-      "ticker": "ICBP.JK",
-      "sector": "Konsumer",
-      "score": 50.7,
+      "ticker": "BBRI.JK",
+      "sector": "Perbankan",
+      "score": 49.7,
       "status": "WATCH",
       "parts": {
-        "trend": 43.612873278663145,
-        "relative_strength": 59.33354908786186,
-        "risk": 78,
-        "liquidity": 13.24971170610947,
+        "trend": 37.65328242149433,
+        "relative_strength": 59.530269877658114,
+        "risk": 80,
+        "liquidity": 14.789046373047189,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 7075.0,
-      "r20_pct": 0.71,
-      "r60_pct": 2.54,
-      "vol_pct": 25.86,
+      "price": 3100.0,
+      "r20_pct": -6.91,
+      "r60_pct": 2.65,
+      "vol_pct": 25.13,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
-      "ticker": "BBRI.JK",
-      "sector": "Perbankan",
-      "score": 50.0,
+      "ticker": "ICBP.JK",
+      "sector": "Konsumer",
+      "score": 49.5,
       "status": "WATCH",
       "parts": {
-        "trend": 38.29087365511208,
-        "relative_strength": 60.31999479069113,
-        "risk": 80,
-        "liquidity": 14.771259772179981,
+        "trend": 41.45443292588582,
+        "relative_strength": 56.864200410552115,
+        "risk": 77,
+        "liquidity": 13.453518103806793,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 3110.0,
-      "r20_pct": -6.61,
-      "r60_pct": 2.98,
-      "vol_pct": 25.17,
+      "price": 7000.0,
+      "r20_pct": -0.36,
+      "r60_pct": 1.45,
+      "vol_pct": 25.84,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
@@ -320,9 +320,9 @@
       "status": "WATCH",
       "parts": {
         "trend": 37.52768632146064,
-        "relative_strength": 51.96812241944081,
+        "relative_strength": 51.91423267932909,
         "risk": 73,
-        "liquidity": 27.78121573838553,
+        "liquidity": 27.827646281900925,
         "fundamental": 50,
         "news": 48.8
       },
@@ -335,38 +335,38 @@
     {
       "ticker": "SMGR.JK",
       "sector": "Material",
-      "score": 47.2,
+      "score": 46.7,
       "status": "AVOID",
       "parts": {
-        "trend": 52.238070784032196,
-        "relative_strength": 72.15447343558098,
-        "risk": 29,
-        "liquidity": 4.9518857341165425,
+        "trend": 51.58703375708733,
+        "relative_strength": 71.36230388742203,
+        "risk": 28,
+        "liquidity": 4.98668634834738,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 1630.0,
-      "r20_pct": 2.84,
-      "r60_pct": 8.31,
-      "vol_pct": 51.48,
+      "price": 1625.0,
+      "r20_pct": 2.52,
+      "r60_pct": 7.97,
+      "vol_pct": 51.52,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
       "ticker": "ANTM.JK",
       "sector": "Mineral",
-      "score": 46.7,
+      "score": 46.4,
       "status": "AVOID",
       "parts": {
-        "trend": 41.667080745341615,
-        "relative_strength": 61.84562638254787,
+        "trend": 41.01863354037269,
+        "relative_strength": 61.05099590169544,
         "risk": 56,
-        "liquidity": 5.9778113920021605,
+        "liquidity": 6.059820598785573,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 3110.0,
-      "r20_pct": -3.42,
-      "r60_pct": 3.67,
+      "price": 3100.0,
+      "r20_pct": -3.73,
+      "r60_pct": 3.33,
       "vol_pct": 33.64,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
@@ -377,9 +377,9 @@
       "status": "AVOID",
       "parts": {
         "trend": 42.358168147641834,
-        "relative_strength": 55.14047967740119,
+        "relative_strength": 55.08658993728947,
         "risk": 61,
-        "liquidity": 2.6248681417081627,
+        "liquidity": 2.7418334076172073,
         "fundamental": 50,
         "news": 48.8
       },
@@ -390,53 +390,15 @@
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
-      "ticker": "ISAT.JK",
-      "sector": "Telekomunikasi",
-      "score": 45.8,
-      "status": "AVOID",
-      "parts": {
-        "trend": 40.22184754636615,
-        "relative_strength": 72.31295234725607,
-        "risk": 36,
-        "liquidity": 9.827451461582289,
-        "fundamental": 50,
-        "news": 48.8
-      },
-      "price": 2070.0,
-      "r20_pct": -12.29,
-      "r60_pct": 8.38,
-      "vol_pct": 55.88,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
-      "ticker": "MIKA.JK",
-      "sector": "Kesehatan",
-      "score": 45.5,
-      "status": "AVOID",
-      "parts": {
-        "trend": 38.65921787709497,
-        "relative_strength": 53.69747823439973,
-        "risk": 68,
-        "liquidity": 0,
-        "fundamental": 50,
-        "news": 48.8
-      },
-      "price": 1760.0,
-      "r20_pct": -1.68,
-      "r60_pct": 0.0,
-      "vol_pct": 29.43,
-      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
-    },
-    {
       "ticker": "BBCA.JK",
       "sector": "Perbankan",
       "score": 45.3,
       "status": "AVOID",
       "parts": {
         "trend": 28.645291253986915,
-        "relative_strength": 39.11146364838515,
+        "relative_strength": 39.05757390827343,
         "risk": 83,
-        "liquidity": 29.800075783026873,
+        "liquidity": 29.84150304009609,
         "fundamental": 50,
         "news": 48.8
       },
@@ -447,41 +409,79 @@
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
-      "ticker": "BBNI.JK",
-      "sector": "Perbankan",
-      "score": 44.0,
+      "ticker": "ISAT.JK",
+      "sector": "Telekomunikasi",
+      "score": 45.2,
       "status": "AVOID",
       "parts": {
-        "trend": 28.217494231070816,
-        "relative_strength": 43.79342376210013,
-        "risk": 78,
-        "liquidity": 16.39203081073939,
+        "trend": 39.25459224420977,
+        "relative_strength": 71.09559547509079,
+        "risk": 35,
+        "liquidity": 9.992883715668583,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 3430.0,
-      "r20_pct": -8.04,
-      "r60_pct": -4.46,
-      "vol_pct": 22.51,
+      "price": 2060.0,
+      "r20_pct": -12.71,
+      "r60_pct": 7.85,
+      "vol_pct": 55.86,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "MIKA.JK",
+      "sector": "Kesehatan",
+      "score": 44.8,
+      "status": "AVOID",
+      "parts": {
+        "trend": 37.530472320975115,
+        "relative_strength": 52.38096223166174,
+        "risk": 67,
+        "liquidity": 0,
+        "fundamental": 50,
+        "news": 48.8
+      },
+      "price": 1750.0,
+      "r20_pct": -2.23,
+      "r60_pct": -0.57,
+      "vol_pct": 29.43,
+      "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
+    },
+    {
+      "ticker": "BBNI.JK",
+      "sector": "Perbankan",
+      "score": 44.3,
+      "status": "AVOID",
+      "parts": {
+        "trend": 28.76623328130717,
+        "relative_strength": 44.358537426507134,
+        "risk": 78,
+        "liquidity": 16.411312975481003,
+        "fundamental": 50,
+        "news": 48.8
+      },
+      "price": 3440.0,
+      "r20_pct": -7.77,
+      "r60_pct": -4.18,
+      "vol_pct": 22.57,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
       "ticker": "ASII.JK",
       "sector": "Otomotif",
-      "score": 43.3,
+      "score": 43.4,
       "status": "AVOID",
       "parts": {
-        "trend": 33.23466367255282,
-        "relative_strength": 42.696378124388715,
+        "trend": 33.63723588853731,
+        "relative_strength": 43.08253238867744,
         "risk": 62,
-        "liquidity": 22.27276836042741,
+        "liquidity": 22.322729487292705,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 4800.0,
-      "r20_pct": -1.03,
-      "r60_pct": -4.95,
-      "vol_pct": 23.42,
+      "price": 4810.0,
+      "r20_pct": -0.82,
+      "r60_pct": -4.75,
+      "vol_pct": 23.47,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
@@ -491,9 +491,9 @@
       "status": "AVOID",
       "parts": {
         "trend": 30.860639698295795,
-        "relative_strength": 37.68723167660273,
+        "relative_strength": 37.63334193649101,
         "risk": 78,
-        "liquidity": 9.367836192554176,
+        "liquidity": 9.56388757685745,
         "fundamental": 50,
         "news": 48.8
       },
@@ -510,9 +510,9 @@
       "status": "AVOID",
       "parts": {
         "trend": 19.440687445975495,
-        "relative_strength": 32.83907470451605,
+        "relative_strength": 32.78518496440434,
         "risk": 67,
-        "liquidity": 50.309590258209404,
+        "liquidity": 50.563537204513445,
         "fundamental": 50,
         "news": 48.8
       },
@@ -529,7 +529,7 @@
       "status": "AVOID",
       "parts": {
         "trend": 34.26013309134907,
-        "relative_strength": 39.662390515101485,
+        "relative_strength": 39.60850077498977,
         "risk": 66,
         "liquidity": 0,
         "fundamental": 50,
@@ -548,9 +548,9 @@
       "status": "AVOID",
       "parts": {
         "trend": 25.68421052631579,
-        "relative_strength": 38.882663419584915,
+        "relative_strength": 38.8287736794732,
         "risk": 64,
-        "liquidity": 19.028927346814214,
+        "liquidity": 19.083506448946245,
         "fundamental": 50,
         "news": 48.8
       },
@@ -567,9 +567,9 @@
       "status": "AVOID",
       "parts": {
         "trend": 22.982539431344623,
-        "relative_strength": 31.225568122040176,
+        "relative_strength": 31.17167838192846,
         "risk": 76,
-        "liquidity": 18.965144365763052,
+        "liquidity": 19.002251267948765,
         "fundamental": 50,
         "news": 48.8
       },
@@ -586,9 +586,9 @@
       "status": "AVOID",
       "parts": {
         "trend": 10.274394473268039,
-        "relative_strength": 19.25713383095569,
+        "relative_strength": 19.203244090843977,
         "risk": 60,
-        "liquidity": 71.30201316288215,
+        "liquidity": 71.30912184881817,
         "fundamental": 50,
         "news": 48.8
       },
@@ -605,9 +605,9 @@
       "status": "AVOID",
       "parts": {
         "trend": 17.607328109480193,
-        "relative_strength": 20.273810664390698,
+        "relative_strength": 20.219920924278984,
         "risk": 72,
-        "liquidity": 26.093269617500493,
+        "liquidity": 26.07827231019885,
         "fundamental": 50,
         "news": 48.8
       },
@@ -624,9 +624,9 @@
       "status": "AVOID",
       "parts": {
         "trend": 30.668824163969806,
-        "relative_strength": 39.29418605332978,
+        "relative_strength": 39.24029631321807,
         "risk": 33,
-        "liquidity": 4.284542085533402,
+        "liquidity": 4.320049737522743,
         "fundamental": 50,
         "news": 48.8
       },
@@ -645,7 +645,7 @@
         "trend": 0,
         "relative_strength": 0,
         "risk": 51,
-        "liquidity": 86.76423104781352,
+        "liquidity": 86.80686092276008,
         "fundamental": 50,
         "news": 48.8
       },
@@ -658,20 +658,20 @@
     {
       "ticker": "MYOR.JK",
       "sector": "Konsumer",
-      "score": 30.5,
+      "score": 30.9,
       "status": "AVOID",
       "parts": {
-        "trend": 11.70379561220461,
-        "relative_strength": 8.257079852824866,
-        "risk": 61,
-        "liquidity": 18.968810013582406,
+        "trend": 12.308386441825064,
+        "relative_strength": 8.825661323419677,
+        "risk": 62,
+        "liquidity": 19.012546169587843,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 1420.0,
-      "r20_pct": -4.7,
-      "r60_pct": -20.45,
-      "vol_pct": 22.34,
+      "price": 1425.0,
+      "r20_pct": -4.36,
+      "r60_pct": -20.17,
+      "vol_pct": 22.6,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
@@ -681,9 +681,9 @@
       "status": "AVOID",
       "parts": {
         "trend": 6.947304663840093,
-        "relative_strength": 15.235939772861256,
+        "relative_strength": 15.182050032749538,
         "risk": 37,
-        "liquidity": 51.13437097804915,
+        "liquidity": 51.17147309328646,
         "fundamental": 50,
         "news": 48.8
       },
@@ -696,20 +696,20 @@
     {
       "ticker": "INCO.JK",
       "sector": "Mineral",
-      "score": 29.2,
+      "score": 29.0,
       "status": "AVOID",
       "parts": {
-        "trend": 9.956572236529826,
-        "relative_strength": 18.9187971142552,
+        "trend": 9.547038327526124,
+        "relative_strength": 18.41323619076497,
         "risk": 30,
-        "liquidity": 35.46011329039893,
+        "liquidity": 35.506264158290676,
         "fundamental": 50,
         "news": 48.8
       },
-      "price": 4150.0,
-      "r20_pct": -14.08,
-      "r60_pct": -15.65,
-      "vol_pct": 42.97,
+      "price": 4140.0,
+      "r20_pct": -14.29,
+      "r60_pct": -15.85,
+      "vol_pct": 42.92,
       "note": "Fundamental netral (50) sampai laporan keuangan terstruktur tersedia; wajib verifikasi manual."
     },
     {
@@ -735,25 +735,25 @@
   "sectors": [
     {
       "sector": "Otomotif",
-      "score": 56.0,
+      "score": 56.2,
       "count": 2,
       "direction": "netral"
     },
     {
       "sector": "Energi",
-      "score": 55.5,
+      "score": 55.6,
       "count": 5,
       "direction": "netral"
     },
     {
       "sector": "Material",
-      "score": 53.8,
+      "score": 53.5,
       "count": 2,
       "direction": "netral"
     },
     {
       "sector": "Mineral",
-      "score": 47.2,
+      "score": 46.9,
       "count": 4,
       "direction": "netral"
     },
@@ -765,13 +765,13 @@
     },
     {
       "sector": "Kesehatan",
-      "score": 44.2,
+      "score": 44.0,
       "count": 3,
       "direction": "lemah"
     },
     {
       "sector": "Konsumer",
-      "score": 43.9,
+      "score": 43.7,
       "count": 4,
       "direction": "lemah"
     },
@@ -783,7 +783,7 @@
     },
     {
       "sector": "Telekomunikasi",
-      "score": 37.8,
+      "score": 37.6,
       "count": 3,
       "direction": "lemah"
     },
@@ -810,133 +810,137 @@
     {
       "topic": "IHSG dan arah risk-appetite 1–3 bulan",
       "probabilities": {
-        "bull": 0.22,
+        "bull": 0.21,
         "base": 0.43,
-        "bear": 0.35
+        "bear": 0.36
       },
-      "confidence": 68,
-      "thesis": "TOPIK INI SEDIKIT LEBIH BEAR: bull 0,24 → 0,22, base 0,44 → 0,43, bear 0,32 → 0,35, confidence 69 → 68. Bukan karena pasar jatuh — indeks masih di zona hijau dari penutupan Selasa 5.925,98 — tapi karena dua hal yang saya pakai tanda tangan pemulihan kini melemah: (1) HARGA TIDAK NAIK LANJUT: proxy Bennix 5.979,94 pada scan 11:22 WIB, melandai dari 5.989,65 pada 10:55, dan sepanjang sesi belum ada satu pun percobaan bersih menembus 6.000 — padahal itulah 'gerbang' yang menurut BNI (Fanny Suherman) membedakan lanjutan naik vs kembali tes 5.770; Kiwoom (Liza Camelia) bahkan menyebut 5.979-5.995 sebagai resistance terdekat yang persis sedang diuji sekarang; (2) BREADTH MEMBURUK, bukan melebar: STUDY 1 / WATCH 10 / AVOID 21 pada scan 11:22 (dari 1/11/20 di tiga scan pagi) — SMGR 47,5 terlempar ke AVOID, PTBA satu-satunya jangkar makin landai 74,6 → 74,5 (3.340 → 3.330), AUTO mandek 68,7. Artinya kenaikan indeks tadi pagi bertumpu makin sedikit nama. Lapis eksternal yang menambah rem: Reuters 14 Okt melaporkan Iran mengubah taktik dan memperluas serangan kapal ke luar Hormuz dengan ancam 'complete closure soon' — langsung menghidupkan kembali skenario minyak lonjakan yang two hari ini sempat melandai. Yang menahan agar saya tidak lebih jauh ke bear: (a) latar Asia pagi ini hijau (Kospi +1,45%, Nikkei +0,60%, Shanghai +0,09% — ANTARA 09:19), pembukaan IHSG +0,25% ke 5.940,68 dengan LQ45 +0,51%; (b) asing tetap net buy reguler Rp5,89 miliar pada Selasa dan total Rp561,6 miliar; (c) volume pagi ramai (2,13 miliar saham, Rp209,9 triliun di pembukaan); (d) CPI AS malam ini 19:30 WIB masih bisa membalik semuanya. Kisaran main saya tetap 5.870-6.050 tapi bobot saya geser ke bawah: kini 5.940-6.000 jadi zona pertempuran hari ini, dan gagalnya menembus 6.000 pada sesi II akan saya catat sebagai kegagalan pertama yang berarti.",
+      "confidence": 66,
+      "thesis": "TOPIK INI SEDIKIT LEBIH BERAT: bull 0,22 → 0,21, base 0,44 → 0,43, bear 0,34 → 0,36, confidence 67 → 66. Pemicunya tiga hal kecil yang bergerak ke arah salah pada scan 11:27 WIB: (1) indeks meredup dua kali berturut-turut — 5.989,65 (10:48) → 5.983,51 (11:05) → 5.973,45 (11:27), jadi penguatan pagi yang sempat +1,09% kini menyusut jadi +0,80% dari penutupan Selasa 5.925,98 dan tetap mentok sebelum resistance psikologis 6.000-6.020; (2) Perbankan GAGAL BERTAHAN di atas ambang — 44,9 (10:48) → 45,0 (11:05) → 44,9 lagi (11:27), artinya percobaan ketiga runtuh di tengah jalan dan 'kaki kedua' pemulihan tidak jadi terbentuk; (3) breadth diam di STUDY 1 / WATCH 10 / AVOID 21 — tidak memburuk lagi tapi juga tidak membaik, bukti bahwa pembeli baru memang tidak datang. Yang menahan agar bobot tidak saya geser lebih jauh: (1) breadth tidak turun lagi (AVOID tetap 21, bukan 24); (2) justru sektor yang membaik — Material 53,5 → 53,8 dan Mineral 46,8 → 47,2, ditopang PTBA yang menguat ke 74,7 @3.340 sebagai satu-satunya anchor STUDY, plus AUTO 68,7 @3.380, TINS 60,3, INTP 60,3, MEDC 58,9; (3) asing bukan penjual besar: Senin 12 Okt justru net buy Rp128,29 miliar saat indeks anjlok 2,59%, Selasa net buy reguler tipis Rp5,89 miliar (sesi I sempat net sell Rp62,53 miliar, lalu dibalik di sesi II); (4) KOSPI rebound +0,47% ke 6.063,71 setelah jatuh 5,46% Selasa — meski memudar dari +2% di pembukaan dan asing Korea masih jual Rp134 miliar won; (5) DXY mereda 102,18 → 102,09 dan pejabat Fed John C. Williams melunak: mungkin satu kali kenaikan lagi tahun ini, sisanya bisa tunggu 2027; (6) analis pagi tetap membuka ruang technical rebound — Kiwoom uji 5.979/5.995/6.120, BRI Danareksa hammer di 5.850-5.800 dengan resistance 6.000-6.020, Mirae support 5.851 / resistance 6.016-6.180, BNI 5.980-6.000, MNC area 5.943-5.978 (tersentuh). Pemutus sesungguhnya tetap CPI AS 19:30 WIB malam ini: core lembut ≤0,2% m/m (median konsensus 0,21%, Cleveland Fed nowcast 0,20%) → yield dan dolar mereda, indeks punya nyali menguji 6.050 malam ini juga; core panas ≥0,3% m/m → odds kenaikan Fed Oktober (kini cuma 17-22%) hidup lagi, profit-taking menguji 5.892 lalu 5.828. Intinya: pasar Indonesia kini berdiri di satu kaki yang kuat (komoditas/energi) dan satu kaki yang bolak-balik jatuh di ambang (perbankan) — naik pun rapuh, turun pun belum jatuh.",
       "evidence": [
-        "Scan Bennix 14 Okt 11:22:37 WIB: proxy IHSG 5.979,94 (melandai dari 5.989,65 pada scan 10:55; penutupan terverifikasi Selasa 13 Okt tetap 5.925,98), volume ratio 1,10, regime MIXED risk_score 55,3 (data Bennix)",
-        "Breadth MEMBURUK: STUDY 1 / WATCH 10 / AVOID 21 pada scan 11:22 (pagi: 1/11/20 di tiga scan 09:41-10:55) — SMGR 47,5 @1.635 turun kelas ke AVOID; PTBA 74,5 @3.330 (74,6 → 74,5); AUTO 68,7 @3.380 mandek; TINS 60,2 @4.350; INTP 59,8; MEDC 58,9; BBRI 49,6 @3.100 (data Bennix)",
-        "Sektor 11:22: Perbankan 44,8 — MASIH di bawah ambang 45 (45,4 → 45,1 → 44,9 → 44,8); pemimpin Otomotif 56,0, Energi 55,5, Material 53,6, Mineral 47,0; delapan sektor di bawah 45 (data Bennix)",
-        "Peta teknikal sesi Rabu: Kiwoom (Liza Camelia, ANTARA 09:19) — jika bertahan, uji 5.979 / 5.995 / 6.120, support 5.839 lalu 5.805-5.774; Mirae (Nafan Aji, Kompas 10:08) — support 5.851-5.647, resistance 6.016-6.180, Stochastic/RSI masih negatif dan volume perdagangan MENURUN sehingga penguatan butuh konfirmasi; Korea Investment (Pasardana 10:00) — uji 5.980-6.000 sebagai technical rebound; BRI Danareksa (Kompas 08:37) — hammer di 5.850-5.800 tapi MACD masih bearish; BNI — hati-hati gagal break 6.000 → koreksi ke 5.800-an",
-        "Pembukaan & latar Asia: IHSG buka +0,25% ke 5.940,68, LQ45 +0,51%, IDX30 +0,52%, nilai transaksi pembukaan Rp209,9 triliun (Kompas 09:15, ANTARA 09:19); Kospi +1,45%, Nikkei +0,60%, Shanghai +0,09%, Hang Seng -0,34% (ANTARA)",
-        "BARU — rem geopolitik: Reuters/Straits Times/ToI 14 Okt — Iran mengubah taktik serangan kapal, memperluas ke Gulf of Oman dan perairan lepas pantai Qatar/UAE, ancam 'complete closure soon', serangan kapal komersial tertinggi sejak perang (setidaknya 5 insiden dalam 48 jam; Anadolu: 6 kapal dalam sehari), motif terbuka menekan harga minyak menjelang pemilu menengah AS 3 Nov",
-        "Arus asing menopang setengah: net buy reguler Rp5,89 miliar pada Selasa (Kompas 10:08) dengan total Rp561,6 miliar termasuk beli ASII, TINS, BRMS, BBCA, ENRG (IPOT/Kontan); namun net sell reguler YTD Rp111,19 triliun tetap bayangan besar",
-        "CPI AS 14 Okt 19:30 WIB: konsensus headline 3,6% yoy (dari 3,4%), core ±2,4% yoy (Kompas 08:37, FinancialJuice); inflasi lebih tinggi dari ekspektasi diperkirakan memperkuat dolar dan menekan rupiah/aliran asing",
-        "IMF WEO 14 Okt: pertumbuhan global 2026 dinaikkan ke 3,1% tapi inflasi global 2026 ke 4,7% (Gate/CNBC) — latar makro tetap menekan",
-        "Anomali proxy Bennix tetap dicatat, bukan acuan penutupan (disiplin Bennix)"
+        "LIVE Yahoo chart: ^JKSE 5.989,65 (10:48) → 5.983,51 (11:05) → 5.973,45 (11:27) WIB — dua kali meredup, +0,80% dari penutupan Selasa 5.925,98; riwayat 08 Okt 6.031,28 / 09 Okt 6.093,76 / 12 Okt 5.936,15 / 13 Okt 5.925,98",
+        "Scan Bennix 14 Okt 11:27:27 WIB: proxy IHSG 5.973,45, breadth STUDY 1 / WATCH 10 / AVOID 21 (diam, tidak membaik dari 11:05), volume ratio 1,10, regime MIXED risk_score 55,3",
+        "Perbankan 44,9 — turun LAGI dari 45,0 (11:05): percobaan menembus ambang ketiga gagal → pemulihan base tidak terkonfirmasi (data Bennix)",
+        "Sektor 11:27: Otomotif 56,0; Energi 55,5; Material 53,8 (NAIK dari 53,5); Mineral 47,2 (NAIK dari 46,8); Perbankan 44,9; Kesehatan 44,2; Konsumer 43,9; Infrastruktur 41,4; Telekomunikasi 37,8; Logistik 36,3; Perbankan Syariah 31,2; Teknologi 31,3 — enam sektor masih di bawah 42 (data Bennix)",
+        "Anchor komoditas menguat: PTBA 74,7 @3.340 (dari 74,5 @3.330) satu-satunya STUDY; AUTO 68,7 @3.380; TINS 60,3; INTP 60,3; MEDC 58,9; ITMG 55,4 — harga batu bara $864,26 (fallback)",
+        "Pembukaan Rabu (Kompas/ANTARA 09:00-09:19 WIB): IHSG +0,25% ke 5.940,68, LQ45 +0,32% ke 591,10; volume 2,128 miliar saham, nilai Rp209,9 triliun pada 09.00 WIB; indeks lalu naik ke ±5.980 lalu meredup ke 5.973 pada 11:27",
+        "Peta analis 14 Okt: Kiwoom uji 5.979/5.995/6.120 bila menguat, support 5.839 lalu 5.805-5.774; BRI Danareksa hammer di 5.850-5.800 buka rebound tapi MACD bearish, resistance 6.000-6.020; Mirae support 5.851, resistance 6.016-6.180, Stochastic/RSI masih negatif dan volume menurun; MNC area 5.943-5.978 risiko 5.744-5.794; BNI 5.980-6.000, gagal di 6.020 kembali 5.800-an",
+        "Arus asing: Senin 12 Okt net buy Rp128,29 miliar di semua pasar meski IHSG -2,59% (GOTO +Rp134,34 M, BBRI +Rp80,31 M, ASII +Rp79,29 M); Selasa sesi I net sell Rp62,53 miliar (BMRI -Rp91,03 M, TLKM -Rp51,56 M, BBRI -Rp49,95 M, BBCA -Rp45,81 M) lalu net buy reguler Rp5,89 miliar di penutupan; net foreign sell Rp111,19 triliun sepanjang 2026 tetap bayangan",
+        "Lingkungan luar: KOSPI rebound +0,47% ke 6.063,71 (AJP 14 Okt 10:20) setelah -5,46% Selasa, tapi memudar dari +2% di buka dan asing masih jual; Nikkei +0,60%; Shanghai +0,09%; Hang Seng -0,34%; DXY 102,09; USD/IDR 17.925; emas 4.179,1; US10Y 5,22%",
+        "CPI AS 14 Okt 19:30 WIB (pemutus malam ini): median headline +0,58% m/m (MNI) → 3,63-3,65% y/y, core +0,21% m/m → ±2,4-2,5% y/y; Cleveland Fed nowcast core 0,20%/headline 0,53%; konsensus Kiplinger/Morningstar headline +0,6% → 3,6%, core +0,2% → 2,5%; odds Fed hike Oktober 17-22%, Desember ±73-74% (Kalshi/Polymarket); PPI AS menyusul Kamis 15 Okt",
+        "Anomali proxy Bennix tetap dicatat, bukan acuan penutupan: penutupan terverifikasi Selasa 13 Okt = 5.925,98 (disiplin Bennix)"
       ],
-      "causal_chain": "IHSG sempat menyentuh 5.985-5.990 lalu melandai ke 5.979,94 + breadth memburuk ke 1/10/21 + SMGR terlempar ke AVOID → penguatan tadi pagi terbukti bertumpu sedikit nama dan belum menembus gerbang 6.000 → di saat yang sama Reuters melaporkan Iran memperluas serangan kapal dan mengancam 'penutupan penuh' → premium perang hidup kembali dan mengurangi ruang pantulan → pemutus tetap CPI AS 19:30 WIB: core lembut (≤0,2% m/m) → yield & dolar mereda, IHSG berpeluang uji ulang 6.000 lalu 6.050 dan breadth mulai melebar; core panas (≥0,24% m/m) → profit-taking menguji 5.940 lalu 5.870-5.900 → selama STUDY cuma 1, Perbankan di bawah 45, dan 6.000 belum ditembus, kenaikan tetap rapuh dan bear 0,35 ini punya jalur konfirmasi yang jelas",
-      "invalidation": "Base (konsolidasi 5.870-6.050 dengan bias pemulihan ragu-ragu) batal bila IHSG ditutup <5.870 dua sesi berturut ATAU breadth memburuk lagi (PTBA keluar STUDY skor <70 ATAU AVOID naik >24) ATAU asing net sell reguler >Rp500 miliar satu sesi penuh. Bull terkonfirmasi bila IHSG ditutup >6.000 lalu 6.050 dengan asing net buy reguler >Rp250 miliar dua sesi berturut DAN breadth ≥2 (AUTO lewati 70 bertahan 2 sesi) + CPI core ≤0,2% m/m + US10Y <5,15% + DXY <102. Bear dominan (target 5.770-5.600) bila gagal di 6.000 hari ini lalu ditutup <5.870 + CPI core ≥0,24% m/m sehingga yield >5,35% ATAU Iran benar-benar menutup Hormuz sehingga Brent >US$110 ATAU pengumuman MSCI akhir Oktober bernada eskalasi.",
+      "causal_chain": "Indeks menguat ke ±5.990 lalu meredup dua kali ke 5.973,45 pada 11:27 WIB, masih mentok sebelum resistance 6.000-6.020 → Perbankan jatuh lagi ke 44,9 (percobaan ketiga gagal) dan breadth diam di 1/10/21 → penguatan pagi resmi berstatus 'rapuh': ditopang komoditas/energi (PTBA 74,7 sebagai anchor tunggal), bukan perluasan pembeli → lingkungan luar berubah jadi lebih ramah: KOSPI rebound +0,47%, DXY mereda 102,09, Williams Fed melunak → tapi minyak Brent $107,35 dan eskalasi Aramco Dhahran menahan rasa aman → pemutus CPI AS 19:30 WIB: core lembut ≤0,2% m/m → yield & dolar mereda, indeks uji 6.050 dan breadth mulai melebar; core panas ≥0,3% m/m → odds kenaikan Fed Oktober hidup lagi, profit-taking menguji 5.892 lalu 5.828 → selama STUDY cuma 1 dan Perbankan bolak-balik di 44,9-45,0, pemulihan tetap satu kaki",
+      "invalidation": "Base (konsolidasi 5.830-6.050 dengan bias pemulihan rapuh) batal bila IHSG ditutup <5.828 dua sesi berturut ATAU breadth memburuk lagi (PTBA keluar STUDY skor <70 ATAU AVOID naik >24) ATAU asing net sell reguler >Rp500 miliar satu sesi penuh. Bull terkonfirmasi bila IHSG ditutup >6.050 lalu 6.200 dengan asing net buy reguler >Rp250 miliar dua sesi berturut DAN breadth ≥2 (AUTO lewati 70 bertahan 2 sesi) + Perbankan bertahan >45 dua scan berturut + CPI core ≤0,2% m/m + US10Y <5,15% + DXY <102. Bear dominan (target 5.740-5.600) bila <5.828 bertahan dua sesi + CPI core ≥0,3% m/m sehingga odds kenaikan Fed Oktober hidup penuh dan yield >5,35% ATAU asing membalik jual besar setelah dua hari beli ATAU pengumuman MSCI akhir Oktober bernada eskalasi (ancaman frontier muncul kembali).",
       "manual_analysis": true
     },
     {
       "topic": "Rupiah dan tekanan biaya impor 1–3 bulan",
       "probabilities": {
-        "bull": 0.2,
-        "base": 0.44,
+        "bull": 0.19,
+        "base": 0.45,
         "bear": 0.36
       },
-      "confidence": 67,
-      "thesis": "TOPIK INI SEDIKIT LEBIH BEAR: bull 0,21 → 0,20, base 0,45 → 0,44, bear 0,34 → 0,36, confidence 68 → 67. Angka hampir tidak bergerak karena rupiah masih diam di tempat — USD/IDR 17.925 pada scan 11:22 WIB, persis sama dengan pembacaan 10:55, artinya bertahan di puncak kisaran main saya 17.850-18.000 tanpa menembus dan tanpa mundur. Yang menggeser saya ke bear bukan harga hari ini, melainkan arah angin: (1) Reuters 14 Okt — Iran mengubah taktik, memperluas serangan kapal ke luar Hormuz (Gulf of Oman, lepas pantai Qatar/UAE), mengancam 'complete closure soon', dan terang-terangan ingin menaikkan harga minyak menjelang pemilu menengah AS 3 Nov; Brent $106,29 (+0,49%, Straits Daily 14 Okt) — ancaman ini kalau dieksekusi langsung menekan rupiah lewat dua jalur: impor minyak makin mahal dan asing makin enggan masuk; (2) lapis produk olahan justru yang belum pulih — Kpler mencatat aliran mentah Hormuz sudah di atas level pra-perang, tapi produk olahan masih kurang ±3 juta barel/hari, dan PortWatch hanya mencatat 4 transisi (4 Okt) vs 85/hari sebelum perang — jadi 'normalisasi' yang dibisikkan pasar belum kokoh; (3) strukturnya tetap rapuh: defisit transaksi berjalan Q2 US$12,5 miliar (3,3% PDB) dan utang luar negeri BI naik US$17,78 miliar dalam 6 bulan, dengan skenario Rp19.000 bila minyak bertahan >US$100 sepanjang tahun. Yang menahan base tetap hidup: DXY 102,08 justru sedikit melandai (dari 102,18 semalam), US10Y diam di 5,22%, WTI bertahan 94,65 (bahkan sempat settle $94,57 semalam — belum ada lonjakan fisik), IHSG masih hijau +0,9% dan asing net buy Selasa, plus BI tetap kalem (BI Rate 5,75% hold, devisa US$146,3 miliar, intervensi via NDF/DNDF). Kerangka saya tidak berubah: rupiah berayun 17.850-18.000, belum pecah tiga hari berturut di satu sisi. Pemutus tetap CPI AS malam ini: core lembut membuka jalan uji 17.850-17.800; core panas + ancaman Hormuz membuka jalan 18.000 ditembus.",
+      "confidence": 68,
+      "thesis": "TOPIK INI SEDIKIT LEBIH BERAT: bull 0,20 → 0,19, base 0,45 tetap, bear 0,35 → 0,36, confidence 68. Pemicunya bukan angka kurs — spot masih 17.925 per dolar (Yahoo live 11:27, tidak bergerak dari 10:48) — melainkan arah pembukaan: rupiah dibuka melemah 17.918, bahkan menurut Bloomberg/Tirto 17.913-17.914 pada 09:05, dari penutupan Selasa 17.900, dan penyebabnya eksplisit: lonjakan minyak setelah Houthi menghantam gedung administrasi Saudi Aramco di Dhahran. JISDOR BI Selasa 17.930 — rupiah melemah tiga hari berturut di acuan resmi BI. Yang menahan tekanan: (1) DXY justru mereda 102,18 → 102,09 dan US10Y bertahan 5,22%, tidak naik; (2) pejabat Fed John C. Williams melunak — sinyal mungkin satu kali kenaikan lagi tahun ini dan tidak perlu lebih sampai 2027, yang menekan dolar; (3) proyeksi analis pagi masih mengunci kisaran rapat — Doo Financial/Lukman Leong 17.850-17.950, ASTRID 17.872-17.925, BRI Danareksa 17.894; (4) BI di bawah Gubernur Destry Damayanti tetap data-dependent, cadangan devisa US$146,3 miliar, BI Rate 5,75% hold dan diperkirakan tetap hold di RDG 20-21 Okt, intervensi hemat devisa (spot ~30%, sisanya NDF/DNDF plus insentif hedging). Yang menahan agar bear tidak lebih tinggi: minyak memang naik tapi DXY dan yield tidak ikut naik, jadi tekanan impor belum berubah jadi tekanan keluar-modal. Strukturalnya tetap rapuh: defisit transaksi berjalan Q2 US$12,5 miliar (3,3% PDB), utang luar negeri BI naik US$17,78 miliar dalam 6 bulan, skenario Rp19.000 bila minyak bertahan >US$100 sepanjang tahun. Pemicu tetap CPI AS 19:30 WIB — core lembut membuka jalan 17.800-an, core panas ≥0,3% m/m membuka jalan 18.000 ditembus. Rupiah masih di kursi goyang, jarak aman ke tepi makin tipis karena kursi goyangnya makin cepat.",
       "evidence": [
-        "USD/IDR 17.925 pada scan Bennix 11:22 WIB — TIDAK BERUBAH dari 10:55, tetap di puncak kisaran 17.850-18.000; proyeksi ASTRID 17.872-17.925, BRI Danareksa 17.894 (Kontan 13 Okt) (data Bennix)",
-        "BARU — tekanan minyak hidup kembali: Reuters/Straits Times 14 Okt — Iran perluas serangan kapal ke luar Hormuz, ancam 'complete closure soon', motif menaikkan harga minyak menjelang pemilu AS 3 Nov; Brent $106,29 +0,49% (Straits Daily 14 Okt 00:08 UTC)",
-        "BARU — normalisasi masih rapuh: Kpler — aliran mentah Hormuz di atas level pra-perang tetapi produk olahan masih kurang ±3 juta barel/hari; IMF PortWatch mencatat 4 transisi (4 Okt) vs baseline 85/hari; Dubai crude $103,65, Urals $118,23 (di atas Brent — tanda disrupsi nyata) (EnergyReader 14 Okt)",
-        "Penahan rupiah hari ini: DXY 102,08 sedikit melandai (dari 102,18 semalam), US10Y 5,22%, WTI 94,65 (settle semalam $94,57), emas US$4.181 (Bennix scan 11:22)",
-        "Aliran masuk menopang: asing net buy reguler Rp5,89 miliar pada Selasa dan total Rp561,6 miliar (Kompas, IPOT/Kontan); IHSG +0,9% dari penutupan Selasa",
-        "BI tetap kalem: data-dependent, devisa US$146,3 miliar akhir September, BI Rate 5,75% hold dan diperkirakan tetap hold di RDG 20-21 Okt, intervensi hemat devisa via NDF/DNDF plus insentif hedging (Destry Damayanti, Reuters/Bisnis)",
-        "CPI AS 14 Okt 19:30 WIB: konsensus headline 3,6% yoy (dari 3,4%), core ±2,4% yoy; inflasi di atas ekspektasi diperkirakan memperkuat dolar dan menekan aliran asing ke Indonesia (Kompas, FinancialJuice)",
-        "Tekanan struktural: defisit transaksi berjalan Q2 2026 US$12,5 miliar (3,3% PDB); utang luar negeri BI naik US$17,78 miliar dalam 6 bulan; PPI China September tercepat sejak Juni 2022 (CNBC Commodities) menjaga barang impor Asia mahal; skenario Rp19.000 bila minyak >US$100 sepanjang tahun",
-        "Agenda: neraca dagang China dan CPI AS 19:30 WIB, Beige Book malam, PPI AS Kamis, RDG BI 20-21 Okt"
+        "Pembukaan Rabu: rupiah melemah 18 poin / 0,10% ke 17.918 per dolar (Media Indonesia, Harian Jogja 10:47 WIB) vs penutupan Selasa 17.900; Bloomberg 09:06 WIB mencatat 17.914, Topik/Bloomberg 09:05 WIB 17.913; Bisnis.com 11:01 WIB 17.912",
+        "Yahoo live USD/IDR 17.925 pada scan 11:27 WIB — tidak bergerak dari pembacaan 10:48 dan 11:05; JISDOR BI 13 Okt 17.930, 12 Okt 17.899, 9 Okt 17.884 (melemah tiga hari berturut di acuan resmi BI)",
+        "Minyak naik: Brent $107,35 (+1,35%, +$1,40; Economic Times 14 Okt 02:04 UTC) dan WTI $95,38 (+1,32%); Brent sempat di $106,51 di awal sesi Asia (CNBC TV18); proxy Bennix WTI 94,64 pada scan 11:27 (naik dari 94,14)",
+        "Pemicu naik: gedung administrasi milik Saudi Aramco di Dhahran dihantam, api terbatas; rudal diintercept di dekat Riyadh setelah koalisi Saudi memukul depot bahan bakar Yaman; serangan Houthi ke bandara Riyadh pekan lalu (Economic Times, BBC, straits.live 14 Okt)",
+        "Penyeimbang: DXY 102,09 (turun dari 102,18), US10Y 5,22%, emas 4.179,1 — dolar dan yield tidak ikut panas (scan 11:27; TMGM 13 Okt: DXY mundur ke 102,20 karena koreksi minyak + kehati-hatian pra-CPI)",
+        "Pejabat Fed John C. Williams melunak: mungkin ada satu kali kenaikan lagi tahun ini, kenaikan lebih lanjut mungkin tidak diperlukan hingga 2027 (dikutip analis Doo Financial, Media Indonesia 14 Okt) — ini penahan utama rupiah hari ini",
+        "Proyeksi analis: 17.850-17.950 (Doo Financial/Lukman Leong), 17.872-17.925 (ASTRID pre-market), 17.894 (BRI Danareksa via Kontan 13 Okt) — 17.925 ada di batas atas, belum keluar kisaran",
+        "BI Destry Damayanti: data-dependent, cadangan devisa US$146,3 miliar akhir September; BI Rate hold 5,75% sejak Juni dan diperkirakan hold di RDG 20-21 Okt; intervensi hemat devisa (spot ~30%, sisanya NDF/DNDF plus insentif hedging) (Reuters/TMGM, Bisnis.com, IDNFinancials)",
+        "Tekanan struktural: defisit transaksi berjalan Q2 2026 US$12,5 miliar (3,3% PDB); utang luar negeri BI naik dari US$24,67 ke US$42,46 miliar dalam 6 bulan; skenario Rp19.000 bila minyak >US$100 sepanjang tahun (suar.id 11 Okt)",
+        "Katalis: CPI AS 14 Okt 19:30 WIB — headline +0,58-0,6% m/m → 3,63-3,65% y/y, core +0,2% m/m → 2,4-2,5% y/y; core lembut → rupiah lega ke 17.800-an, core panas ≥0,3% → 18.000 ditembus"
       ],
-      "causal_chain": "Rupiah diam di 17.925 — puncak kisaran, tidak menembus juga tidak mundur → tetapi Reuters melaporkan Iran memperluas serangan kapal dan mengancam penutupan penuh, sementara produk olahan Hormuz masih kurang 3 juta barel/hari → beban impor minyak berisiko naik lagi dan sentimen asing bisa berbalik → BI menahan dengan SRBI/SBN dan NDF/DNDF alih-alih bakar devisa → rupiah berayun 17.850-18.000 → CPI core lembut membuka jalan 17.850-17.800; CPI core panas PLUS eskalasi Hormuz membuka jalan 18.000 ditembus → impor makin mahal, margin importir tertekan, dan BI makin terjepit antara menahan rupiah dan menjaga likuiditas",
-      "invalidation": "Bull terkonfirmasi bila USD/IDR <17.750 + DXY <101 + US10Y <5,1% + Brent <US$95 + BI tetap hold dengan narasi tenang. Base (17.850-18.000) batal bila USD/IDR menembus 18.000 dua hari berturut ATAU justru ditutup <17.800 tiga hari berturut dengan net buy asing SBN masuk. Bear terkonfirmasi bila USD/IDR >18.100 + DXY >103 + US10Y >5,4% + Brent >US$110 (Hormuz ditutup penuh / infrastruktur ekspor Saudi terserang langsung) ATAU BI menaikkan rate >25 bps sekaligus — sinyal panik, bukan kendali.",
+      "causal_chain": "Rupiah dibuka melemah 17.918 dari 17.900 karena Houthi menghantam gedung administrasi Aramco di Dhahran dan Brent menyentuh $107,35 → biaya impor energi Indonesia kembali naik dan tekanan condong ke atas → TAPI DXY mereda ke 102,09 dan Williams Fed melunak, sehingga tekanan itu belum berubah jadi lari modal → BI menahan dengan SRBI/SBN, NDF/DNDF dan insentif hedging alih-alih bakar devisa di spot → rupiah berayun di 17.850-17.950, tepat di pita proyeksi analis → CPI core lembut malam ini membuka uji 17.800; core panas ≥0,3% m/m membuka jalan 18.000 ditembus, impor makin mahal, valuasi saham dan margin importir tertekan",
+      "invalidation": "Bull terkonfirmasi bila USD/IDR <17.750 + DXY <101 + US10Y <5,1% + Brent <US$95 + BI tetap hold dengan narasi tenang. Base (17.850-18.000) batal bila USD/IDR menembus 18.000 dua hari berturut ATAU justru ditutup <17.800 tiga hari berturut dengan net buy asing SBN masuk. Bear terkonfirmasi bila USD/IDR >18.100 + DXY >103 + US10Y >5,4% + Brent >US$110 (Hormuz ditutup penuh ATAU infrastruktur ekspor Saudi — terminal, kilang Yanbu/Ras Tanura/Jazan — terserang langsung; gedung administrasi Dhahran sudah kena, garis itu makin dekat) ATAU BI menaikkan rate >25 bps sekaligus — sinyal panik, bukan kendali.",
       "manual_analysis": true
     },
     {
-      "topic": "Seleksi sektor 3–6 bulan: breadth menyusut ke 1 dari 32, perbankan makin turun",
+      "topic": "Seleksi sektor 3–6 bulan: breadth 1 dari 32, perbankan tiga kali gagal di ambang",
       "probabilities": {
-        "bull": 0.12,
-        "base": 0.35,
-        "bear": 0.53
+        "bull": 0.14,
+        "base": 0.38,
+        "bear": 0.48
       },
-      "confidence": 65,
-      "thesis": "BEAR MAKIN DOMINAN: bull 0,14 → 0,12, base 0,36 → 0,35, bear 0,50 → 0,53, confidence 64 → 65. Kali ini bukan karena aturan invalidasi terpicu lagi (base sudah saya batalkan pagi ini), tapi karena semua pilar yang saya pakai penanda perbaikan justru bergerak makin buruk di scan 11:22: (1) BREADTH MENYUSUT — STUDY 1 / WATCH 10 / AVOID 21, dari 1/11/20; SMGR 47,5 @1.635 terlempar ke AVOID, jadi bukan cuma datar lagi tapi menyusut; (2) ANCHOR TERUS MELANDAI — PTBA 74,5 @3.330 (74,8 → 74,6 → 74,5; 3.350 → 3.340 → 3.330) dan AUTO mandek di 68,7 @3.380, jauh dari ambang 70; tidak ada satu pun kandidat pengganti yang mendekati ambang STUDY; (3) PERBANKAN 44,8 — makin jauh di bawah ambang 45 (45,4 → 45,1 → 44,9 → 44,8), padahal bank adalah penggerak likuiditas indeks; delapan dari dua belas sektor kini di bawah 45; (4) pemimpin sektor tetap komoditas/energi yang harganya menunggangi berita perang: Otomotif 56,0, Energi 55,5, Material 53,6, Mineral 47,0 — dan Reuters 14 Okt justru menaikkan suhu perang (Iran perluas serangan, ancam 'complete closure soon'), artinya pemimpin pasar makin bergantung pada satu berita yang bisa berbalik dalam hitungan jam; (5) rekomendasi analis pagi ini tetap condong komoditas/energi + teknikal buy-on-weakness (BNI: BUMI, INET, ASII, TOWR, BRMS, BBCA; BRI Danareksa: EMAS, PTBA, ADRO; Korea Investment: SOCI, OASA) — bank muncul sebagai 'spec buy', bukan leadership. Yang menahan agar bear bukan jauh lebih tinggi: IHSG masih +0,9% dari Selasa, asing net buy total Rp561,6 miliar (termasuk ASII/BBCA/BRMS), latar Asia hijau, dan Mirae mencatat BEI baru menambah 19 saham ke daftar HSC pada 12 Okt — tanda reformasi data berjalan yang bisa dipakai MSCI. Tapi kenyataan hari ini jelas: pemulihan berdiri di satu emiten batu bara dan satu sektor komoditas, sementara bank, telekomunikasi, teknologi, dan konsumer semuanya di posisi lemah.",
+      "confidence": 67,
+      "thesis": "SEKTOR: bear TETAP DOMINAN meski dua subsktor membaik — bull 0,15 → 0,14, base 0,37 → 0,38, bear 0,48 tetap, confidence 66 → 67. Yang membuat saya menaikkan confidence satu padahal komposisi hampir tidak berubah: pembacaan bertentangan kini jadi jelas dan bisa ditunjuk satu per satu. (1) BURUK: Perbankan jatuh lagi ke 44,9 dari 45,0 pada scan 11:27 — ini percobaan ketiga yang gagal menembus ambang, jadi aturan pemulihan yang saya tulis sendiri ('Perbankan >45 pada dua scan berikutnya') makin jauh dari terpenuhi; breadth juga diam di 1/10/21 selama tiga scan berturut (10:48, 11:05, 11:27), yang berarti tidak memburuk tapi juga membuktikan tidak ada perluasan pembeli; bank besar tertekan asing di sesi Selasa (BMRI Rp91,03 M, TLKM Rp51,56 M, BBRI Rp49,95 M, BBCA Rp45,81 M) dan BMRI kini skornya cuma 40,2. (2) BAIK: justru sektor yang membaik — Material 53,5 → 53,8, Mineral 46,8 → 47,2, Teknologi 30,9 → 31,3 — dan PTBA menguat ke 74,7 @3.340 sebagai anchor tunggal STUDY, didukung batu bara $864 dan Brent $107,35; rekomendasi analis pagi tetap condong komoditas/energi (BRI Danareksa EMAS/PTBA/ADRO, MNC ARCI/INDY/MIDI, Pilarmas ENRG/DEWA/BUMI, Ciptadana AMRT/BBNI/BREN/MDKA). Jadi kini ada dua kaki yang bergerak berlawanan: kaki komoditas makin kuat, kaki perbankan makin tidak yakin. Bear tetap 0,48 karena tumpuan pemulihan masih satu kaki dan kaki kedua tiga kali mundur dari ambang; base naik setengah langkah karena setidaknya kaki pertama tidak retak — breadth tidak turun lagi dan Material justru naik. Enam sektor tetap di bawah 42: Infrastruktur 41,4, Telekomunikasi 37,8, Logistik 36,3, Perbankan Syariah 31,2, Teknologi 31,3, ditambah Kesehatan 44,2 dan Konsumer 43,9 yang lemah.",
       "evidence": [
-        "Scan Bennix 14 Okt 11:22:37 WIB: breadth STUDY 1 / WATCH 10 / AVOID 21 — MENYUSUT dari 1/11/20 (tiga scan pagi); SMGR 47,5 @1.635 terlempar ke AVOID (data Bennix)",
-        "Anchor makin landai: PTBA 74,5 @3.330 (74,8 → 74,6 → 74,5; harga 3.350 → 3.340 → 3.330); AUTO 68,7 @3.380 mandek tiga scan, jauh dari ambang 70; TINS 60,2 @4.350 (turun dari 60,7) (data Bennix)",
-        "Perbankan 44,8 — makin jauh di bawah ambang 45 (45,4 → 45,1 → 44,9 → 44,8); delapan sektor di bawah 45: Perbankan 44,8, Kesehatan 44,2, Konsumer 43,9, Infrastruktur 41,3, Telekomunikasi 37,6, Logistik 36,3, Perbankan Syariah 31,2, Teknologi 30,8 (data Bennix)",
-        "Pemimpin tetap komoditas: Otomotif 56,0, Energi 55,5, Material 53,6, Mineral 74,5 (PTBA) — rentan terhadap satu berita geopolitik; Reuters 14 Okt: Iran perluas serangan kapal ke luar Hormuz dan ancam 'complete closure soon'",
-        "Penguatan indeks bertumpu segelintir nama: pembukaan Rabu didorong ADMR +2,06%, ADRO +1,59%, ASII +0,84%, BBTN +0,97% (Kompas 09:15); GOTO/MEDC/ADMR 'melaju' menurut Bisnis pagi ini",
-        "Rekomendasi analis 14 Okt tetap komoditas/energi + buy-on-weakness: BNI → BUMI, INET, ASII, TOWR, BRMS, BBCA; BRI Danareksa → EMAS, PTBA, ADRO; MNC → ARCI, BMRI, INDY, MIDI; Korea Investment → SOCI, OASA (MomsMoney, Kompas, Pasardana)",
-        "Sesi Selasa: asing net buy reguler hanya Rp5,89 miliar; jual BMRI Rp91 M, TLKM Rp51,6 M, BBRI Rp50 M, BBCA Rp46 M di reguler, beli blok TINS/BUMI/DSSA/BRMS (Kompas, IDNFinancials, IPOT)",
-        "Tekanan teknologi/telekom belum reda: Teknologi 30,8 (GOTO 26,1, r20 -46%), Telekomunikasi 37,6 (TLKM 37,3 r60 -15,5%, EXCL 30,6, ISAT 45,7) (data Bennix)",
-        "Lapis reformasi (menahan bear): BEI menambah 19 saham ke daftar High Shareholding Concentration pada 12 Okt — bahan evaluasi MSCI sekaligus tanda transparansi berjalan (ANTARA/Kiwoom 14 Okt)",
-        "Risiko lanjutan: Super El Niño unprecedented, titik panas karhutla 1.085, harga pangan global rekor empat tahun (FAO) — tekanan pangan & kesehatan menggantung (BBC, Bloomberg Technoz)"
+        "Scan Bennix 14 Okt 11:27:27 WIB: breadth STUDY 1 / WATCH 10 / AVOID 21 — DIAM di 1/10/21 selama tiga scan (10:48, 11:05, 11:27): tidak memburuk, tidak membaik (data Bennix)",
+        "Perbankan 44,9 — turun LAGI dari 45,0 (11:05), percobaan ketiga gagal menembus ambang 45 → aturan pemulihan base belum terpenuhi (data Bennix)",
+        "Sektor 11:27: Otomotif 56,0; Energi 55,5; Material 53,8 (NAIK dari 53,5); Mineral 47,2 (NAIK dari 46,8); Perbankan 44,9; Kesehatan 44,2; Konsumer 43,9; Infrastruktur 41,4; Telekomunikasi 37,8; Logistik 36,3; Perbankan Syariah 31,2; Teknologi 31,3 (data Bennix)",
+        "WATCH 10 per 11:27: AUTO 68,7 @3.380 (belum lewati 70), TINS 60,3, INTP 60,3, MEDC 58,9, ITMG 55,4, MDKA 52,5, INDF 51,6, ICBP 50,7, BBRI 49,7, ADRO 48,0 (turun dari 48,8); STUDY cuma PTBA 74,7 @3.340 (data Bennix)",
+        "AVOID 21 berisi SMGR 47,2, ANTM 46,7, KLBF 45,9, ISAT 45,8, BBCA 45,6, BMRI 40,2, TLKM 37,4, GOTO 25,9 — bank besar justru masuk atau mendekati kelompok lemah (data Bennix)",
+        "Bank besar tertekan: asing net sell reguler sesi Selasa BMRI Rp91,03 M, TLKM Rp51,56 M, BBRI Rp49,95 M, BBCA Rp45,81 M (CNBC Indonesia via Stockbit, 13 Okt)",
+        "Penguatan tetap bertumpu komoditas: Bisnis 09:26 WIB 'PTBA, MEDC, dan ADRO Bawa Indeks Bisnis-27 Dibuka Menguat'; rekomendasi 14 Okt BRI Danareksa EMAS/PTBA/ADRO, MNC ARCI/INDY/MIDI, Pilarmas ENRG/DEWA/BUMI, Ciptadana AMRT/BBNI/BREN/MDKA",
+        "Tekanan teknologi & telekomunikasi belum reda: Teknologi 31,3, GOTO 25,9 (AVOID), Telekomunikasi 37,8, ISAT 45,8, TLKM 37,4",
+        "Risiko lanjutan: Super El Niño 'unprecedented', titik panas karhutla nasional 1.085 (Kalteng tertinggi), harga pangan global rekor empat tahun (FAO), 'Godzilla El Niño' mengacaukan forecast inflasi Filipina — tekanan pangan & kesehatan menggantung (BBC, UN News, Bloomberg Technoz 14 Okt)",
+        "Anomali harga antar-scan tetap dicatat, tidak dijadikan dasar (disiplin Bennix)"
       ],
-      "causal_chain": "Breadth menyusut ke 1/10/21 + PTBA terus melandai + Perbankan 44,8 makin turun → tumpuan pemulihan tinggal komoditas/energi yang harganya menunggangi berita perang, sementara bank — penggerak likuiditas indeks — makin melemah dan SMGR justru terlempar keluar → asing membeli bank lewat blok tapi menjual di reguler, sinyal tahan-untuk-kemudian, bukan kepemimpinan baru → jika Perbankan kembali >45, AUTO lolos 70, dan breadth pulih ≥2, base bisa dipulihkan; jika tidak, bear 0,53 bergerak ke konfirmasi dengan target pelemahan lanjutan ke 5.770 — dan katalisnya bisa datang dari CPI malam ini atau eskalasi Hormuz",
-      "invalidation": "Bear dominan (0,53) batal bila Perbankan kembali bertahan >45 dua scan berturut DAN breadth naik ≥2 (AUTO lewati 70 dan bertahan 2 sesi) DAN PTBA tetap ≥72. Bull terkonfirmasi bila breadth ≥2, Perbankan >47 dua scan berturut, PTBA ≥72, dan asing net buy reguler bank dua sesi berturut. Bear terkonfirmasi bila PTBA keluar STUDY (skor <70) sehingga anchor nol ATAU AVOID naik >24 emiten ATAU Perbankan bertahan <45 sampai penutupan.",
+      "causal_chain": "Perbankan jatuh lagi ke 44,9 (percobaan ketiga gagal) + breadth diam di 1/10/21 selama tiga scan → kaki kedua pemulihan tidak terbentuk dan kaki pertama (komoditas) tidak retak karena Material 53,8, Mineral 47,2 dan PTBA 74,7 justru menguat → bear tetap dominan 0,48, base naik setengah langkah karena setidaknya laju kemerosotan berhenti → jika CPI core lembut dan Perbankan menembus >45 dua scan berturut, base bisa dipulihkan; jika breadth kembali melebar ke AVOID atau PTBA gugur dari STUDY, bear naik jadi dominan penuh",
+      "invalidation": "Bull terkonfirmasi bila breadth kembali ≥2 (AUTO lewati 70 dan bertahan 2 sesi) DAN Perbankan bertahan >47 dua scan berturut DAN PTBA tetap ≥72. Base (perbaikan terbatas) batal bila Perbankan jatuh <43,5 atau breadth memburuk lagi (AVOID naik >24). Bear dominan (skenario paling mungkin) bila PTBA gugur dari STUDY, AUTO mundur dari 70, atau bank besar kembali net sell asing reguler >Rp500 miliar per sesi.",
       "manual_analysis": true
     },
     {
       "topic": "Konflik global, minyak, tarif & risiko sistemik 3–6 bulan",
       "probabilities": {
-        "bull": 0.14,
-        "base": 0.39,
-        "bear": 0.47
+        "bull": 0.13,
+        "base": 0.37,
+        "bear": 0.5
       },
-      "confidence": 69,
-      "thesis": "TOPIK INI NAIK SATU TANGGA KE BEAR: bull 0,15 → 0,14, base 0,40 → 0,39, bear 0,45 → 0,47, confidence 68 → 69. Pemicunya laporan Reuters yang terbit dini hari tadi dan menurut saya paling material sejak laporan kemarin: dua pejabat Iran senior menyebut Teheran sengaja MENGUBAH TAKTIK serangan kapal — memakai 'spotters' perahu kecil setelah radar hancur, memperluas area operasi ke Gulf of Oman dan perairan lepas pantai Qatar/UAE, dan mengancam 'complete closure soon' — dengan motif terbuka: menaikkan/menahan harga minyak menjelang pemilu menengah AS 3 Nov ('This is a game of chess'). Angka pendukungnya juga naik: setidaknya 5 insiden kapal dalam 48 jam terakhir (tingkat tertinggi sejak perang), Anadolu mencatat 6 kapal diserang dalam satu hari, JMIC menyebut ancaman terhadap pelayaran di Hormuz tetap 'severe' (level kedua tertinggi). Lapis kedua yang mengunci tesis bear: data Kpler — aliran MENTAH Hormuz memang sudah di atas level pra-perang, tapi produk olahan masih kurang ±3 juta barel/hari, dan inilah yang bikin Brent tetap $106,29 sementara Dubai $103,65 dan Urals $118,23 (malah di atas Brent — tanda pasokan Rusia tetap terganggu); PortWatch hanya mencatat 4 transisi vs 85/hari sebelum perang. Lapis ketiga: IMF WEO 14 Okt menaikkan pertumbuhan global 2026 ke 3,1% tapi inflasi global ke 4,7% — harga energi mahal sudah masuk proyeksi resmi. Kenapa tidak saya dorong bear jauh lebih tinggi: (1) harga fisik BELUM panik — WTI bahkan settle $94,57 semalam dan proxy Bennix masih 94,65, pasar masih menghargai 'yang ancam dulu, yang kapal masih jalan sebagian'; (2) kapasitas Saudi memutar: Aramco memuat ±14 juta barel ke 7 VLCC di dalam Teluk dan mengekspor lewat Laut Merah setelah pipeline Timur-Barat kena; (3) Trump menahan diri tidak menyerang lagi sebelum pemilu, dan pasar S&P ±7.805 nyaris rekor — kepanikan belum merambat; (4) ada harapan diesel/diplomasi (kesepakatan diesel Trump-Rusia, meski cuma <2 minggu konsumsi AS). Intinya: lantai risiko naik, langit-langit kenaikan harga masih dijaga Amerika yang tidak mau menyerang dan Iran yang tidak mau menutup total — sampai salah satu berubah.",
+      "confidence": 71,
+      "thesis": "RISIKO SISTEMIK NAIK LAGI SATU TAKIK DAN KINI DI ATAS SETENGAH: bull 0,14 → 0,13, base 0,38 → 0,37, bear 0,48 → 0,50, confidence 70 → 71. Pemicunya eskalasi yang menyentuh infrastruktur inti, bukan lagi kapal di jalur: (1) Houthi (Ansarullah) menghantam gedung administrasi milik Saudi Aramco di Dhahran Selasa malam, memicu api terbatas — ini pengulangan serangan ke markas Aramco yang sebelumnya saya sebut sebagai garis merah; (2) rudal diintercept di dekat Riyadh setelah koalisi Saudi memukul depot bahan bakar Yaman, dan bandara Riyadh masih ditutup sejak diserang empat kali pekan lalu (13 tewas Sabtu); (3) Iran makin terbuka niatnya: Reuters mengutip dua pejabat senior Iran — taktik menarget kapal di Hormuz untuk menekan harga minyak tinggi dan mempengaruhi pemilu menengah AS 3 Nov; Mohsen Rezaei di televisi negara: 'lima hingga enam kapal setiap malam, Selat Hormuz sepenuhnya di bawah kendali Republik Islam'; (4) UKMTO mencatat empat kapal kena proyektil pada 11 Oktober saja, ±2x rata-rata harian pekan sebelumnya; Bloomberg: lebih dari selusin supertanker dan beberapa Suezmax berbalik dekat Fujairah, waktu tunggu ship-to-ship transfer makin lama; (5) Brent $107,35 (+1,35%), rally >70% YTD, dan Goldman (Daan Struyven) tetap menghitung skenario US$120 bila serangan menyebar. Yang menahan agar bear bukan 0,60 — dan ini argumen terkuat dari sisi berlawanan: harga justru tidak mencerminkan pasokan yang hilang. Kpler mencatat crude keluar Hormuz 19,5-22,5 juta barel/hari pada 27-29 Sep, DI ATAS level pra-perang, dan Saudi ekspor ≥6,4 juta barel/hari dengan memutar lewat Red Sea setelah serangan Houthi memaksa Yanbu tutup; yang benar-benar kurang adalah produk olahan — 3 juta barel/hari masih hilang, dan di situlah heating oil $4,97/galon, RBOB $3,25/galon, dan LNG Asia $26,09/MMBtu bertahan tinggi. Selain itu pasar keuangan global BELUM panik: KOSPI justru rebound +0,47%, DXY mereda 102,09, emas cuma 4.179,1 (turun), S&P ±7.805 masih nyaris rekor, dan pejabat Fed Williams melunak. Kapasitas redaman tetap tipis: kilang Jazan tutup, bandara Riyadh ditutup ±seminggu, kesepakatan diesel Trump-Rusia <2 minggu konsumsi AS, dan G7 dilaporkan mengumumkan pelepasan darurat 100 juta barel. Intinya: jarak antara 'pasar sabar' dan 'pasar panik' makin tipis, dan penyerangan langsung ke kantor Aramco di Dhahran memindahkan garis merah itu sedikit lebih dekat — pemantik berikutnya CPI AS malam ini dan pemilu menengah AS 3 Nov.",
       "evidence": [
-        "BARU — Reuters/Straits Times/ToI 14 Okt: Iran mengubah taktik serangan kapal — spotters perahu kecil pengganti radar, perluasan area ke Gulf of Oman dan lepas pantai Qatar/UAE, ancam 'complete closure soon'; motif terbuka menaikkan harga minyak dan memengaruhi pemilu menengah AS 3 Nov; 'The aim is to frustrate efforts by the United States and its allies to bring down global oil prices'",
-        "BARU — eskalasi terukur: setidaknya 5 insiden kapal tanker/komersial di sekitar Hormuz dalam 48 jam (drone strike termasuk) — laju tertinggi sejak perang; Anadolu mencatat 6 kapal diserang dalam satu hari (Caspian Post); JMIC 11 Okt: ancaman pelayaran Hormuz tetap 'severe'; Rudaw/UKMTO: 3 kapal kena proyektil pada 12 Okt",
-        "BARU — lapis produk olahan: Kpler — aliran mentah Hormuz di atas level pra-perang (19,5-22,5 juta barel/hari akhir Sep) TAPI produk olahan masih kurang ±3 juta barel/hari; Brent $106,29 (+0,49%), WTI settle $94,57, Dubai $103,65, Urals $118,23 (di atas Brent), heating oil $4,97/gal — pasar menahan premium perang (EnergyReader, Straits Daily 14 Okt)",
-        "Kapasitas redaman makin tipis: Aramco memuat ±14 juta barel ke 7 VLCC di dalam Teluk setelah serangan Houthi memaksa pipeline Timur-Barat tutup dan loading Yanbu berhenti; kilang Jazan tutup; bandara Riyadh ditutup; HQ Aramco Dhahran kena (Kementerian Energi Saudi, Reuters, EnergyReader)",
-        "Eskalasi lapangan lain tetap hidup 14 Okt: BBC — rudal dicegat dekat Riyadh setelah koalisi Saudi hantam depot bahan bakar Yaman; Al Jazeera — rudal Houthi dicegat atas Saudi, Kyiv ditembak rudal balistik hari kedua tanpa peringatan",
-        "Niat aktor terbuka: Trump menahan diri tidak menyerang Iran lagi sebelum pemilu; perang berbiaya US$3 miliar/bulan jadi isu kampanye; AS justru memperketat blokade laut dan sanksi (Reuters 14 Okt)",
-        "BARU — IMF WEO 14 Okt: pertumbuhan global 2026 dinaikkan ke 3,1%, inflasi global 2026 ke 4,7% lalu 4,1% pada 2027 (Gate/CNBC) — 'stagflasi ringan' versi Bretton Woods",
-        "Skenario harga tetap menggantung: Goldman US$120/barel bila eskalasi menyebar, kembali ke US$80 bila ekspor normal; Paul Tudor Jones bicara reli US$20-25 (Economic Times 14 Okt)",
-        "Pasar keuangan masih sabar: S&P ±7.805 nyaris rekor; US10Y 5,22%; DXY 102,08; emas US$4.181 (Bennix scan 11:22)",
-        "Bennix scan 11:22: WTI proxy 94,65 (r20 -7,6%, r60 +11,5%) — harga fisik belum panik meski berita memanas",
-        "Iklim & pangan: Super El Niño unprecedented, titik panas karhutla 1.085 (Kalteng tertinggi), harga pangan global rekor empat tahun (FAO); gelombang panas Eropa hancurkan ±€2 miliar panen"
+        "ESKALASI INFRASTRUKTUR 13-14 Okt: gedung administrasi milik Saudi Aramco di Dhahran dihantam, api terbatas (Energy Ministry via Economic Times 14 Okt); rudal diintercept dekat Riyadh setelah koalisi Saudi memukul depot bahan bakar Yaman (BBC 14 Okt)",
+        "Iran terbuka soal niat: Reuters via dua pejabat senior Iran — serangan kapal di Hormuz untuk menekan harga minyak tinggi dan mempengaruhi pemilu menengah AS 3 Nov; Mohsen Rezaei di TV negara: 'lima hingga enam kapal setiap malam, Selat Hormuz sepenuhnya di bawah kendali Republik Islam' (Sindonews 14 Okt)",
+        "Kapal: shuttle 750.000 barel meledak setelah menghantam ranjau; tiga supertanker raksasa dihantam sejak Minggu; UKMTO empat kapal kena proyektil 11 Okt (±2x rata-rata harian pekan lalu); Bloomberg: >selusin supertanker + beberapa Suezmax berbalik dekat Fujairah, STS transfer tertunda",
+        "Harga: Brent $107,35 (+1,35%, +$1,40; Economic Times 14 Okt), WTI $95,38 (+1,32%); CNBC TV18: Brent $106,51 awal sesi Asia; NDTV: Brent rally >70% YTD; proxy Bennix WTI 94,64 (scan 11:27)",
+        "ARGUMEN LAWAN (kenapa bear bukan 0,60): Kpler — crude keluar Hormuz 19,5-22,5 juta barel/hari pada 27-29 Sep, di atas pra-perang; Saudi ekspor ≥6,4 juta barel/hari, Aramco muat ±14 juta barel ke tujuh VLCC di dalam Teluk setelah serangan Houthi memaksa Yanbu tutup; Vitol 6 Okt: 12 juta barel mentah + 2 juta barel produk/hari masih lewat Hormuz; AS: >19 juta barel dinavigasi lewat Hormuz; Shell: arus Timur Tengah ~80% pra-konflik",
+        "TAPI yang kurang adalah produk olahan: Kpler — 3 juta barel/hari produk olahan masih hilang dari persamaan Hormuz → heating oil $4,97/galon, RBOB $3,25/galon, LNG Asia $26,09/MMBtu, diesel AS tertinggi sejak pertengahan 2022; Dubai $103,65 dan Urals $118,23 (di ATAS Brent) membuktikan risiko rute belum hilang",
+        "Pasar keuangan masih sabar: KOSPI +0,47% ke 6.063,71 (rebound dari -5,46% Selasa), DXY 102,09 turun, emas 4.179,1, S&P ±7.805 nyaris rekor 7.811, IHSG Indonesia +0,80% — belum sell-off; pejabat Fed Williams melunak",
+        "Kapasitas redaman tipis: kilang Jazan tutup sejak serangan; bandara Riyadh ditutup ±seminggu setelah empat kali diserang (13 tewas Sabtu); kesepakatan diesel Trump-Rusia <2 minggu konsumsi AS; G7 dilaporkan umumkan pelepasan darurat 100 juta barel (laporan pasar 13 Okt)",
+        "Skenario harga: Goldman (Daan Struyven) US$120/barel bila serangan kapal menyebar dan intensif, kembali US$80 bila normal; Paul Tudor Jones di CNBC: reli US$20-25 lagi mungkin",
+        "Peringatan struktural: IMF GFSR risiko yield disorderly dan inflasi global 2026 ke 4,7%; OPEC pangkas proyeksi permintaan 2026 dari 1,4 juta ke 400 ribu barel/hari meski menaikkan proyeksi 2027; University of Michigan ekspektasi inflasi 1 tahun 4,7% tertinggi dalam 5 bulan",
+        "Iklim & pangan: Super El Niño 'unprecedented', titik panas karhutla nasional 1.085 (Kalteng tertinggi), harga pangan global rekor empat tahun (FAO), gelombang panas Eropa hancurkan ±€2 miliar panen, 'Godzilla El Niño' mengacaukan forecast inflasi Filipina (BBC, Bloomberg Technoz, UN News, CNBC Indonesia)"
       ],
-      "causal_chain": "Reuters melaporkan Iran mengubah taktik, memperluas area serangan, dan mengancam penutupan penuh → serangan kapal mencapai level tertinggi sejak perang sementara produk olahan masih kurang 3 juta barel/hari → Brent bertahan di atas US$106 dan Dubai/Urals tidak turun → premium perang belum terbayar turun, hanya tertunda dan kini punya jadwal (pemilu AS 3 Nov) → IMF WEO memasukkan inflasi global 4,7% ke proyeksi resmi → Indonesia menyerap lewat rupiah dan APBN (setiap Brent +US$1 ≈ +Rp6 triliun beban) → pemutus berikutnya: CPI AS 19:30 WIB, lalu apakah salah satu garis dilewati (Hormuz ditutup penuh / terminal Yanbu-Ras Tanura terserang / Prancis gagal sahkan anggaran) → kalau iya, saham, rupiah, dan obligasi bergerak serentak ke bawah",
-      "invalidation": "Bear terkonfirmasi penuh bila Hormuz benar-benar ditutup permanen ATAU infrastruktur ekspor Saudi (terminal utara/timur, kilang Yanbu/Ras Tanura/Jazan) terserang langsung dan Brent >US$110 / WTI >US$97 + DXY >103 + US10Y >5,4% ATAU Prancis gagal sahkan anggaran 2027 ATAU rout chip menular ke sell-off LQ45 >3% sehari. Tesis risiko mereda (bull) bila Hormuz terbuka normal + Brent <US$95 + WTI <US$88 + DXY <101 + US10Y <5,1% + gencatan Saudi-Houthi dan Rusia-Ukraina bertahan. Base: Hormuz tegang tapi tidak ditutup penuh, Brent US$104-107, WTI US$91-95, dolar 101-103, yield 5,1-5,3%, pasar Indonesia terkendali tapi tertekan, risiko eskalasi menjelang pemilu menengah AS 3 Nov.",
+      "causal_chain": "Houthi hantam gedung administrasi Aramco di Dhahran + rudal diintercept dekat Riyadh + Iran klaim Hormuz 'sepenuhnya di bawah kendali' dan target 5-6 kapal/malam dengan motif eksplisit pengaruhi pemilu AS 3 Nov → eskalasi menyentuh infrastruktur inti, premium perang naik (Brent $107,35, skenario Goldman US$120 masih dihitung pasar) → inflasi impor global tetap tinggi sementara yield 5,22% menahan emerging market → TAPI Kpler menunjukkan crude flow di atas pra-perang dan pasar AS/Asia tetap tenang, sehingga kenaikan harga belum berubah jadi sell-off → yang nyata hilang justru produk olahan 3 juta barel/hari, yang bikin diesel & LNG Asia tetap mahal → Indonesia menyerap lewat rupiah dan APBN (setiap Brent +US$1 ≈ +Rp6 triliun beban) → pemantik berikutnya CPI AS 19:30 WIB, PPI Kamis, dan pemilu menengah AS 3 Nov: salah satu garis dilewati (Hormuz ditutup penuh / terminal Yanbu-Ras Tanura kembali diserang / Prancis gagal sahkan anggaran), saham, rupiah, dan obligasi bergerak serentak ke bawah",
+      "invalidation": "Bear terkonfirmasi penuh bila Hormuz benar-benar ditutup permanen ATAU infrastruktur ekspor Saudi (terminal utara/timur, kilang Yanbu/Ras Tanura/Jazan) terserang langsung dan bertahan → Brent >US$110 / WTI >US$97 + DXY >103 + US10Y >5,4% ATAU Prancis gagal sahkan anggaran 2027 ATAU rout chip menular ke sell-off LQ45 >3% sehari. Tesis risiko mereda (bull) bila Hormuz terbuka normal + Brent <US$95 + WTI <US$88 + DXY <101 + US10Y <5,1% + gencatan Saudi-Houthi dan Rusia-Ukraina bertahan + arus produk olahan kembali mendekati normal. Base: Hormuz tegang tapi tidak ditutup penuh, Brent US$104-108, WTI US$91-96, dolar 101-103, yield 5,1-5,3%, pasar Indonesia terkendali tapi tertekan, risiko eskalasi menjelang pemilu menengah AS 3 Nov.",
       "manual_analysis": true
     },
     {
       "topic": "Verdict MSCI November 2026: status EM Indonesia dan nasib saham kelompok konglomerasi (BREN–DSSA–AMMN–CUAN)",
       "probabilities": {
-        "bull": 0.26,
-        "base": 0.52,
-        "bear": 0.22
+        "bull": 0.25,
+        "base": 0.54,
+        "bear": 0.21
       },
-      "confidence": 66,
-      "thesis": "TOPIK INI TIDAK BERUBAH — bull 0,26 / base 0,52 / bear 0,22, confidence 66. Nihil kabar resmi MSCI sejak analisis 11:00, dan absennya kabar tetap jadi informasi: keputusan masih di tangan pengumuman akhir Oktober menjelang index review 26 November. Latar yang tidak bergerak: (1) situs resmi MSCI masih berbunyi 'MSCI will communicate further on the treatment of Indonesia and Turkey markets prior to the November 2026 Index Review'; (2) konsensus tetap freeze berlanjut tanpa ancaman frontier aktif — Kontan 14 Okt dan Katadata 13 Okt memprediksi pembekuan bertahan hingga review November; Mirae Asset (Wilbert Arifin) 'No Frontier Threat is the Win for Now', indikasi akhir Oktober, unfreeze paling realistis semester II-2027; (3) rumor sanksi/denda MSCI dan investigasi OJK tetap saya perlakukan sebagai sentimen, bukan fakta. Satu lapis baru hari ini — dan sifatnya ganda: BEI menambah 19 saham ke daftar High Shareholding Concentration (HSC) pada Senin 12 Okt (ANTARA/Kiwoom 14 Okt). Di satu sisi ini menaikkan jumlah emiten yang terdeteksi kepemilikannya terkonsentrasi — bahan yang bisa dipakai pihak yang menuntut transparansi; di sisi lain keberanian BEI memublikasikan daftar itu justru bagian dari reformasi yang diklaim Mirae (HSC 63 saham, 37 lolos tes price-impact ratio baru, data kepemilikan 1% terbit bulanan, Oktober IDX/KSEI turunkan ambang tes kapitalisasi Rp10 T → Rp5 T). Karena dua arahnya saling menetralkan dan tidak ada kabar MSCI, probabilitas saya tahan. Yang tetap saya catat: uang besar diam-diam membeli (asing net buy total Rp561,6 miliar Selasa dengan beli ASII, TINS, BRMS, BBCA, ENRG; sejak Selasa beli DSSA Rp13,28 M, BRMS Rp34,44 M, BUMI Rp18,28 M) — pola 'ritel panik jual, uang besar akumulasi' tetap alasannya bull bertahan; sementara bayangan MSCI membuat asing tidak berani beli reguler besar (net sell YTD Rp111,19 triliun). Plafon tekanan tetap sampai akhir Oktober, lantainya makin padat dibeli.",
+      "confidence": 67,
+      "thesis": "TOPIK INI TIDAK BERUBAH SECARA FAKTA, tapi DUA HAL DIPERBAHKI: pertama, kalender resminya — MSCI (press release 12 Agu 2026) menetapkan November 2026 Index Review ber-announcement 11 November 2026 dan berlaku efektif 1 Desember 2026; Mirae Asset memperkirakan komunikasi/perlakuan Indonesia (khusus, di luar jadwal reguler) keluar akhir Oktober, sementara Kontan dan Katadata tetap memprediksi freeze bertahan sampai review November. Kedua, bobot: bull 0,26 → 0,25, base 0,52 → 0,54, bear 0,22 → 0,21, confidence 66 → 67 — bukan karena kabar baru, tapi karena jendela ketidakpastian kini terukur (±2 minggu ke komunikasi akhir Oktober, ±4 minggu ke pengumuman 11 Nov) dan konsensus bergerak makin padat ke arah yang sama: freeze diperpanjang dengan nada konstruktif. Latar yang tidak bergerak: (1) situs resmi MSCI masih berbunyi 'MSCI will communicate further on the treatment of Indonesia and Turkey markets prior to the November 2026 Index Review'; (2) Mirae Asset (Wilbert Arifin): 'No Frontier Threat is the Win for Now', indikasi awal akhir Oktober, unfreeze paling realistis semester II-2027, base case 18-24 bulan, dan fokus kini beralih dari memperkenalkan reformasi ke membuktikan efektivitasnya — bukti awal memang ada (data kepemilikan 1% terbit bulanan dan sudah dipakai MSCI menyempurnakan free float; HSC 63 saham, 37 lewat tes price-impact ratio baru; Oktober IDX/KSEI turunkan ambang tes kapitalisasi Rp10 T → Rp5 T dan tambah pemisah lokal-vs-asing); (3) kelemahannya tetap enforcement — aksi terhadap trading terkoordinasi lebih banyak muncul sebagai hitungan sanksi daripada kasus manipulasi, dan Turki yang menghadapi deadline sama jauh lebih maju; (4) Kiwoom (Liza) menjelaskan alasan bisnis MSCI menahan: mencabut freeze berarti mempertaruhkan kredibilitas penilaiannya sendiri yang langsung kelihatan di daftar addition/deletion; (5) rumor sanksi/denda MSCI dan investigasi OJK tetap saya perlakukan sebagai sentimen, bukan fakta. Yang saya catat sebagai risiko dari pasar, bukan dari MSCI: IDXChannel 14 Okt menyoroti Mirae mempermasalahkan pembiayaan akuisisi BYAN sebagai tekanan tambahan bagi saham konglomerasi, dan koreksi konglo pekan lalu (Senin 12 Okt PTRO -14,95%, CUAN -14,94%, DSSA -14,60%, BREN -11,48%) kini berjalan bersamaan dengan Brent $107,35, breadth AVOID 21 dan Perbankan yang gagal di ambang. Di sisi lain uang besar justru diam-diam membeli: sejak Selasa asing beli DSSA Rp13,28 miliar, BRMS Rp34,44 miliar, BUMI Rp18,28 miliar, plus sesi Selasa TINS +Rp26,05 M dan BUMI +Rp24,00 M — pola 'ritel panik jual, asing akumulasi' tetap alasannya bull saya bertahan di 0,25. Dengan FTSE Russell sudah meneguhkan Indonesia di secondary emerging market (7 Okt) tanpa masuk watchlist, plafon tekanan tetap ada sampai akhir Oktober, tapi lantainya kini lebih kuat dan lebih jelas waktunya.",
       "evidence": [
-        "Tidak ada rilis MSCI baru per scan 11:22 WIB 14 Okt; situs resmi (app2.msci.com) masih: 'MSCI will communicate further on the treatment of Indonesia and Turkey markets prior to the November 2026 Index Review'",
-        "BARU — BEI menambah 19 saham ke daftar High Shareholding Concentration (HSC) pada Senin 12 Okt, 'menjadi perhatian investor terhadap struktur kepemilikan saham' (ANTARA 14 Okt via kajian Kiwoom) — bahan evaluasi MSCI sekaligus bagian dari agenda transparansi",
-        "Mirae Asset MSCI Update 12 Okt (Warta Ekonomi 13 Okt): No Frontier Threat is the Win for Now; indikasi akhir Oktober; unfreeze 2H2027, base case 18-24 bulan; bukti awal reformasi — data kepemilikan 1% terbit bulanan, HSC 63 saham (37 lewat tes price-impact ratio baru), Oktober IDX/KSEI turunkan ambang tes kapitalisasi Rp10 T → Rp5 T",
-        "Kontan (14 Okt) dan Katadata (13 Okt): pembekuan saham Indonesia diprediksi bertahan hingga review November 2026 dan isu berlanjut ke 2027 — pembekuan ketiga berturut sejak Januari 2026; Kompas 14 Okt 10:08 'IHSG Berpeluang Rebound, tapi Dihantui MSCI'",
-        "FTSE Russell tetapkan Indonesia di secondary emerging market, tidak masuk watchlist (7 Okt); OJK menyebut dampak pembekuan makin terbatas dan transparansi membaik (ANTARA, CNBC Indonesia 8-9 Okt)",
+        "Tidak ada rilis MSCI baru 14 Okt; situs resmi (app2.msci.com) masih: 'MSCI will communicate further on the treatment of Indonesia and Turkey markets prior to the November 2026 Index Review'",
+        "KALENDER RESMI DIPERBAHKI (MSCI press release 12 Agu 2026): November 2026 Index Review — Announcement date 11 November 2026, Effective date 01 Desember 2026 (memperbaiki catatan analisis sebelumnya yang menyebut review 26 November)",
+        "Mirae Asset MSCI Update 12 Okt (Liputan6 12 Okt, Kompas 12 Okt, Warta Ekonomi 13 Okt, Kontan 13 Okt): No Frontier Threat is the Win for Now; komunikasi/perlakuan diperkirakan akhir Oktober (off-cycle); unfreeze 2H2027, base case 18-24 bulan; bukti awal reformasi — data kepemilikan 1% terbit bulanan dan dipakai MSCI, HSC 63 saham (37 lewat tes price-impact ratio baru), Oktober IDX/KSEI turunkan ambang tes kapitalisasi Rp10 T → Rp5 T dan tambah split lokal-vs-asing di data KSEI",
+        "Kelemahan tetap ada (Mirae): enforcement — aksi terhadap trading terkoordinasi berupa hitungan sanksi, bukan kasus manipulasi; Turki dengan deadline sama jauh lebih maju",
+        "Kiwoom (Liza Camelia, Kontan 7 Okt): MSCI dua kali 'kena batu' oleh saham besar kita (BREN/DSSA saat isu free float, GOTO saat isu harga <Rp50), sehingga cabut freeze = mempertaruhkan kredibilitas penilaiannya sendiri → prediksi freeze bertahan di review November",
+        "IDXChannel 14 Okt: 'Saham Konglomerasi Tekan IHSG, Mirae Asset Soroti Pembiayaan Akuisisi BYAN' — risiko sektor konglo dari sisi pembiayaan akuisisi, bukan kabar MSCI",
+        "FTSE Russell tetapkan Indonesia di secondary emerging market, tidak masuk watchlist (7 Okt, Malaysian Reserve); OJK (Hasan Fawzi) menyebut dampak pembekuan makin terbatas dan transparansi membaik (ANTARA, CNBC Indonesia, Warta Ekonomi 8-9 Okt)",
         "Rumor tak terkonfirmasi (bukan fakta): isu sanksi/denda MSCI untuk emiten berkonentrasi kepemilikan tinggi (GEBRAK 13 Okt) dan investigasi OJK atas dugaan manipulasi harga saham",
-        "Ekor bear tetap dihitung: bila status diturunkan, potensi outflow hingga US$13 miliar (Goldman); kapitalisasi BEI menyusut dari >US$900 miliar (Jan) ke US$601 miliar; IHSG -30% YTD; asing net sell reguler Rp111,19 triliun sepanjang 2026 (Reuters/NST, Kompas, Jakarta Globe)",
-        "Pola akumulasi diam-diam berlanjut: Selasa asing net buy total Rp561,6 miliar dengan beli ASII, TINS, BRMS, BBCA, ENRG (IPOT/Kontan); sejak Selasa beli DSSA Rp13,28 M, BRMS Rp34,44 M, BUMI Rp18,28 M (Kabarbursa); Ciptadana 14 Okt memilih BREN bersama AMRT, BBNI, MDKA",
-        "Lapis baru dari pasar (bukan MSCI): IHSG pagi ini +0,9% dari Selasa membuka ruang pantulan teknikal untuk konglo yang jatuh dalam (Senin 12 Okt PTRO -14,95%, CUAN -14,94%, DSSA -14,60%, BREN -11,48%) — tapi masih dibayangi Reuters/Iran, Brent >US$106, dan CPI malam ini",
-        "Agenda: index review MSCI 26 November 2026, komunikasi/perlakuan Indonesia diperkirakan menjelang itu di akhir Oktober (Mirae, Liputan6 12 Okt, MSCI resmi)"
+        "Ekor bear tetap dihitung: bila status diturunkan, potensi outflow hingga US$13 miliar (Goldman); kapitalisasi BEI menyusut dari >US$900 miliar (Jan) ke US$601 miliar; IHSG -30% YTD; asing net sell US$3,89 miliar sepanjang 2026 (Reuters/NST, Jakarta Globe)",
+        "Tekanan konglo sudah dalam lalu ditopang diam-diam: Senin 12 Okt PTRO -14,95%, CUAN -14,94%, DSSA -14,60%, BREN -11,48%; Selasa asing beli DSSA Rp13,28 M, BRMS Rp34,44 M, BUMI Rp18,28 M, TINS +Rp26,05 M, BUMI +Rp24,00 M (Periskop, Bloomberg Technoz, Kabarbursa, CNBC Indonesia); Ciptadana memilih BREN (Bareksa 14 Okt)",
+        "RISIKO dari sisi pasar, bukan MSCI: Brent $107,35, breadth AVOID 21, Perbankan 44,9, KOSPI baru rebound +0,47% — bila risk-off berlanjut, tekanan jual ritel di konglo bisa hidup lagi tanpa menunggu kabar MSCI",
+        "Agenda: komunikasi/perlakuan Indonesia diperkirakan akhir Oktober (Mirae), November 2026 Index Review announcement 11 Nov 2026, efektif 1 Des 2026 (MSCI resmi)"
       ],
-      "causal_chain": "Tidak ada kabar baru + MSCI konfirmasi akan komunikasi sebelum review + konsensus tetap freeze berlanjut tanpa ancaman frontier aktif → ketidakpastian berlarut tapi tidak memburuk → BEI justru memublikasikan 19 saham tambahan ke daftar HSC, dua sisi koin (transparansi vs daftar konsentrasi) saling menetralkan → bayangan MSCI membuat asing tidak kembali beli reguler besar sementara uang besar tetap masuk lewat blok ke komoditas/konglo/bank → jika nada pengumuman konstruktif (base), reaksi lemah dan pemulihan berlanjut; jika frontier threat muncul kembali (bear), dana indeks wajib keluar → outflow devisa, rupiah dan IHSG tertekan bersamaan; jika MSCI melunak lebih cepat dari konsensus (bull), reli singkat di saham konglo dan indeks",
+      "causal_chain": "Tidak ada kabar baru + MSCI konfirmasi akan komunikasi sebelum review + konsensus (Mirae, Kiwoom, Kontan, Katadata) satu suara: freeze diperpanjang tapi tanpa ancaman frontier aktif → jendela ketidakpastian kini terukur: komunikasi akhir Oktober, pengumuman 11 Nov, efektif 1 Des → ketidakpastian berlarut tapi tidak memburuk, dan base makin padat → bayangan MSCI membuat asing tidak kembali beli reguler dalam skala besar (net sell Rp111,19 T YTD) sementara uang besar tetap masuk lewat blok ke komoditas/konglo → jika nada pengumuman konstruktif (base), reaksi lemah dan pemulihan berlanjut; jika frontier threat muncul kembali (bear), dana indeks wajib keluar → outflow devisa, rupiah dan IHSG tertekan bersamaan; jika MSCI melunak lebih cepat dari konsensus (bull), reli singkat di saham konglo dan indeks",
       "invalidation": "Bull terkonfirmasi bila MSCI mengumumkan pemertahanan status EM DAN melonggarkan/mencabut pembekuan sebagian sebelum akhir November (reformasi OJK/SRO diakui). Bear terkonfirmasi bila MSCI mengumumkan penurunan status ATAU kembali menyebut konsultasi reklasifikasi ke frontier dalam komunikasi akhir Oktober ATAU mengonfirmasi rumor sanksi/denda terhadap emiten tertentu. Base batal bila keputusan berbentuk kejutan ketiga — review diperpanjang lagi tanpa arahan sampai akhir 2026 — sehingga ketidakpastian berlarut dan tekanan asing justru berlanjut.",
       "manual_analysis": true
     }
   ],
   "prediction_meta": {
     "analyst": "Hermes Agent — analisis manual metode Bennix",
-    "analyzed_at": "2026-10-14T11:30:00+07:00",
-    "method": "Analisis manusia top-down: rezim global → aktor & kepentingan → arus uang/barang → sebab-akibat → dampak lanjutan → sektor/emiten → skenario bull/base/bear → invalidasi. Angka pasar dan berita dipakai sebagai BUKTI, probabilitas adalah judgement analis, bukan keluaran fungsi/rule prediksi otomatis. Data kalkulasi scan 14 Okt 11:22:37 WIB (Yahoo Finance chart + Google News RSS ID/EN + BBC World, CNBC Commodities, Al Jazeera; sumber batu bara masih fallback deterministik) + riset manual siang ini (Reuters/Straits Times/ToI 14 Okt soal perubahan taktik Iran di Hormuz; EnergyReader/Kpler soal aliran mentah vs produk olahan; ANTARA/Kompas/Mirae/Kiwoom/Korea Investment untuk peta teknikal sesi Rabu) — RABU SIANG 14 Okt 11:30 WIB, bursa IDX sesi I berjalan ±2,5 jam, pasar terakhir yang benar-benar tutup penuh: Selasa 13 Okt (IHSG 5.925,98) dan Selasa malam AS (WTI settle 94,57, S&P ±7.805, US10Y 5,217%, DXY 102,18). Update dari analisis 14 Okt 11:00 WIB. PERUBAHAN KUNCI: (1) IHSG MELANDAI DARI PUNCAK SESI — proxy Bennix 5.979,94 pada scan 11:22 (turun dari 5.989,65 pada 10:55), masih di zona 5.940-5.980 namun belum sekali pun menembus 6.000, sementara breadth JUSTRU MEMBURUK jadi STUDY 1 / WATCH 10 / AVOID 21 (SMGR 47,5 terlempar ke AVOID) → bull IHSG 0,24 → 0,22, base 0,44 → 0,43, bear 0,32 → 0,35, confidence 69 → 68; (2) SEKTOR MAKIN TERTEKAN: Perbankan 44,8 (masih di bawah ambang 45), PTBA 74,5 @3.330 terus melandai, AUTO mandek 68,7 → bear 0,50 → 0,53 (semakin dominan), base 0,36 → 0,35, bull 0,14 → 0,12, confidence 64 → 65; (3) RISIKO GEOPOLITIK NAIK SATU TANGGA: Reuters 14 Okt — Iran mengubah taktik, memperluas serangan kapal ke luar Hormuz (Gulf of Oman, lepas pantai Qatar/UAE), ancam 'complete closure soon', serangan kapal komersial level tertinggi sejak perang (5 insiden/48 jam, 6 kapal dalam sehari), motif terbuka mempengaruhi pemilu menengah AS 3 Nov → bear konflik 0,45 → 0,47, base 0,40 → 0,39, bull 0,15 → 0,14, confidence 68 → 69; (4) RUPIAH dan MSCI nyaris tidak berubah: USD/IDR 17.925 masih di puncak kisaran (DXY 102,08, US10Y 5,22%) → rupiah bear 0,34 → 0,36, bull 0,21 → 0,20, base 0,45 → 0,44, confidence 68 → 67; MSCI nihil kabar resmi, hanya BEI menambah 19 saham ke daftar HSC 12 Okt (bahan evaluasi) → tetap 0,26 / 0,52 / 0,22, confidence 66. Pemicu terdekat: CPI AS 19:30 WIB dan apakah sesi II berani menembus 6.000."
+    "analyzed_at": "2026-10-14T11:40:00+07:00",
+    "method": "Analisis manusia top-down: rezim global → aktor & kepentingan → arus uang/barang → sebab-akibat → dampak lanjutan → sektor/emiten → skenario bull/base/bear → invalidasi. Angka pasar dan berita dipakai sebagai BUKTI, probabilitas adalah judgement analis, bukan keluaran fungsi/rule prediksi otomatis. Data kalkulasi scan 14 Okt 11:27:27 WIB (Yahoo Finance chart + Google News RSS ID/EN + BBC World, CNBC Commodities, Al Jazeera; sumber batu bara masih fallback deterministik) + riset manual: Economic Times/CNBC TV18/NDTV/Reuters-EnergyReader/Kpler untuk minyak & Hormuz 14 Okt; Kompas/ANTARA/Bisnis/Tirto/Media Indonesia untuk pembukaan IHSG & rupiah Rabu; Kiplinger/Morningstar/MNI/Kalshi/Ratespike untuk CPI AS 19:30 WIB & odds Fed; Liputan6/Kontan/Katadata/Mirae Asset untuk MSCI; AJP/Fermata/TMGM untuk KOSPI & yield; CNBC Indonesia/Stockbit untuk arus asing Selasa. RABU 14 Okt 11:40 WIB — bursa IDX masih buka (sesi berjalan menjelang tengah hari), pasar terakhir tutup penuh: Selasa 13 Okt (IHSG 5.925,98) dan Selasa malam AS. Update dari analisis 14 Okt 11:10 WIB. PERUBAHAN KUNCI: (1) IHSG MEREDUP DUA KALI BERTURUT: live Yahoo 5.989,65 (10:48) → 5.983,51 (11:05) → 5.973,45 (11:27) — penguatan pagi menyusut dari +1,09% ke +0,80% dan tetap mentok sebelum resistance 6.000-6.020 → bull 0,22 → 0,21, base 0,44 → 0,43, bear 0,34 → 0,36, confidence 67 → 66; (2) PERBANKAN GAGAL BERTAHAN DI AMBANG: 44,9 → 45,0 (11:05) → 44,9 LAGI (11:27) — percobaan ketiga yang gagal, kaki kedua pemulihan resmi tidak terbentuk; (3) BREADTH DIAM DI 1/10/21 — tidak memburuk tapi juga tidak membaik; (4) MATERIAL & MINERAL MEMBAIK: Material 53,5 → 53,8, Mineral 46,8 → 47,2, ditopang PTBA 74,5 → 74,7 @3.340 sebagai anchor tunggal STUDY → sektor bull 0,14 (turun dari 0,15), base 0,38, bear 0,48, confidence 66 → 67; (5) MINYAK NAIK LAGI: proxy WTI 94,14 → 94,64, Brent pasar $106,58 → $107,35 (+1,35%, Economic Times 14 Okt) setelah Houthi menghantam gedung administrasi Aramco di Dhahran → risiko sistemik bull 0,14 → 0,13, base 0,38 → 0,37, bear 0,48 → 0,50, confidence 70 → 71; (6) MSCI TIDAK BERUBAH tapi TANGGAL DIPERBAHKI: MSCI resmi (press release 12 Agu 2026) — November 2026 Index Review announcement 11 Nov 2026, efektif 1 Des 2026; Mirae Asset memperkirakan komunikasi/perlakuan Indonesia (off-cycle) akhir Oktober → bull 0,26 → 0,25, base 0,52 → 0,54, bear 0,22 → 0,21, confidence 66 → 67; (7) RUPIAH SEDIKIT LEBIH BERAT: dibuka melemah 17.918 (dari 17.900) imbas minyak $107, meski DXY mereda 102,18 → 102,09 dan pejabat Fed John C. Williams melunak → bull 0,20 → 0,19, base 0,45, bear 0,35 → 0,36, confidence 68."
   },
   "prediction_mode": "MANUAL_AGENT_ANALYSIS",
   "news": [
@@ -1202,45 +1206,45 @@
       "topic": "Umum"
     },
     {
-      "title": "UNICEF Urges Action to Prepare for El Niño and Protect Children - unicef usa",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaHZUWmxpMnhNb0RwWkdSTWNCR0pvZ2xVZGNCck1pTVJkeGpfNVo5elZ0Nk56d0F3dUtrNUlLRWtKUy1kRi1WaWhwNlZKSWFHalM5M3dmbU4tc2hkS0dlTzJsazlqckFpV2U5UEh2M2ttRlR6QWhoaFZiVHZjNVNaWWF0UVVjeHJ2ajhvZXNkUHNULVhq?oc=5",
-      "published": "Thu, 08 Oct 2026 07:00:00 GMT",
+      "title": "Monterey County declares emergency ahead of potentially very strong El Niño - KSBW",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRHZNSXVLODU0QVp6elNhZmlvSWtDS3l0eC1UUENpOUdRS0lhaHFjUzE0OWdiOUR2aTlCVDhmNXM0cElLWGFaS2N4Q0x6b3BEZzZ1S0hfeWh2R016aklJQ290TWJXVU02V1pFT2VkMU9wZDJ2TzQ4WGFEd2JRWmtRMmJJcm8tNG8?oc=5",
+      "published": "Wed, 14 Oct 2026 01:16:00 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "From drought to deluge: ‘Super’ El Niño’s expanding reach - UN News",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtcVBYb1RpbVQ3dm1VUzhBUXZEY3JGYlFWX2NkQzRWTDVXZmRSdjYydHBkRXRwLUJnZ2hmUVQ5cEFZOU5WS0xKZjhBREJ3Z3BjbHVVVlhjTQ?oc=5",
-      "published": "Tue, 06 Oct 2026 18:32:58 GMT",
+      "title": "Super El Niño breaks sea temperature record weeks ahead of expected peak - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UeExjenZHVmZmTkgyWWRXRTFCUlJFNVF2WVlPX2pDUk5FY3c4UTdLT1pObWhKQklEd2VGbFN1X3hKaENhVVpEbGdNcl94RFJUT3BnWmM5eV8xQXZJVlBv?oc=5",
+      "published": "Tue, 13 Oct 2026 11:18:44 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "El Niño set to become very strong, raising risks of extreme weather into 2027 - World Meteorological Organization WMO",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVXJMY3dxaEtBaEtTMzJQZERydE15ektRX0o2SVdEUFlyS2xGYjVsYVZ5UXVtUjNuQnBqbUUzenJiWS1UYnA2blRtck83a3NGMTZsbG9abWlpTllIT2tOa1BKVHpGNWN4RTZQSEJ0N3k3Q0ppR3NteFJxd1FVSHFOeW9MZHBDUnVWTXlPbDBkTEQ5TldRZ2llZmVTNUVEQmNWeXRscg?oc=5",
-      "published": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "title": "California’s El Niño Winter Could Be ‘Profoundly Unsubtle,’ Scientists Warn - KQED",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU211clJ2R052Rjg5dkNyX0dHYlFsSnRXZHB5NnQtNGVGTXpfTTRIeXFDV3d0UUtwNXEybnlXbGhjbUo5TjBKMlpmNnowQXc3bi1SSzNJS0JDeDRFZk1qY3RrMmstQXUtbWx4NDVSbnJEd25jeU9YaHZFSkcxX2M3U0dGVHUxV0kxZ1N3ZS1taVFRdThpdjZaeHlNcDhheWN2WFpEUld5TWJjdw?oc=5",
+      "published": "Tue, 13 Oct 2026 23:08:15 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Super El Niño has arrived: some people fear natural disasters, while others are waiting to make a fortune. - 36Kr",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xUFNpajJ0anJDVDNOOWFmaHM0cDdxLW1Wek5FOUprWTJXR0J4V243UGdVTGJvZlVYWHJTWWE3V2pkZDBEa1loWmY5WGlEUHgzMmxj?oc=5",
-      "published": "Sat, 10 Oct 2026 14:20:51 GMT",
+      "title": "Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUNzY0sya0lKZGM5X2JuSDA3NjN1dzJqeW5DdS1DTWlEU3pMZEhDOHpsYlhxdnlBUzdjaXlLMXJZUl8yOEpURW1aZGM5b29GcnlRUkpxY2xTWWdRUDV0NUZzSl9JaTVnZXRjYVRzdmRQOGl2Tk9DeGJKY1lWN0VYWXdraU96SUVUSUdRXzNfR1pCcFpfbVA4WGJ5NG9ZQkRwYm1zTWtuZDJiWG1Mb2hBZFI2S1TSAboBQVVfeXFMTjhvZk1WM1R3Q196djRmWEFmaTMzdXU2NTJsX29WLXNiSm1abzZ6cTJtN1RQa3d4TGkxZzJTOXV2cXNEZHZDS0ljcS1GY2xXd3EtWnBtMVRjcldnNElEODYzUzFUVDlXUFFfbThLbXk5azk2Z0JDRENTeHVWbnVpTm13TzlmbEFxYmpqQUhjTGoydU5QbU9EXzRvaUljZnNmV2Y3SmE1ekRKVTA5ZkY1bGVlMG5jNUxBSWRR?oc=5",
+      "published": "Mon, 12 Oct 2026 23:12:50 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "What disasters will El Niño bring over the next year? - New Scientist",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZG5RdXdUb01wOFFsVkxCM3ZpcXNRc1loTlV1N3k1QWMzNGhlcHUyRU4wU3oxdksySTEyeTFNQzg4WlJsQ3ppOGpWZGNzeUluY0pXTHRNc2RsT0VWc0VJSlZncW9sYzJIUkpUUDFOeW5qLVFYME43RWRWTDdmN0lodmM4ODRFQ0JJT0liTy1FUll5M09YMGttN1VYSzVRRFJU?oc=5",
-      "published": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "title": "This year’s El Niño is historic. What it means for winter in Maryland. - Baltimore Sun",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdWx4dS1MSmN3TUpYSVg4WV9IVG94aFNIOVBtNWU2Mm9SZWwycVhCZTZON05yNlB1UjFsZlZ1S0ZQR21aczFZVDNRa0VqSVRQVWNZRDE0aWdSNTBPbWdmUGdNVFExWkoyTnlVT3BGSWRQUVQ5dEpScS1jNkxLa2RFQ2EwSTlfeklGTWdxckpkRWlkV00?oc=5",
+      "published": "Mon, 12 Oct 2026 21:16:47 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
@@ -1355,9 +1359,9 @@
       "topic": "Konflik & Perang Dunia"
     },
     {
-      "title": "Judge indefinitely blocks Trump White House ban of three media outlets",
+      "title": "Judge indefinitely extends block on Trump White House ban of three media outlets",
       "link": "https://www.cnbc.com/2026/10/14/trump-white-house-msnow-cnn-politico-media-ban.html",
-      "published": "Wed, 14 Oct 2026 04:30:18 GMT",
+      "published": "Wed, 14 Oct 2026 04:47:04 GMT",
       "source": "CNBC Commodities",
       "sentiment_score": 0,
       "sentiment": "Netral",
@@ -1400,6 +1404,33 @@
       "topic": "Geopolitik"
     },
     {
+      "title": "China and North Korea to open New Yalu River Bridge, state media reports",
+      "link": "https://www.aljazeera.com/news/2026/10/14/china-and-north-korea-to-open-new-yalu-river-bridge-state-media-reports?traffic_source=rss",
+      "published": "Wed, 14 Oct 2026 04:27:18 +0000",
+      "source": "Al Jazeera",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Konflik & Perang Dunia"
+    },
+    {
+      "title": "Singapore’s economy grows more than 5 percent amid AI boom",
+      "link": "https://www.aljazeera.com/economy/2026/10/14/singapores-economy-grows-more-than-5-percent-amid-ai-boom?traffic_source=rss",
+      "published": "Wed, 14 Oct 2026 04:25:02 +0000",
+      "source": "Al Jazeera",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
+      "title": "Saudi-born engineer for OpenAI arrested for planting listening bug",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/openai-employee-listening-device-spying-saudi-fozan?traffic_source=rss",
+      "published": "Wed, 14 Oct 2026 04:16:13 +0000",
+      "source": "Al Jazeera",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
       "title": "UN official says ‘window of opportunity’ for peace in DR Congo",
       "link": "https://www.aljazeera.com/news/2026/10/14/un-official-says-window-of-opportunity-for-peace-in-dr-congo?traffic_source=rss",
       "published": "Wed, 14 Oct 2026 03:57:24 +0000",
@@ -1425,98 +1456,71 @@
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
-    },
-    {
-      "title": "Ukrainian ex-officer goes on trial in Germany over Nord Stream blasts",
-      "link": "https://www.aljazeera.com/news/2026/10/14/ukrainian-ex-officer-goes-on-trial-in-germany-over-nord-stream-blasts?traffic_source=rss",
-      "published": "Wed, 14 Oct 2026 03:06:42 +0000",
-      "source": "Al Jazeera",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "UN Human Rights Council elects 15 members in uncontested vote",
-      "link": "https://www.aljazeera.com/news/2026/10/14/un-human-rights-council-elects-15-members-in-uncontested-vote?traffic_source=rss",
-      "published": "Wed, 14 Oct 2026 02:55:15 +0000",
-      "source": "Al Jazeera",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "Kyiv hit by Russian ballistic missiles for second day with no warning",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/kyiv-russian-ballistic-missile-strikes-no-advance-warning?traffic_source=rss",
-      "published": "Wed, 14 Oct 2026 02:45:40 +0000",
-      "source": "Al Jazeera",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
     }
   ],
   "indicators": [
     {
       "name": "IHSG",
       "group": "Global & Pasar",
-      "value": 5972.3,
-      "r20_pct": -7.22,
-      "r60_pct": -4.16,
+      "value": 5973.81,
+      "r20_pct": -7.19,
+      "r60_pct": -4.14,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-14T11:32:15+07:00",
+      "freshness": "2026-10-14T11:47:58+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
     {
       "name": "USDIDR",
       "group": "Makro Indonesia",
-      "value": 17925.0,
-      "r20_pct": 1.47,
-      "r60_pct": 0.08,
+      "value": 17880.0,
+      "r20_pct": 1.22,
+      "r60_pct": -0.17,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-14T11:32:15+07:00",
+      "freshness": "2026-10-14T11:47:58+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
     {
       "name": "DollarIndex",
       "group": "Global & Pasar",
-      "value": 102.08,
-      "r20_pct": 1.76,
-      "r60_pct": 0.89,
+      "value": 102.1,
+      "r20_pct": 1.78,
+      "r60_pct": 0.91,
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-14T11:32:15+07:00",
+      "freshness": "2026-10-14T11:47:58+07:00",
       "use": "Kekuatan dolar dan tekanan emerging market",
       "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
     },
     {
       "name": "Minyak",
       "group": "Global & Geopolitik",
-      "value": 94.67,
-      "r20_pct": -7.58,
-      "r60_pct": 11.49,
+      "value": 94.62,
+      "r20_pct": -7.62,
+      "r60_pct": 11.44,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-14T11:32:15+07:00",
+      "freshness": "2026-10-14T11:47:58+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
     {
       "name": "Emas",
       "group": "Global & Pasar",
-      "value": 4180.6,
-      "r20_pct": -4.72,
-      "r60_pct": 2.56,
+      "value": 4186.5,
+      "r20_pct": -4.58,
+      "r60_pct": 2.7,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-14T11:32:15+07:00",
+      "freshness": "2026-10-14T11:47:58+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
@@ -1529,7 +1533,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-14T11:32:15+07:00",
+      "freshness": "2026-10-14T11:47:58+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
     },
@@ -1555,7 +1559,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-14T11:32:15+07:00",
+      "freshness": "2026-10-14T11:47:58+07:00",
       "use": "Siklus logam industri dan manufaktur",
       "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
     },
@@ -1568,7 +1572,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-10-14T11:32:15+07:00",
+      "freshness": "2026-10-14T11:47:58+07:00",
       "use": "Aktivitas baja, konstruksi, dan permintaan China",
       "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },
