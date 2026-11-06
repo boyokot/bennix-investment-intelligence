@@ -1,140 +1,30 @@
 {
   "analyst": "Hermes Agent — analisis manual metode Bennix",
-  "analyzed_at": "2026-10-23T19:10:00+07:00",
-  "method": "Analisis manusia top-down: rezim global -> aktor & kepentingan -> arus uang/barang -> sebab-akibat -> dampak lanjutan -> sektor/emiten -> skenario bull/base/bear -> invalidasi. Angka pasar adalah BUKTI; probabilitas adalah judgement analis, bukan keluaran fungsi/rumus otomatis. Data scan 23 Okt (Jumat) 18:38 WIB (Yahoo chart + Google News RSS ID/EN + BBC/CNBC/Al Jazeera): IHSG 5.439,26 (rebound hari kelima dari 4.996,61 pada 19 Okt, +8,9%), USD/IDR 18.050, WTI 101,00 (r20 +9,3%), US10Y 4,95% (turun 17bp), DXY 101,81, emas 4.039,8 (turun 1,1%), breadth STUDY 1 / WATCH 12 / AVOID 19 (datar dua hari). Riset manual 23 Okt via feed scan: (1) CNBC 23 Okt — minyak AS bertahan di atas US$100, Brent di puncak lima bulan, Iran menyatakan siap berperang; (2) CNBC 23 Okt — Russia-Ukraine saling serang walau perundingan damai dimediasi AS terus didorong; (3) BBC 23 Okt — Ukraina sebut Starlink masih dibatasi padahal Trump klaim batasan dicabut; (4) CNBC 23 Okt — Prancis memantau sinyal krisis euro; Al Jazeera — keamanan diperketat untuk demo akhir pekan; (5) Al Jazeera 23 Okt — Korea Selatan undang Korea Utara bicara militer perbatasan; (6) CNBC 23 Okt — Volvo anjlok 27% karena penjualan China turun lebih cepat dari perkiraan; (7) UN News 21 Okt — PBB minta perlindungan kelompok rentan dari El Nino; Open Magazine 21 Okt — risiko krisis pangan global; (8) investor.id 22 Okt — minyak tembus tertinggi 5 bulan; CNBC 22 Okt — Ackman: 2027 tahun luar biasa bagi saham; (9) JK di Harvard: perang, bencana, korupsi tekan ekonomi RI (RCTI+/kumparan 23 Okt); (10) indikator batu bara deterministic-fallback dan CPO SOURCE ERROR — tidak dipakai sebagai bukti (disiplin Bennix).",
+  "analyzed_at": "2026-11-06T18:56:00+07:00",
+  "method": "Analisis manusia top-down: rezim global -> aktor & kepentingan -> arus uang/barang -> sebab-akibat -> dampak lanjutan -> sektor/emiten -> skenario bull/base/bear -> invalidasi. Angka pasar adalah BUKTI; probabilitas adalah judgement analis, bukan keluaran fungsi/rumus otomatis. Data scan 6 Nov (Jumat) 18:56 WIB: IHSG 5.050,43 (rebound +3,0% dari 4.904,29 pada 3 Nov; r20 -17,1%, r60 -20,8%, drawdown -24,9%), USD/IDR 18.103 (r20 +1,7%), minyak proxy 90,92 (r20 -1,0%, r60 +11,9%), emas US$4.080,3 (r20 -3,2%), US10Y 4,84 (r20 -7,5%), DXY 101,96 (datar), breadth STUDY 1 / WATCH 13 / AVOID 18 (membaik dari 0/11/21; INTP satu-satunya STUDY). Riset manual dari feed 6 Nov: (1) CNBC — Demokrat menang telak pemilu sela, pasar tinjau ulang jalur suku bunga; (2) CNBC — minyak jatuh tajam sepekan pasca-pemilu, risiko Iran ditimbang; (3) CNBC — sell-off Nasdaq pukul chip Asia (SK Hynix, Samsung, TSMC); (4) BBC — konstruksi besar dekat basis rudal Iran (citra satelit); (5) Al Jazeera/FT — Rusia setujui 90 peluncur rudal ke Iran; (6) Jerusalem Post — AS sanksi tiga pihak pertahanan udara Iran; (7) BBC — White House bantah Hegseth/Rubio mundur; (8) CNBC — ING cari pembeli utang data center USD500 juta; (9) Weather Channel/BBC — Super El Nino mendekati rekor, badai beruntun Asia Timur; (10) CNBC/Al Jazeera — ancaman bom palsu ganggu penerbangan Eropa; (11) kontan 4 Nov — IHSG dibayangi rupiah dan gejolak politik hingga November; (12) indikator batu bara SOURCE ERROR — tidak dipakai sebagai bukti.",
   "prediction_mode": "MANUAL_AGENT_ANALYSIS",
   "predictions": [
     {
       "topic": "IHSG dan arah risk-appetite 1-3 bulan",
       "probabilities": {
-        "bull": 0.19,
-        "base": 0.5,
-        "bear": 0.31
-      },
-      "confidence": 79,
-      "thesis": "REBOUND HARI KELIMA, PASAR MENYERAP KABAR MINYAK TERTINGGI 5 BULAN: bull 0,19 tetap, base 0,49->0,50, bear 0,32->0,31, confidence 78->79. Jumat 23 Okt IHSG tutup 5.439,26 (+0,95%), kenaikan kelima beruntun dari 4.996,61 (19 Okt) atau +8,9% dalam lima sesi, dengan volume_ratio 1,31. Yang menarik hari ini: berita seharusnya buruk — CNBC memberitakan minyak AS bertahan di atas US$100 dan Brent di puncak lima bulan karena Iran menyatakan siap berperang — tapi IHSG justru naik; pasar menyerap kabar buruk, tanda kekuatan. Penambah lega: US10Y turun ke 4,95% (dari 5,12%) dan emas koreksi ke US$4.040, bukan gambaran risk-off penuh. Yang menahan: breadth datar (STUDY 1 / WATCH 12 / AVOID 19 dua hari), Perbankan turun tipis 49,5->48,8, dan pemicu bear minyak 'Brent tutup >US$110 dua sesi' kemungkinan terpicu Jumat ini. Judgement 1-3 bulan: konsolidasi naik 5.300-5.550; bila Senin tanpa eskalasi fisik, uji 5.500; waspadai gap-down akhir pekan dari risiko Iran.",
-      "evidence": [
-        "Scan Bennix 23 Okt 18:38 WIB: IHSG 5.439,26 (+0,95%), rebound hari kelima dari 4.996,61 (19 Okt), r20 -12,9%, drawdown -24,2%, volume_ratio 1,31",
-        "Breadth datar: STUDY 1 / WATCH 12 / AVOID 19 — bertahan dua hari; PTBA STUDY 75,7 (naik dari 73,5), INTP 69,4, AUTO 65,7, MEDC 60,0",
-        "Sektor 23 Okt: Energi 57,4, Otomotif 55,4, Material 53,2 naik; Perbankan 48,8 turun tipis dari 49,5 — pemulihan masih timpang",
-        "CNBC 23 Okt: 'U.S. oil holds above $100, Brent at five-month high as Iran says it's prepared for warfare' — kabar buruk, tapi IHSG tetap naik",
-        "Scan 23 Okt: US10Y 4,95% (turun 17bp dari 5,12%), emas US$4.040 (turun 1,1%) — tekanan yield global melunai, bukan risk-off penuh",
-        "WTI 101,00 (r20 +9,3%, r60 +20,8%) — pemicu bear 'Brent tutup >US$110 dua sesi' kemungkinan terpicu; tutup resmi Brent tidak tersedia di feed, diverifikasi Senin",
-        "CNBC 23 Okt: Volvo anjlok 27% karena penjualan China 'lebih cepat turun dari perkiraan' — peringatan permintaan China untuk siklus global",
-        "Pemutus pekan depan: FOMC 27-28 Okt, demutualisasi IDX 28 Okt, arus asing, dan konfirmasi tutup Brent Senin"
-      ],
-      "causal_chain": "Crash MSCI 16-19 Okt -> buyback Rp18,6 T + BI hold + GWM 7% November -> rebound 5 sesi ke 5.439,26, breadth bertahan 1/12/19 -> pasar menyerap minyak tertinggi 5 bulan tanpa jual -> bila Senin tanpa eskalasi Iran dan asing lanjut net buy -> uji 5.500-5.550 menjelang FOMC 27-28 Okt -> bila Brent tutup >US$110 dua sesi terkonfirmasi ATAU insiden fisik Hormuz -> risk-off, pullback 5.200 lalu 5.000 -> pemutus: konfirmasi tutup Brent Senin, FOMC 27-28 Okt, demutualisasi IDX 28 Okt, arus asing",
-      "invalidation": "Bull terkonfirmasi bila IHSG tutup >5.500 dua sesi dengan asing net buy >Rp1 triliun ATAU MSCI menyatakan reformasi memadai. Base (konsolidasi naik 5.300-5.550) batal bila tutup <5.200 satu hari ATAU Brent tutup >US$110 dua sesi terkonfirmasi. Bear terkonfirmasi penuh (target 4.800-4.500) bila tutup <5.000 dua sesi ATAU asing net sell >Rp3 triliun dua sesi ATAU insiden fisik Hormuz ATAU MSCI rilis hasil interim negatif.",
-      "manual_analysis": true
-    },
-    {
-      "topic": "Rupiah dan tekanan biaya impor 1-3 bulan",
-      "probabilities": {
-        "bull": 0.15,
-        "base": 0.44,
-        "bear": 0.41
-      },
-      "confidence": 75,
-      "thesis": "STABIL DI 18.050 MESKI MINYAK TERTINGGI 5 BULAN, CARRY MASIH BEKERJA: bull 0,14->0,15, base 0,44 tetap, bear 0,42->0,41, confidence 74->75. Feed scan 23 Okt mencetak USD/IDR 18.050 versus 18.045 kemarin — praktis datar, rupiah tidak bergeming padahal WTI tembus US$101 dan Brent di puncak lima bulan. Tamengnya jelas: deposit facility 5% dan GWM 7% berlaku November, instrumen SRBI/NDF siap, cadangan devisa US$146,3 miliar. Penambah lega hari ini: US10Y turun ke 4,95% (dari 5,12%) — tekanan carry global melemah — dan DXY cuma 101,81. Yang menekan tetap: impor minyak makin mahal menambah demand dolar, serta FOMC 27-28 Okt yang diperkirakan skip tapi hawkish. Judgement: Rp17.950-18.100 bertahan selama carry berfungsi; tembus >18.100 dua hari dengan DXY >102 atau minyak bertahan >US$110 = bear; bila AS-Iran benar meledak, 18.200 jadi ujian berikutnya.",
-      "evidence": [
-        "Scan Bennix 23 Okt: USD/IDR 18.050 (r20 +2,8%) versus 18.045 kemarin — datar meski minyak naik, tekanan terkelola",
-        "Scan 23 Okt: US10Y 4,95% (turun 17bp), DXY 101,81 (dari 101,75) — tekanan dolar dan yield global melunai hari ini",
-        "CNBC 23 Okt: minyak AS bertahan >US$100, Brent puncak 5 bulan, Iran siap berperang — impor minyak RI makin mahal, demand dolar naik",
-        "BI (RDG 21 Okt): deposit facility 5,0% dan GWM 7% mulai November — carry rupiah lebih menarik, tameng utama pelemahan",
-        "Bantalan BI: cadangan devisa US$146,3 miliar (Sep) plus instrumen SRBI/NDF untuk intervensi pelemahan cepat",
-        "FOMC 27-28 Okt diperkirakan skip tapi hawkish (kenaikan dititipkan ke Desember) — ujian utama pekan depan"
-      ],
-      "causal_chain": "BI hold + deposit 5% 21 Okt -> rupiah 18.000-18.050 stabil -> 23 Okt feed 18.050 walau WTI 101 dan Brent puncak 5 bulan -> carry 5% menarik asing ke SBN/SRBI -> pelemahan terkendala 17.950-18.100 -> bila FOMC hawkish 27-28 Okt dan DXY >102 -> tekanan 18.100-18.200, kaskade jual saham-SBN-kurs -> bila AS-Iran meledak -> risk-off penuh, uji 18.200+ -> bila deal AS-Iran dan minyak <$100 -> kembali <17.900 -> pemutus: FOMC 27-28 Okt, arus asing, harga Brent, realisasi impor",
-      "invalidation": "Bull terkonfirmasi bila USD/IDR <17.850 dua sesi dengan asing berhenti net sell saham DAN Brent <$100. Base (17.950-18.100, tekanan terkelola) batal bila tutup >18.100 dua hari ATAU <17.800 tiga hari. Bear terkonfirmasi penuh bila >18.100 DENGAN DXY >102 ATAU asing net sell saham+SBN >Rp3 triliun sepekan ATAU rupiah jebol >18.200 setelah FOMC hawkish ATAU insiden fisik Hormuz menutup jalur transit.",
-      "manual_analysis": true
-    },
-    {
-      "topic": "Seleksi sektor 3-6 bulan: breadth stabil (WATCH 12 / AVOID 19), Energi-Material-Otomotif memimpin",
-      "probabilities": {
-        "bull": 0.19,
-        "base": 0.43,
-        "bear": 0.38
-      },
-      "confidence": 78,
-      "thesis": "BREADTH DATAR TAPI TIDAK RUSAK, ENERGI-MATERIAL-OTOMOTIF NAIK: bull 0,19 tetap, base 0,42->0,43, bear 0,39->0,38, confidence 77->78. Breadth bertahan di STUDY 1 / WATCH 12 / AVOID 19 dua hari berturut-turut — setelah lonjakan pekan ini, pasar mencerna. Yang naik: Energi 57,4 (PTBA STUDY 75,7, MEDC 60,0, ITMG 58,3), Otomotif 55,4 (AUTO 65,7), Material 53,2 (INTP 69,4). Yang turun: Perbankan 48,8 dari 49,5 — bank besar bertahan (BBNI 53,7, BBRI 53,6, BMRI 51,1) tapi BBCA masih AVOID 36,8 dengan tren nyaris nol. Peringatan dari luar: Volvo anjlok 27% karena penjualan China turun 'lebih cepat dari perkiraan', aluminium r20 -10,1% dan bijih besi r20 -6,7% — sinyal permintaan China melemah, buruk untuk mineral (Mineral 38,8; MDKA/INCO/ANTM AVOID). Kesimpulan 3-6 bulan: tetap prioritaskan bank (dampak GWM November) dan energi (minyak mahal); hindari mineral, telemat, syariah, konsumer sampai data berubah.",
-      "evidence": [
-        "Scan 23 Okt: STUDY 1 / WATCH 12 / AVOID 19 — bertahan dua hari; PTBA 75,7 STUDY, INTP 69,4, AUTO 65,7, MEDC 60,0 naik semua",
-        "Sektor naik: Energi 57,4 (dari 56,9), Otomotif 55,4, Material 53,2; turun: Perbankan 48,8 (dari 49,5), Konsumer 40,8 — pemulihan timpang",
-        "Bank bertahan tapi belum menang: BBNI 53,7, BBRI 53,6, BMRI 51,1 WATCH; BBCA masih AVOID 36,8 dengan bagian tren nyaris nol",
-        "CNBC 23 Okt: Volvo Cars anjlok 27%, CEO bilang penjualan China turun 'lebih cepat dari yang kami kira' — peringatan siklus global",
-        "Scan 23 Okt: aluminium US$3.087 (r20 -10,1%), bijih besi US$90,73 (r20 -6,7%) — komoditas industri melemah, konfirmasi tarikan China",
-        "Pendorong domestik tetap: GWM 7% November, buyback Rp18,6 triliun dieksekusi, demutualisasi IDX 28 Okt",
-        "Sektor terendah tak bergerak: Bank Syariah 29,1, Telekomunikasi 34,5, Teknologi 35,1, Mineral 38,8, Konsumer 40,8"
-      ],
-      "causal_chain": "Rebound 20-23 Okt, breadth 1/12/19 stabil -> Energi/Material/Otomotif memimpin kenaikan, Perbankan mundur tipis -> GWM 7% + buyback jadi penopang bank mulai November -> bila breadth bertahan 2 scan lagi -> lapis bawah terbentuk, titik masuk bank/energi terbuka -> bila pemicu Brent aktif ATAU MSCI interim negatif -> risk-off, AVOID kembali >30 -> waspadai tarikan China: Volvo -27% + logam turun -> Mineral dan emiten ekspor paling terpapar -> pemutus: konfirmasi tutup Brent, FOMC 27-28 Okt, laporan kuartal, November Index Review 11 Nov",
-      "invalidation": "Bear dominan (0,38) bila STUDY kembali 0 ATAU AVOID >30 ATAU Perbankan turun lagi <45 ATAU MSCI rilis hasil interim negatif. Base (lapis bawah terbentuk dalam tekanan struktural) batal bila breadth melompat cepat: WATCH >=15 dan STUDY >=2 dua scan berturut, ATAU justru memburuk drastis (AVOID >30). Bull terkonfirmasi bila STUDY >=3 dan WATCH >=15 dua scan berturut, Perbankan >50, asing net buy bank dua sesi, DAN MSCI memberi sinyal positif.",
-      "manual_analysis": true
-    },
-    {
-      "topic": "Konflik global, minyak, tarif & risiko sistemik 3-6 bulan",
-      "probabilities": {
         "bull": 0.12,
         "base": 0.4,
         "bear": 0.48
       },
-      "confidence": 77,
-      "thesis": "IRAN NYATAKAN SIAP BERPERANG, MINYAK DI PUNCAK 5 BULAN — TAPI JALUR DAMAI MASIH HIDUP: bull 0,13->0,12, base 0,41->0,40, bear 0,46->0,48, confidence 75->77. CNBC 23 Okt: minyak AS bertahan di atas US$100 dan Brent di puncak lima bulan karena Iran menyatakan siap berperang — retorika eskalasi makin keras setelah kemarin AS-Israel dilaporkan siap serang dan diplomat AS ditarik dari Saudi. Pemicu bear 'Brent tutup >US$110 dua sesi' kemungkinan terpicu hari ini (WTI 101,00; selisih historis ±10-12), tapi tutup resmi Brent tidak ada di feed, jadi saya tandai menunggu konfirmasi Senin. Lawan arah tetap ada: Russia-Ukraine saling serang tapi perundingan damai dimediasi AS terus jalan, Korea Selatan mengundang Korea Utara bicara militer, dan Trump terus menekan narasi deal. Risiko baru: Prancis — CNBC sebut sinyal krisis euro, Al Jazeera lapor keamanan diperketat untuk demo akhir pekan. Judgement: Brent US$100-115 dengan puncak makin tinggi; bull hanya bila deal tertulis; bear penuh bila konfirmasi tutup >US$110 dua sesi atau insiden fisik Hormuz.",
+      "confidence": 72,
+      "thesis": "REBOUND KE 5.050, TAPI PERANG BELUM SELESAI: bear 0,64->0,48, base 0,28->0,40, bull 0,08->0,12, confidence 82->72. IHSG 6 Nov 5.050,43, rebound +3,0% dari 4.904,29 (3 Nov) dan tidak menyentuh target bear 4.800 — jadi lapis bawah 4.800 belum teruji. Pemicu perubahan: Demokrat menang telak pemilu sela AS sehingga pasar menurunkan ekspektasi suku bunga (CNBC 6 Nov), minyak jatuh mingguan ke 90,92, US10Y 4,84, dan breadth membaik jadi STUDY 1 / WATCH 13 / AVOID 18 (INTP satu-satunya layak studi). Tapi ini rebound di tengah perang yang makin dalam: Rusia setujui 90 peluncur rudal untuk Iran (FT 5 Nov), konstruksi basis rudal Iran terlihat dari satelit (BBC 6 Nov), Nasdaq jeblok memukul chip Asia (CNBC). Judgement: rally ini jenis bear-market rally; kisaran main 4.900-5.250, penentu utama MSCI Index Review 11 Nov.",
       "evidence": [
-        "CNBC 23 Okt: 'U.S. oil holds above $100, Brent at five-month high as Iran says it's prepared for warfare' — retorika perang makin keras",
-        "Scan 23 Okt: WTI 101,00 (r20 +9,3%, r60 +20,8%) — pemicu 'Brent tutup >US$110 dua sesi' kemungkinan terpicu, konfirmasi tutup menyusul Senin",
-        "CNBC 23 Okt: Russia-Ukraine saling serang walau perundingan damai dimediasi AS terus didorong — damai berproses, perang belum berhenti",
-        "BBC 23 Okt: Ukraina sebut Starlink masih dibatasi padahal Trump klaim batasan dicabut — gesekan implementasi kesepakatan",
-        "Al Jazeera 23 Okt: Korea Selatan undang Korea Utara bicara militer perbatasan — de-escalation Asia, sentuh positif penyeimbang",
-        "CNBC 23 Okt: Prancis memantau sinyal krisis euro dengan garis patah berbeda; Al Jazeera: keamanan diperketat untuk demo akhir pekan",
-        "investor.id 22 Okt: minyak tembus level tertinggi 5 bulan, konflik Timur Tengah memanas — narasi konsisten dengan CNBC",
-        "CNBC 22 Okt: Bill Ackman — 2027 tahun luar biasa bagi saham saat perang dan inflasi mereda — suara kontrarian penyeimbang"
+        "Scan Bennix 6 Nov 18:56 WIB: IHSG 5.050,43 (r20 -17,1%, r60 -20,8%, drawdown -24,9%) — rebound +3,0% dari 4.904,29 pada 3 Nov, target bear 4.800 belum teruji",
+        "Breadth membaik jadi STUDY 1 / WATCH 13 / AVOID 18 (dari 0/11/21) — INTP.JK skor 70,3 satu-satunya layak studi",
+        "CNBC 6 Nov: Demokrat menang telak pemilu sela AS, pasar tinjau ulang jalur suku bunga — ekspektasi bunga turun, dukungan risk appetite",
+        "CNBC 6 Nov: minyak jatuh tajam sepekan pasca-pemilu, investor tetap menimbang risiko Iran — proxy minyak 90,92 (r20 -1,0%)",
+        "BBC 6 Nov: konstruksi besar dekat basis rudal Iran (citra satelit) dan Al Jazeera/FT 5-6 Nov: Rusia kirim 90 peluncur rudal — perang berlanjut, belum gencatan",
+        "CNBC 6 Nov: sell-off Nasdaq memukul chip Asia (SK Hynix, Samsung, TSMC) — tekanan teknologi merembet ke Asia",
+        "US10Y 4,84 (r20 -7,5%), emas US$4.080 (r20 -3,2%), DXY 101,96 datar — biaya modal melonggar tapi emas turun, bukan panic",
+        "MSCI November Index Review 11 Nov — pemicu biner: penurunan status keluar EM bisa picu jual asing besar"
       ],
-      "causal_chain": "22 Okt: AS-Israel dilaporkan siap serang Iran, diplomat AS ditarik dari Saudi -> 23 Okt: Iran nyatakan siap berperang, Brent puncak 5 bulan, WTI 101 -> pemicu bear kemungkinan terpicu -> bila konfirmasi Brent tutup >US$110 dua sesi -> impor Indonesia naik, rupiah dan IHSG tertekan, produsen energi domestik diuntungkan -> bila insiden fisik Hormuz ATAU outage Saudi -> Brent uji US$120, risk-off penuh -> sebaliknya bila perundingan Ukraina berhasil dan retorika deal Iran ditepati -> Brent kembali <US$100 -> pemutus: konfirmasi tutup Brent Senin, jadwal pemilu sela AS, perundingan Ukraina, insiden Hormuz, demo Prancis",
-      "invalidation": "Bull terkonfirmasi bila kesepakatan AS-Iran tertulis DAN gencatan Ukraina bertahan dua pekan DAN Brent <$98 AND Hormuz tenang. Base (mahal tapi barang mengalir, Brent US$100-115) batal bila Brent tutup di luar $95-115 selama seminggu. Bear terkonfirmasi penuh bila konfirmasi Brent tutup >US$110 dua sesi ATAU insiden fisik Hormuz menutup jalur transit ATAU outage fasilitas Saudi >1 juta barel/hari.",
-      "manual_analysis": true
-    },
-    {
-      "topic": "Verdict MSCI: konsultasi Standalone Market dan nasib status EM Indonesia (horizon keputusan Juni 2027)",
-      "probabilities": {
-        "bull": 0.1,
-        "base": 0.43,
-        "bear": 0.47
-      },
-      "confidence": 77,
-      "thesis": "TETAP DI BANGKU TERDAKWA, TAPI REBOUND LIMA HARI MEMPERKUAT MODAL BICARA: bull 0,10 tetap, base 0,42->0,43, bear 0,48->0,47, confidence 76->77. Tidak ada pernyataan baru MSCI hari ini; bahasa 15 Okt 'expects to proceed unless clear evidence of material improvements' belum pernah ditarik, jadi bear tetap tertinggi. Yang berubah ada di sisi pasar: IHSG rebound lima hari ke 5.439,26, breadth stabil di 1/12/19, bank besar bertahan WATCH — Jakarta kini bisa menunjukkan bukti pembenahan tanpa kondisi pasar panik. Agenda tetap jalan: demutualisasi IDX 28 Okt, buyback Rp18,6 triliun dieksekusi, pemangkasan 80 saham dari IHSG, BRIS free float 15%. Narasi domestik hari ini agak negatif — JK di Harvard menyebut perang, bencana, dan korupsi menekan ekonomi RI (RCTI+/kumparan 23 Okt) — tapi itu retorika, bukan kebijakan. Judgement: tekanan berat tapi terkelola sampai November Index Review 11 Nov; bear turun tipis karena pasar memberi bukti harga dan aksi korporasi mengalir.",
-      "evidence": [
-        "Siaran pers MSCI 15 Okt: konsultasi EM -> STANDALONE, 'expects to proceed unless clear evidence of material improvements'; putusan s/d 30 Jun 2027",
-        "Tidak ada pernyataan baru MSCI per 23 Okt — bahasa 15 Okt belum ditarik (disiplin Bennix: yang tidak berubah ditulis apa adanya)",
-        "IHSG 5.439,26 (scan 23 Okt), rebound lima hari dari 4.996 — pasar memberi modal negosiasi, bukan kepanikan",
-        "Breadth stabil STUDY 1 / WATCH 12 / AVOID 19 dua hari, bank besar tetap WATCH (BBNI 53,7, BBRI 53,6, BMRI 51,1)",
-        "Bukti aksi: buyback Rp18,6 T dari 10 emiten (Kompas 21 Okt), demutualisasi IDX 28 Okt, pemangkasan 80 saham, BRIS free float 15%",
-        "Narasi domestik: JK di Harvard — perang, bencana, korupsi tekan ekonomi RI (RCTI+/kumparan 23 Okt) — retorika negatif, bukan kebijakan",
-        "Preseden tetap mengancam: DSSA didepak MSCI/FTSE Mei 2026 dan anjlok ±89% YTD — MSCI pernah bertindak cepat tanpa jeda"
-      ],
-      "causal_chain": "MSCI 15 Okt 'expects to proceed' -> crash 16-19 Okt -> BEI-OJK temui MSCI 19 Okt (hasil dirahasiakan) -> 20-23 Okt rebound lima hari, breadth stabil -> Indonesia kumpulkan bukti: buyback dieksekusi, demutualisasi 28 Okt, pemangkasan 80 saham -> bila konsisten s/d November Index Review 11 Nov -> ruang negosiasi terbuka, EM bisa dipertahankan (bull) -> bila nada politik memanas ATAU pemicu minyak meledak -> Standalone Juni 2027, outflow pasif US$3-5 miliar mekanis (bear) -> pemutus: kualitas enforcement, dialog BEI-MSCI, November Index Review 11 Nov",
-      "invalidation": "Bull terkonfirmasi bila MSCI menyatakan reformasi Indonesia memadai (mempertahankan EM atau menunda Standalone) — syarat: enforcement konsisten >1 kuartal, free float 15% diakui, kasus HSC clear. Base (reklasifikasi berproses, tekanan berat tapi terkelola) batal bila MSCI umumkan hasil interim negatif lebih cepat ATAU membatalkan konsultasi. Bear terkonfirmasi penuh bila keputusan final Standalone diumumkan sebelum Juni 2027 ATAU MSCI rilis rencana pemotongan FI konkret ATAU penghapusan emiten massal di November Index Review 11 Nov.",
-      "manual_analysis": true
-    },
-    {
-      "topic": "Super El Niño, pangan & komoditas 3-6 bulan",
-      "probabilities": {
-        "bull": 0.15,
-        "base": 0.53,
-        "bear": 0.32
-      },
-      "confidence": 69,
-      "thesis": "EL NINO MAKIN KUAT SAMPAI 2027, TAPI STOK BERAS MASIH MENAHAN PANIC: bull 0,15 tetap, base 0,53 tetap, bear 0,32 tetap, confidence 68->69. Update dari feed global: UN News 21 Okt — lembaga PBB minta bantuan lindungi kelompok lemah dari El Nino yang belum pernah sekuat ini; Open Magazine 21 Okt — perubahan iklim bisa picu krisis pangan global berikutnya; WMO — El Nino sangat kuat dan risiko cuaca ekstrem berlanjut ke 2027, artinya ancamannya lebih panjang dari perkiraan semula. Di dalam negeri penahan tetap sama: stok beras Bulog 4,55 juta ton pertengahan Okt, narasi aman sampai 2027, bansos tahap III siap. Tekanan biaya bertambah dari minyak: WTI 101,00 mengangkut biaya pupuk dan transportasi. Pasar tetap tidak panik soal pangan — sektor Konsumer malah turun tipis ke 40,8 — yang dibaca bukan kelangkaan melainkan tekanan margin dan daya beli. Judgement: pangan tetap isu pendukung, bukan penggerak; bear hidup bila IHK Nov-Des >3,3% atau stok jebol <3 juta ton sebelum Desember.",
-      "evidence": [
-        "UN News 21 Okt: lembaga PBB minta perlindungan kelompok rentan dari El Nino 'belum pernah sekuat ini' — risiko sosial naik",
-        "Open Magazine 21 Okt: perubahan iklim bisa membuat krisis pangan berikutnya berskala global — narasi jangka panjang menekan",
-        "WMO: El Nino sangat kuat, risiko cuaca ekstrem berlanjut ke 2027 — durasi ancaman lebih panjang dari perkiraan",
-        "Radarbangsa 21 Okt: stok beras Bulog 4,55 juta ton pertengahan Okt, aman sampai 2027; bansos tahap III siap — penahan utama",
-        "Scan 23 Okt: WTI 101,00 (r20 +9,3%) — biaya pupuk dan transportasi naik, tekanan inflasi pangan jangka menengah",
-        "Scan 23 Okt: sektor Konsumer 40,8 (turun tipis dari 41,2); INDF 54,6, ICBP 39,9, MYOR 32,5, UNVR 36,1 — pasar baca tekanan margin dan daya beli",
-        "Indikator batu bara deterministic-fallback dan harga CPO SOURCE ERROR — tidak dipakai sebagai bukti (disiplin Bennix)"
-      ],
-      "causal_chain": "El Nino sangat kuat sampai 2027 (WMO, UN News 21 Okt) -> was-was panen Q4-2026 dan kuartal I-2027 -> stok Bulog 4,55 juta ton menahan panik -> WTI 101 mengangkut biaya pupuk/transportasi -> tekanan terakumulasi di IHK Nov-Des -> bila IHK >3,3% atau stok jebol <3 juta ton sebelum Desember -> bear hidup, impor mendadak -> bila beras terjaga di HET dan kurs <18.100 -> base tenang -> pemutus: IHK November-Desember, update BMKG Desember, realisasi impor Bulog, konfirmasi tutup Brent",
-      "invalidation": "Base (paceklik terkelola, volatile food naik terbatas 0,3-0,5 poin) batal bila stok turun <3 juta ton sebelum Desember ATAU inflasi IHK >3,3% yoy. Bull terkonfirmasi bila beras eceran bertahan di/bawah HET sepanjang November, inflasi volatile food turun lagi, dan rupiah kembali <17.900. Bear terkonfirmasi penuh bila defisit paceklik >3,5 juta ton ATAU BMKG memperpanjang status El Nino melewati kuartal I-2027 ATAU karhutla parah memaksa impor beras mendadak ATAU Brent bertahan >US$110 tiga pekan.",
+      "causal_chain": "Demokrat menang pemilu sela -> ekspektasi suku bunga AS turun + minyak turun -> IHSG rebound ke 5.050, breadth 1/13/18 -> TAPI Iran-Rusia makin erat dan Nasdaq jeblok -> rally tertahan di 5.150-5.250 -> MSCI Index Review 11 Nov penentu: bila Indonesia tetap EM -> uji 5.300; bila diturunkan -> arus keluar -> uji 4.800-4.600 -> pemutus: hasil MSCI 11 Nov, arus asing pekan depan, tutup minyak dan Nasdaq",
+      "invalidation": "Bear dominan (0,48) BATAL bila IHSG tutup >5.300 dua sesi dengan asing net buy >Rp1 triliun ATAU MSCI pertahankan Indonesia pada Index Review 11 Nov dan IHSG tutup >5.150. Base (4.900-5.300) batal bila tutup <4.900 satu hari. Bull (0,12) terkonfirmasi hanya bila tutup >5.500 dua sesi dengan STUDY >=3 dan WATCH >=15 — syarat berat saat STUDY baru 1.",
       "manual_analysis": true
     }
   ]
