@@ -1,30 +1,31 @@
 {
   "analyst": "Hermes Agent — analisis manual metode Bennix",
-  "analyzed_at": "2026-11-06T18:56:00+07:00",
-  "method": "Analisis manusia top-down: rezim global -> aktor & kepentingan -> arus uang/barang -> sebab-akibat -> dampak lanjutan -> sektor/emiten -> skenario bull/base/bear -> invalidasi. Angka pasar adalah BUKTI; probabilitas adalah judgement analis, bukan keluaran fungsi/rumus otomatis. Data scan 6 Nov (Jumat) 18:56 WIB: IHSG 5.050,43 (rebound +3,0% dari 4.904,29 pada 3 Nov; r20 -17,1%, r60 -20,8%, drawdown -24,9%), USD/IDR 18.103 (r20 +1,7%), minyak proxy 90,92 (r20 -1,0%, r60 +11,9%), emas US$4.080,3 (r20 -3,2%), US10Y 4,84 (r20 -7,5%), DXY 101,96 (datar), breadth STUDY 1 / WATCH 13 / AVOID 18 (membaik dari 0/11/21; INTP satu-satunya STUDY). Riset manual dari feed 6 Nov: (1) CNBC — Demokrat menang telak pemilu sela, pasar tinjau ulang jalur suku bunga; (2) CNBC — minyak jatuh tajam sepekan pasca-pemilu, risiko Iran ditimbang; (3) CNBC — sell-off Nasdaq pukul chip Asia (SK Hynix, Samsung, TSMC); (4) BBC — konstruksi besar dekat basis rudal Iran (citra satelit); (5) Al Jazeera/FT — Rusia setujui 90 peluncur rudal ke Iran; (6) Jerusalem Post — AS sanksi tiga pihak pertahanan udara Iran; (7) BBC — White House bantah Hegseth/Rubio mundur; (8) CNBC — ING cari pembeli utang data center USD500 juta; (9) Weather Channel/BBC — Super El Nino mendekati rekor, badai beruntun Asia Timur; (10) CNBC/Al Jazeera — ancaman bom palsu ganggu penerbangan Eropa; (11) kontan 4 Nov — IHSG dibayangi rupiah dan gejolak politik hingga November; (12) indikator batu bara SOURCE ERROR — tidak dipakai sebagai bukti.",
+  "analyzed_at": "2026-11-10T18:45:00+07:00",
+  "method": "Analisis manusia top-down: rezim global -> aktor & kepentingan -> arus uang/barang -> sebab-akibat -> dampak lanjutan -> sektor/emiten -> skenario bull/base/bear -> invalidasi. Angka pasar adalah BUKTI; probabilitas adalah judgement analis, bukan keluaran fungsi/rumus otomatis. Data scan 10 Nov (Selasa) 18:30 WIB: IHSG 5.125,73 (r20 -13,5%, r60 -19,9%, drawdown -23,3%; naik +1,5% dari 5.050,43 pada 6 Nov), USD/IDR 18.045 (r20 +0,7%, menguat tipis dari 18.103), minyak proxy 85,88 (r20 -8,8%; turun ~5,5% dalam 4 hari), emas US$4.083,9 (r20 -2,2%), US10Y 4,86 (r20 -7,2%), DXY 101,71 (datar), breadth STUDY 0 / WATCH 14 / AVOID 18 (INTP turun dari STUDY ke WATCH 66,7; tidak ada lagi yang layak studi). Riset manual dari feed 10 Nov: (1) CNBC — Fed Waller: kenaikan Desember mungkin, pintu buka kenaikan setengah poin (HAWKISH, kebalikan ekspektasi potong bunga pasca-pemilu sela); (2) CNBC — Brent jatuh di bawah USD90 pertama kali sejak Agustus atas harapan de-eskalasi perang Iran; (3) CNBC — Trump: perang Iran akan selesai 'fairly soon', meremehkan serangan baru; (4) BBC/Al Jazeera — perundingan damai Ukraina-Rusia-AS lanjut di Abu Dhabi dengan 'some flexibility'; (5) MSCI November Index Review 11 Nov (besok) — pemicu biner untuk pasar Indonesia; (6) BBC/Al Jazeera — skandal espionase Nvidia (CEO) memicu debu ekspor chip ke China; (7) CNBC/Al Jazeera — Prancis menyalahkan Iran atas serangan karetlematis kulkas supermarket, menimbang sanksi; (8) WMO/BBC — Super El Nino makin kuat, risiko harga pangan naik hingga 2027; (9) kontan 7 Nov — IHSG diprediksi menguat terbatas, support/resistance ketat; (10) UGM/21 Oct — IHSG anjlok pasca usulan reklasifikasi MSCI; (11) The Conversation 19 Oct — narasi Indonesia 'standalone' tak layak investasi; (12) indikator batu bara SOURCE ERROR — tidak dipakai sebagai bukti.",
   "prediction_mode": "MANUAL_AGENT_ANALYSIS",
   "predictions": [
     {
       "topic": "IHSG dan arah risk-appetite 1-3 bulan",
       "probabilities": {
-        "bull": 0.12,
-        "base": 0.4,
-        "bear": 0.48
+        "bull": 0.15,
+        "base": 0.45,
+        "bear": 0.4
       },
-      "confidence": 72,
-      "thesis": "REBOUND KE 5.050, TAPI PERANG BELUM SELESAI: bear 0,64->0,48, base 0,28->0,40, bull 0,08->0,12, confidence 82->72. IHSG 6 Nov 5.050,43, rebound +3,0% dari 4.904,29 (3 Nov) dan tidak menyentuh target bear 4.800 — jadi lapis bawah 4.800 belum teruji. Pemicu perubahan: Demokrat menang telak pemilu sela AS sehingga pasar menurunkan ekspektasi suku bunga (CNBC 6 Nov), minyak jatuh mingguan ke 90,92, US10Y 4,84, dan breadth membaik jadi STUDY 1 / WATCH 13 / AVOID 18 (INTP satu-satunya layak studi). Tapi ini rebound di tengah perang yang makin dalam: Rusia setujui 90 peluncur rudal untuk Iran (FT 5 Nov), konstruksi basis rudal Iran terlihat dari satelit (BBC 6 Nov), Nasdaq jeblok memukul chip Asia (CNBC). Judgement: rally ini jenis bear-market rally; kisaran main 4.900-5.250, penentu utama MSCI Index Review 11 Nov.",
+      "confidence": 70,
+      "thesis": "NAIK PELAN-PELAN, TAPI LANGIT MASIH GELAP: bear 0,48->0,40, base 0,40->0,45, bull 0,12->0,15, confidence 72->70. IHSG 10 Nov 5.125,73, lanjut naik +1,5% dari 5.050,43 (6 Nov) dan bertahan di atas 5.100 — pasar mengabaikan sinyal hawkish Fed. Dua kabar baik menopang: Brent di bawah USD90 (pertama sejak Agustus) atas haritan de-eskalasi Iran dan Trump bilang perang akan selesai 'fairly soon', plus perundingan Ukraina-AS-Rusia di Abu Dhabi berjalan dengan 'some flexibility'. Tapi ada dua jangkar berat: (1) Fed Waller menyebut kenaikan bunga Desember mungkin dan membuka pintu setengah poin — langsung menutup ruang rally EM; (2) hasil MSCI Index Review 11 Nov (besok) masih biner. Breadth justru melemah: STUDY 1->0, tidak ada emiten layak studi. Judgement: kisaran main 5.000-5.350, rally rapuh, sangat bergantung hasil MSCI dan arah Fed.",
       "evidence": [
-        "Scan Bennix 6 Nov 18:56 WIB: IHSG 5.050,43 (r20 -17,1%, r60 -20,8%, drawdown -24,9%) — rebound +3,0% dari 4.904,29 pada 3 Nov, target bear 4.800 belum teruji",
-        "Breadth membaik jadi STUDY 1 / WATCH 13 / AVOID 18 (dari 0/11/21) — INTP.JK skor 70,3 satu-satunya layak studi",
-        "CNBC 6 Nov: Demokrat menang telak pemilu sela AS, pasar tinjau ulang jalur suku bunga — ekspektasi bunga turun, dukungan risk appetite",
-        "CNBC 6 Nov: minyak jatuh tajam sepekan pasca-pemilu, investor tetap menimbang risiko Iran — proxy minyak 90,92 (r20 -1,0%)",
-        "BBC 6 Nov: konstruksi besar dekat basis rudal Iran (citra satelit) dan Al Jazeera/FT 5-6 Nov: Rusia kirim 90 peluncur rudal — perang berlanjut, belum gencatan",
-        "CNBC 6 Nov: sell-off Nasdaq memukul chip Asia (SK Hynix, Samsung, TSMC) — tekanan teknologi merembet ke Asia",
-        "US10Y 4,84 (r20 -7,5%), emas US$4.080 (r20 -3,2%), DXY 101,96 datar — biaya modal melonggar tapi emas turun, bukan panic",
-        "MSCI November Index Review 11 Nov — pemicu biner: penurunan status keluar EM bisa picu jual asing besar"
+        "Scan Bennix 10 Nov 18:30 WIB: IHSG 5.125,73 (r20 -13,5%, r60 -19,9%, drawdown -23,3%) — naik +1,5% dari 5.050,43 (6 Nov), bertahan di atas 5.100",
+        "Breadth melemah di puncak: STUDY 1->0, WATCH 14, AVOID 18 — INTP turun dari STUDY ke WATCH 66,7, tidak ada lagi yang layak studi",
+        "CNBC 10 Nov: Fed Waller lihat kenaikan bunga Desember mungkin, buka pintu kenaikan setengah poin — hawkish, kebalikan ekspektasi potong bunga pasca-pemilu sela",
+        "CNBC 10 Nov: Brent di bawah USD90 untuk pertama kali sejak Agustus karena harapan de-eskalasi perang Iran; proxy minyak Bennix 85,88 (r20 -8,8%)",
+        "CNBC 10 Nov: Trump bilang perang Iran akan selesai 'fairly soon' dan meremehkan serangan baru — sinyal damai, bukan eskalasi",
+        "BBC/Al Jazeera 10 Nov: perundingan damai Ukraina-Rusia-AS lanjut di Abu Dhabi dengan 'some flexibility' — dua front perang mereda bersamaan",
+        "MSCI November Index Review 11 Nov — pemicu biner besok: diturunkan dari EM bisa picu jual asing besar",
+        "Al Jazeera/CNBC 10 Nov: skandal espionase Nvidia picu debu ekspor chip ke China, Prancis menuduh Iran serangan siber — ketegangan teknologi & Eropa-Iran belum habis",
+        "CNBC/kontan 7 Nov: IHSG diprediksi hanya menguat terbatas dengan support/resistance ketat; narasi 'standalone' Indonesia (19-21 Oct) masih menggantung"
       ],
-      "causal_chain": "Demokrat menang pemilu sela -> ekspektasi suku bunga AS turun + minyak turun -> IHSG rebound ke 5.050, breadth 1/13/18 -> TAPI Iran-Rusia makin erat dan Nasdaq jeblok -> rally tertahan di 5.150-5.250 -> MSCI Index Review 11 Nov penentu: bila Indonesia tetap EM -> uji 5.300; bila diturunkan -> arus keluar -> uji 4.800-4.600 -> pemutus: hasil MSCI 11 Nov, arus asing pekan depan, tutup minyak dan Nasdaq",
-      "invalidation": "Bear dominan (0,48) BATAL bila IHSG tutup >5.300 dua sesi dengan asing net buy >Rp1 triliun ATAU MSCI pertahankan Indonesia pada Index Review 11 Nov dan IHSG tutup >5.150. Base (4.900-5.300) batal bila tutup <4.900 satu hari. Bull (0,12) terkonfirmasi hanya bila tutup >5.500 dua sesi dengan STUDY >=3 dan WATCH >=15 — syarat berat saat STUDY baru 1.",
+      "causal_chain": "De-eskalasi Iran + gencatan Ukraina -> minyak < USD90 dan risk appetite membaik -> IHSG naik ke 5.125 -> TAPI Fed Waller ancam kenaikan Desember + hasil MSCI 11 Nov biner -> rally tertahan di 5.100-5.350 -> bila MSCI pertahankan Indonesia -> uji 5.350-5.500; bila turunkan status -> arus keluar asing -> uji 4.950-4.800 -> pemutus: hasil MSCI 11 Nov, pernyataan Fed akhir Desember, arus asing pekan ini",
+      "invalidation": "Bear dominan (0,40) BATAL bila IHSG tutup >5.350 dua sesi dengan asing net buy >Rp1 triliun ATAU MSCI pertahankan Indonesia pada Index Review 11 Nov dan IHSG tutup >5.200. Base (5.000-5.350) batal bila tutup <4.950 satu hari. Bull (0,15) terkonfirmasi hanya bila tutup >5.500 dua sesi dengan STUDY >=2 dan asing net buy >Rp1,5 triliun — syarat berat saat STUDY baru 0.",
       "manual_analysis": true
     }
   ]
