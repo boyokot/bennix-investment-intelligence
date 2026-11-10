@@ -27,6 +27,72 @@
       "causal_chain": "De-eskalasi Iran + gencatan Ukraina -> minyak < USD90 dan risk appetite membaik -> IHSG naik ke 5.125 -> TAPI Fed Waller ancam kenaikan Desember + hasil MSCI 11 Nov biner -> rally tertahan di 5.100-5.350 -> bila MSCI pertahankan Indonesia -> uji 5.350-5.500; bila turunkan status -> arus keluar asing -> uji 4.950-4.800 -> pemutus: hasil MSCI 11 Nov, pernyataan Fed akhir Desember, arus asing pekan ini",
       "invalidation": "Bear dominan (0,40) BATAL bila IHSG tutup >5.350 dua sesi dengan asing net buy >Rp1 triliun ATAU MSCI pertahankan Indonesia pada Index Review 11 Nov dan IHSG tutup >5.200. Base (5.000-5.350) batal bila tutup <4.950 satu hari. Bull (0,15) terkonfirmasi hanya bila tutup >5.500 dua sesi dengan STUDY >=2 dan asing net buy >Rp1,5 triliun — syarat berat saat STUDY baru 0.",
       "manual_analysis": true
+    },
+    {
+      "topic": "Rupiah dan arus modal asing 1-2 bulan",
+      "probabilities": {
+        "bull": 0.2,
+        "base": 0.55,
+        "bear": 0.25
+      },
+      "confidence": 65,
+      "thesis": "STABIL DULU, BISA MELEMAH KALAU FED NAIKKAN: bear 0,30->0,25, base 0,50->0,55, bull 0,20->0,20, confidence 68->65. USD/IDR 10 Nov 18.045, sedikit menguat dari 18.103 (6 Nov) dengan tekanan 20 hari cuma +0,7% — rupiah termasuk tenang dibanding negara Asia lain. Dolar juga lemah (DXY 101,71, datar). Tapi Federal Reserve Waller hari ini bilang kenaikan bunga Desember mungkin dan membuka pintu setengah poin. Kalau itu jadi, dolar mengeras dan modal asing bisa kabur dari Indonesia, rupiah langsung tertekan ke 18.200-18.400. Sebaliknya, bila perang Iran mereda dan minyak turun, impor Indonesia lebih murah dan defisit dagang membaik — rupiah bisa ke 17.900. Penentu: hasil MSCI 11 Nov dan nada Fed akhir Desember.",
+      "evidence": [
+        "Scan Bennix 10 Nov: USD/IDR 18.045 (r20 +0,7%, r60 +1,2%) — menguat tipis dari 18.103 pada 6 Nov, tekanan kecil",
+        "DXY 101,71 (r20 -0,5%, datar) — dolar tidak menguat, memberi ruang rupiah bertahan",
+        "CNBC 10 Nov: Fed Waller lihat kenaikan bunga Desember mungkin, buka pintu setengah poin — risiko utama rupiah ke bawah",
+        "Minyak turun ke 85,88 (r20 -8,8%) dan Brent < USD90 — impor lebih murah, defisit neraca dagang membaik",
+        "Hasil MSCI Index Review 11 Nov: bila Indonesia diturunkan, asing jual obligasi & saham -> rupiah tertekan",
+        "Sinyal de-eskalasi Iran (Trump: perang segera selesai) menurunkan risiko langit gelap Asia"
+      ],
+      "causal_chain": "Minyak turun + dolar lemah -> impor murah -> rupiah stabil 18.045 -> TAPI ancaman kenaikan Fed Desember -> bila jadi -> dolar naik, asing keluar -> rupiah ke 18.200-18.400 -> bila MSCI pertahankan Indonesia -> arus masuk -> rupiah ke 17.900 -> pemutus: hasil MSCI 11 Nov, nada Fed Desember, defisit perdagangan Oktober",
+      "invalidation": "Bear (0,25) BATAL bila USD/IDR tutup <17.900 dua sesi ATAU MSCI tetapkan Indonesia tetap EM dan rupiah bertahan <18.000. Base (18.000-18.200) batal bila tutup >18.300. Bull (0,20) terkonfirmasi bila tutup <17.800 dengan asing net buy saham >Rp1 triliun.",
+      "manual_analysis": true
+    },
+    {
+      "topic": "Sektor: mana yang kuat dan mana yang tertinggal",
+      "probabilities": {
+        "bull": 0.25,
+        "base": 0.5,
+        "bear": 0.25
+      },
+      "confidence": 62,
+      "thesis": "INFRASTRUKTUR & OTOMOTIF MEMIMPIN, TELEKOM & MINERAL TERPURUK: bull 0,20->0,25, base 0,50->0,50, bear 0,30->0,25, confidence 60->62. Skor sektor 10 Nov: Otomotif 64,4 dan Infrastruktur 64,2 (satu-satunya yang positif), lalu Material 54,8 dan Energi 54,3 netral. Di bawah: Telekomunikasi 28,6, Perbankan Syariah 30,0, Teknologi 33,5, Mineral 35,9 — semuanya lemah. Pendorong jangka pendek: ASII +12,6% dalam 20 hari dan JSMR +10,4% (proyek jalan tol & kendaraan), plus bijih besi naik +2,1% menandakan permintaan baja/konstruksi China membaik. Pemukul: minyak turun ke 85,88 menekan Energi (PTBA -9,8% r20), dan skandal chip Nvidia bikin Teknologi makin lesu. Catatan: breadth melemah (STUDY 0), jadi kemenangan sektor ini tipis dan bisa berbalik kalau MSCI negatif.",
+      "evidence": [
+        "Skor sektor Bennix 10 Nov: Otomotif 64,4 (positif), Infrastruktur 64,2 (positif), Material 54,8, Energi 54,3 (netral)",
+        "Sektor lemah: Telekomunikasi 28,6, Perbankan Syariah 30,0, Teknologi 33,5, Mineral 35,9 — arah 'lemah'",
+        "ASII.JK r20 +12,6% dan JSMR.JK r20 +10,4% — pemimpin absolut, tol & kendaraan jadi mesin",
+        "Bijih besi 92,71 (r20 +2,1%) — permintaan baja/konstruksi China membaik, dukung Material",
+        "Minyak 85,88 (r20 -8,8%) menekan Energi: PTBA r20 -9,8%, MEDC r20 -21,4%",
+        "CNBC/Al Jazeera 10 Nov: skandal espionase Nvidia picu debu ekspor chip ke China — sentimen Teknologi Asia melemah",
+        "Breadth STUDY 0 / WATCH 14 / AVOID 18 — tidak ada emiten layak beli, rally sektor rapuh"
+      ],
+      "causal_chain": "Bijih besi naik + proyek infrastruktur berjalan -> ASII & JSMR naik -> sektor Otomotif/Infrastruktur memimpin -> sementara minyak turun & skandal chip -> Energi dan Teknologi tertekan -> bila MSCI positif -> uang masuk blue chip -> sektor merata naik -> bila MSCI negatif -> jual cepat -> sektor leader juga jatuh -> pemutus: hasil MSCI 11 Nov, arus asing, harga komoditas pekan ini",
+      "invalidation": "Bull (0,25) BATAL bila ASII turun <5.100 atau JSMR <2.650 (pemimpin patah). Bear (0,25) terkonfirmasi bila skor Energi turun <48 dan Mineral <32 dengan breadth AVOID >=20. Base (50) batal bila 2 sektor atau lebih berpindah arah minggu ini.",
+      "manual_analysis": true
+    },
+    {
+      "topic": "Risiko utama: perang Iran, Fed hawkish, dan MSCI",
+      "probabilities": {
+        "bull": 0.2,
+        "base": 0.5,
+        "bear": 0.3
+      },
+      "confidence": 68,
+      "thesis": "RISIKO TURUN SEDIKIT, TAPI DUA PISAU TAJAM MASIH DI ATAS LEHER: bear 0,45->0,30, base 0,35->0,50, bull 0,20->0,20, confidence 66->68. Perang makin mereda: Brent jatuh di bawah USD90 (pertama sejak Agustus), Trump bilang perang Iran selesai 'fairly soon', perundingan Ukraina-AS-Rusia di Abu Dhabi jalan dengan 'some flexibility'. Ancaman langsung memang menurun. Tapi dua risiko baru muncul: (1) Fed Waller membuka pintu kenaikan bunga setengah poin di Desember — kalau jadi, likuiditas global ketat dan pasar Asia tertekan; (2) hasil MSCI Index Review besok 11 Nov masih biner, dan narasi 'standalone Indonesia tak layak investasi' (19-21 Oct) masih hidup. Tambahan: Prancis menuduh Iran serangan siber kulkas supermarket dan menimbang sanksi — kuda Troya kecil yang bisa menghidupkan lagi eskalasi. Judgement: risiko besar terkonsentrasi di 24-48 jam ke depan.",
+      "evidence": [
+        "CNBC 10 Nov: Brent di bawah USD90 pertama sejak Agustus, harapan de-eskalasi Iran — risiko perang mereda",
+        "CNBC 10 Nov: Trump bilang perang Iran selesai 'fairly soon', meremehkan serangan baru",
+        "BBC/Al Jazeera 10 Nov: perundingan Ukraina-AS-Rusia Abu Dhabi dengan 'some flexibility' — dua front mereda",
+        "CNBC 10 Nov: Fed Waller lihat kenaikan Desember mungkin, pintu setengah poin — risiko likuiditas global",
+        "MSCI November Index Review 11 Nov — pemicu biner paling dekat untuk pasar Indonesia",
+        "Al Jazeera/CNBC 10 Nov: Prancis tuduh Iran serangan siber kulkas supermarket, timbang sanksi — eskalasi bisa hidup lagi",
+        "kontan/UGM 21 Oct: IHSG anjlok pasca usulan reklasifikasi MSCI; narasi 'standalone' 19 Oct masih menggantung",
+        "Indikator batu bara SOURCE ERROR — tidak dipakai sebagai bukti risiko komoditas"
+      ],
+      "causal_chain": "De-eskalasi dua front perang -> minyak turun, risk appetite pulih -> risiko besar turun dari 0,45 ke 0,30 -> TAPI Fed hawkish + MSCI biner -> risiko pindah dari geopolitik ke kebijakan & indeks -> bila MSCI negatif + Fed konfirmasi naik -> dobel pukulan -> IHSG uji 4.950-4.800 -> bila keduanya positif -> risiko runtuh -> IHSG uji 5.500 -> pemutus: MSCI 11 Nov, nada Fed, eskalasi Prancis-Iran",
+      "invalidation": "Bear (0,30) BATAL bila MSCI pertahankan Indonesia 11 Nov DAN Fed tidak naikkan bunga Desember. Base (0,50) batal bila terjadi satu kejadian biner besar (perang kembali meletus atau MSCI turunkan status). Bull (0,20) terkonfirmasi bila gencatan Iran resmi diumumkan dan MSCI positif dalam satu pekan.",
+      "manual_analysis": true
     }
   ]
 }

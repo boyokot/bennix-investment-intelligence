@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T18:33:36+07:00",
+  "generated_at": "2026-11-10T18:36:17+07:00",
   "sources": [
     "Al Jazeera",
     "BBC World",
@@ -45,36 +45,36 @@
       "_source": "yahoo-chart"
     },
     "DollarIndex": {
-      "price": 101.73,
-      "r20": -0.004374619248937006,
-      "r60": 0.02100564363866675,
-      "r120": 0.026465554257688595,
-      "vol": 0.049551531241225785,
-      "drawdown": -0.008256971212237785,
-      "rel": 0.02100564363866675,
+      "price": 101.74,
+      "r20": -0.004276806498828445,
+      "r60": 0.021105949809854696,
+      "r120": 0.026566396824275085,
+      "vol": 0.049555810251809475,
+      "drawdown": -0.008159539874184163,
+      "rel": 0.021105949809854696,
       "volume_ratio": null,
       "_source": "yahoo-chart"
     },
     "Minyak": {
-      "price": 85.86,
-      "r20": -0.08795409850201608,
-      "r60": 0.016094681779308395,
-      "r120": -0.12619581982796202,
-      "vol": 0.4530676479676148,
-      "drawdown": -0.18869886492662935,
-      "rel": 0.016094681779308395,
-      "volume_ratio": 0.9648971404176756,
+      "price": 85.87,
+      "r20": -0.08784785103765114,
+      "r60": 0.016213050255408756,
+      "r120": -0.126094027277453,
+      "vol": 0.4530548157856374,
+      "drawdown": -0.1886043535776979,
+      "rel": 0.016213050255408756,
+      "volume_ratio": 0.9649645376308615,
       "_source": "yahoo-chart"
     },
     "Emas": {
-      "price": 4082.8,
-      "r20": -0.0226222105852526,
-      "r60": -0.0873773675969517,
-      "r120": -0.09977284310767942,
-      "vol": 0.21400255415594674,
-      "drawdown": -0.13091229542087413,
-      "rel": -0.0873773675969517,
-      "volume_ratio": 0.9758262217770564,
+      "price": 4082.1,
+      "r20": -0.0227897712595162,
+      "r60": -0.08753382671162557,
+      "r120": -0.09992717715438382,
+      "vol": 0.21402377505513664,
+      "drawdown": -0.13106129095090435,
+      "rel": -0.08753382671162557,
+      "volume_ratio": 0.9758491563530909,
       "_source": "yahoo-chart"
     },
     "Yield_US": {
@@ -830,6 +830,72 @@
       "causal_chain": "De-eskalasi Iran + gencatan Ukraina -> minyak < USD90 dan risk appetite membaik -> IHSG naik ke 5.125 -> TAPI Fed Waller ancam kenaikan Desember + hasil MSCI 11 Nov biner -> rally tertahan di 5.100-5.350 -> bila MSCI pertahankan Indonesia -> uji 5.350-5.500; bila turunkan status -> arus keluar asing -> uji 4.950-4.800 -> pemutus: hasil MSCI 11 Nov, pernyataan Fed akhir Desember, arus asing pekan ini",
       "invalidation": "Bear dominan (0,40) BATAL bila IHSG tutup >5.350 dua sesi dengan asing net buy >Rp1 triliun ATAU MSCI pertahankan Indonesia pada Index Review 11 Nov dan IHSG tutup >5.200. Base (5.000-5.350) batal bila tutup <4.950 satu hari. Bull (0,15) terkonfirmasi hanya bila tutup >5.500 dua sesi dengan STUDY >=2 dan asing net buy >Rp1,5 triliun — syarat berat saat STUDY baru 0.",
       "manual_analysis": true
+    },
+    {
+      "topic": "Rupiah dan arus modal asing 1-2 bulan",
+      "probabilities": {
+        "bull": 0.2,
+        "base": 0.55,
+        "bear": 0.25
+      },
+      "confidence": 65,
+      "thesis": "STABIL DULU, BISA MELEMAH KALAU FED NAIKKAN: bear 0,30->0,25, base 0,50->0,55, bull 0,20->0,20, confidence 68->65. USD/IDR 10 Nov 18.045, sedikit menguat dari 18.103 (6 Nov) dengan tekanan 20 hari cuma +0,7% — rupiah termasuk tenang dibanding negara Asia lain. Dolar juga lemah (DXY 101,71, datar). Tapi Federal Reserve Waller hari ini bilang kenaikan bunga Desember mungkin dan membuka pintu setengah poin. Kalau itu jadi, dolar mengeras dan modal asing bisa kabur dari Indonesia, rupiah langsung tertekan ke 18.200-18.400. Sebaliknya, bila perang Iran mereda dan minyak turun, impor Indonesia lebih murah dan defisit dagang membaik — rupiah bisa ke 17.900. Penentu: hasil MSCI 11 Nov dan nada Fed akhir Desember.",
+      "evidence": [
+        "Scan Bennix 10 Nov: USD/IDR 18.045 (r20 +0,7%, r60 +1,2%) — menguat tipis dari 18.103 pada 6 Nov, tekanan kecil",
+        "DXY 101,71 (r20 -0,5%, datar) — dolar tidak menguat, memberi ruang rupiah bertahan",
+        "CNBC 10 Nov: Fed Waller lihat kenaikan bunga Desember mungkin, buka pintu setengah poin — risiko utama rupiah ke bawah",
+        "Minyak turun ke 85,88 (r20 -8,8%) dan Brent < USD90 — impor lebih murah, defisit neraca dagang membaik",
+        "Hasil MSCI Index Review 11 Nov: bila Indonesia diturunkan, asing jual obligasi & saham -> rupiah tertekan",
+        "Sinyal de-eskalasi Iran (Trump: perang segera selesai) menurunkan risiko langit gelap Asia"
+      ],
+      "causal_chain": "Minyak turun + dolar lemah -> impor murah -> rupiah stabil 18.045 -> TAPI ancaman kenaikan Fed Desember -> bila jadi -> dolar naik, asing keluar -> rupiah ke 18.200-18.400 -> bila MSCI pertahankan Indonesia -> arus masuk -> rupiah ke 17.900 -> pemutus: hasil MSCI 11 Nov, nada Fed Desember, defisit perdagangan Oktober",
+      "invalidation": "Bear (0,25) BATAL bila USD/IDR tutup <17.900 dua sesi ATAU MSCI tetapkan Indonesia tetap EM dan rupiah bertahan <18.000. Base (18.000-18.200) batal bila tutup >18.300. Bull (0,20) terkonfirmasi bila tutup <17.800 dengan asing net buy saham >Rp1 triliun.",
+      "manual_analysis": true
+    },
+    {
+      "topic": "Sektor: mana yang kuat dan mana yang tertinggal",
+      "probabilities": {
+        "bull": 0.25,
+        "base": 0.5,
+        "bear": 0.25
+      },
+      "confidence": 62,
+      "thesis": "INFRASTRUKTUR & OTOMOTIF MEMIMPIN, TELEKOM & MINERAL TERPURUK: bull 0,20->0,25, base 0,50->0,50, bear 0,30->0,25, confidence 60->62. Skor sektor 10 Nov: Otomotif 64,4 dan Infrastruktur 64,2 (satu-satunya yang positif), lalu Material 54,8 dan Energi 54,3 netral. Di bawah: Telekomunikasi 28,6, Perbankan Syariah 30,0, Teknologi 33,5, Mineral 35,9 — semuanya lemah. Pendorong jangka pendek: ASII +12,6% dalam 20 hari dan JSMR +10,4% (proyek jalan tol & kendaraan), plus bijih besi naik +2,1% menandakan permintaan baja/konstruksi China membaik. Pemukul: minyak turun ke 85,88 menekan Energi (PTBA -9,8% r20), dan skandal chip Nvidia bikin Teknologi makin lesu. Catatan: breadth melemah (STUDY 0), jadi kemenangan sektor ini tipis dan bisa berbalik kalau MSCI negatif.",
+      "evidence": [
+        "Skor sektor Bennix 10 Nov: Otomotif 64,4 (positif), Infrastruktur 64,2 (positif), Material 54,8, Energi 54,3 (netral)",
+        "Sektor lemah: Telekomunikasi 28,6, Perbankan Syariah 30,0, Teknologi 33,5, Mineral 35,9 — arah 'lemah'",
+        "ASII.JK r20 +12,6% dan JSMR.JK r20 +10,4% — pemimpin absolut, tol & kendaraan jadi mesin",
+        "Bijih besi 92,71 (r20 +2,1%) — permintaan baja/konstruksi China membaik, dukung Material",
+        "Minyak 85,88 (r20 -8,8%) menekan Energi: PTBA r20 -9,8%, MEDC r20 -21,4%",
+        "CNBC/Al Jazeera 10 Nov: skandal espionase Nvidia picu debu ekspor chip ke China — sentimen Teknologi Asia melemah",
+        "Breadth STUDY 0 / WATCH 14 / AVOID 18 — tidak ada emiten layak beli, rally sektor rapuh"
+      ],
+      "causal_chain": "Bijih besi naik + proyek infrastruktur berjalan -> ASII & JSMR naik -> sektor Otomotif/Infrastruktur memimpin -> sementara minyak turun & skandal chip -> Energi dan Teknologi tertekan -> bila MSCI positif -> uang masuk blue chip -> sektor merata naik -> bila MSCI negatif -> jual cepat -> sektor leader juga jatuh -> pemutus: hasil MSCI 11 Nov, arus asing, harga komoditas pekan ini",
+      "invalidation": "Bull (0,25) BATAL bila ASII turun <5.100 atau JSMR <2.650 (pemimpin patah). Bear (0,25) terkonfirmasi bila skor Energi turun <48 dan Mineral <32 dengan breadth AVOID >=20. Base (50) batal bila 2 sektor atau lebih berpindah arah minggu ini.",
+      "manual_analysis": true
+    },
+    {
+      "topic": "Risiko utama: perang Iran, Fed hawkish, dan MSCI",
+      "probabilities": {
+        "bull": 0.2,
+        "base": 0.5,
+        "bear": 0.3
+      },
+      "confidence": 68,
+      "thesis": "RISIKO TURUN SEDIKIT, TAPI DUA PISAU TAJAM MASIH DI ATAS LEHER: bear 0,45->0,30, base 0,35->0,50, bull 0,20->0,20, confidence 66->68. Perang makin mereda: Brent jatuh di bawah USD90 (pertama sejak Agustus), Trump bilang perang Iran selesai 'fairly soon', perundingan Ukraina-AS-Rusia di Abu Dhabi jalan dengan 'some flexibility'. Ancaman langsung memang menurun. Tapi dua risiko baru muncul: (1) Fed Waller membuka pintu kenaikan bunga setengah poin di Desember — kalau jadi, likuiditas global ketat dan pasar Asia tertekan; (2) hasil MSCI Index Review besok 11 Nov masih biner, dan narasi 'standalone Indonesia tak layak investasi' (19-21 Oct) masih hidup. Tambahan: Prancis menuduh Iran serangan siber kulkas supermarket dan menimbang sanksi — kuda Troya kecil yang bisa menghidupkan lagi eskalasi. Judgement: risiko besar terkonsentrasi di 24-48 jam ke depan.",
+      "evidence": [
+        "CNBC 10 Nov: Brent di bawah USD90 pertama sejak Agustus, harapan de-eskalasi Iran — risiko perang mereda",
+        "CNBC 10 Nov: Trump bilang perang Iran selesai 'fairly soon', meremehkan serangan baru",
+        "BBC/Al Jazeera 10 Nov: perundingan Ukraina-AS-Rusia Abu Dhabi dengan 'some flexibility' — dua front mereda",
+        "CNBC 10 Nov: Fed Waller lihat kenaikan Desember mungkin, pintu setengah poin — risiko likuiditas global",
+        "MSCI November Index Review 11 Nov — pemicu biner paling dekat untuk pasar Indonesia",
+        "Al Jazeera/CNBC 10 Nov: Prancis tuduh Iran serangan siber kulkas supermarket, timbang sanksi — eskalasi bisa hidup lagi",
+        "kontan/UGM 21 Oct: IHSG anjlok pasca usulan reklasifikasi MSCI; narasi 'standalone' 19 Oct masih menggantung",
+        "Indikator batu bara SOURCE ERROR — tidak dipakai sebagai bukti risiko komoditas"
+      ],
+      "causal_chain": "De-eskalasi dua front perang -> minyak turun, risk appetite pulih -> risiko besar turun dari 0,45 ke 0,30 -> TAPI Fed hawkish + MSCI biner -> risiko pindah dari geopolitik ke kebijakan & indeks -> bila MSCI negatif + Fed konfirmasi naik -> dobel pukulan -> IHSG uji 4.950-4.800 -> bila keduanya positif -> risiko runtuh -> IHSG uji 5.500 -> pemutus: MSCI 11 Nov, nada Fed, eskalasi Prancis-Iran",
+      "invalidation": "Bear (0,30) BATAL bila MSCI pertahankan Indonesia 11 Nov DAN Fed tidak naikkan bunga Desember. Base (0,50) batal bila terjadi satu kejadian biner besar (perang kembali meletus atau MSCI turunkan status). Bull (0,20) terkonfirmasi bila gencatan Iran resmi diumumkan dan MSCI positif dalam satu pekan.",
+      "manual_analysis": true
     }
   ],
   "prediction_meta": {
@@ -1056,24 +1122,6 @@
       "topic": "Kondisi Alam & Bencana"
     },
     {
-      "title": "Ukraine peace talks resume in Abu Dhabi after months-long pause - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nOTZJMmkxOUs1TDloQTA0bGctdEpXVmotNVFaZ3dIYjFmbnJ1MmFVY3AxM3QzeE9lRUM0WXZPZnpnVzNCWU1EbzZkeDBqOTlQQTV2d3E2ckNvWG8?oc=5",
-      "published": "Tue, 10 Nov 2026 09:07:00 GMT",
-      "source": "Google News Global",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
-      "title": "‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabi - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMGpMMy0ySU5GNjNUWDlJazZZR0VvcndtSnN2X0pCYUJjNXhxTkp0NVRrUlhITnNUbmZaVE91SGgteF9yd0lVdFgtRXFtdUE5NTlqbnZhY250dHFRbmt3MDhHbjZiVEFkcXFndHVRZk9kMGN0NldtT3NVcjQ4VEY2RGZkRElzNkR0R0hDVUUycW4zUW5IbGZZQ1hJTXdQUnppRXJaNmhRV1VsWERlX3NCVdIBtgFBVV95cUxOeTV3SnkxbDBiQnRKT2Zyd1lwOFpDcE5OdWJuczR1eUsyTjdEU1l6cnFzc3FDUXVkZktUS0FKeXJiU0xFVk8xRUVaUzJWR2xSbWJOeEJFUFphbGh1SVl5SkNhZW0wcjJlVTIwc2MwTU5kdjdJcWlkWTVmRU1GUzc5VkY1UFMya0pkQ0xVbDJGN3U0TkFDQkRjM1h3MWdyZXNkUDR0SFNNcl96Y2VReUJBQkgxYVJTdw?oc=5",
-      "published": "Tue, 10 Nov 2026 04:12:28 GMT",
-      "source": "Google News Global",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
       "title": "US Signals Diplomatic Focus on Iran and Russia-Ukraine Abu Dhabi Negotiations - Sahi",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcFhpQ2FyY013Y3dIb2hhV1FLQjAyVmoyekRDbUJzMlBMYVd4aXRuQWVycW1sdVhRS0Z3am41ZXlnME9VN2tSU2diQTJ1OTgycC03TERjRVhhRzB3VkVOdVN0YS1GbDlpaUxiRWRMbkY0TEdCVDFGYzFkaVEtTFpnU2U5U0NFQll2YVQ4enlxV3VWMkNqU1BQTkVteFZNcGF2VXdF?oc=5",
       "published": "Mon, 09 Nov 2026 22:23:26 GMT",
@@ -1081,15 +1129,6 @@
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Konflik & Perang Dunia"
-    },
-    {
-      "title": "Stop declaring World War III - Lowy Institute",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NREZVak1KR1BvbEExY0NkVWV1QjhVT3pIcGNYYllVckVJdnZVN0EyclQtdWRfWlI3eTFlNVRBcDZGcFNRZ2xURGhoTXZnelpGY3VPRVBBVVRJWlFXeldOcXRMV3JrMlYxZHd0bHNTOUZEbDgwMGVXdmFabERvV2c?oc=5",
-      "published": "Thu, 03 Sep 2026 07:00:00 GMT",
-      "source": "Google News Global",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
     },
     {
       "title": "Geopolitical and Geoeconomic Lessons from the War in the Middle East - British Foreign Policy Group",
@@ -1101,45 +1140,72 @@
       "topic": "Umum"
     },
     {
-      "title": "How climate change worsens heatwaves, droughts, wildfires and floods - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBha2hSMWluWVdKUHpEZUNyTVFmVC1idnd2cFY5eDNxckF6OFE2NGxzb2lSVnNMYlA5aklTVk5CdldkSXpzV3ptX1YxVEdEdG5vaXU2b2FkUHR3QQ?oc=5",
-      "published": "Fri, 06 Nov 2026 16:43:30 GMT",
+      "title": "Ukraine: Conflict at the Crossroads of Europe and Russia - Council on Foreign Relations",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORHV2M1F0YWwzOWtTeWlKa1RvR3ZXWGFieU5qRXVJX0p4aXZXbWVqTVVJREhiVzlTX25CUHd1eGt3dVd2TmxaY2JORUwwUDA1d0wyRkFjbWZkbTR5X2NJd1VHT3cyanF5UDg4dTdzZEFGc194eGEzMjFtX3loUEtzOG10SGFaQQ?oc=5",
+      "published": "Mon, 12 Jan 2026 11:45:27 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "Map Shows Where Emergencies Declared Over El Niño Impact - Newsweek",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa1ZKSUxpNjZaZ01kbU5YQjlNT013cjVBNDRiZ0YzNzVndUhZcDF4MEt4ajhjejdlT3JlMG1DelJDcmtkemltbkRrRzAteTF0SXFZYnZBSEpobFpmMzZfSWVWUS10VnNOREdlQjlycDZ5bGtyWF91TU5nYzVkVzdjY0hxdHRodV9icldmbDFHWHlVMV9F?oc=5",
-      "published": "Tue, 03 Nov 2026 13:03:00 GMT",
+      "title": "The Iran war is good for the Russian economy but bad for Putin’s prestige - Atlantic Council",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSVhIRkx3cXBDd2hleGRMdWpRQ0RnUW1OYzRSSjN3ckpTTVJ4bHN4UWgyOFhLQTJ6bGdVUUZjcXFDcVBOLWVsaFJURmdmVjVtMDZSd1ZaX3BYMlhBanZ0bzhOcHBuai1abW9zam1PRHZYLUpfbERNdllaX1JlNC1KNzg5VTBCdjRhZnZIRm5IbzFfOHBDYWgxVUNyX0tkUWVTOEt6S0NQU001S2QzWGJGVWJ6RjJaZE4tVmFQc0ExLUQxdw?oc=5",
+      "published": "Tue, 17 Mar 2026 07:00:00 GMT",
+      "source": "Google News Global",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Konflik & Perang Dunia"
+    },
+    {
+      "title": "How will the war in Iran affect Ukraine? - Chatham House",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUxtRXFnWDkzX1J5NmVqMzdabzdfaThBNWo3U1NKVlZ2N25TSnJtd3JIQ25hRk9pTUNUYS1UaUlpSjZFRUdza201d0hsc0owakRJcTNmNlYyemNoaVZDd3BYbC1vNTlHdk0tdFRtUUZuM1hBZ05BNEwtRktLa2QxT0pYRlBLanZRbkxybDFYYno?oc=5",
+      "published": "Wed, 04 Mar 2026 14:28:27 GMT",
+      "source": "Google News Global",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Konflik & Perang Dunia"
+    },
+    {
+      "title": "El Niño Is Hitting California Hard - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaHA3ZU9OdlZxa2VabUdDTGVlQzhwTHJXMXJLRFc0Q2FhTHFURGd4NWxieXhaQmo1Y1hqNFhMMDctSmhDSldWQlZLY2IyVVA0aFBhczQwQlRJSUc3VVB2Y3ZRT2puSkZkbVpmTi1mWldReFBaWjNyNFRLNmhBSWpNcVV4UVhYNUtkV29XOFhiTlVXM3djc25XRA?oc=5",
+      "published": "Tue, 10 Nov 2026 10:00:54 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "El Niño set to become very strong, raising risks of extreme weather into 2027 - World Meteorological Organization WMO",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVXJMY3dxaEtBaEtTMzJQZERydE15ektRX0o2SVdEUFlyS2xGYjVsYVZ5UXVtUjNuQnBqbUUzenJiWS1UYnA2blRtck83a3NGMTZsbG9abWlpTllIT2tOa1BKVHpGNWN4RTZQSEJ0N3k3Q0ppR3NteFJxd1FVSHFOeW9MZHBDUnVWTXlPbDBkTEQ5TldRZ2llZmVTNUVEQmNWeXRscg?oc=5",
-      "published": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "title": "How California Childhood Memories Shape My Climate Reporting Today - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WemNELVBZT3ZReWRVQTZPOG9YTnBFVlJWQjNudEpnSGlwS0F2eVFmLXpXLV9KbThSZmxKY1lTSTRWUWNMV1A4eWRvZVJBV3pxYlNCd0w0RW14ZTJ2VVlhWENZYkI2dy1ZbE1GcEtZVlM4RVE0N3VLZjU3djdVRWc?oc=5",
+      "published": "Tue, 10 Nov 2026 10:05:08 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "As New Water Year Begins, California Prepares for Strong El Niño and Expanded Water Supplies - California Department of Water Resources (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNXd5OWIxZmN5ZS1VaWhNeU81YWhOblg4YjZ0dnBHRWpTNlppZHpoTG1fMmtiVXVRX0JRWjBKZUVsZzVtRC1hMDd3d1VtN0V0Z0hycWNIMnNOTW9WUXVGNEFDV1BVODA3a3A4aUpDUEZlcWFfTFNQMXJnMnQxWkJIbVd1TnVMbnJGMFhjQk5GMzZZLVQxVEdWM0JnOWgyX09XRmJBX1h2N3N0UU5OdjZGcTVPMnNUUTBlNEFwX0prc29LRGhfd3cxUThKaXRIaW9RR2g5TjZsNWFFT3dSR1E?oc=5",
-      "published": "Thu, 01 Oct 2026 07:00:00 GMT",
+      "title": "Planetary extremes are ‘off the charts’ as world’s biggest climate talks kick off - CNN",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFQ3dqZkRwOGFXVjA4bUtjeS02S3VaNFU0bW5mWHNqZGVCSEdkWENiazNwVmRfQmIzbW1wQ2k0clZnY1hyRERKS0gwUnNxNzVZekJ6ZzBKSmZTUjJCc2pnTlZ6SEZVMmItOUo1bDBrRmxzbF9CZG9CU3ZqZVFqQQ?oc=5",
+      "published": "Mon, 09 Nov 2026 07:30:15 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Umum"
     },
     {
-      "title": "From drought to deluge: ‘Super’ El Niño’s expanding reach - UN News",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtcVBYb1RpbVQ3dm1VUzhBUXZEY3JGYlFWX2NkQzRWTDVXZmRSdjYydHBkRXRwLUJnZ2hmUVQ5cEFZOU5WS0xKZjhBREJ3Z3BjbHVVVlhjTQ?oc=5",
-      "published": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "title": "2026 set to be one of the 4 hottest years on record - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zWjB0RnVIYkpGUjkxbGVPakRQQ1YycGM3eEpaYkRFbFRDaU9keDlHeDAzVGNzV3pHbERRTjJYVXFtb3g3RGQ1LWE5YlZhSEx6ZHB6a2dHWHpNZ25I?oc=5",
+      "published": "Mon, 09 Nov 2026 18:00:25 GMT",
+      "source": "Google News Global",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
+    },
+    {
+      "title": "'A supersized El Niño is colliding with a planet already superheated': 2026 will be among hottest years on record - Le Monde.fr",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOVW5obTRZYnQ0UjZnazBNZ0llT3JnNkxjb0xkTWh1a0ttUTFfQ0ljaVllZ0JkVzVqbWRBVlkxS0tKdHNXUjN5TUdMNDhaMFdYY2VZR0N3UjBHYnRrTmpMZVlzMHdnbmdZdjQ2RDRRQTNRdkdUbU1qdTdhZ0p6ejVYOWdaeFJWcmdpWW1vcllPRW92Q1NJbHRwdGJUZU55QVFIYThsa1NXOW0yXzFSSGNfeU8wVG9RQnFlWWZNWGFPU0FIZ0lqRzNqVGZadG9YNmpUSUFNdEtndjg0ckVTZG1wR0ZxUFZrbWtubnJPanNFbXlISU5lT2FQc29MdnY2OGx4dU1heFBKOXU1Rkg3S2pKZGJB?oc=5",
+      "published": "Mon, 09 Nov 2026 08:21:28 GMT",
       "source": "Google News Global",
       "sentiment_score": 0,
       "sentiment": "Netral",
@@ -1218,15 +1284,6 @@
       "topic": "Umum"
     },
     {
-      "title": "Police officer dies and another injured after backpack explosion in Oviedo",
-      "link": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 10 Nov 2026 11:25:46 GMT",
-      "source": "BBC World",
-      "sentiment_score": 0,
-      "sentiment": "Netral",
-      "topic": "Umum"
-    },
-    {
       "title": "'Cruise for life' ship seized in Singapore ",
       "link": "https://www.bbc.co.uk/news/articles/cqr7y7myer53o?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 10 Nov 2026 01:49:06 GMT",
@@ -1243,6 +1300,15 @@
       "sentiment_score": 0,
       "sentiment": "Netral",
       "topic": "Emiten"
+    },
+    {
+      "title": "Police officer dies and another injured after backpack explosion in Oviedo",
+      "link": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 10 Nov 2026 11:25:46 GMT",
+      "source": "BBC World",
+      "sentiment_score": 0,
+      "sentiment": "Netral",
+      "topic": "Umum"
     },
     {
       "title": "Nvidia stock edges higher as investors weigh potential fallout of CEO's affair with alleged spy",
@@ -1363,7 +1429,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-11-10T18:33:36+07:00",
+      "freshness": "2026-11-10T18:36:17+07:00",
       "use": "Arah risk appetite saham Indonesia",
       "causal_impact": "IHSG naik → likuiditas/risk appetite membaik → valuasi saham didukung"
     },
@@ -1376,46 +1442,46 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-11-10T18:33:36+07:00",
+      "freshness": "2026-11-10T18:36:17+07:00",
       "use": "Tekanan rupiah, impor, dan utang dolar",
       "causal_impact": "USD/IDR naik → biaya impor/inflasi naik → margin importir tertekan"
     },
     {
       "name": "DollarIndex",
       "group": "Global & Pasar",
-      "value": 101.73,
-      "r20_pct": -0.44,
-      "r60_pct": 2.1,
+      "value": 101.74,
+      "r20_pct": -0.43,
+      "r60_pct": 2.11,
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-11-10T18:33:36+07:00",
+      "freshness": "2026-11-10T18:36:17+07:00",
       "use": "Kekuatan dolar dan tekanan emerging market",
       "causal_impact": "DXY naik → mata uang emerging market tertekan → biaya impor dan utang dolar naik"
     },
     {
       "name": "Minyak",
       "group": "Global & Geopolitik",
-      "value": 85.86,
-      "r20_pct": -8.8,
-      "r60_pct": 1.61,
+      "value": 85.87,
+      "r20_pct": -8.78,
+      "r60_pct": 1.62,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-11-10T18:33:36+07:00",
+      "freshness": "2026-11-10T18:36:17+07:00",
       "use": "Inflasi energi dan sektor energi",
       "causal_impact": "Minyak naik → biaya logistik naik; produsen energi relatif diuntungkan"
     },
     {
       "name": "Emas",
       "group": "Global & Pasar",
-      "value": 4082.8,
-      "r20_pct": -2.26,
-      "r60_pct": -8.74,
+      "value": 4082.1,
+      "r20_pct": -2.28,
+      "r60_pct": -8.75,
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-11-10T18:33:36+07:00",
+      "freshness": "2026-11-10T18:36:17+07:00",
       "use": "Permintaan safe haven dan ketidakpastian",
       "causal_impact": "Emas naik → indikasi risk-off/yield riil turun → perhatian ke aset defensif"
     },
@@ -1428,7 +1494,7 @@
       "trend": "Turun",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-11-10T18:33:36+07:00",
+      "freshness": "2026-11-10T18:36:17+07:00",
       "use": "Biaya modal global dan arus modal",
       "causal_impact": "Yield AS naik → dolar/modal AS menarik → valuasi emerging market tertekan"
     },
@@ -1454,7 +1520,7 @@
       "trend": "Datar",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-11-10T18:33:36+07:00",
+      "freshness": "2026-11-10T18:36:17+07:00",
       "use": "Siklus logam industri dan manufaktur",
       "causal_impact": "Aluminium naik → permintaan industri menguat atau pasokan mengetat"
     },
@@ -1467,7 +1533,7 @@
       "trend": "Naik",
       "status": "LIVE",
       "source": "Yahoo Finance chart",
-      "freshness": "2026-11-10T18:33:36+07:00",
+      "freshness": "2026-11-10T18:36:17+07:00",
       "use": "Aktivitas baja, konstruksi, dan permintaan China",
       "causal_impact": "Bijih besi naik → permintaan baja/konstruksi membaik atau pasokan mengetat"
     },
