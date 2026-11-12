@@ -1,99 +1,100 @@
 {
   "analyst": "Hermes Agent — analisis manual metode Bennix",
-  "analyzed_at": "2026-11-11T18:45:00+07:00",
-  "method": "Analisis manusia top-down: rezim global -> aktor & kepentingan -> arus uang/barang -> sebab-akibat -> dampak lanjutan -> sektor/emiten -> skenario bull/base/bear -> invalidasi. Angka pasar adalah BUKTI; probabilitas adalah judgement analis, bukan keluaran fungsi/rumus otomatis. Data scan 11 Nov (Rabu) 18:53 WIB: IHSG 5.115,04 (r20 -13,9%, r60 -20,7%, drawdown -23,5%; turun tipis -0,21% dari 5.125,73 pada 10 Nov setelah naik 5 hari beruntun), USD/IDR 18.140 (r20 +1,5%; ditutup 18.149 per CNBC — melemah dari 18.045 di 10 Nov), minyak proxy 86,71 (r20 -8,8%), emas US$4.058 (r20 -1,2%), US10Y 4,98 (r20 -4,5%), DXY 102,51 (datar), breadth STUDY 0 / WATCH 15 / AVOID 17. Riset manual dari feed 11 Nov: (1) Kompas/Pasardana — IHSG ditutup 5.115,03 (-0,21%) jelang pengumuman MSCI, tujuh sektor merah; (2) Bloomberg Technoz — asing borong ASII Rp131,5 miliar, IHSG naik 1,02% ke 5.125 pada 10 Nov; (3) Reuters/CNBC — Fed Waller dukung kenaikan 25bp Desember, pintu 50bp terbuka setelah CPI Oktober panas, Logan juga hawkish; (4) The Guardian — ECB naikkan bunga ke 2,5% dan sebut perang Iran memicu inflasi; (5) Bisnis.com — pengumuman MSCI November Index Review dilaporkan 12 Nov 05.00 WIB, skenario freeze vs downgrade; (6) kontan/Rmol — isu Wapres Gibran mundur/pemakzulan tekan rupiah ke 18.149; (7) CNBC — perang Iran disebut Trump 'effectively over', Brent sempat di bawah USD90 pertama sejak Agustus; (8) CNBC — Nvidia rebound 5% tapi skandal Huang masih disorot; (9) kontan/UGM 21 Oct & The Conversation 19 Oct — narasi 'standalone' Indonesia tak layak investasi masih hidup; (10) indikator batu bara SOURCE ERROR — tidak dipakai sebagai bukti.",
+  "analyzed_at": "2026-11-12T18:45:00+07:00",
+  "method": "Analisis manusia top-down: rezim global -> aktor & kepentingan -> arus uang/barang -> sebab-akibat -> dampak lanjutan -> sektor/emiten -> skenario bull/base/bear -> invalidasi. Angka pasar adalah BUKTI; probabilitas adalah judgement analis, bukan keluaran fungsi/rumus otomatis. Data scan 12 Nov (Kamis) 18:31 WIB: IHSG 5.250,9 (r20 -10,5%, r60 -17,9%, drawdown -21,5%; melonjak +2,66% dari 5.115,04 di 11 Nov), USD/IDR 18.228 (r20 +2,3%; ditutup 18.239-18.245 — rekor terlemah sepanjang masa), minyak proxy 85,84 (r20 -12,4%), emas US$3.954 (r20 -5,2%), US10Y 5,00 (r20 -3,7%), DXY 102,87 (r60 +4,1%), bijih besi 92,15 (+1,6% r20), aluminium 3.162 (+2,1% r20), breadth STUDY 0 / WATCH 16 / AVOID 16. Riset manual 12 Nov: (1) hasil MSCI November Index Review — Indonesia TIDAK diturunkan, hanya 8 saham RI keluar indeks global (BRPT, RAJA, WIFI dll) dan BRMS turun kasta; (2) Pasardana/SWA/kontan — IHSG Sesi I +2,20% ke 5.227, tutup +2,66%; Bloomberg Technoz — IHSG melesat walau bursa Asia merah; (3) Kontan Pusat Data — rupiah rekor terlemah 18.239, Aktualita 18.245, detikFinance 18.221; (4) Reuters — Goldman tambah proyeksi kenaikan Fed, Reuters poll: satu kenaikan Desember; NYT: Fed 'harus' naik, pejabat terpecah soal tempo; (5) FOX Weather/Grist 11-12 Nov — Super El Niño resmi tinggal hitungan jam; kontan: beras & gandum Asia berisiko naik; (6) WSJ — Vance ingin bicara langsung dengan kelompok keras Iran; Al Jazeera/BBC — utusan AS tiba di Moskow untuk perundingan Ukraina-Rusia; (7) Tirto 12 Nov — minyak turun karena harapan damai; (8) indikator batu bara SOURCE ERROR — tidak dipakai sebagai bukti.",
   "prediction_mode": "MANUAL_AGENT_ANALYSIS",
   "predictions": [
     {
       "topic": "IHSG dan arah risk-appetite 1-3 bulan",
       "probabilities": {
-        "bull": 0.18,
-        "base": 0.47,
-        "bear": 0.35
+        "bull": 0.28,
+        "base": 0.48,
+        "bear": 0.24
       },
-      "confidence": 71,
-      "thesis": "MENUNGGU HASIL MSCI, PASAR TIARAP DULU: bear 0,40->0,35, base 0,45->0,47, bull 0,15->0,18, confidence 70->71. IHSG 11 Nov ditutup 5.115,03 (-0,21%) setelah naik 5 hari beruntun — pasar sengaja menahan diri menjelang pengumuman MSCI November Index Review (dilaporkan 12 Nov 05.00 WIB). Kabar baik: asing justru net buy — borong ASII Rp131,5 miliar dan BBCA ratusan miliar, isu Wapres Gibran mundur tidak bikin pasar panik (IHSG 10 Nov sempat +1,02%). Kabar buruk: Fed Waller dan Logan buka pintu kenaikan bunga Desember (Waller minimal 25bp, 50bp kalau CPI panas) setelah CPI Oktober panas, ECB sudah naik ke 2,5%. Judgement: sampai hasil MSCI keluar, IHSG dicek di 5.050-5.200; kalau Indonesia dipertahankan/di-freeze, uji 5.300-5.400; kalau diturunkan, buka ruang ke 4.950.",
+      "confidence": 72,
+      "thesis": "MSCI TANPA DOWNGRADE NEGARA, IHSG DIBANTU LOMPAT KE 5.251: bull 0,18->0,28, base 0,47->0,48, bear 0,35->0,24, confidence 71->72. Hasil MSCI November Index Review keluar 12 Nov pagi: Indonesia TIDAK diturunkan dari status emerging market — yang terjadi hanya pembersihan 8 saham (BRPT, BRMS, RAJA, WIFI dan lainnya) keluar indeks global plus BRMS turun kasta. Pasar menyambut baik: IHSG 12 Nov melesat +2,66% ke 5.251 (Sesi I sudah +2,20% ke 5.227), berbalik dari 5.115 pada 11 Nov, saat bursa Asia lain merah. Penopang: minyak murah 85,84 serta bijih besi dan aluminium naik. Dua penahan: (1) rupiah justru tembus rekor terlemah 18.239-18.245 di hari yang sama; (2) Fed makin pasti naik bunga Desember (Goldman tambah proyeksi, Reuters poll satu kenaikan). Judgement: kisaran pindah ke 5.150-5.450; butuh asing net buy lanjutan untuk tembus 5.400.",
       "evidence": [
-        "Scan Bennix 11 Nov 18:53 WIB: IHSG 5.115,04 (r20 -13,9%, r60 -20,7%, drawdown -23,5%) — turun tipis dari 5.125,73 (10 Nov)",
-        "Kompas/Pasardana 11 Nov: IHSG ditutup 5.115,03 (-0,21%), tujuh sektor merah, usai naik 5 hari beruntun — wait-and-see MSCI",
-        "Bloomberg Technoz 11 Nov: 'Bursa Asia Hijau Berkat Harga Minyak, IHSG Merah Sendirian' — tertahan sentimen internal",
-        "Bloomberg Technoz: asing borong ASII Rp131,5 miliar saat IHSG naik 1,02% ke 5.125 — net buy asing jadi penopang",
-        "Reuters/CNBC 10-11 Nov: Fed Waller dukung kenaikan 25bp Desember, pintu 50bp terbuka setelah CPI Oktober panas; Logan juga hawkish",
-        "The Guardian: ECB naikkan bunga ke 2,5% dan sebut perang Iran memicu inflasi — bank sentral global makin ketat",
-        "Bisnis.com: pengumuman MSCI November Index Review dilaporkan 12 Nov 05.00 WIB, skenario freeze vs downgrade",
-        "KONTAN/IDNFinancials 11 Nov: isu Gibran mundur tidak goyahkan pasar — IHSG & rupiah justru mengatu dengan net buy asing",
-        "Breadth STUDY 0 / WATCH 15 / AVOID 17 — tidak ada emiten layak studi, rally tetap rapuh"
+        "Scan Bennix 12 Nov 18:31 WIB: IHSG 5.250,9 (r20 -10,5%, r60 -17,9%, drawdown -21,5%) — naik dari 5.115,04 (11 Nov)",
+        "Pasardana 12 Nov: IHSG Sesi I +2,20% ke 5.227; SWA & kontan: IHSG tutup +2,66%",
+        "Bloomberg Technoz 12 Nov: 'IHSG Melesat 2% Lebih Saat Bursa Asia Merah Tertekan Bunga Acuan'",
+        "IDNFinancials/Bareksa 12 Nov: hasil review MSCI — 8 saham RI keluar indeks global, BRMS turun kasta",
+        "CNBC Indonesia 11 Nov: 'Hasil Rebalancing MSCI November 2026: 9 Saham Ditendang, BRPT-RAJA' — pembersihan saham, bukan negara",
+        "Reuters: Goldman tambah proyeksi kenaikan bunga Fed; Reuters poll: Fed naik satu kali di Desember",
+        "Aktualita/kontan 12 Nov: USD/IDR 18.239-18.245 — rekor terlemah, di hari yang sama dengan rally IHSG",
+        "Tirto 12 Nov: minyak dunia turun karena harapan damai — proxy 85,84 (r20 -12,4%) menekan biaya",
+        "Breadth STUDY 0 / WATCH 16 / AVOID 16 — rally masih tanpa kandidat beli berkualitas"
       ],
-      "causal_chain": "Asing net buy + minyak murah + isu politik tak berpengaruh -> IHSG bertahan di 5.115 menunggu MSCI -> bila Indonesia dipertahankan -> breakout ke 5.300-5.400 -> bila diturunkan -> outflow asing -> uji 4.950 -> ancaman Fed Desember (Waller/Logan, CPI panas) menekan ruang rally kapan pun -> pemutus: pengumuman MSCI 12 Nov 05.00 WIB, nada Fed, arus asing pekan ini",
-      "invalidation": "Bear (0,35) BATAL bila MSCI mempertahankan status Indonesia dan IHSG tutup >5.300 dua sesi dengan asing net buy >Rp1 triliun. Base (5.050-5.200) batal bila tutup <4.950 ATAU >5.300 satu hari. Bull (0,18) terkonfirmasi hanya bila tutup >5.400 dua sesi dengan STUDY >=2 dan asing net buy >Rp1,5 triliun.",
+      "causal_chain": "MSCI tidak turunkan Indonesia -> kekhawatiran dobel pupus -> IHSG +2,66% ke 5.251 -> minyak murah + logam naik dukung sektor -> TAPI rupiah rekor 18.239 + Fed Desember makin pasti -> rally bisa terhenti di 5.400 -> bila asing lanjut net buy & rupiah kembali <18.100 -> uji 5.450 -> bila dolar terus naik -> koreksi ke 5.150 -> pemutus: arus asing pekan depan, kenaikan BI/Fed, harga pangan El Nino",
+      "invalidation": "Bull (0,28) BATAL bila IHSG tutup <5.150 dua sesi. Base (5.150-5.450) batal bila tutup >5.500 ATAU <5.050 satu hari. Bear (0,24) terkonfirmasi bila tutup <4.950 dengan asing net sell >Rp1 triliun ATAU rupiah tembus 18.500.",
       "manual_analysis": true
     },
     {
       "topic": "Rupiah dan arus modal asing 1-2 bulan",
       "probabilities": {
-        "bull": 0.15,
-        "base": 0.5,
-        "bear": 0.35
+        "bull": 0.12,
+        "base": 0.43,
+        "bear": 0.45
       },
-      "confidence": 66,
-      "thesis": "MELEMAH PELAN, TEKANAN DARI DUA ARAH: bear 0,25->0,35, base 0,55->0,50, bull 0,20->0,15, confidence 65->66. USD/IDR 11 Nov ditutup 18.149, melemah dari 18.045 (10 Nov) — tekanan 20 hari naik ke +1,5%. Dua pemicu jelas: (1) Waller dan Logan dari Fed buka pintu kenaikan bunga Desember (25bp, bisa 50bp) setelah CPI Oktober panas, ECB juga sudah naik ke 2,5% — suku bunga global mengeras bersamaan; (2) isu Wapres Gibran mundur/pemakzulan bikin investor asing ragu, rupiah tembus 18.149. Penyeimbangnya: minyak masih murah (86,71) sehingga impor lebih hemat dan defisit dagang tidak meledak, plus asing masih net buy saham. Judgement: rupiah berat ke bawah, kisaran main 18.050-18.300 sampai hasil MSCI dan nada Fed jelas.",
+      "confidence": 68,
+      "thesis": "REKOR BARU: RUPIAH PALING LEMAH SEPANJANG MASA DI HARI RALLY: bear 0,35->0,45, base 0,50->0,43, bull 0,15->0,12, confidence 66->68. Ini memburuk, bukan membaik. 12 Nov, hari yang sama IHSG +2,66%, rupiah justru tembus 18.239-18.245 — titik terlemah sepanjang sejarah (detikFinance 18.221, Kontan 18.239, Aktualita 18.245; scan Bennix 18.228, r20 +2,3%). Artinya rally saham hari ini ditopang pembelian asing atas saham tertentu, BUKAN arus masuk modal bersih — dolar tetap keluar. Pendorongnya tiga sekaligus: Fed makin pasti naik di Desember (Goldman menambah proyeksi kenaikan, Reuters poll: satu kenaikan), isu Gibran masih hidup, dan BI tertekan menahan suku bunga saat dolar menguat. Penyeimbang hanya minyak murah 85,84 yang menahan defisit transaksi berjalan. Judgement: tekanan jangka pendek ke 18.250-18.400; butuh tanda nyata asing masuk + Fed melunak untuk kembali ke 18.100.",
       "evidence": [
-        "Scan Bennix 11 Nov: USD/IDR 18.140 (r20 +1,5%) — ditutup 18.149 per CNBC, melemah dari 18.045 (10 Nov)",
-        "Reuters/CNBC: Fed Waller dukung kenaikan 25bp Desember, pintu 50bp terbuka setelah CPI Oktober panas; Logan juga hawkish",
-        "The Guardian: ECB naikkan bunga ke 2,5% dan sebut perang Iran memicu inflasi — bank sentral global kompak ketat",
-        "kontan/Rmol 11 Nov: isu Wapres Gibran mundur/pemakzulan hantam rupiah ke 18.149 — risiko politik masuk harga",
-        "Minyak proxy 86,71 (r20 -8,8%) — impor lebih murah, defisit dagang jadi penahan rupiah",
+        "Kontan Pusat Data 12 Nov: 'Rupiah Terjun ke Titik Terlemah Sepanjang Masa Rp18.239 per Dolar AS'",
+        "Aktualita.co 12 Nov: USD/IDR melemah ke Rp18.245; detikFinance: dolar tembus Rp18.221",
+        "Scan Bennix 12 Nov: USD/IDR 18.228 (r20 +2,3%, r60 +2,4%) — pelemahan berlanjut",
+        "Reuters: Goldman tambah proyeksi kenaikan bunga Fed setelah data inflasi panas",
+        "Reuters poll: The Fed diperkirakan naik satu kali di Desember; NYT: pejabat terpecah soal tempo",
+        "IHSG +2,66% ke 5.251 di hari yang sama rupiah rekor lemah — rally tanpa dukungan arus modal bersih",
         "Bloomberg Technoz 11 Nov: 'Rupiah Terjepit di Tengah Penguatan Dolar AS dan Risiko MSCI'",
-        "DXY 102,51 (r20 datar) — dolar tidak meledak, tekanan lebih dari sisi domestik/Fed"
+        "Minyak 85,84 (r20 -12,4%) — satu-satunya penahan: impor lebih murah"
       ],
-      "causal_chain": "CPI panas + Waller/Logan hawkish -> pasar harga kenaikan Desember -> dolar & yield naik -> rupiah melemah ke 18.149 -> ditambah isu Gibran & risiko MSCI -> asing menahan modal -> bila MSCI positif -> arus masuk balik -> rupiah ke 17.950 -> bila MSCI turunkan + Fed naik -> tekanan dobel -> uji 18.300 -> pemutus: hasil MSCI 12 Nov, CPI & nada Fed, arus modal pekan ini",
-      "invalidation": "Bear (0,35) BATAL bila USD/IDR tutup <17.950 dua sesi ATAU MSCI pertahankan Indonesia dan rupiah bertahan <18.000. Base (18.050-18.300) batal bila tutup >18.400 ATAU <17.950. Bull (0,15) terkonfirmasi bila tutup <17.800 dengan asing net buy saham >Rp1 triliun.",
+      "causal_chain": "Fed makin pasti naik Desember + isu politik domestik -> dolar demand naik -> rupiah tembus rekor 18.239 -> walau MSCI aman, modal asing tak kembali penuh (terlihat dari rally saham + pelemahan rupiah bersamaan) -> tekanan berlanjut ke 18.400 -> bila BI naikkan bunga / Fed melunak -> balik ke 18.100 -> pemutus: arus modal pekan ini, kenaikan suku bunga BI, nada Fed jelang Desember",
+      "invalidation": "Bear (0,45) BATAL bila USD/IDR tutup <18.000 dua sesi. Base (18.100-18.400) batal bila tutup >18.500 ATAU <17.950. Bull (0,12) terkonfirmasi bila tutup <17.900 dengan asing net buy saham >Rp1 triliun berturut-turut.",
       "manual_analysis": true
     },
     {
       "topic": "Sektor: mana yang kuat dan mana yang tertinggal",
       "probabilities": {
+        "bull": 0.28,
+        "base": 0.47,
+        "bear": 0.25
+      },
+      "confidence": 64,
+      "thesis": "PEMIMPIN SAMA, PETA MEMBAIK SEDIKIT: bull 0,25->0,28, base 0,50->0,47, bear 0,25->0,25, confidence 63->64. Peta sektor 12 Nov: Otomotif 63,0 dan Infrastruktur 61,3 tetap satu-satunya berarah positif, disusul Material 57,1 (naik dari 53,8) dan Perbankan 55,0 (membaik). Energi 54,5 juga naik tipis. Di dasar tetap sama: Perbankan Syariah 29,4, Telekomunikasi 30,3, Teknologi 33,5, Mineral 36,0. Yang berubah: pembersihan MSCI mengeluarkan BRPT, RAJA, WIFI dan menurunkan BRMS — menekan Mineral/energi baru, tapi justru melegakan indeks dari beban saham-saham itu. Pemimpin tetap ASII (r20 +14,0%) dan JSMR (r20 +10,9%), ditopang bijih besi 92,15 (+1,6% r20) dan aluminium 3.162 (+2,1% r20). Judgement: tetap di pemimpin yang sudah jalan; emiten terdepak MSCI jangan ditangkap dulu.",
+      "evidence": [
+        "Skor sektor Bennix 12 Nov: Otomotif 63,0 (positif), Infrastruktur 61,3 (positif), Material 57,1 naik dari 53,8, Perbankan 55,0 netral",
+        "Sektor lemah tak berubah: Perbankan Syariah 29,4, Telekomunikasi 30,3, Teknologi 33,5, Mineral 36,0",
+        "ASII r20 +14,0% dan JSMR r20 +10,9% — pemimpin absolut kendaraan & tol",
+        "Bijih besi 92,15 (+1,6% r20) dan aluminium 3.162 (+2,1% r20) — permintaan industri China masih membaik",
+        "IDNFinancials/Bareksa 12 Nov: 8 saham RI keluar indeks MSCI (BRPT, RAJA, WIFI dll), BRMS turun kasta — tekanan ke Mineral/energi baru",
+        "Jakarta Globe 12 Nov: BRPT & BRMS justru naik meski asing jual — rebound teknis, bukan sinyal beli",
+        "IHSG +2,66% walau bursa Asia merah (Bloomberg Technoz) — pemimpin lama yang menarik rally",
+        "Breadth STUDY 0 / WATCH 16 / AVOID 16 — rally masih tanpa emiten layak studi"
+      ],
+      "causal_chain": "MSCI buang saham lemah -> indeks jadi lebih ringan -> minyak murah + logam naik dukung Material & Energi -> Otomotif & Infrastruktur tetap memimpin -> bila asing lanjut beli blue chip -> sektor naik merata -> bila rupiah rekor lemah berlanjut -> sektor berorientasi ekspor/valuasi jadi incaran -> pemutus: arus asing, harga logam, rupiah pekan depan",
+      "invalidation": "Bull (0,28) BATAL bila ASII <5.100 atau JSMR <2.650. Base (0,47) batal bila 2 sektor atau lebih berpindah arah minggu ini. Bear (0,25) terkonfirmasi bila skor Energi <48 dan Mineral <32 dengan AVOID >=20.",
+      "manual_analysis": true
+    },
+    {
+      "topic": "Risiko utama: MSCI selesai, kini Fed dan El Niño",
+      "probabilities": {
         "bull": 0.25,
         "base": 0.5,
         "bear": 0.25
       },
-      "confidence": 63,
-      "thesis": "INFRA & OTOMOTIF MASIH MEMIMPIN, TELEKOM & MINERAL MASIH TERPURUK: bull 0,25->0,25, base 0,50->0,50, bear 0,25->0,25, confidence 62->63. Peta sektor 11 Nov nyaris tak berubah dari 10 Nov: Infrastruktur 64,9 dan Otomotif 62,2 satu-satunya berarah positif, disusul Material 53,8 dan Energi 53,3 (netral). Di dasar: Telekomunikasi 29,4, Perbankan Syariah 30,2, Teknologi 33,0, Mineral 36,4 — tetap lemah. Pemimpin tetap sama: ASII r20 +9,2% dan JSMR r20 +11,6% (tol & kendaraan), ditopang bijih besi 92,54 (+2,0% r20) dan aluminium 3.170 (+2,7% r20) yang menandakan permintaan industri China membaik. Yang berubah: Energi makin tertekan karena minyak turun (PTBA r20 -8,3%, MEDC -24,6%), dan hasil MSCI 12 Nov bisa membalik peta ini dalam semalam kalau saham big cap terdepak. Judgement: tetap pilih pemimpin yang sudah jalan, jangan menangkap pisau jatuh di sektor lemah.",
-      "evidence": [
-        "Skor sektor Bennix 11 Nov: Infrastruktur 64,9 (positif), Otomotif 62,2 (positif), Material 53,8, Energi 53,3 (netral)",
-        "Sektor lemah: Telekomunikasi 29,4, Perbankan Syariah 30,2, Teknologi 33,0, Mineral 36,4 — arah 'lemah' tidak berubah",
-        "JSMR.JK r20 +11,6% dan ASII.JK r20 +9,2% — pemimpin absolut, proyek tol & kendaraan jadi mesin",
-        "Bijih besi 92,54 (r20 +2,0%) dan aluminium 3.170 (r20 +2,7%) — permintaan industri China membaik, dukung Material",
-        "Minyak 86,71 (r20 -8,8%) menekan Energi: PTBA r20 -8,3%, MEDC r20 -24,6%, ADRO -8,0%",
-        "Bloomberg Technoz 11 Nov: asing borong ASII Rp131,5 miliar — uang asing masuk ke sektor pemimpin",
-        "Kompas/VIVA 11 Nov: tujuh sektor berakhir merah saat IHSG -0,21% — koreksi merata jelang MSCI",
-        "Breadth STUDY 0 / WATCH 15 / AVOID 17 — tidak ada emiten layak beli, kemenangan sektor tetap tipis"
-      ],
-      "causal_chain": "Bijih besi & aluminium naik + asing borong ASII -> Infrastruktur & Otomotif memimpin -> sementara minyak turun -> Energi tertekan -> bila MSCI pertahankan Indonesia -> uang masuk blue chip -> sektor merata naik -> bila MSCI turunkan big cap -> jual cepat termasuk pemimpin -> peta sektor berbalik -> pemutus: hasil MSCI 12 Nov, arus asing, harga komoditas pekan ini",
-      "invalidation": "Bull (0,25) BATAL bila ASII turun <5.100 atau JSMR <2.650 (pemimpin patah). Bear (0,25) terkonfirmasi bila skor Energi turun <48 dan Mineral <32 dengan breadth AVOID >=20. Base (0,50) batal bila 2 sektor atau lebih berpindah arah minggu ini.",
-      "manual_analysis": true
-    },
-    {
-      "topic": "Risiko utama: perang Iran, Fed hawkish, dan MSCI",
-      "probabilities": {
-        "bull": 0.2,
-        "base": 0.5,
-        "bear": 0.3
-      },
       "confidence": 70,
-      "thesis": "RISIKO BERAT DIPINDAH KE HAL PENTING: MSCI BESOK PAGI: bear 0,30->0,30, base 0,50->0,50, bull 0,20->0,20, confidence 68->70. Sejak analisis 10 Nov, gambaran besar tidak berubah tapi detail makin tajam. Perang Iran makin dekat damai — Trump bilang perang 'effectively over', Brent sempat di bawah USD90 (pertama sejak Agustus), dua front (Iran + Ukraina) mereda bersamaan. Ancaman ekonomi justru datang dari bank sentral: Waller dan Logan dukung kenaikan bunga AS 25bp di Desember (Waller bahkan buka 50bp) setelah CPI Oktober panas, dan ECB sudah naik ke 2,5% — suku bunga global mengeras bersamaan, pasar negara berkembang tertekan. Pemicu paling dekat dan paling berbahaya: pengumuman MSCI November Index Review dilaporkan 12 Nov 05.00 WIB — status Indonesia masih antara freeze dan downgrade. Tambahan: isu Wapres Gibran mundur/pemakzulan sudah bikin rupiah tembus 18.149, dan Prancis-Iran masih adu mulut soal serangan siber. Judgement: risiko terkonsentrasi di 12 jam ke depan (MSCI), lalu merambat ke nada Fed.",
+      "thesis": "RISIKO BERPINDAH: DARI MSCI KE FED + EL NINO + RUPIAH REKOR: bear 0,30->0,25, base 0,50->0,50, bull 0,20->0,25, confidence 70->70. Sumber ketakutan terbesar kemarin (MSCI turunkan Indonesia) akhirnya tuntas dan ternyata tidak jadi — yang keluar hanya 8 saham (BRPT, BRMS, RAJA, WIFI dll) bukan status negara. Beban risiko pindah ke tiga hal baru. Pertama, Fed: Goldman menambah proyeksi kenaikan, Reuters poll menaruh satu kenaikan di Desember, NYT menyebut pejabat terpecah soal tempo — bunga AS makin pasti naik. Kedua, rupiah sudah di titik terlemah sepanjang masa 18.239-18.245, jadi tekanan modal keluar nyata meski saham rally. Ketiga, Super El Niño tinggal ditetapkan resmi (FOX Weather: hitungan jam) dan berisiko menaikkan harga pangan Asia. Judgement: risiko menurun tipis karena pemicu biner terbesar selesai, tapi dua tekanan struktural (Fed + rupiah) tetap ada.", 
       "evidence": [
-        "Reuters/CNBC 10-11 Nov: Fed Waller dukung kenaikan 25bp Desember, pintu 50bp terbuka setelah CPI Oktober panas; Logan juga hawkish",
-        "The Guardian: ECB naikkan bunga ke 2,5% dan sebut perang Iran memicu inflasi — bank sentral besar kompak ketat",
-        "CNBC: perang Iran disebut Trump 'effectively over', Brent sempat di bawah USD90 pertama sejak Agustus — risiko perang turun",
-        "Bisnis.com/CNBC Indonesia: pengumuman MSCI November Index Review dilaporkan 12 Nov 05.00 WIB, skenario freeze vs downgrade",
-        "kontan/UGM 21 Oct & The Conversation 19 Oct: IHSG anjlok pasca usulan reklasifikasi MSCI; narasi 'standalone' masih hidup",
-        "kontan/Rmol 11 Nov: isu Wapres Gibran mundur/pemakzulan hantam rupiah ke 18.149 — risiko politik domestik masuk harga",
-        "BBC/Al Jazeera 11 Nov: perundingan Ukraina-AS-Rusia Abu Dhabi masih jalan — front kedua tetap mereda",
-        "Indikator batu bara SOURCE ERROR — tidak dipakai sebagai bukti risiko komoditas"
+        "IDNFinancials/Bareksa 12 Nov: review MSCI hanya keluarkan 8 saham RI, Indonesia tetap emerging market",
+        "Reuters: Goldman tambah proyeksi kenaikan bunga Fed setelah inflasi panas; Reuters poll: satu kenaikan Desember",
+        "NYT 11 Nov: 'Fed Has to Raise Rates' — pejabat terpecah soal seberapa cepat",
+        "Kontan Pusat Data 12 Nov: rupiah rekor terlemah Rp18.239 per dolar — tekanan modal nyata",
+        "FOX Weather 11 Nov: penetapan resmi Super El Niño tinggal hitungan jam; kontan: beras & gandum Asia berisiko naik",
+        "WSJ 11 Nov: Vance ingin bicara langsung dengan kelompok keras Iran — perang belum benar-benar selesai",
+        "Al Jazeera/BBC 12 Nov: utusan AS tiba di Moskow untuk perundingan Ukraina-Rusia — front kedua masih jalan",
+        "Tirto 12 Nov: minyak turun karena harapan damai — proxy 85,84 (r20 -12,4%) meredam inflasi"
       ],
-      "causal_chain": "Damai Iran + gencatan Ukraina -> minyak turun, risiko perang turun -> TAPI CPI panas & Fed Waller/Logan hawkish + ECB naik -> bunga global mengeras -> pasar EM tertekan -> puncaknya: pengumuman MSCI 12 Nov -> bila downgrade Indonesia -> dobel pukulan (Fed + MSCI) -> IHSG uji 4.950 -> bila MSCI pertahankan -> risiko besar runtuh -> IHSG uji 5.300-5.400 -> pemutus: MSCI 12 Nov, CPI AS berikutnya, eskalasi Prancis-Iran",
-      "invalidation": "Bear (0,30) BATAL bila MSCI mempertahankan status Indonesia DAN Fed tidak naikkan bunga Desember. Base (0,50) batal bila satu kejadian biner besar (perang meletus lagi ATAU MSCI turunkan status). Bull (0,20) terkonfirmasi bila MSCI positif 12 Nov dan gencatan Iran resmi diumumkan dalam satu pekan.",
+      "causal_chain": "MSCI selesai tanpa downgrade -> pemicu biner terbesar hilang -> risiko turun -> TAPI Fed makin pasti naik Desember + rupiah rekor lemah + Super El Niño nyaris resmi -> inflasi pangan & bunga global jadi tekanan baru -> bila Fed naik 25bp terkendali & El Nino tidak parah -> pasar tenang -> bila El Nino picu harga pangan melonjak atau Fed naik 50bp -> tekanan dobel -> IHSG koreksi -> pemutus: nada Fed, penetapan El Niño, arus modal pekan ini",
+      "invalidation": "Bear (0,25) terkonfirmasi bila Fed naik >=50bp ATAU rupiah tembus 18.500 ATAU El Niño resmi + harga pangan melonjak. Bull (0,25) terkonfirmasi bila Fed melunak dan rupiah kembali <18.000. Base (0,50) batal bila satu kejadian biner besar terjadi dalam dua pekan.",
       "manual_analysis": true
     }
   ]
