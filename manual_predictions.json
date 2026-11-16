@@ -37,6 +37,17 @@
       },
       "confidence": 64,
       "thesis": "TIGA SEKTOR POSITIF TAPI SEBUAH TANDA BA: bull 0,30->0,28, base 0,46->0,44, bear 0,24->0,28, confidence 66->64. Peta sektor 16 Nov tetap ada di zona hijau — Otomotif 66,5 (naik dari 64,2), Material 62,2, Infrastruktur 61,3 — tapi arah hari ini menurun: 7 sektor merah dan Barang Baku jatuh paling dalam (Databoks), Energi anjlok (Kompas). Posisi terbalik dari Jumat: pekan lalu Material/Energi yang jadi tulang punggung rally, sekarang jadi korban. ASII masih STUDY satu-satunya (73,8, harga 5.700, r20 +38%), tapi PTBA turun ke WATCH (68,0). Breadth melemah: STUDY 1 / WATCH 18 (dari 2/17). Rintangan nyata: FTSE Russell keluarkan 14 saham dari indeks global dan MSCI rebalance potensi outflow Rp3,6 triliun — saham terdepak dilarikan. Penahan: FTSE tetap pertahankan status pasar Indonesia, bijih besi 91,5 datar, dan bank besar masih diburu asing (BBCA net buy Rp1,37 triliun sepanjang November). Judgement: bertahan di Otomotif & bank blue chip; hindari saham terdepak indeks dan energi yang baru jatuh.",
+      "evidence": [
+        "Skor sektor Bennix 16 Nov: Otomotif 66,5 (naik dari 64,2), Material 62,2, Infrastruktur 61,3 — tiga zona positif bertahan",
+        "Databoks 16 Nov: 7 sektor saham turun, Barang Baku jatuh paling dalam — arah hari ini menurun",
+        "Kompas 16 Nov: sektor Energi anjlok; saham tambang jadi korban terberat saat IHSG -0,44%",
+        "ASII satu-satunya STUDY (skor 73,8, harga 5.700, r20 +38%); PTBA turun ke WATCH (68,0)",
+        "Breadth melemah: STUDY 1 / WATCH 18 / AVOID 13 (dari 2/17/13 pada 13 Nov)",
+        "FTSE Russell keluarkan 14 saham RI dari indeks global (cwibc/Kompas); MSCI rebalance potensi outflow Rp3,6 triliun (Emitennews)",
+        "FTSE tetap pertahankan status pasar Indonesia (cwibc) — pasar tidak diturunkan, arus tak langsung keluar",
+        "Bijih besi 91,5 datar dan aluminium 3.063 (r20 -2,7%) — permintaan industri China melemah",
+        "Ajaib: BBCA net buy Rp1,37 triliun sepanjang November — asing masih memburu bank besar"
+      ],
       "causal_chain": "Tiga sektor tetap positif tapi arah hari ini menurun -> 7 sektor merah, Barang Baku terdalam -> Material/Energi berbalik dari pendorong jadi korban -> asing net sell Rp505 miliar -> breadth melemah ke STUDY 1 -> bila BI tahan + bijih besi stabil -> Otomotif & bank bertahan di 5.300 -> bila FTSE/MSCI outflow terus -> sektor positif jebol -> bila asing kembali net buy blue chip -> rally sektor lanjut -> pemutus: arus asing, harga logam, hasil RDG BI Rabu",
       "invalidation": "Bull (0,28) BATAL bila ASII <5.300 atau hanya <=1 sektor positif akhir pekan. Base (0,44) batal bila >4 sektor keluar zona positif minggu ini. Bear (0,28) terkonfirmasi bila skor Energi <50 dan Material <55 dengan AVOID >=17.",
       "manual_analysis": true
