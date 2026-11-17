@@ -1,102 +1,103 @@
 {
   "analyst": "Hermes Agent — analisis manual metode Bennix",
-  "analyzed_at": "2026-11-16T18:45:00+07:00",
-  "method": "Analisis manusia top-down: rezim global -> aktor & kepentingan -> arus uang/barang -> sebab-akibat -> dampak lanjutan -> sektor/emiten -> skenario bull/base/bear -> invalidasi. Angka pasar adalah BUKTI; probabilitas adalah judgement analis, bukan keluaran fungsi/rumus otomatis. Data scan 16 Nov (Senin) 18:31 WIB: IHSG 5.320,98 (r20 +6,5%, r60 -18,5%, drawdown -20,4%; tutup -0,44% dari 5.344,41 di 13 Nov), USD/IDR 18.250 proxy (ditutup 18.268 — rekor terlemah baru, melemah 62 poin), minyak 88,17 (r20 -14,9%), emas US$3.878,7 (r20 -6,8%, terendah 1 tahun), US10Y 5,15 (r20 +1,1%), DXY 103,55 (r60 +4,8%), bijih besi 91,5 (datar), aluminium 3.063 (r20 -2,7%), breadth STUDY 1 / WATCH 18 / AVOID 13. Sektor: Otomotif 66,5 / Material 62,2 / Infrastruktur 61,3 positif; lemah: Perbankan Syariah 29,0, Telekom 31,2, Mineral 32,3, Teknologi 39,4. Riset manual 16 Nov: (1) CNBC/Pasardana/Databoks — IHSG tutup -0,44% ke 5.320,98, sesi I sempat 5.297, 7 sektor merah, Barang Baku jatuh paling dalam, Energi anjlok; (2) Kontan/koridor — rupiah ditutup 18.268 melemah 62 poin, rekor terlemah baru; BI sebut ekspektasi kenaikan bunga The Fed jadi pemicu; (3) Bloomberg Technoz — pekan lalu IHSG melonjak 5,82%, asing borong BBCA/BBRI, CNBC: asing net buy Rp546,06 miliar sepanjang pekan; (4) Senin asing net sell lagi (Kompas: asing cabut Rp505,61 miliar sesi I; Kontan: net sell); (5) Fed: pasar hampir 100% yakin kenaikan Desember, Motley Fool: kenaikan lebih dari normal mungkin, Barron's: kenaikan bisa berlanjut ke 2027, Collins: kenaikan bertahap; risalah FOMC pekan ini; (6) BI-Rate diputuskan Rabu 18 Nov — proyeksi mayoritas tahan 5,75% (Gotrade/Bloomberg Technoz), tapi ada yang proyeksi naik 6% (Ajaib) dan BI pertimbangkan kenaikan (Demokratis); (7) FTSE Russell pertahankan status pasar Indonesia tapi keluarkan 14 saham dari indeks global (cwibc/Kompas); MSCI rebalance November potensi outflow Rp3,6 triliun (Emitennews); (8) Hormuz: tanker kena proyektil, Bahrain klaim adu serang dengan Iran, USS Roosevelt tiba — tapi Reuters: minyak jatuh karena ekspor Timur Tengah pulih dan surplus; (9) Rusia-Ukraina: perundingan Abu Dhabi hampir 4 jam, sepakat tukar tawanan, Eropa ikut — de-eskalasi; (10) Super El Nino berlanjut; pengganti wapres dipilih MPR 2 Desember.",
+  "analyzed_at": "2026-11-17T18:45:00+07:00",
+  "method": "Analisis manusia top-down: rezim global -> aktor & kepentingan -> arus uang/barang -> sebab-akibat -> dampak lanjutan -> sektor/emiten -> skenario bull/base/bear -> invalidasi. Angka pasar adalah BUKTI; probabilitas adalah judgement analis, bukan keluaran fungsi/rumus otomatis. Data scan 17 Nov (Selasa) 18:30 WIB: IHSG 5.304,75 (r20 +0,5%, r60 -18,4%, drawdown -20,7%; tutup -0,30% ke 5.304,76 dari 5.320,98 di 16 Nov), USD/IDR 18.240 proxy (menguat tipis jelang keputusan BI; intraday 18.287), minyak 86,07 (r20 -15,4%), emas US$3.860,8 (r20 -6,8%, terendah 1 tahun), US10Y 5,12 (r20 -0,3%), DXY 103,58 (r60 +4,6%), bijih besi 90,91 (datar), aluminium 3.045,75 (r20 -2,0%), breadth STUDY 1 / WATCH 16 / AVOID 15. Sektor: Otomotif 62,0 / Material 61,9 / Infrastruktur 61,6 positif; lemah: Telekom 29,0, Mineral 30,7, Perbankan Syariah 35,2, Teknologi 36,5. Riset manual 17 Nov: (1) CNBC/Databoks/detik — IHSG tutup -0,30% ke 5.304,76, dua hari merah, sesi pagi sempat 5.380; big cap perbankan Himbara kompak naik menahan indeks (Maybank/Ajaib); (2) Bloomberg Technoz/OWRITE — rupiah menguat tipis jelang pengumuman BI Rate besok, intraday 18.287; (3) BI-Rate diputuskan Rabu 18 Nov: mayoritas tahan 5,75% (Kontan/cwibc), tapi Kontan juga laporkan proyeksi naik ke 6% dan Bloomberg Technoz sebut peluang naik melebar — pasar terbelah; (4) FOMC minutes rilis 18 Nov (Admirals); Motley Fool: 100% peluang kenaikan Fed Desember; (5) Emas jatuh ke terendah 1 tahun US$3.860,8, Goldman pangkas proyeksi 2027; (6) Minyak 86,07 turun karena surplus kuartal IV, batu bara ikut melemah (Koridor); (7) FTSE Russell keluarkan 14 saham RI, MSCI rebalance potensi outflow Rp3,6 triliun; (8) KTT APEC: Trump tiba di Manila, akan bertemu Xi dan Putin di China, kemungkinan bertemu Kim Jong Un; (9) Ukraina: Jembatan Krimea runtuh akibat serangan, double-tap bunuh 72 orang — eskalasi; (10) Super El Nino berlanjut; pengganti wapres dipilih MPR 2 Desember.",
   "prediction_mode": "MANUAL_AGENT_ANALYSIS",
   "predictions": [
     {
       "topic": "IHSG dan arah risk-appetite 1-3 bulan",
       "probabilities": {
-        "bull": 0.22,
+        "bull": 0.24,
         "base": 0.46,
-        "bear": 0.32
+        "bear": 0.30
       },
-      "confidence": 70,
-      "thesis": "RALLY MENTOK, IHSG BALIK MERAH: bull 0,32->0,22, base 0,46->0,46, bear 0,22->0,32, confidence 74->70. Rally dua pekan (IHSG +5,82% sepekan lalu, tutup Jumat 5.344) mentok. Senin 16 Nov IHSG dibuka melemah, sesi I sempat jatuh ke 5.297 (-0,87%), ditutup -0,44% ke 5.320,98 dengan 7 sektor merah dan saham tambang/energi jadi korban terberat. Pendorong pekan lalu (asing net buy Rp546 miliar sepekan, BBCA/BBRI diborong) kembali berbalik: Senin asing net sell lagi (Rp505 miliar sesi I). Tekanan ganda: rupiah cetak rekor baru 18.268 dan Fed makin panas (pasar ~100% yakin kenaikan Desember, kemungkinan lebih dari normal, bahkan berlanjut 2027). Penahan: FTSE Russell tetap pertahankan status pasar Indonesia (14 saham keluar indeks tapi pasar tidak diturunkan), IHSG masih di atas 5.300, dan asing masih memilih bank besar. Judgement: konsolidasi 5.200-5.450; lanjut naik butuh BI dovish dan Fed melunak.",
+      "confidence": 71,
+      "thesis": "DU HARI MERAH, PASAR MENUNGGU RABU: bull 0,22->0,24, base 0,46->0,46, bear 0,32->0,30, confidence 70->71. IHSG Selasa 17 Nov ditutup turun 0,30% ke 5.304,76 — dua hari merah berturut setelah Senin 5.320,98 — meski sesi pagi sempat menyentuh 5.380 dan bank Himbara kompak naik menahan indeks. Semua menunggu Rabu 18 Nov: keputusan BI-Rate (mayoritas proyeksi tahan 5,75%, tapi suara pasar terbelah dengan proyeksi naik ke 6%) dan risalah FOMC yang rilis di hari sama. Rupiah justru menguat tipis jelang pengumuman, jadi tekanan sesaat mereda. Penahan baru: KTT APEC Trump-Xi-Putin di China mulai pekan ini — kalau muncul sinyal damai, risk appetite Asia bisa terangkat. Penekan: breadth memburuk (AVOID 13->15), perang Ukraina memanas lagi (Jembatan Krimea runtuh), dan emas/minyak masih turun. Judgement: konsolidasi 5.200-5.450; arah baru lahir setelah Rabu.",
       "evidence": [
-        "Scan Bennix 16 Nov 18:31 WIB: IHSG 5.320,98 (r20 +6,5%, r60 -18,5%, drawdown -20,4%) — turun dari 5.344,41 (13 Nov)",
-        "CNBC/Pasardana/Databoks 16 Nov: IHSG tutup -0,44% ke 5.320,98; sesi I sempat 5.297; 7 sektor merah, Barang Baku terdalam",
-        "Bloomberg Technoz: IHSG melonjak 5,82% sepekan lalu; CNBC — asing net buy Rp546,06 miliar sepanjang pekan, borong BBCA/BBRI",
-        "Kompas/Kontan 16 Nov: asing kembali net sell — Rp505,61 miliar di sesi I; IHSG gagal rebound",
-        "Reuters/Motley Fool/Barron's: pasar ~100% yakin kenaikan Fed Desember, bisa lebih dari normal, lanjut sampai 2027",
-        "FTSE Russell pertahankan status pasar Indonesia, tapi 14 saham RI dikeluarkan dari indeks global (cwibc/Kompas)",
-        "MSCI rebalance November: potensi passive outflow Rp3,6 triliun (Emitennews); Ajaib: outflow Rp2,77 triliun",
-        "Rabu 18 Nov: keputusan BI-Rate dan risalah FOMC — dua pemicu besar bertepatan",
-        "IHSG membuka melemah 8,97 poin ke 5.335 dan ditutup 5.320 — tekanan terus sepanjang hari (ANTARA)"
+        "Scan Bennix 17 Nov 18:30 WIB: IHSG 5.304,75 (r20 +0,5%, r60 -18,4%, drawdown -20,7%) — dua hari turun berturut",
+        "CNBC/Databoks 17 Nov: IHSG tutup -0,30% ke 5.304,76; sesi pagi sempat menyentuh 5.380 lalu tergelincir",
+        "Maybank/Ajaib 17 Nov: big cap perbankan Himbara kompak naik, jadi penahan indeks saat IHSG merah",
+        "Kontan/Bloomberg Technoz: BI diproyeksi tahan 5,75% besok; suara pasar terbelah, ada proyeksi naik ke 6%",
+        "FOMC minutes rilis 18 Nov (Admirals); Motley Fool: peluang kenaikan Fed Desember 100% — tekanan global",
+        "Bloomberg Technoz 17 Nov: rupiah menguat tipis jelang pengumuman BI Rate besok — tekanan sesaat mereda",
+        "Breadth melemah: STUDY 1 / WATCH 16 / AVOID 15 (dari 1/18/13 pada 16 Nov) — saham layak awasi menyusut",
+        "Al Jazeera/CNBC: KTT APEC Trump-Xi-Putin di China; Trump tiba di Manila untuk KTT ASEAN — potensi de-eskalasi",
+        "BBC/CNBC 17 Nov: Jembatan Krimea runtuh akibat serangan Ukraina, double-tap bunuh 72 orang — perang memanas"
       ],
-      "causal_chain": "Rally +5,82% sepekan lalu dengan asing net buy -> Senin asing kembali net sell Rp505 miliar -> IHSG -0,44% ke 5.320 dengan 7 sektor merah -> rupiah rekor 18.268 + Fed ~100% kenaikan Desember -> risk appetite tertahan di 5.200-5.450 -> bila BI tahan dan dovish + FOMC minutes tidak agresif -> uji 5.450 -> bila BI naikkan bunga atau Fed sinyal 50bp -> tes 5.200 -> bila asing net sell >Rp1,5 triliun berturut -> koreksi ke 5.100 -> pemutus: keputusan BI & risalah FOMC Rabu, arus asing pekan ini",
-      "invalidation": "Bull (0,22) BATAL bila IHSG tutup <5.150 dua sesi. Base (5.200-5.450) batal bila tutup >5.550 ATAU <5.150 satu hari. Bear (0,32) terkonfirmasi bila tutup <5.000 dengan asing net sell >Rp1,5 triliun ATAU rupiah tembus 18.500.",
+      "causal_chain": "Dua hari merah -> IHSG 5.304 dengan breadth melemah (AVOID 13->15) -> semua pihak tunggu BI & FOMC Rabu -> rupiah menguat tipis + bank Himbara naik jadi penahan -> bila BI tahan 5,75% dengan sinyal hawkish + FOMC minutes tidak agresif -> rebound uji 5.450 -> bila BI naikkan bunga atau FOMC minutes agresif -> tes 5.200 -> bila KTT APEC hasilkan sinyal damai -> risk appetite Asia terangkat -> bila asing net sell >Rp1,5 triliun berturut atau eskalasi Krimea berlanjut -> koreksi ke 5.100 -> pemutus: keputusan BI & risalah FOMC Rabu 18 Nov, hasil KTT APEC, arus asing",
+      "invalidation": "Bull (0,24) BATAL bila IHSG tutup <5.150 dua sesi. Base (5.200-5.450) batal bila tutup >5.550 ATAU <5.150 satu hari. Bear (0,30) terkonfirmasi bila tutup <5.000 dengan asing net sell >Rp1,5 triliun ATAU rupiah tembus 18.500.",
       "manual_analysis": true
     },
     {
       "topic": "Sektor: mana yang kuat dan mana yang tertinggal",
       "probabilities": {
-        "bull": 0.28,
+        "bull": 0.26,
         "base": 0.44,
-        "bear": 0.28
+        "bear": 0.30
       },
-      "confidence": 64,
-      "thesis": "TIGA SEKTOR POSITIF TAPI SEBUAH TANDA BA: bull 0,30->0,28, base 0,46->0,44, bear 0,24->0,28, confidence 66->64. Peta sektor 16 Nov tetap ada di zona hijau — Otomotif 66,5 (naik dari 64,2), Material 62,2, Infrastruktur 61,3 — tapi arah hari ini menurun: 7 sektor merah dan Barang Baku jatuh paling dalam (Databoks), Energi anjlok (Kompas). Posisi terbalik dari Jumat: pekan lalu Material/Energi yang jadi tulang punggung rally, sekarang jadi korban. ASII masih STUDY satu-satunya (73,8, harga 5.700, r20 +38%), tapi PTBA turun ke WATCH (68,0). Breadth melemah: STUDY 1 / WATCH 18 (dari 2/17). Rintangan nyata: FTSE Russell keluarkan 14 saham dari indeks global dan MSCI rebalance potensi outflow Rp3,6 triliun — saham terdepak dilarikan. Penahan: FTSE tetap pertahankan status pasar Indonesia, bijih besi 91,5 datar, dan bank besar masih diburu asing (BBCA net buy Rp1,37 triliun sepanjang November). Judgement: bertahan di Otomotif & bank blue chip; hindari saham terdepak indeks dan energi yang baru jatuh.",
+      "confidence": 63,
+      "thesis": "BANK JADI PENAHAN, TAPI PETA SEKTOR MENGERUT: bull 0,28->0,26, base 0,44->0,44, bear 0,28->0,30, confidence 64->63. Tiga sektor tetap positif — Otomotif 62,0 (turun dari 66,5), Material 61,9, Infrastruktur 61,6 — tapi skornya melandai dan zona lemah melebar: Telekom 29,0, Mineral 30,7, Perbankan Syariah 35,2, Teknologi 36,5. Yang menarik hari ini: bank Himbara kompak naik menjelang keputusan BI (Ajaib/Maybank), jadi Perbankan (53,2) jadi penahan indeks. Tapi breadth memburuk: AVOID 13->15 dan WATCH 18->16 — makin sedikit saham yang layak diawasi. Rintangan tetap: FTSE Russell keluarkan 14 saham RI dan MSCI rebalance potensi outflow Rp3,6 triliun. Penahan: bijih besi datar 90,9 dan minyak turun memangkas biaya industri. Judgement: bertahan di perbankan Himbara dan Otomotif; hindari Mineral dan Telekom yang makin dalam.",
       "evidence": [
-        "Skor sektor Bennix 16 Nov: Otomotif 66,5 (naik dari 64,2), Material 62,2, Infrastruktur 61,3 — tiga zona positif bertahan",
-        "Databoks 16 Nov: 7 sektor saham turun, Barang Baku jatuh paling dalam — arah hari ini menurun",
-        "Kompas 16 Nov: sektor Energi anjlok; saham tambang jadi korban terberat saat IHSG -0,44%",
-        "ASII satu-satunya STUDY (skor 73,8, harga 5.700, r20 +38%); PTBA turun ke WATCH (68,0)",
-        "Breadth melemah: STUDY 1 / WATCH 18 / AVOID 13 (dari 2/17/13 pada 13 Nov)",
-        "FTSE Russell keluarkan 14 saham RI dari indeks global (cwibc/Kompas); MSCI rebalance potensi outflow Rp3,6 triliun (Emitennews)",
-        "FTSE tetap pertahankan status pasar Indonesia (cwibc) — pasar tidak diturunkan, arus tak langsung keluar",
-        "Bijih besi 91,5 datar dan aluminium 3.063 (r20 -2,7%) — permintaan industri China melemah",
-        "Ajaib: BBCA net buy Rp1,37 triliun sepanjang November — asing masih memburu bank besar"
+        "Skor sektor Bennix 17 Nov: Otomotif 62,0 (dari 66,5), Material 61,9, Infrastruktur 61,6 — tiga positif, skor melandai",
+        "Zona lemah melebar: Telekom 29,0, Mineral 30,7, Perbankan Syariah 35,2, Teknologi 36,5",
+        "Ajaib/Maybank 17 Nov: bank Himbara kompak naik menjelang keputusan BI — Perbankan jadi penahan indeks",
+        "Breadth: AVOID naik 13->15 dan WATCH turun 18->16 — pilihan saham layak diawasi menyusut",
+        "FTSE Russell keluarkan 14 saham RI dari indeks global; MSCI rebalance potensi outflow Rp3,6 triliun",
+        "Koridor 17 Nov: batu bara turun karena pelemahan minyak dan listrik China — Energi belum pulih",
+        "Kontan: minyak melemah karena surplus pasokan kuartal IV — tekanan pada saham energi dan material",
+        "Scan: INTP 6.025 (r20 +10,6%) dan PTBA 3.100 (r60 +25%) masih terkuat di kelompoknya",
+        "ASII tetap satu-satunya STUDY (70,4, harga 5.650, r20 +25,6%) — Otomotif masih tulang punggung"
       ],
-      "causal_chain": "Tiga sektor tetap positif tapi arah hari ini menurun -> 7 sektor merah, Barang Baku terdalam -> Material/Energi berbalik dari pendorong jadi korban -> asing net sell Rp505 miliar -> breadth melemah ke STUDY 1 -> bila BI tahan + bijih besi stabil -> Otomotif & bank bertahan di 5.300 -> bila FTSE/MSCI outflow terus -> sektor positif jebol -> bila asing kembali net buy blue chip -> rally sektor lanjut -> pemutus: arus asing, harga logam, hasil RDG BI Rabu",
-      "invalidation": "Bull (0,28) BATAL bila ASII <5.300 atau hanya <=1 sektor positif akhir pekan. Base (0,44) batal bila >4 sektor keluar zona positif minggu ini. Bear (0,28) terkonfirmasi bila skor Energi <50 dan Material <55 dengan AVOID >=17.",
+      "causal_chain": "Tiga sektor positif tapi skor melandai -> breadth melemah (AVOID 13->15) -> bank Himbara naik jadi penahan baru -> FTSE/MSCI tetap tekan saham terdepak -> bila BI tahan + hasil APEC positif -> Otomotif & perbankan bertahan di 5.300 -> bila outflow asing berlanjut -> sektor positif jebol -> bila harga logam stabil dan minyak rendah -> biaya industri turun, margin terjaga -> pemutus: arus asing, hasil RDG BI, harga komoditas pekan ini",
+      "invalidation": "Bull (0,26) BATAL bila ASII <5.300 atau hanya <=1 sektor positif akhir pekan. Base (0,44) batal bila >4 sektor keluar zona positif minggu ini. Bear (0,30) terkonfirmasi bila skor Energi <50 dan Material <55 dengan AVOID >=17.",
       "manual_analysis": true
     },
     {
       "topic": "Rupiah dan arus modal asing 1-2 bulan",
       "probabilities": {
-        "bull": 0.12,
-        "base": 0.43,
-        "bear": 0.45
+        "bull": 0.14,
+        "base": 0.45,
+        "bear": 0.41
       },
-      "confidence": 72,
-      "thesis": "RUPIAH CETAK REKOR BARU, TEKANAN PALING KERAS: bull 0,15->0,12, base 0,45->0,43, bear 0,40->0,45, confidence 70->72. Senin 16 Nov rupiah ditutup 18.268 per dolar, melemah 62 poin — rekor terlemah kedua dalam sepekan (sebelumnya 18.250 di 12 Nov dan 18.206 di 13 Nov). Ini membatalkan perbaikan Jumat lalu. BI menyebut pemicunya ekspektasi kenaikan bunga The Fed, dan pasar kini hampir 100% yakin kenaikan Desember — Barron's bahkan melihat kenaikan berlanjut ke 2027. DXY 103,55 (r60 +4,8%) terus menguat, US10Y 5,15. Penyeimbang: keputusan BI Rabu 18 Nov sebagian besar diproyeksi tahan 5,75% (Gotrade/Bloomberg Technoz), meski ada suara proyeksi naik ke 6% (Ajaib) dan BI disebut pertimbangkan kenaikan. Judgement: tekanan ke 18.200-18.400; pemulihan butuh Fed melunak dan BI tahan dengan sinyal hawkish hati-hati.",
+      "confidence": 71,
+      "thesis": "RUPIAH BERHENTI JATUH, MASIH DI TEPI JURANG: bull 0,12->0,14, base 0,43->0,45, bear 0,45->0,41, confidence 72->71. Setelah cetak rekor 18.268 Senin, rupiah berbalik menguat tipis Selasa 17 Nov jelang pengumuman BI Rate besok — intraday sempat 18.287 lalu membaik. Ini tanda pasar menahan napas, bukan membaik fundamental. Pemicu pelemahan tetap ada: ekspektasi kenaikan Fed Desember 100% (Motley Fool) dan dolar kuat (DXY 103,58, r60 +4,6%). Penentu besok: BI menimbang kenaikan — Bloomberg Technoz sebut peluang naik melebar, Kontan proyeksi 6%, tapi mayoritas masih tahan 5,75%. Jika BI tahan dengan sinyal hawkish, rupiah bertahan 18.200-18.350; jika BI naikkan, lega ke 18.150; jika tahan tanpa sinyal, tekanan ulang ke 18.400. Judgement: waspada, belum aman — arus asing masih net sell di saham.",
       "evidence": [
-        "Kontan/koridor 16 Nov: rupiah ditutup 18.268, melemah 62 poin — rekor terlemah baru",
-        "Bloomberg Technoz: pekan lalu IHSG +5,82% dan asing borong BBCA/BBRI, net buy Rp546 miliar",
-        "Kompas 16 Nov: asing cabut Rp505,61 miliar di sesi I — arus kembali keluar",
-        "Reuters/Motley Fool/Barron's: pasar ~100% yakin kenaikan Fed Desember, bisa berlanjut 2027",
-        "DollarIndex 103,55 (r60 +4,8%) dan US10Y 5,15 (r20 +1,1%) — dolar & yield naik",
-        "BI sebut ekspektasi kenaikan bunga The Fed jadi pemicu pelemahan rupiah (Kabar Nusantara)",
-        "RDG BI Rabu 18 Nov: mayoritas proyeksi tahan 5,75%, tapi ada yang proyeksi naik 6%",
-        "Reuters: FTSE Russell pertahankan status pasar Indonesia — arus tak langsung keluar"
+        "Bloomberg Technoz 17 Nov: rupiah menguat tipis jelang pengumuman BI Rate besok — pasar wait & see",
+        "OWRITE 17 Nov: rupiah sempat loyo ke 18.287 per dolar, investor waspada jelang keputusan BI",
+        "Bloomberg Technoz 16 Nov: rupiah terlemah sepanjang masa — tekanan struktural belum hilang",
+        "Kontan 17 Nov: BI diproyeksikan kerek suku bunga jadi 6% untuk jaga daya tarik aset rupiah",
+        "Bloomberg Technoz 17 Nov: ekonom sebut peluang BI naikkan suku bunga melebar — suara terbelah",
+        "Motley Fool: peluang kenaikan Fed Desember 100% — tekanan dolar global tetap ada",
+        "DollarIndex 103,58 (r60 +4,6%) dan US10Y 5,12 — dolar masih kuat",
+        "ANTARA 17 Nov: kurs dipengaruhi sikap wait & see jelang pengumuman BI-Rate",
+        "Bisnis.com: pasca FTSE, IHSG dibayangi BI Rate dan isu kursi wapres — ketidakpastian ganda"
       ],
-      "causal_chain": "Fed ~100% naik Desember + DXY 103,55 -> rupiah cetak rekor 18.268 -> asing cabut Rp505 miliar -> tekanan impor & biaya dolar naik -> BI di depan pilihan sulit Rabu -> bila BI tahan dan Fed tidak agresif -> stabil 18.200-18.350 -> bila BI naikkan bunga -> lega singkat ke 18.150 -> bila Fed 50bp atau BI tahan tanpa sinyal -> tembus 18.400 -> pemutus: keputusan BI & risalah FOMC Rabu, arus asing",
-      "invalidation": "Bear (0,45) BATAL bila USD/IDR tutup <18.000 dua sesi. Base (18.200-18.400) batal bila tutup >18.550 ATAU <17.950. Bull (0,12) terkonfirmasi bila tutup <17.950 dengan asing net buy saham >Rp1 triliun berturut-turut.",
+      "causal_chain": "Fed 100% naik Desember + DXY 103,58 -> rupiah rekor 18.268 Senin -> Selasa menguat tipis karena pasar tahan napas menunggu BI -> BI di depan pilihan sulit Rabu -> bila BI naikkan bunga -> lega ke 18.150 dan asing kembali masuk -> bila BI tahan 5,75% dengan sinyal hawkish -> stabil 18.200-18.350 -> bila BI tahan tanpa sinyal jelas -> tekanan ulang ke 18.400 -> bila Fed minutes agresif -> tembus 18.500 -> pemutus: keputusan BI & risalah FOMC Rabu 18 Nov, arus asing pekan ini",
+      "invalidation": "Bear (0,41) BATAL bila USD/IDR tutup <18.000 dua sesi. Base (18.200-18.350) batal bila tutup >18.550 ATAU <17.950. Bull (0,14) terkonfirmasi bila tutup <17.950 dengan asing net buy saham >Rp1 triliun berturut-turut.",
       "manual_analysis": true
     },
     {
       "topic": "Risiko utama: Fed, Hormuz, dan politik domestik baru",
       "probabilities": {
-        "bull": 0.20,
-        "base": 0.45,
-        "bear": 0.35
+        "bull": 0.22,
+        "base": 0.44,
+        "bear": 0.34
       },
       "confidence": 73,
-      "thesis": "RISIKO NAIK LAGI: FED MAKIN PANAS, HORMUZ MASIH TIDAK TENANG, POLITIK MENUNGGU 2 DESEMBER: bear 0,28->0,35, base 0,48->0,45, bull 0,24->0,20, confidence 71->73. Ketiga risiko utama memburuk. Pertama, Fed: pasar kini hampir 100% yakin kenaikan Desember (Motley Fool), kenaikan bisa lebih dari normal, Barron's melihat berlanjut ke 2027, Collins sebut kenaikan bertahap — risalah FOMC pekan ini jadi penentu. Kedua, Hormuz: tanker kena proyektil, Bahrain klaim adu serang dengan Iran, USS Roosevelt tiba (3 carrier group) — tapi Reuters: minyak justru turun karena ekspor Timur Tengah pulih dan surplus, jadi risiko tinggi tapi harga belum panik. Ketiga, politik: pengganti wapres dipilih MPR 2 Desember. Penyeimbang: de-eskalasi Rusia-Ukraina (perundingan Abu Dhabi 4 jam, tukar tawanan besar, Eropa ikut) dan FTSE Russell tetap pertahankan status pasar Indonesia. Judgement: risiko naik karena Fed jelas makin panas, walau Hormuz efeknya belum terasa di harga.",
+      "thesis": "RISIKO BERTUKAR ARAK-ARAKAN: APEC DAMAI DI SATU SISI, UKRAINA MEMANAS DI SISI LAIN: bear 0,35->0,34, base 0,45->0,44, bull 0,20->0,22, confidence 73->73. Peta risiko berubah bentuk. Positif: KTT APEC pekan ini — Trump tiba di Manila, akan bertemu Xi dan Putin di China, bahkan kemungkinan Kim Jong Un; China sebut pertemuan punya 'signifikansi revolusioner'. Ini potensi de-eskalasi besar yang bisa mengangkat risk appetite Asia. Negatif: Ukraina justru memanas — Jembatan Krimea runtuh akibat serangan dan serangan double-tap bunuh 72 orang. Fed tetap 100% kenaikan Desember dan FOMC minutes rilis Rabu. Hormuz relatif tenang hari ini, minyak malah turun 86,07 karena surplus kuartal IV. Politik domestik: pengganti wapres dipilih MPR 2 Desember. Judgement: risiko sedikit turun karena APEC, tapi tetap tinggi — Fed dan perang masih jadi ancaman utama.",
       "evidence": [
-        "Motley Fool/Reuters/Barron's: pasar ~100% yakin kenaikan Fed Desember, bisa lebih dari normal dan lanjut ke 2027",
-        "Collins (Fed): kenaikan bertahap jadi cara kelola risiko ekonomi; risalah FOMC pekan ini jadi penentu",
-        "Al Jazeera/CBS: USS Roosevelt tiba, 3 carrier group AS di Timur Tengah, Bahrain klaim adu serang dengan Iran",
-        "Oil & Gas Middle East/UKMTO: tanker kena proyektil di Selat Hormuz, Iran klaim supertanker tenggelam",
-        "Reuters: minyak justru turun karena ekspor Timur Tengah pulih, pasokan melimpah — harga 88,17 (r20 -14,9%)",
-        "ANTARA: AS klaim kemajuan signifikan menuju penyelesaian konflik Rusia-Ukraina; perundingan Abu Dhabi hampir 4 jam",
-        "Zelenskyy/Rusia: sepakat tukar tawanan terbesar, Eropa dilibatkan — sinyal perdamaian baru",
+        "Reuters/CNBC 17 Nov: Trump tiba di Manila, akan bertemu Xi dan Putin di APEC China, kemungkinan Kim Jong Un",
+        "Reuters 16 Nov: Kremlin sebut pertemuan Putin-Xi-Trump punya dampak besar bagi urusan global",
+        "BBC/CNBC 17 Nov: Jembatan Krimea runtuh akibat serangan Ukraina — eskalasi perang",
+        "BBC 17 Nov: serangan double-tap bunuh 72 orang, Rusia tuduh Ukraina sasar tim penyelamat",
+        "Motley Fool/Admirals: peluang kenaikan Fed Desember 100%; FOMC minutes rilis 18 Nov",
+        "Kontan 16 Nov: minyak melemah karena surplus pasokan kuartal IV — Hormuz belum terbayar di harga",
+        "Emas US$3.860,8 (r20 -6,8%, terendah 1 tahun) — pasar tidak buru-buru cari perlindungan",
         "BBC/MPR: pengganti wapres dipilih MPR 2 Desember — ketidakpastian politik tertunda",
-        "Emas US$3.878,7 (r20 -6,8%, terendah 1 tahun) — pasar tidak mencari perlindungan, menunggu Fed"
+        "Goldman pangkas proyeksi emas 2027 ke US$4.650 — pasar lihat suku bunga tetap tinggi"
       ],
-      "causal_chain": "Fed ~100% naik Desember + risalah FOMC pekan ini -> yield & dolar naik -> tekanan ke rupiah & emerging market -> IHSG rally terhenti -> Hormuz masih panas tapi minyak turun (surplus) -> risiko tinggi tapi belum terbayar di harga -> politik 2 Desember tambah ketidakpastian -> bila FOMC minutes agresif + Hormuz makin panas -> koreksi tajam -> bila Fed tahan/naik terkendali dan Hormuz tenang -> pasar stabil -> bila de-eskalasi Rusia-Ukraina lanjut + FTSE aman -> sentimen membaik -> pemutus: risalah FOMC & keputusan BI Rabu, insiden Hormuz, arus asing",
-      "invalidation": "Bear (0,35) terkonfirmasi bila Fed sinyalkan >=50bp ATAU minyak tembus US$95 ATAU rupiah tembus 18.500. Bull (0,20) terkonfirmasi bila Fed melunak, minyak <85, dan rupiah kembali <18.100. Base (0,45) batal bila satu kejadian biner besar (Hormuz tutup / keputusan politik mendadak) terjadi dalam dua pekan.",
+      "causal_chain": "Fed 100% naik Desember + FOMC minutes Rabu -> yield & dolar naik -> tekanan rupiah & emerging market -> KTT APEC Trump-Xi-Putin potensi de-eskalasi -> jika hasil positif -> risk appetite Asia terangkat -> tapi Ukraina memanas (Krimea runtuh) -> ancaman baru -> Hormuz tenang, minyak turun -> inflasi energi tidak meledak -> politik 2 Desember tambah ketidakpastian -> bila APEC damai + FOMC tenang -> pasar terangkat -> bila FOMC agresif + eskalasi Krimea berlanjut -> koreksi -> pemutus: hasil KTT APEC, risalah FOMC, insiden perang",
+      "invalidation": "Bear (0,34) terkonfirmasi bila Fed sinyalkan >=50bp ATAU minyak tembus US$95 ATAU rupiah tembus 18.500. Bull (0,22) terkonfirmasi bila KTT APEC hasilkan kesepakatan damai konkret, Fed melunak, dan rupiah kembali <18.100. Base (0,44) batal bila satu kejadian biner besar (Hormuz tutup / kesepakatan APEC besar) terjadi dalam dua pekan.",
       "manual_analysis": true
     }
   ]
