@@ -1,102 +1,101 @@
 {
   "analyst": "Hermes Agent — analisis manual metode Bennix",
-  "analyzed_at": "2026-11-24T19:45:00+07:00",
-  "method": "Analisis manusia top-down: rezim global -> aktor & kepentingan -> arus uang/barang -> sebab-akibat -> dampak lanjutan -> sektor/emiten -> skenario bull/base/bear -> invalidasi. Angka pasar adalah BUKTI; probabilitas adalah judgement analis, bukan keluaran fungsi/rumus otomatis. Data scan 24 Nov (Selasa) 19:19 WIB: IHSG 5.241,59 (r20 -0,47%, r60 -20,6%, drawdown -21,6%; naik +0,5% dari 5.215 — hari hijau kedua berturut), USD/IDR 18.158 (menguat dari 18.195), DXY 103,99 (r60 +4,6%), minyak 80,4 (r20 -19,5%), emas US$3.624 (r20 -11,1%), US10Y 4,92 (r20 -1,4%), bijih besi 90,67 (datar), aluminium 2.759 (r20 -16,0%), batu bara indikator error (proxy 864), breadth STUDY 0 / WATCH 16 / AVOID 16. Sektor 24 Nov: TIDAK ADA yang positif — Konsumer 56,6, Otomotif 54,2, Material 53,5 (turun dari 61,1), Kesehatan 51,7, Perbankan 50,1, Energi 48,1; lemah: Infrastruktur 43,1, Teknologi 38,8, Bank Syariah 32,6, Telekom 28,3, Mineral 28,2. Riset manual 24 Nov: (1) Kontan 24 Nov: analis proyeksi IHSG tembus 6.860 pada 2027; (2) CNBC 24 Nov: futures AS merah 'Huang-effect fails', Nvidia -5% pra-pasar, 'bottom maybe not'; (3) CNBC 23 Nov: Fed Williams sebut suku bunga lebih tinggi dibutuhkan 'over time'; (4) Al Jazeera/BBC 24 Nov: Ukraina serang kapal perang Rusia di Benghazi Libya, 200 pakar Ukraina tiba; (5) Al Jazeera 24 Nov: Irak perintahkan pengambilalihan ladang minyak wilayah Kurdi; (6) BBC 24 Nov: NATO waspadai ancaman luar angkasa setelah laporan satelit nuklir Rusia; (7) Guardian/CNN 24 Nov: perang Ukraina-Rusia merembet ke Eropa, 'eskalasi jadi kasus dasar'; (8) El Nino super kuat — Peru darurat bahan bakar (ANTARA 19 Nov); (9) asing net sell Rp673 miliar 23 Nov (InvestorTrust), TLKM dilepas Rp411 miliar (Ajaib); (10) UGM: IHSG anjlok pasca usulan reklasifikasi MSCI — kelas Indonesia tetap isu utama.",
+  "analyzed_at": "2026-11-25T19:10:00+07:00",
+  "method": "Analisis manusia top-down: rezim global -> aktor & kepentingan -> arus uang/barang -> sebab-akibat -> dampak lanjutan -> sektor/emiten -> skenario bull/base/bear -> invalidasi. Angka pasar adalah BUKTI; probabilitas adalah judgement analis, bukan keluaran fungsi/rumus otomatis. Data scan 25 Nov (Rabu) 18:31 WIB: IHSG 5.197,61 (r20 -1,6%, r60 -21,2%, drawdown -22,3%; turun -0,84% dari 5.241 — batal rally 2 hari), USD/IDR 18.310 (REKOR TERLEMAH, dari 18.158 kemarin), DXY 104,01 (r60 +4,4%), minyak 81,43 (r20 -20,8%), emas US$3.553 (r20 -12,3%), US10Y 4,90 (r20 -1,8%), bijih besi 90,67 (datar), aluminium 2.726,5 (r20 -16,8%), batu bara sumber error (proxy 864), breadth STUDY 0 / WATCH 16 / AVOID 16. Sektor 25 Nov: TIDAK ADA yang positif — Konsumer 57,5, Material 55,6, Otomotif 54,5, Kesehatan 51,0, Logistik 49,2, Energi 49,0, Perbankan 48,9; lemah: Teknologi 38,7, Infrastruktur 38,3, Bank Syariah 29,0, Mineral 28,1, Telekom 26,9. Riset manual 25 Nov: (1) CNBC Indonesia: IHSG dibuka +1,29% tapi tutup -0,84% ke 5.197, 453 saham merah; (2) CNBC 25 Nov: 'Tech rout deepens globally; Softbank falls 15%, Nvidia down 4.5% premarket'; (3) BBC 25 Nov: AS siapkan rencana tarif baru untuk mitra dagang global; (4) CNBC Indonesia/Ajaib: rupiah tutup 18.310, terlemah sepanjang masa; (5) Bareksa: MSCI bantah batal turunkan status RI, konsultasi tetap berjalan; (6) SWA/Mirae: dana asing US$8-11 miliar berisiko keluar bila RI jadi MSCI standalone; (7) CNBC 25 Nov: Houthi serang menara PIF Arab Saudi, 11 luka; (8) Al Jazeera 25 Nov: Netanyahu digosipkan akan perang baru dengan Iran; (9) CNBC 25 Nov: Ukraina serang kilang minyak Rusia, Rusia janji balas; (10) CNBC 25 Nov: 'AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze'.",
   "prediction_mode": "MANUAL_AGENT_ANALYSIS",
   "predictions": [
     {
       "topic": "IHSG dan arah risk-appetite 1-3 bulan",
       "probabilities": {
-        "bull": 0.22,
-        "base": 0.46,
-        "bear": 0.32
+        "bull": 0.18,
+        "base": 0.44,
+        "bear": 0.38
       },
-      "confidence": 68,
-      "thesis": "IHSG NAIK LAGI KE 5.241, TAPI PEMULIHANNYA MASIH TANPA UANG ASING: bull 0,20->0,22, base 0,44->0,46, bear 0,36->0,32, confidence 68->68. Selasa 24 Nov indeks ditutup 5.241,59 atau sekitar +0,5% — hari hijau kedua berturut setelah +1,35% Senin ke 5.215. Momentum 20 hari membaik tajam dari -2,9% jadi -0,47%. Pendorongnya tetap sama: harapan MSCI (Kontan hari ini bahas proyeksi analis IHSG 6.860 pada 2027), rupiah menguat ke 18.158, dan yield AS stabil di 4,92. Dua penahan makin jelas: pertama, Wall Street hari ini kembali merah — CNBC tulis 'futures turn red as Huang-effect fails', Nvidia jatuh lebih dari 5% pra-pasar, dan CNBC sendiri ragu ini bottom. Kedua, asing masih net sell Rp673 miliar pekan lalu. Fed juga makin hawkish: Williams bilang bunga naik 'over time'. Judgement: indeks berpeluang uji 5.400, tapi tanpa asing ini cuma pantulan; kalau AS jatuh lagi, kita balik ke 5.150.",
+      "confidence": 66,
+      "thesis": "IHSG BALIK MERAH — RALLY DUA HARI GAGAL: bull 0,22->0,18, base 0,46->0,44, bear 0,32->0,38, confidence 68->66. Rabu 25 Nov indeks dibuka melonjak +1,29% tapi justru ditutup turun 0,84% ke 5.197,61, dengan 453 saham berakhir merah. Pola 'buka naik, tutup turun' ini tanda jual ke kuat (sell on strength), bukan awal rally. Pemicunya jelas dan berlapis: rout teknologi global memburuk (Softbank jatuh 15%, Nvidia -4,5% pra-pasar), AS siapkan tarif baru untuk semua mitra dagang, dan rupiah ditutup 18.310 — terlemah sepanjang masa. Isu MSCI pun belum tuntas: MSCI membantah batal turunkan status RI tapi konsultasi tetap berjalan, ancaman dana asing US$8-11 miliar masih hidup. Judgement: pantulan dua hari kemarin kemungkinan palsu; indeks lebih mungkin uji 5.150 dulu, dan 5.000 makin dekat.",
       "evidence": [
-        "Scan Bennix 24 Nov 19:19 WIB: IHSG 5.241,59 (r20 -0,47%, r60 -20,6%, drawdown -21,6%)",
-        "IHSG naik dari 5.215,85 (23 Nov) ke 5.241,59 — hari hijau kedua berturut-turut",
-        "Kontan 24 Nov: 'Pasar Saham Berpeluang Pulih, IHSG Diproyeksi Sentuh 6.860 pada 2027'",
-        "UGM: 'IHSG Anjlok Pasca Usulan Reklasifikasi MSCI' — kelas Indonesia tetap isu utama",
-        "CNBC 24 Nov: 'Futures turn red as Huang-effect fails to deliver another day of gains'",
-        "CNBC 24 Nov: saham Nvidia jatuh >5% pra-pasar setelah rally kembalinya Jensen Huang",
-        "CNBC 24 Nov: 'Does the Nvidia-led rip mark the market bottom? Maybe not' — bottom belum pasti",
-        "CNBC 23 Nov: Fed's John Williams — suku bunga lebih tinggi kemungkinan dibutuhkan 'over time'",
-        "Scan: USD/IDR 18.158 menguat dari 18.195 — dukungan arus masuk ke pasar saham",
-        "Breadth STUDY 0 / WATCH 16 / AVOID 16 — sedikit membaik dari 15/17 (23 Nov)"
+        "Scan Bennix 25 Nov 18:31 WIB: IHSG 5.197,61 (r20 -1,6%, r60 -21,2%, drawdown -22,3%)",
+        "CNBC Indonesia 25 Nov: IHSG tutup melemah 0,84% ke 5.197 — 453 saham berakhir di zona merah",
+        "CNBC Indonesia 25 Nov: IHSG dibuka langsung menguat 1,29% lalu berbalik — pola jual ke kuat",
+        "CNBC 25 Nov: 'Tech rout deepens globally; Softbank falls 15%, Nvidia down 4.5% premarket'",
+        "BBC 25 Nov: AS bersiap umumkan rencana tarif baru untuk mitra dagang global",
+        "CNBC Indonesia 25 Nov: rupiah ditutup 18.310/US$ — terlemah sepanjang masa",
+        "Bareksa: MSCI bantah batal turunkan status RI, konsultasi tetap berjalan",
+        "SWA/Mirae: reklasifikasi MSCI — dana asing hingga US$11 miliar berisiko keluar",
+        "Al Jazeera 25 Nov: Houthi serang menara PIF Arab Saudi, 11 orang terluka"
       ],
-      "causal_chain": "MSCI bahas hindari downgrade + rupiah 18.158 + IHSG 2 hari hijau -> tapi asing belum net buy -> bila asing balik dan Wall Street stabil -> rally lanjut uji 5.400 -> bila Nvidia/teknologi AS jatuh lagi dan Fed makin hawkish -> asing jual, IHSG kembali 5.150 -> bila eskalasi Libya/Ukraina atau ladang minyak Irak bermasalah -> risk-off global -> tes 5.000 -> pemutus: arus asing, rilis data AS, keputusan MSCI",
-      "invalidation": "Bull (0,22) BATAL bila IHSG tutup <5.150 dua sesi ATAU asing net sell >Rp1 triliun pekan ini. Base (5.200-5.450) batal bila tutup >5.500 ATAU <5.100 satu hari. Bear (0,32) terkonfirmasi bila tutup <5.000 ATAU Wall Street koreksi >3% dua hari berturut-turut.",
+      "causal_chain": "Rally 2 hari gagal + rupiah rekor 18.310 + rout teknologi global -> indeks 5.197, sell on strength -> bila asing net buy besar dan Wall Street stabil -> recovery uji 5.300 -> bila tarif AS + Nvidia lanjut jatuh -> asing jual, tes 5.150 -> bila MSCI umumkan standalone atau Hormuz/Israel bermasalah -> risk-off global -> tes 5.000 -> pemutus: arus asing, keputusan MSCI, Wall Street",
+      "invalidation": "Bull (0,18) BATAL bila IHSG tutup <5.150 dua sesi ATAU asing net sell >Rp1 triliun pekan ini. Base (5.150-5.400) batal bila tutup >5.450 ATAU <5.100 satu hari. Bear (0,38) terkonfirmasi bila tutup <5.000 ATAU Wall Street koreksi >3% dua hari berturut-turut.",
       "manual_analysis": true
     },
     {
       "topic": "Sektor: mana yang kuat dan mana yang tertinggal",
       "probabilities": {
-        "bull": 0.18,
-        "base": 0.46,
-        "bear": 0.36
+        "bull": 0.16,
+        "base": 0.44,
+        "bear": 0.4
       },
-      "confidence": 65,
-      "thesis": "TIDAK ADA SATU PUN SEKTOR HIJAU HARI INI: bull 0,20->0,18, base 0,44->0,46, bear 0,36->0,36, confidence 66->65. Peta sektor 24 Nov berubah arah dari kemarin. Senin masih ada Material 61,1 sebagai satu-satunya positif; hari ini Material jatuh ke 53,5 dan praktis semua sektor masuk zona netral. Pemimpin baru justru Konsumer 56,6 (naik dari 51,9) dan Otomotif 54,2 (turun tipis), lalu Kesehatan 51,7, Perbankan 50,1, Energi 48,1. Zona lemah nyaris tak bergerak: Infrastruktur 43,1, Teknologi 38,8, Bank Syariah 32,6, Telekom 28,3, Mineral 28,2. Breadth justru membaik tipis: STUDY 0 / WATCH 16 / AVOID 16 (kemarin 15/17). Judgement: peta makin datar — tidak ada pemimpin jelas, jadi pilih emiten kuat individual (ASII 5.450, PGAS 1.530, ICBP 7.150, INDF 7.175) daripada pasang taruhan sektor. Konsumer naik perlu diwaspadai sebagai awal rotasi ke defensif.",
+      "confidence": 64,
+      "thesis": "PAETA SEKTOR MASIH DATAR DAN MULAI MENURUN: bull 0,18->0,16, base 0,46->0,44, bear 0,36->0,40, confidence 65->64. Rabu 25 Nov sekali lagi tidak ada satu pun sektor yang positif — peta makin lemah dibanding kemarin. Konsumer 57,5 (naik tipis), Material 55,6 (malah naik dari 53,5), Otomotif 54,5, Kesehatan 51,0, lalu Logistik 49,2, Energi 49,0, Perbankan 48,9 (turun dari 50,1). Perbankan melemah penting karena ini penopang indeks; kabar MSCI membantah rumor kompromi justru menekan bank besar. Zona lemah melebar: Teknologi 38,7, Infrastruktur 38,3, Bank Syariah 29,0, Mineral 28,1, Telekom 26,9. Breadth tetap 0/16/16. Judgement: rotasi ke defensif (Konsumer) berlanjut tapi tak cukup angkat indeks; emiten individual seperti ICBP 7.200, INDF 7.025, PGAS 1.520 masih lebih aman daripada taruhan sektor. Perbankan perlu diawasi — kalau terus turun, base indeks ikut runtuh.",
       "evidence": [
-        "Scan Bennix 24 Nov: TIDAK ADA sektor positif — tertinggi Konsumer 56,6, Otomotif 54,2",
-        "Material jatuh 61,1 (23 Nov) -> 53,5 (24 Nov) — satu-satunya pemimpin sebelumnya lepas",
-        "Kesehatan 51,7 dan Perbankan 50,1 bertahan di tepi zona netral",
-        "Zona lemah konsisten: Infrastruktur 43,1, Teknologi 38,8, Bank Syariah 32,6, Telekom 28,3, Mineral 28,2",
-        "Breadth STUDY 0 / WATCH 16 / AVOID 16 — membaik tipis dari 15/17 (23 Nov)",
-        "ASII 5.450 (r20 +17,7%) dan ICBP 7.150 (r20 +24,4%) — emiten kuat individual",
-        "PGAS 1.530 (r20 +23,4%) tetap penopang Energi walau sektor 48,1",
-        "GOTO -48% r60 dan EXCL -38% r60 — ekor lemah Teknologi/Telekom masih panjang"
+        "Scan Bennix 25 Nov: TIDAK ADA sektor positif — tertinggi Konsumer 57,5, Material 55,6",
+        "Perbankan turun 50,1 (24 Nov) -> 48,9 (25 Nov) — penopang indeks melemah",
+        "Material justru naik 53,5 -> 55,6, tapi masih di bawah level Senin 61,1",
+        "Zona lemah melebar: Teknologi 38,7, Infrastruktur 38,3, Bank Syariah 29,0, Mineral 28,1, Telekom 26,9",
+        "Breadth STUDY 0 / WATCH 16 / AVOID 16 — tak berubah dari kemarin",
+        "Ajaib 25 Nov: MSCI bantah rumor kompromi — sentimen negatif untuk bank big cap",
+        "SWA/Mirae: dana asing hingga US$11 miliar berisiko keluar bila RI standalone",
+        "GOTO -48% r60, ISAT -40% r60, MDKA -39% r60 — ekor lemah masih panjang"
       ],
-      "causal_chain": "Material lepas, tak ada sektor positif -> peta datar, pilihan sempit -> bila asing net buy dan Wall Street stabil -> Konsumer/Otomotif naik jadi pemimpin baru -> indeks punya penopang -> bila Fed hawkish + AS jatuh -> sektor netral jebol, Material lanjut turun -> bila permintaan China pulih -> Material kembali 55+ -> pemutus: skor sektor akhir pekan, arus asing di big cap, rilis data AS",
-      "invalidation": "Bull (0,18) BATAL bila tetap tak ada sektor positif akhir pekan ATAU Konsumer <54. Base (0,46) batal bila >4 sektor keluar netral positif minggu ini ATAU Material <50. Bear (0,36) terkonfirmasi bila AVOID >=19 ATAU 3+ sektor masuk zona lemah.",
+      "causal_chain": "Rally gagal + perbankan melemah -> peta datar, tak ada pemimpin -> bila asing borong big banks dan Wall Street stabil -> Konsumer/Perbankan naik kembali, indeks punya penopang -> bila tarif AS + rout teknologi berlanjut -> sektor netral jebol, AVOID bertambah -> bila MSCI umumkan downgrade RI -> dana asing keluar, hampir semua sektor merah -> pemutus: skor sektor akhir pekan, arus asing di bank besar",
+      "invalidation": "Bull (0,16) BATAL bila tetap tak ada sektor positif akhir pekan ATAU Perbankan <47. Base (0,44) batal bila >4 sektor keluar netral positif minggu ini ATAU Material <52. Bear (0,40) terkonfirmasi bila AVOID >=19 ATAU 4+ sektor masuk zona lemah.",
       "manual_analysis": true
     },
     {
       "topic": "Rupiah dan arus modal asing 1-2 bulan",
       "probabilities": {
-        "bull": 0.22,
-        "base": 0.46,
-        "bear": 0.32
+        "bull": 0.16,
+        "base": 0.42,
+        "bear": 0.42
       },
-      "confidence": 67,
-      "thesis": "RUPIAH MENGUAT PELAN, TAPI DOLAR MASIH KUAT: bull 0,20->0,22, base 0,46->0,46, bear 0,34->0,32, confidence 67->67. Selasa 24 Nov USD/IDR tercatat 18.158, menguat dari 18.195 kemarin dan jauh dari titik terlemah 18.280 pekan lalu. Ini hari kedua berturut rupiah membaik, sejalan dengan IHSG yang hijau dan harapan MSCI. Tapi strukturnya belum berubah: DXY 103,99 masih naik (+4,6% dalam 60 hari), Fed makin hawkish — Williams 23 Nov bilang bunga lebih tinggi dibutuhkan ‘over time’, dan asing masih net sell Rp673 miliar di pasar saham. Artinya penguatan ini ditopang BI dan aliran dolar yang mereda sesaat, bukan arus masuk asing yang balik. Judgement: rentang 18.100-18.300 dengan bias menguat tipis selama kabar MSCI positif; kalau Fed agresif atau AS koreksi tajam, tekanan ke 18.350-18.400 kembali datang.",
+      "confidence": 68,
+      "thesis": "RUPIAH JADI REKOR TERLEMAH — GAGAL DIPERTAHANKAN: bull 0,22->0,16, base 0,46->0,42, bear 0,32->0,42, confidence 67->68. Ini perubahan terbesar hari ini. Pagi Rabu 25 Nov rupiah sempat menguat ke 18.227, tapi ditutup 18.310 — level terlemah sepanjang masa, membalik penguatan kemarin (18.158) sepenuhnya. Pendorongnya tiga searah: dolar kuat (DXY 104,01, r60 +4,4%), AS siapkan tarif baru untuk semua mitra dagang, dan rout teknologi global (Softbank -15%, Nvidia -4,5%). Sekalian kurs pajak tembus 18.263. Asing pun kembali ragu — ada net sell Rp336 miliar (InvestorTrust) tapi juga net buy BBCA Rp409 miliar, jadi arus masih campur. Judgement: rezim baru 18.300-an kemungkinan bertahan; tekanan ke 18.350-18.450 lebih mungkin daripada kembali ke 18.200.",
       "evidence": [
-        "Scan Bennix 24 Nov: USD/IDR 18.158 — menguat dari 18.195 (23 Nov) dan 18.280 (awal pekan lalu)",
-        "DXY 103,99 (r20 +1,6%, r60 +4,6%) — dolar AS masih struktural kuat",
-        "CNBC 23 Nov: Fed Williams — suku bunga lebih tinggi kemungkinan dibutuhkan ‘over time’",
-        "InvestorTrust 23 Nov: asing tetap net sell Rp673 miliar meski IHSG dua hari hijau",
-        "Reuters 23 Nov: BI sebut pembicaraan Prabowo-MSCI mendukung rupiah",
-        "IHSG 5.241 (24 Nov) hari hijau kedua — sentimen domestik menopang mata uang",
-        "CNBC 24 Nov: futures AS merah, Nvidia -5% pra-pasar — risiko gelombang jual baru",
-        "Al Jazeera 24 Nov: Irak ambil alih ladang minyak Kurdi — pasokan global belum tenang"
+        "Scan Bennix 25 Nov: USD/IDR 18.310 — REKOR TERLEMAH, dari 18.158 (24 Nov)",
+        "ANTARA 25 Nov: rupiah buka pagi menguat ke 18.227 lalu berbalik melemah",
+        "CNBC Indonesia 25 Nov: 'Rupiah Ditutup di Rp18.310/US$, Terlemah Sepanjang Masa'",
+        "DDTCNews 25 Nov: kurs pajak dolar AS tembus Rp18.263",
+        "DXY 104,01 (r20 +1,8%, r60 +4,4%) — dolar AS makin kuat",
+        "BBC 25 Nov: AS siapkan rencana tarif baru untuk mitra dagang global",
+        "InvestorTrust: net sell Rp336,22 miliar di pasar — arus keluar berlanjut",
+        "Bloomberg/Ajaib: asing borong BBCA Rp409 miliar — arus masih campur, belum keluar massal"
       ],
-      "causal_chain": "MSCI positif + BI jaga -> rupiah 18.158, hari kedua menguat -> tapi asing masih net sell dan DXY kuat -> bila asing balik net buy + kabar MSCI jelas -> rupiah stabil 18.100-18.250 -> bila Fed hawkish + Wall Street jatuh -> dolar naik, rupiah tertekan 18.350 -> bila Hormuz/Libya/Irak bermasalah -> tekanan tajam -> pemutus: arus asing, DXY, keputusan MSCI, rilis data AS",
-      "invalidation": "Bull (0,22) terkonfirmasi bila USD/IDR tutup <18.000 dua sesi ATAU asing net buy >Rp1 triliun dua hari. Base (18.100-18.300) batal bila tutup >18.400 ATAU <18.050. Bear (0,32) terkonfirmasi bila tembus 18.450 ATAU DXY >105.",
+      "causal_chain": "Tarif baru + DXY 104 + rout teknologi -> rupiah jatuh ke rekor 18.310 -> bila BI turun tangan dan asing net buy -> stabil di 18.250-18.320 -> bila tarif AS dieksekusi dan Fed hawkish -> tekanan lanjutan 18.350-18.450 -> bila Hormuz/Israel meledak -> risk-off, rupiah tertekan tajam -> pemutus: DXY, arus asing, kebijakan tarif AS, intervensi BI",
+      "invalidation": "Bull (0,16) terkonfirmasi bila USD/IDR tutup <18.150 dua sesi ATAU asing net buy >Rp1 triliun dua hari. Base (18.250-18.330) batal bila tutup >18.400 ATAU <18.200. Bear (0,42) terkonfirmasi bila tembus 18.450 ATAU DXY >105 ATAU tutup >18.350 tiga hari.",
       "manual_analysis": true
     },
     {
       "topic": "Risiko utama: Fed, Hormuz, dan politik domestik baru",
       "probabilities": {
-        "bull": 0.2,
-        "base": 0.44,
-        "bear": 0.36
+        "bull": 0.16,
+        "base": 0.4,
+        "bear": 0.44
       },
-      "confidence": 69,
-      "thesis": "RISIKO GEOPOLITIK MEMANAS LAGI, RISIKO FED NAIK: bull 0,22->0,20, base 0,42->0,44, bear 0,36->0,36, confidence 70->69. Senin saya bilang risiko ekstrem mereda; Selasa 24 Nov gambarnya lebih campur. Di satu sisi, perang Ukraina merembet jauh: Ukraina serang kapal perang Rusia di Benghazi Libya, 200 pakar Ukraina tiba di sana, Guardian sebut ‘eskalasi jadi kasus dasar’, dan NATO waspadai ancaman luar angkasa setelah laporan satelit nuklir Rusia. Irak juga perintahkan pengambilalihan ladang minyak wilayah Kurdi — dua gangguan pasokan baru. Di sisi lain, Wall Street sendiri melemah: futures merah, Nvidia -5%, CNBC ragu ini bottom, dan Fed Williams makin hawkish. El Nino super kuat berlanjut (Peru darurat bahan bakar). Judgement: risiko ekstrem naik kembali sedikit, risiko makro tetap tinggi — keduanya arah yang sama ke bawah untuk pasar.",
+      "confidence": 70,
+      "thesis": "RISIKO BERTAMBAH DUA: TARIF AS DAN SERANGAN KE ARAB SAUDI: bull 0,20->0,16, base 0,44->0,40, bear 0,36->0,44, confidence 69->70. Rabu 25 Nov peta risiko lebih buruk dari kemarin. Pertama, AS siapkan rencana tarif baru untuk semua mitra dagang (BBC) — ini baru, belum ada kemarin, dan langsung menekan rupiah ke rekor. Kedua, Houthi serang menara PIF (dana kekayaan Arab Saudi), 11 orang terluka (CNBC) — artinya perang Iran/Hormuz sudah merembet ke jantung keuangan Gulf. Ketiga, rout teknologi global memburuk: Softbank -15%, Nvidia -4,5% pra-pasar, plus kekhawatiran 'AI debt' (CNBC) dan penyelidikan Nvidia oleh Menkumham AS (BBC). Ukraina-Rusia makin panas: Ukraina serang kilang minyak Rusia, Rusia janji balas. Netanyahu digosipkan perang baru dengan Iran (Al Jazeera). Judgement: skenario ekstrem makin dekat — dua dari empat pemicu (tarif + Hormuz/Gulf) sudah menyala sebagian.",
       "evidence": [
-        "Al Jazeera/BBC 24 Nov: Ukraina serang kapal perang Rusia di Benghazi, Libya; 200 pakar Ukraina tiba",
-        "Guardian/CNN 24 Nov: perang Ukraina-Rusia merembet ke Eropa — ‘eskalasi jadi kasus dasar’",
-        "BBC 24 Nov: NATO waspadai ancaman luar angkasa setelah laporan satelit nuklir Rusia",
-        "Al Jazeera 24 Nov: Irak perintahkan pengambilalihan ladang minyak wilayah Kurdi",
-        "CNBC 24 Nov: futures AS merah — ‘Huang-effect fails’; Nvidia -5% pra-pasar",
-        "CNBC 24 Nov: ‘Does the Nvidia-led rip mark the market bottom? Maybe not’",
-        "CNBC 23 Nov: Fed Williams — bunga lebih tinggi dibutuhkan ‘over time’",
-        "ANTARA 19 Nov: Peru tetapkan darurat bahan bakar akibat El Nino — Super El Nino berlanjut",
-        "UGM: IHSG anjlok pasca usulan reklasifikasi MSCI — risiko kelas RI masih hidup"
+        "BBC 25 Nov: 'US preparing to unveil plan for new tariffs on global trading partners'",
+        "CNBC 25 Nov: Houthi serang menara PIF Arab Saudi — 11 orang terluka",
+        "Al Jazeera 25 Nov: 'Could Netanyahu take Israel into another war with Iran to cling to power?'",
+        "CNBC 25 Nov: 'Tech rout deepens globally; Softbank falls 15%, Nvidia down 4.5% premarket'",
+        "CNBC 25 Nov: 'AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze'",
+        "BBC 25 Nov: AS agen AG menghindar soal penyelidikan Nvidia; saham -7%",
+        "CNBC 25 Nov: Ukraina serang kilang minyak Rusia — 'stop complaining', Rusia janji balas",
+        "CNBC 25 Nov: 'Ready for any storm' — UAE optimis, IMF naikkan forecast (sisi positif)",
+        "Bareksa: Trump siapkan tarif baru — dampak langsung ke rupiah dan pasar Asia"
       ],
-      "causal_chain": "Perang merembet ke Libya + ladang minyak Kurdi + NATO waspadai luar angkasa -> risiko ekstrem naik -> sementara Fed hawkish dan Wall Street lemah -> dua tekanan searah -> bila Hormuz/Libya tutup atau eskalasi NATO -> lonjakan minyak + risk-off -> tes 5.000 -> bila semua tenang + MSCI positif + asing net buy -> rally berlanjut -> bila Fed naik 50bps dengan pasar negatif -> koreksi tajam -> pemutus: insiden Hormuz/NATO, keputusan Fed, keputusan MSCI",
-      "invalidation": "Bear (0,36) terkonfirmasi bila Hormuz/Libya ditutup ATAU minyak >US$95 ATAU insiden NATO eskalasi ATAU Fed naik 50bps dengan pasar negatif. Bull (0,20) terkonfirmasi bila dua pekan tenang dan MSCI umum hasil positif. Base (0,44) batal bila satu kejadian biner besar terjadi dalam dua pekan.",
+      "causal_chain": "Tarif AS + serangan Houthi ke PIF + rout teknologi -> tekanan searah ke pasar -> bila Hormuz/PIF diserang lagi atau Netanyahu perang Iran -> lonjakan minyak + risk-off -> tes 5.000 IHSG, rupiah 18.450 -> bila tarif hanya wacana dan Wall Street pulih -> tekanan mereda, pantulan ke 5.300 -> bila Fed naik bunga dengan pasar negatif -> koreksi tajam -> pemutus: eksekusi tarif AS, insiden Hormuz/Gulf, keputusan Fed, keputusan MSCI",
+      "invalidation": "Bear (0,44) terkonfirmasi bila Hormuz/Arab Saudi diserang serius ATAU minyak >US$95 ATAU tarif AS dieksekusi luas ATAU Fed hawkish agresif. Bull (0,16) terkonfirmasi bila dua pekan tenang, tarif ditahan, dan MSCI hasil positif. Base (0,40) batal bila satu kejadian biner besar terjadi dalam dua pekan.",
       "manual_analysis": true
     }
   ]
